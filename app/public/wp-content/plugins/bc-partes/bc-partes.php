@@ -331,9 +331,9 @@ function librosAntiguoTestamento()
     asignarPapa('Profetas mayores', 'Daniel');
     asignarCategoriaPadre('Daniel','Daniel',1,12);
     
-    asignarPapa('Profetas menores', 'Oseas');
-    asignarCategoriaPadre('La esposa adúltera y su marido fiel','Oseas',1,3);
-    asignarCategoriaPadre('Israel adúltero y su Señor fiel','Oseas',4,14);
+    // asignarPapa('Profetas menores', 'Oseas');
+    // asignarCategoriaPadre('La esposa adúltera y su marido fiel','Oseas',1,3);
+    // asignarCategoriaPadre('Israel adúltero y su Señor fiel','Oseas',4,14);
     
     // asignarPapa('Profetas menores', 'Joel');
     // asignarCategoriaPadre('El día del Señor en el pasado','Joel',1,1);
