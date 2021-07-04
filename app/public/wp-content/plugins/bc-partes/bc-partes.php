@@ -216,18 +216,25 @@ function librosAntiguoTestamento()
 
     asignarPapa('Libros históricos del Antiguo Testamento', '1 Reyes');
     asignarCategoriaPadre('1 Reyes','1 Reyes',1,22);
+    
     asignarPapa('Libros históricos del Antiguo Testamento', '2 Reyes');  
     asignarCategoriaPadre('2 Reyes','2 Reyes',1,25);
+
     asignarPapa('Libros históricos del Antiguo Testamento', '1 Crónicas');    
     asignarCategoriaPadre('1 Crónicas','1 Crónicas',1,29);
+
     asignarPapa('Libros históricos del Antiguo Testamento', '2 Crónicas');
     asignarCategoriaPadre('2 Crónicas','2 Crónicas',1,36);
+
     asignarPapa('Libros históricos del Antiguo Testamento', 'Esdras');
     asignarCategoriaPadre('Esdras','Esdras',1,10);
+
     asignarPapa('Libros históricos del Antiguo Testamento', 'Nehemías');
     asignarCategoriaPadre('Nehemías','Nehemías',1,13);
+
     asignarPapa('Libros históricos del Antiguo Testamento', 'Ester');
     asignarCategoriaPadre('Ester','Ester',1,10);
+
     asignarPapa('Libros poéticos', 'Job');
     asignarCategoriaPadre('Job','Job',1,42);
 
