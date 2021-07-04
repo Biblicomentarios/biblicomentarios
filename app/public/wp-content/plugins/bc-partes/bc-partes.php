@@ -310,6 +310,10 @@ function librosAntiguoTestamento()
 
     asignarPapa('Profetas mayores', 'Lamentaciones');
     asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
+    asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
+    asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
+    asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
+    asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
 
     asignarPapa('Profetas mayores', 'Ezequiel');
     asignarCategoriaPadre('Ezequiel','Ezequiel',1,48);
