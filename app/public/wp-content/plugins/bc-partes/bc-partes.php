@@ -306,7 +306,17 @@ function librosAntiguoTestamento()
     // asignarCategoriaPadre('Profecías del futuro glorioso de Israel','Isaías',60,66);
 
     asignarPapa('Profetas mayores', 'Jeremías');
-    asignarCategoriaPadre('Jeremías','Jeremías',1,52);
+    asignarCategoriaPadre('Comisión y llamamiento del profeta Jeremías','Jeremías',1,1);
+    asignarCategoriaPadre('La condenación de Judá','Jeremías',2,25);
+    asignarCategoriaPadre('Los conflictos de Jeremías','Jeremías',26,29);
+    asignarCategoriaPadre('La futura restauración de Jerusalén','Jeremías',30,33);
+    asignarCategoriaPadre('La presente caída de Jerusalén','Jeremías',34,45);
+    asignarCategoriaPadre('Profecías contra Egipto','Jeremías',46,46);
+    asignarCategoriaPadre('Profecías contra Filistea','Jeremías',47,47);
+    asignarCategoriaPadre('Profecías contra Moab','Jeremías',48,48);
+    asignarCategoriaPadre('Profecías contra varias naciones','Jeremías',49,49);
+    asignarCategoriaPadre('Profecías contra Babilonia','Jeremías',50,51);
+    asignarCategoriaPadre('El sitio de Jerusalén y el exilio a Babilonia','Jeremías',52,52);
 
     asignarPapa('Profetas mayores', 'Lamentaciones');
     asignarCategoriaPadre('Destrucción de Jerusalén','Lamentaciones',1,1);
