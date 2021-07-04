@@ -1,0 +1,135 @@
+/**
+ * About Page
+ * ========================================================
+ */
+
+/** About General / Intro **/
+
+.hoot-about-sub { margin: 2em 0; }
+.hoot-about-ss { width: 250px; float: left; }
+.hoot-about-ss img { max-width: 100%; }
+.hoot-about-text { margin-left: 270px; max-width: 680px; }
+.hoot-about-intro {}
+.hoot-about-textlinks a.button { margin-right: 5px; }
+.hoot-about-textlinks .dashicons { vertical-align: text-top; font-size: 1.4em; height: auto; }
+.hoot-about-notice { background: #fff; border-left: 4px solid #00a0d2; box-shadow: 0 1px 1px 0 rgba(0,0,0,.1); padding: 5px 15px; margin: 2.5em 0 1em; max-width: 850px; }
+.hoot-about-notice p { margin: 10px; font-size: 16px; }
+.hoot-about-notice strong span { text-transform: uppercase; }
+/* .hoot-about-notice2 { padding: 0.5em 0; }
+.hoot-about-notice2 h3 { font-size: 1.6em; }
+.hoot-about-notice p, .hoot-about-notice2 p, .hoot-about-intro { font-size: 1.4em; } */
+.hoot-about-notice2 { padding: 1px 0; }
+.hoot-about-notice p, .hoot-about-intro { font-size: 15px; }
+
+/** Top button **/
+
+.hoot-abouttheme-top { position: fixed; z-index: 1; bottom: 20px; right: 20px; text-decoration: none; background: rgba(0,0,0,0.5); padding: 8px; color: #fff !important; }
+
+/** Nav Tabs **/
+
+.nav-tab { cursor: pointer; font-size: 1em; }
+.nav-tab-active { cursor: auto; }
+.hoot-tab { display: none; }
+.hoot-tab-active { display: block; }
+
+/** Tab Content Intro **/
+
+.hoot-tab .centered { text-align: center; margin: 1em; }
+.hoot-tab .allcaps { text-transform: uppercase; }
+.hoot-tab .strikeout { text-decoration: line-through; }
+.hoot-tab .okgreen { color: #46b450; }
+.hoot-tab .dashicons { display: inline-block; width: auto; height: auto; font-size: 1.4em; vertical-align: middle; }
+.hoot-tab h2.centered { font-size: 4em; line-height: 1.2em; font-weight: lighter; margin-bottom: 0; }
+.hoot-tab h2 span { display: block; font-size: 1.4em; font-weight: normal; }
+.hoot-tab h2 strong { font-weight: bold; color: #0073aa; }
+.hoot-tab .hoot-tab-intro,
+.hoot-tab .hoot-tab-cta { color: #555d66; font-weight: 400; line-height: 1.6em; font-size: 19px; }
+.hoot-tab .hoot-tab-cta .button { font-size: inherit; line-height: inherit; height: auto; text-transform: uppercase; padding: 6px 18px; margin: 1em 1em 2em; font-weight: bold; /* min-width: 250px; */ }
+.hoot-tab-intro em { font-size: 16px; }
+.hoot-tab-cta .primary-cta { box-shadow: none; }
+
+/** Tab Content Details **/
+
+.hoot-tab-sub { background: #fff; padding: 5px 20px 0; border: solid 1px #eee; -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1); box-shadow: 0 1px 1px 0 rgba(0,0,0,.1); }
+.hoot-tab-subinner { max-width: 1040px; margin: 0 auto; font-size: 16px; line-height: 24px; }
+
+/** Tab Content Details Sections **/
+
+.tabsection { border-bottom: solid 1px #ddd; padding: 50px 0; }
+.tabsection:last-child { border-bottom: none; }
+.tabsection strong { color: #000; }
+.tabsection h4 { line-height: 1em; text-transform: uppercase; margin: 0 0 0.6em; font-size: 2em; font-weight: normal; }
+.tabsection h4 span { display: inline-block; }
+.tabsection h4 strong { font-weight: bold; }
+.tabsection hr { border: transparent; margin: 8px 0; }
+.tabsection img { max-width: 100%; }
+/** Style Hero top/bottom **/
+.tabsection-hero { text-align: center; }
+.tabsection-hero h4.heading { font-size: 2.8125em; font-weight: lighter; }
+.tabsection-hero .tabsection-hero-text { max-width: 600px; margin: 1em auto; }
+.tabsection-hero .tabsection-hero-img {}
+/** Style Side **/
+.tabsection-sideinfo {}
+.tabsection-sideinfo .tabsection-side-wrap { max-width: 850px; margin: 0 auto; }
+.tabsection-sideinfo .tabsection-side-img { float: left; width: 48%; text-align: right; }
+.tabsection-sideinfo .tabsection-side-textblock { float: right; width: 47%; }
+.tabsection-sideinfo h4.heading {}
+.tabsection-sideinfo .tabsection-side-text {}
+/** Style Aside **/
+.tabsection-asideinfo {}
+.tabsection-asideinfo .tabsection-aside-block {}
+.tabsection-asideinfo .tabsection-aside-wrap { max-width: 850px; margin: 0 auto; }
+.tabsection-asideinfo .tabsection-aside-1 { width: 45%; float: left; text-align: right; }
+.tabsection-asideinfo .tabsection-aside-2 { width: 45%; float: right; }
+.tabsection-asideinfo .tabsection-aside-img {}
+.tabsection-asideinfo h4.heading { margin-top: 0.6em; }
+.tabsection-asideinfo .tabsection-aside-text {}
+/** Style Standard **/
+.tabsection-std {}
+.tabsection-std .tabsection-std-img { text-align: center; }
+.tabsection-std .tabsection-std-textblock { margin: 2em auto 0; max-width: 850px; }
+.tabsection-std .tabsection-std-textblock.attop { margin: 0 auto 2em; }
+.tabsection-std .tabsection-std-heading { text-align: right; width: 50%; float: left; }
+.tabsection-std h4.heading { margin-bottom: 0; }
+.tabsection-std .tabsection-std-text { width: 45%; float: right; }
+.tabsection-std-text h4 { font-size: 1em; font-weight: 600; }
+.tabsection-std-text > ol:first-child { margin-top: 0; }
+
+/** Upsell Tab **/
+#hoot-upsell {}
+.hoot-upsell .hoot-tab-sub .hoot-tab-cta { line-height: 1.6em; font-size: 19px; }
+
+/** Import Tab **/
+#hoot-import {}
+
+/** Quick Setup Tab **/
+#hoot-qstart {}
+.hoot-qstart .tabsection-std .tabsection-std-heading { width: 40%; }
+.hoot-qstart .tabsection-std .tabsection-std-text { width: 55%; }
+.hoot-qstart .tabsection-std .tabsection-std-text ol { margin-left: 1em; }
+.hoot-qstart .tabsection-std .tabsection-std-img.atbottom { text-align: right; max-width: 850px; margin: 0 auto; }
+
+
+@media only screen and (max-width: 960px) {
+	/* General */
+	.hoot-about-ss, .hoot-about-text { float: none; margin: 0 auto; text-align: center; }
+	.hoot-about-notice2 { padding: 0.5em 0; }
+	.hoot-about-notice2 h3 { font-size: 1.6em; }
+	.hoot-about-notice2 p, .hoot-about-intro { font-size: 1.4em; }
+}
+@media only screen and (max-width: 782px) {
+	.hoot-tab .centered { margin-left: 0; margin-right: 0; }
+	.tabsection-hero h4.heading { font-size: 2em; }
+	.tabsection-sideinfo .tabsection-side-textblock { margin-top: 2em; }
+	.tabsection-asideinfo .tabsection-aside-2 { padding-top: 50px; margin-top: 50px; border-top: solid 1px #ddd; }
+	.tabsection-sideinfo .tabsection-side-img,
+	.tabsection-sideinfo .tabsection-side-textblock,
+	.tabsection-asideinfo .tabsection-aside-1,
+	.tabsection-asideinfo .tabsection-aside-2,
+	.tabsection-std .tabsection-std-heading,
+	.tabsection-std .tabsection-std-text { float: none; width: 100%; max-width: none; text-align: center; }
+	.hoot-qstart .tabsection-std .tabsection-std-heading,
+	.hoot-qstart .tabsection-std .tabsection-std-text,
+	.hoot-qstart .tabsection-std .tabsection-std-img.atbottom { width: 100%; text-align: left; }
+	.tabsection-std h4.heading { margin-bottom: 0.6em; }
+}

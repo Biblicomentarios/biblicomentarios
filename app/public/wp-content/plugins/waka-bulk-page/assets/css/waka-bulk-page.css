@@ -1,0 +1,40 @@
+/** Layout **/
+.wbp-row {  display: table;  table-layout: fixed; width:100%; }
+.wbp-row .w25 {  width: 25%;  }
+.wbp-row .w50 {  width: 50%; }
+.wbp-row .w75 {  width: 75%; }
+.wbp-row .w100 {  width: 100%; }
+.wbp-col {  padding: 20px;  display: table-cell;  vertical-align: top;  }
+
+/** Page tree **/
+#wbp-pages { line-height: 18px; }
+#wbp-pages ul { color: #036;  margin: 0 0 0 25px; }
+#wbp-pages li { list-style: none; margin: 0; }
+#wbp-pages .page_item_new { font-weight: bold; }
+#wbp-pages .wbp-remove { display: inline-block; border-radius: 50%; text-decoration: none; width: 18px; height: 18px; line-height: 14px; text-align: center; padding: 0; margin-left: 5px; font-weight: normal; background: #d13d3d; color: #fff; font-size: 19px;}
+#wbp-pages .wbp-tpl { font-style: italic; padding: 0 15px; }
+#wbp-pages select {  margin-left: 2px; max-width:100px; font-weight: normal;  cursor:pointer; -webkit-appearance: none; -moz-appearance: none; text-indent: 1px; text-overflow: ''; background: none; border: none; box-shadow: none; text-align:center; }
+#wbp-pages > ul, #wbp-pages > ul ul {  margin: 0 0 0 1em; padding: 0;  list-style: none;   position: relative;  }
+#wbp-pages ul span { font-style:italic; }
+#wbp-pages ul span.pending { color: #ffa32e;}
+#wbp-pages ul span.draft { color: #ca4a1f;}
+#wbp-pages ul span.private { color: #000000;}
+#wbp-pages > ul:before, #wbp-pages > ul ul:before {  content: "";  display: block;  width: 0;  position: absolute;  top: 0;  bottom: 0;  left: 0;  border-left: 1px solid;  }
+#wbp-pages > ul li {  margin: 0;  padding: 0 1.2em;  line-height: 2em;  position: relative;  }
+#wbp-pages > ul li:before {  content: "";  display: block;  width: 10px;  height: 0;  border-top: 1px solid;  margin-top: -1px;  position: absolute;  top: 1em; left: 0;  }
+#wbp-pages > ul li:last-child:before {  background: #f1f1f1; height: auto;  top: 1em; bottom: 0;  }
+
+/** New pages bloc **/
+#wbp-form-wrapper {  background: #fff;  }
+#wbp-new-pages {  width: 100%;  height: 200px;  } /* textarea for user input*/
+#menu_name { display: none; }
+#menu_name input { width: 250px; }
+
+
+/** Responsive **/
+@media (max-width: 767px) {
+  .wbp-col {
+    display: block;
+      width: auto!important;
+  }
+}

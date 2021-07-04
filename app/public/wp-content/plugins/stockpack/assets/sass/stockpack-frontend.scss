@@ -1,0 +1,125 @@
+.stockpack-browser {
+  .media-toolbar {
+    p {
+      font-size: 13px;
+      line-height: 1.5;
+      margin: 1em 0;
+    }
+
+    select {
+      font-size: 14px;
+      line-height: 2; /* 28px */
+      color: #32373c;
+      border-color: #7e8993;
+      box-shadow: none;
+      border-radius: 3px;
+      padding: 0 24px 0 8px;
+      min-height: 30px;
+      max-width: 25rem;
+      -webkit-appearance: none;
+      /* The SVG is arrow-down-alt2 from Dashicons. */
+      background: #fff url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 5px top 55%;
+      background-size: 16px 16px;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+
+    select:hover {
+      color: #007cba;
+    }
+
+    .stockpack-attribution {
+      background: #fff;
+      border: 1px solid #ccd0d4;
+      border-left-width: 4px;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+      padding: 5px 12px;
+      margin-top: 20px;
+      line-height: 16px;
+      font-weight: normal;
+      .attribution {
+
+        margin:0 15px 2px 0;
+        &-warning {
+          border-left-color: #ffb900;
+        }
+        &.is-dismissible {
+          padding-right: 38px;
+          position: relative;
+        }
+      }
+      .notice-dismiss{
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        border: none;
+        margin: 0;
+        padding: 1px;
+        background: none;
+        color: #72777c;
+        cursor: pointer;
+        &:before{
+          background: none;
+          color: #72777c;
+          content: "\f153";
+          display: block;
+          font: normal 16px/20px dashicons;
+          speak: none;
+          height: 20px;
+          text-align: center;
+          width: 20px;
+        }
+      }
+
+      .is-dismissible{
+        padding-right: 38px;
+        position: relative;
+      }
+    }
+  }
+}
+.downloader{
+  .notice{
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    padding: 5px 12px;
+    margin-top: 20px;
+    font-weight: normal;
+    line-height: 16px;
+    &-warning {
+      border-left-color: #ffb900;
+    }
+  }
+}
+.stockpack-dialog {
+  z-index: 2147483647 !important;
+  .message {
+    p {
+      font-size: 13px;
+      line-height: 1.5;
+      margin: 1em 0;
+    }
+  }
+
+  button {
+    &.button-primary {
+      background: #007cba;
+      border-color: #007cba;
+      color: #fff;
+      text-decoration: none;
+      text-shadow: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+
+.fusion-builder-dialog{
+  .message{
+    padding:0 15px;
+  }
+}

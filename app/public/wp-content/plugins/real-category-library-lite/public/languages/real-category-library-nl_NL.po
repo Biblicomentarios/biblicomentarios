@@ -1,0 +1,348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-03-22 17:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Creating \"%s\"..."
+msgstr "\"%s\" Creëren..."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "\"%s\" successfully created."
+msgstr "\"%s\" Succesvol gecreëerd."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Category tree will be reordered soon..."
+msgstr "Categorieboom wordt spoedig opnieuw geordend..."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Category tree is successfully reordered."
+msgstr "Categorieboom is succesvol opnieuw geordend."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Categories"
+msgstr "Categorieën"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "No category found"
+msgstr "Geen categorie gevonden"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Click the button above to create a new category."
+msgstr "Klik op de knop hierboven om een nieuwe categorie aan te maken."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "No search results found"
+msgstr "Geen zoekresultaten gevonden"
+
+#: admin.lite.js:1 admin.pro.js:1 options.lite.js:1 options.pro.js:1
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Click this to create a new category"
+msgstr "Klik hier om een nieuwe categorie te creëren"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid ""
+"To create a subcategory, simply select a category from the list and click "
+"this button."
+msgstr ""
+"Om een subcategorie te maken, selecteer simpelweg een categorie uit de lijst "
+"en klik op deze knop."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "New"
+msgstr "Nieuw"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Back"
+msgstr "Terug"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Save"
+msgstr "Opslaan"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Reorder entries"
+msgstr "Invoer opnieuw ordenen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid ""
+"Start to reorder the entries with the help of the free plugin {{strong}}Real "
+"Custom Post Order{{/strong}}."
+msgstr ""
+"Begin met het opnieuw ordenen van invoer met behulp van de gratis plugin "
+"{{strong}}Real Custom Post Order{{/strong}}."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Refresh"
+msgstr "Herladen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Refreshes the category view."
+msgstr "Herlaadt het categorie-overzicht."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Rename"
+msgstr "Hernoemen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Rename the currently selected category."
+msgstr "Geef de geselecteerde categorie een nieuwe naam."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Delete the currently selected category."
+msgstr "Verwijder de geselecteerde categorie."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Rearrange"
+msgstr "Opnieuw ordenen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Change the hierarchical order of the categories."
+msgstr "Veranderen de hiërarchische orde van de categorieën."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "View and edit category"
+msgstr "Categorie bekijken en aanpassen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Select a category and see more details about it or edit it."
+msgstr ""
+"Selecteer een categorie en bekijk er meer details over of pas deze aan."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid ""
+"Product not yet activated. {{a}}Activate now{{/a}} or {{d}}dismiss notice{{/"
+"d}}."
+msgstr ""
+"Product nog niet geactiveerd. {{a}}Nu activeren{/a}} of {{d}}melding "
+"verbergen{{/d}}."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Enable category tree"
+msgstr "Categorieboom activeren"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Thanks for using Real Category Management (Free)."
+msgstr "Dankuwel voor het gebruiken van Real Category Management (Gratis)."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Learn more about PRO"
+msgstr "Ontdek meer over PRO"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Hide for 20 days"
+msgstr "Voor 20 dagen verbergen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "PRO feature"
+msgstr "PRO-functie"
+
+#: admin.lite.js:1 admin.pro.js:1 options.lite.js:1 options.pro.js:1
+msgid "Unlock feature"
+msgstr "Functie ontgrendelen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Move"
+msgid_plural "Move %d items"
+msgstr[0] "Verplaatsen"
+msgstr[1] "%d items verplaatsen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Hold any key to assign to an additional category"
+msgstr ""
+"Houd een willekeurige toets ingedrukt om nog een categorie toe te wijzen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Copy"
+msgid_plural "Copy %d items"
+msgstr[0] "Kopieer"
+msgstr[1] "%d items kopiëren"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Release key to move"
+msgstr "Toets loslaten om te bewegen"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Copying post to %(category)s..."
+msgid_plural "Copying %(count)d posts to %(category)s..."
+msgstr[0] "Post naar %(category)s kopiëren..."
+msgstr[1] "%(count)d posts naar %(category)s kopiëren..."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Moving post to %(category)s..."
+msgid_plural "Moving %(count)d posts to %(category)s..."
+msgstr[0] "Post naar %(category)s verplaatsen..."
+msgstr[1] "%(count)d posts naar %(category)s verplaatsen..."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Post successfully copied."
+msgid_plural "%(count)d posts successfully copied."
+msgstr[0] "Post succesvol gekopieerd."
+msgstr[1] "%(count)d posts succesvol gekopieerd."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Post successfully moved."
+msgid_plural "%(count)d posts successfully moved."
+msgstr[0] "Post succesvol verplaatst."
+msgstr[1] "%(count)d posts succesvol verplaatst."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "No entries"
+msgstr "Geen invoer"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Renaming \"%s\"..."
+msgstr "\"%s\" hernoemen..."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "\"%s\" successfully renamed."
+msgstr "\"%s\" succesvol hernoemd."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid ""
+"If you want to use the custom order functionality for this post type, you "
+"need to install and activate the free plugin \"Real Custom Post Order\"."
+msgstr ""
+"Indien u gebruik wenst te maken van de op-maat-gemaakte orderfunctie voor "
+"dit type post, dient u de gratis plugin \"Real Custom Post Order\" te "
+"installeren en te activeren."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Install plugin"
+msgstr "Plugin installeren"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid ""
+"\"Simple Page Ordering\" is not available here. You can only reorder post "
+"types with hierarchical structure and an \"Order\" attribute."
+msgstr ""
+"\"Eenvoudige Pagina-Ordening\" is hier niet beschikbaar. U kunt alleen "
+"posttypes herordenen die een hiërarchische structuur en \"Order\" kenmerk "
+"hebben."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Learn more"
+msgstr "Meer informatie"
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "You can not delete \"%s\" because it contains subcategories."
+msgstr "U kunt \"%s\" niet verwijderen, aangezien het subcategorieën bevat."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "Deleting \"%s\"..."
+msgstr "\"%s\" verwijderen..."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "\"%s\" successfully deleted."
+msgstr "\"%s\" succesvol verwijderd."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid ""
+"Are you sure you want to delete \"%s\"? Note: The posts in this category "
+"will NOT be deleted automatically."
+msgstr ""
+"Weet u zeker dat u \"%s\" wilt verwijderen? Let op: De posts in deze "
+"categorie worden NIET automatisch verwijderd."
+
+#: admin.lite.js:1 admin.pro.js:1
+msgid "OK"
+msgstr "OKÉ"
+
+#: admin.lite.js:1 admin.pro.js:1 options.lite.js:1 options.pro.js:1
+msgid "All posts"
+msgstr "Alle posts"
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Category Management"
+msgstr "Categoriebeheer"
+
+#: options.lite.js:1 options.pro.js:1
+msgid ""
+"You can decide for which post types the additional features of Real Category "
+"Management should apply."
+msgstr ""
+"U kunt kiezen voor welke posttypes de bijkomende functies van Real Category "
+"Management gelden."
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Category tree enabled for %s."
+msgstr "Categorieboom voor %s geactiveerd."
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Category tree disabled for %s."
+msgstr "Categorieboom voor %s gedeactiveerd."
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Pagination without reloading the page enabled for %s."
+msgstr "Pagineren zonder de pagina te herladen geactiveerd voor %s."
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Pagination without reloading the page disabled for %s."
+msgstr "Pagineren zonder de pagina te herladen gedeactiveerd voor %s."
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Custom Post Type UI"
+msgstr "Custom Post Type UI"
+
+#: options.lite.js:1 options.pro.js:1
+msgid ""
+"To create custom taxonomies we highly recommend to use the 3rd party plugin "
+"Custom Post Type UI. Would you like to install and activate it now?"
+msgstr ""
+"Om uw eigen taxonomieën te creëren, raden wij het gebruik van de plugin "
+"Custom Post Type UI van derden sterk aan. Wilt u dit nu installeren en "
+"activeren?"
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Open"
+msgstr "Openen"
+
+#: options.lite.js:1 options.pro.js:1
+msgid ""
+"There are no taxonomies available for this post type. You need to register "
+"your own taxonomy so that you can organize your content into its categories."
+msgstr ""
+"Er zijn geen taxonomieën beschikbaar voor dit posttype. U dient uw eigen "
+"taxonomie te registeren zodat u uw content in deze categorieën kunt "
+"organiseren."
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Create custom taxonomy"
+msgstr "Eigen taxonomie creëren"
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Post type"
+msgstr "Posttype"
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Show category tree"
+msgstr "Categorieboom weergeven"
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Pagination without page reload"
+msgstr "Pagineren zonder pagina herladen"
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Media"
+msgstr "Media"
+
+#: options.lite.js:1 options.pro.js:1
+msgid "Use Real Media Library to enable folder management"
+msgstr "Gebruik Real Media Library om mappenbeheer te activeren"

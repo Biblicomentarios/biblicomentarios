@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Auto Links v0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-12-18 16:51:20+0000\n"
+"Last-Translator: Michał <michal@slugocki.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: seo-auto-links-admin.php:9
+#@ seo-auto-links
+msgid "With SEO Auto Links you can easily add (automatically) links for keywords and phrases in posts, pages and comments and link them to corresponding posts, pages, categories, tags or any URL. Set the following settings to your own needs and let SEO Auto Links do the work for you."
+msgstr "Używając wtyczki SEO Auto Links w łatwy sposób możesz tworzyć linki w postaci słów kluczowych występujących w Twoich postach, stronach i kategoriach do innych postów, stron, kategorii lub na inny dowolny adres URL. Skonfiguruj ustawienia wg. swoich potrzeb, a resztą zajmie się za Ciebie wtyczka SEO Auto Links."
+
+#: seo-auto-links-admin.php:10
+#@ seo-auto-links
+msgid "If you find any bugs or have ideas for the plugin, please let me know at:"
+msgstr "Jeżeli znajdziesz jakiś błąd w funkcjonowaniu wtyczki lub jeżeli masz pomysł na jej rozwój, proszę o pozostawienie informacji na forum: "
+
+#: seo-auto-links-admin.php:10
+#@ seo-auto-links
+msgid "Post your found bug or idea at WordPress.org"
+msgstr "Znalezione błędy lub Twoje pomysły na rozwój wtyczki zgłoś na WordPress.org"
+
+#: seo-auto-links-admin.php:13
+#@ seo-auto-links
+msgid "Internal Links"
+msgstr "Linki wewnętrzne"
+
+#: seo-auto-links-admin.php:15
+#@ seo-auto-links
+msgid "SEO Auto Links can process your posts, pages and comments in search for keywords to automatically interlink."
+msgstr "Wtyczka SEO Auto Links może analizować Twoje posty, strony i komentarze w poszukiwaniu słów kluczowych, które może automatycznie podlinkować do innych treści. "
+
+#: seo-auto-links-admin.php:19
+#: seo-auto-links-admin.php:114
+#@ seo-auto-links
+msgid "Posts"
+msgstr "Posty"
+
+#: seo-auto-links-admin.php:20
+#: seo-auto-links-admin.php:24
+#: seo-auto-links-admin.php:28
+#: seo-auto-links-admin.php:32
+#: seo-auto-links-admin.php:48
+#: seo-auto-links-admin.php:99
+#: seo-auto-links-admin.php:115
+#: seo-auto-links-admin.php:119
+#: seo-auto-links-admin.php:123
+#: seo-auto-links-admin.php:127
+#: seo-auto-links-admin.php:135
+#: seo-auto-links-admin.php:139
+#@ seo-auto-links
+msgid "Enable"
+msgstr "Włącz"
+
+#: seo-auto-links-admin.php:20
+#: seo-auto-links-admin.php:24
+#@ seo-auto-links
+msgid "Allow self linking"
+msgstr "Zezwól na linkowanie do samego siebie"
+
+#: seo-auto-links-admin.php:23
+#: seo-auto-links-admin.php:118
+#@ seo-auto-links
+msgid "Pages"
+msgstr "Strony"
+
+#: seo-auto-links-admin.php:27
+#@ seo-auto-links
+msgid "Comments"
+msgstr "Komentarze"
+
+#: seo-auto-links-admin.php:28
+#: seo-auto-links-admin.php:123
+#: seo-auto-links-admin.php:127
+#@ seo-auto-links
+msgid "May slow down performance."
+msgstr "Może spowolnić działanie."
+
+#: seo-auto-links-admin.php:31
+#@ seo-auto-links
+msgid "RSS feeds"
+msgstr "Kanały RSS"
+
+#: seo-auto-links-admin.php:32
+#@ seo-auto-links
+msgid "Allow processing of RSS feeds. SEO Auto links will embed links in all posts in your RSS feed (according to other options)."
+msgstr "Zezwalaj na działanie na kanałach RSS. Wtyczka SEO Auto links będzie umieszczać linki również w postach na twoich kanałach RSS (opcja zależna od pozostałych ustawień wtyczki)."
+
+#: seo-auto-links-admin.php:35
+#@ seo-auto-links
+msgid "Max Links"
+msgstr "Max. liczba linków"
+
+#: seo-auto-links-admin.php:36
+#@ seo-auto-links
+msgid "You can limit the maximum number of different links that will be generated per post. Set to 0 for no limit."
+msgstr "Możesz ograniczyć maksymalną liczbę linków dla 1 posta. Ustaw 0 dla braku limitu."
+
+#: seo-auto-links-admin.php:39
+#@ seo-auto-links
+msgid "Max Keyword Links"
+msgstr "Max. ilość linków dla 1 słowa kluczowego"
+
+#: seo-auto-links-admin.php:40
+#@ seo-auto-links
+msgid "You can limit the maximum number of links created with the same keyword. Set to 0 for no limit."
+msgstr "Możesz ograniczyć maksymalną liczbę linków dla tego samego słowa kluczowego. Ustaw 0 dla braku limitu."
+
+#: seo-auto-links-admin.php:43
+#@ seo-auto-links
+msgid "Max Same URLs"
+msgstr "Max. ilość takich samych linków"
+
+#: seo-auto-links-admin.php:44
+#@ seo-auto-links
+msgid "Limit number of same URLs the plugin will link to. Works only when Max Keyword Links above is set to 1. Set to 0 for no limit."
+msgstr "Możesz ograniczyć maksymalną liczbę takich samych adresów URL, do których będą linkować różne słowa kluczowe. Opcja ta działa jeżeli dla pozycji 'Max. ilość linków dla 1 słowa kluczowego' ustawiono 1. Ustaw 0 dla braku limitu."
+
+#: seo-auto-links-admin.php:47
+#@ seo-auto-links
+msgid "Case sensitive"
+msgstr "Uwzględniaj wielkość liter"
+
+#: seo-auto-links-admin.php:48
+#@ seo-auto-links
+msgid "Set whether matching should be case sensitive."
+msgstr "Określ, czy w dopasowaniu powinna być uwzględniana wielkość liter."
+
+#: seo-auto-links-admin.php:52
+#: seo-auto-links-admin.php:76
+#: seo-auto-links-admin.php:103
+#: seo-auto-links-admin.php:143
+#@ seo-auto-links
+msgid "Save all settings"
+msgstr "Zapisz wszystkie ustawienia"
+
+#: seo-auto-links-admin.php:57
+#@ seo-auto-links
+msgid "Custom Keywords"
+msgstr "Niestandardowe słowa kluczowe"
+
+#: seo-auto-links-admin.php:59
+#@ seo-auto-links
+msgid "Here you can enter manually the extra keywords you want to automaticaly link. Use comma to seperate keywords and add target url at the end. Use a new line for new url and set of keywords. You can have these keywords link to any url, not only your site."
+msgstr "Tutaj możesz podać słowa kluczowe, które mają być automatycznie linkowane. Do rozdzielania słów kluczowych użyj przecinka, a następnie podaj dla nich docelowy adres URL. Każdy zestaw słów kluczowych z przypisanym adresem URL powinien się znajdować w nowej linii. Wypisane tu słowa kluczowe mogą linkować wewnątrz jak i na zewnątrz Twojej strony www."
+
+#: seo-auto-links-admin.php:63
+#@ seo-auto-links
+msgid "Keywords & links"
+msgstr "Słowa kluczowe i linki"
+
+#: seo-auto-links-admin.php:64
+#@ default
+msgid "Example"
+msgstr ""
+
+#: seo-auto-links-admin.php:64
+#@ seo-auto-links
+msgid "google webmaster, http://www.google.com/webmasters/"
+msgstr "aukcje internetowe, http://www.allegro.pl/"
+
+#: seo-auto-links-admin.php:64
+#@ seo-auto-links
+msgid "wiki, wikipedia, http://wikipedia.org"
+msgstr "filmy online, filmy online za darmo, http://stop-limitom.pl"
+
+#: seo-auto-links-admin.php:67
+#@ seo-auto-links
+msgid "Grouped keywords"
+msgstr "Pogrupowane słowa kluczowe"
+
+#: seo-auto-links-admin.php:68
+#@ seo-auto-links
+msgid "Prevent duplicate"
+msgstr "Zapobiegaj duplikatom"
+
+#: seo-auto-links-admin.php:68
+#@ seo-auto-links
+msgid "Prevent Duplicate links for grouped keywords (will link only first of the keywords found in text)."
+msgstr "Zapobiegaj duplikatom dla pogrupowanych słów kluczowych (Linkiem będzie tylko pierwsze słowo kluczowe znalezione w treści)."
+
+#: seo-auto-links-admin.php:71
+#@ seo-auto-links
+msgid "Load from URL"
+msgstr "Załaduj z adresu URL"
+
+#: seo-auto-links-admin.php:72
+#@ seo-auto-links
+msgid "Load custom keywords from a URL. This appends to the list above."
+msgstr "Załaduj niestandardowe słowa kluczowe z adresu URL. Słowa zostaną dopisane do listy powyżej."
+
+#: seo-auto-links-admin.php:81
+#@ seo-auto-links
+msgid "Excluding"
+msgstr "Wykluczenia"
+
+#: seo-auto-links-admin.php:86
+#@ seo-auto-links
+msgid "Heading"
+msgstr "Nagłówki"
+
+#: seo-auto-links-admin.php:87
+#@ seo-auto-links
+msgid "Exclude"
+msgstr "Wyklucz"
+
+#: seo-auto-links-admin.php:87
+#@ seo-auto-links
+msgid "Prevent linking in heading tags (h1, h2, h3, h4, h5 and h6)."
+msgstr "Zapobiegaj tworzeniu linków ze słów kluczowych występujących w nagłówkach (h1, h2, h3, h4, h5 i h6)."
+
+#: seo-auto-links-admin.php:90
+#@ seo-auto-links
+msgid "Ignore posts / pages"
+msgstr "Ignoruj ​​posty / strony"
+
+#: seo-auto-links-admin.php:91
+#: seo-auto-links-admin.php:95
+#@ seo-auto-links
+msgid "Add a tag"
+msgstr "Dodaj tagi"
+
+#: seo-auto-links-admin.php:91
+#@ seo-auto-links
+msgid "You may wish to forbid automatic linking on certain posts or pages. Separate them by comma (ID, slug or name)."
+msgstr "Możesz zablokować automatyczne linkowanie, dla niektórych postów oraz stron. Rozdziel je przecinkami (ID lub nazwa wpisu)."
+
+#: seo-auto-links-admin.php:94
+#@ seo-auto-links
+msgid "Ignore keywords"
+msgstr "Ignoruj ​​słowa kluczowe"
+
+#: seo-auto-links-admin.php:95
+#@ seo-auto-links
+msgid "You may wish to ignore certain words or phrases from automatic linking. Separate them by comma."
+msgstr "Możesz zablokować automatyczne linkowanie dla niektórych słów kluczowych. Wypisz je rozdzielając przecinkami. "
+
+#: seo-auto-links-admin.php:98
+#@ seo-auto-links
+msgid "Single posts / pages only"
+msgstr "Tylko pojedyncze posty / strony"
+
+#: seo-auto-links-admin.php:99
+#@ seo-auto-links
+msgid "To reduce database load you can choose to have SEO Auto links work only on single posts and pages (for example not on main page or archives)."
+msgstr "Dla zmniejszenia obciążenia bazy danych wtyczka SEO Auto Links może pracować tylko na pojedynczych postach i stronach (np. nie na stronie głównej Twojej witryny i w archiwum)."
+
+#: seo-auto-links-admin.php:108
+#@ seo-auto-links
+msgid "Targeting"
+msgstr "Linkuj do:"
+
+#: seo-auto-links-admin.php:110
+#@ seo-auto-links
+msgid "The targets SEO Auto links should consider. The match will be based on post/page title or category/tag name, case insensitive."
+msgstr "Zaznacz do jakich miejsc może linkować wtyczka SEO Auto links. Dopasowanie miejsca docelowego odbywa się po tytułach postów/stron lub nazwie kategorii/tagów. Wielkość liter ma znaczenie. "
+
+#: seo-auto-links-admin.php:115
+#@ seo-auto-links
+msgid "Enable to link internal links to posts."
+msgstr "Włącz linkowanie między postami."
+
+#: seo-auto-links-admin.php:119
+#@ seo-auto-links
+msgid "Enable to link internal links to pages."
+msgstr "Włącz linkowanie między stronami. "
+
+#: seo-auto-links-admin.php:122
+#@ seo-auto-links
+msgid "Categories"
+msgstr "Kategorie"
+
+#: seo-auto-links-admin.php:123
+#@ seo-auto-links
+msgid "Enable to link internal links to categories."
+msgstr "Włącz linkowanie do stron kategorii."
+
+#: seo-auto-links-admin.php:126
+#@ seo-auto-links
+msgid "Tags"
+msgstr "Tagi"
+
+#: seo-auto-links-admin.php:127
+#@ seo-auto-links
+msgid "Enable to link internal links to tags."
+msgstr "Włącz linkowanie do stron tagów."
+
+#: seo-auto-links-admin.php:130
+#@ seo-auto-links
+msgid "Minimum categories / tags"
+msgstr "Minimalna ilość kategorii / tagów"
+
+#: seo-auto-links-admin.php:131
+#@ seo-auto-links
+msgid "Only link categories and tags that have been used the above number of times or more."
+msgstr "Linkuje kategorie i tagi, które zostały użyte w treści minimum tyle razy ile tutaj podasz."
+
+#: seo-auto-links-admin.php:134
+#@ seo-auto-links
+msgid "Add nofollow"
+msgstr "Dodaj atrybut rel=''nofollow''"
+
+#: seo-auto-links-admin.php:135
+#@ seo-auto-links
+msgid "Add a nofollow attribute to the external links."
+msgstr "Dodaj atrybut rel=''nofollow'' dla linków zewnętrznych."
+
+#: seo-auto-links-admin.php:138
+#@ seo-auto-links
+msgid "Open in new window"
+msgstr "Otwórz w nowym oknie "
+
+#: seo-auto-links-admin.php:139
+#@ seo-auto-links
+msgid "Open the external links in a new window."
+msgstr "Otwórz linki zewnętrzne w nowym oknie (dodaje atrybut target=''_blank''). "
+
+#: seo-auto-links.php:358
+#@ seo-auto-links
+msgid "Plugin settings saved."
+msgstr "Zapisano ustawienia wtyczki."
+

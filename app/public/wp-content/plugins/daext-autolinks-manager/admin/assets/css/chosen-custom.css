@@ -1,0 +1,106 @@
+.chosen-container,
+.chosen-container-single,
+.chosen-container-active,
+.chosen-default,
+.chosen-drop,
+.chosen-single,
+.chosen-search,
+.chosen-results {
+    font-size: 12px !important;
+    background: #fff !important;
+    border-color: #ddd !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: #333 !important;
+}
+
+.chosen-container-single .chosen-search input[type=text]{
+    min-height: auto;
+}
+
+.chosen-container-single .chosen-search input[type=text]:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.chosen-container .chosen-results li.highlighted {
+    background: #0075a5 !important;
+    color: #fff !important;
+}
+
+.chosen-container-single .chosen-default {
+    border-color: #ddd !important;
+    height: 24px;
+    line-height: 22px !important;
+}
+
+.chosen-container-single .chosen-single {
+    height: 24px !important;
+}
+
+.chosen-container-single .chosen-single span {
+    line-height: 22px;
+}
+
+.chosen-container .chosen-results {
+    max-height: 200px !important;
+}
+
+.chosen-container {
+    min-width: 217px;
+    max-width: 217px;
+}
+
+.chosen-container * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
+
+/* Multiple Select -------------------------------------------------------------------------------------------------- */
+.chosen-container-multi .chosen-choices li.search-choice {
+    border: 0 !important;
+    background: #d2d2d2 !important;
+    color: #fff !important;
+    border-radius: 7px !important;
+    box-shadow: none !important;
+    height: 14px !important;
+    box-sizing: content-box !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
+    background-position: -42px 1px !important;
+}
+
+.chosen-container-multi .chosen-choices {
+    background: #fff !important;
+    border-color: #dcdcdc !important;
+    width: 205px !important;
+    box-sizing: content-box !important;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    top: 3px !important;
+}
+
+.chosen-container-active .chosen-choices {
+    box-shadow: none !important;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {
+    height: 22px !important;
+}
+
+.chosen-container-multi .active-result,
+.chosen-container-multi .result-selected {
+    margin: 0 4px !important;
+}
+
+.chosen-container-multi .chosen-drop {
+    padding: 3px 0 !important;
+}
+
+.chosen-container-multi .chosen-choices .search-field input {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

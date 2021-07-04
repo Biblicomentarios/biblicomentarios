@@ -1,0 +1,198 @@
+/*
+ Theme Name:   Magazine News Byte Child
+ Theme URI: https://wphoot.com/themes/magazine-hoot/
+ Description:  Magazine News Byte Child Theme
+ Author:       JPMarichal
+ Author URI:   https://biblicomentarios.com
+ Template:     magazine-news-byte
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  magazinenewsbytechild
+*/
+
+span.yarpp-thumbnail-title {
+	font-size: .7em !important;
+	/* background-color: #6e8076; */
+}
+
+.entry-byline {
+	text-transform: none;
+	font-size: .8333333em;
+}
+
+.loop-meta-withbg .loop-meta {
+	margin: 50px 0;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+h1{
+	font-size: 26px;
+	font-weight: bold;
+	color: green;
+}
+
+.content .loop-title {
+	font-size: 26pt;
+	font-weight: bold;
+	color: green;
+}
+
+#content .loop-title {
+	font-size: 29pt;
+	border-bottom: 1px solid green;
+}
+
+.loop-title {
+	font-size: 29pt;
+}
+
+.loop-meta {
+	padding: 10px 0;
+	padding-top: 20px;
+}
+
+h2 {
+	color: mediumseagreen;
+	border-bottom: 1px dotted mediumseagreen;
+	margin-top: 10px !important;
+}
+
+blockquote {
+	border-left: 5px solid goldenrod;
+	background-color: cornsilk;
+	padding: 10px;
+	font-size: 1em;
+	font-style: normal;
+}
+
+blockquote cite {
+	margin-top: 10px;
+	background-color: goldenrod;
+	color: papayawhip;
+	font-weight: bold;
+	padding-right: 5px;
+	font-size: 11pt;
+	font-style: normal;
+}
+
+blockquote.pasaje {
+	border-left: 5px solid orange;
+	background-color: papayawhip;
+	/* margin-left:30px; */
+	padding: 10px;
+	/* padding-left:20px; */
+	font-style: normal;
+	font-size: 1em;
+	color: saddlebrown;
+}
+
+blockquote.pasaje cite {
+	background-color: orange;
+	color: papayawhip;
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+.juicer {
+	color: lightseagreen;
+	/* background-color:peachpuff;*/
+	padding-left: 3px;
+	padding-right: 3px;
+	text-decoration: none;
+	border-bottom: 1px dotted orange;
+	border-radius: 30px;
+}
+
+.juicer:hover {
+	color: orangered;
+	text-decoration: none;
+}
+
+/*
+a.juicer:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f02d";
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+	font-weight: 900;
+}
+*/
+
+/* blockquote.pasaje:before{ */
+
+/* display:inline; */
+
+/* position:relative; */
+
+/* left:-35px; */
+
+/* top:-11px; */
+
+/* margin-top:0; */
+
+/* padding-top:0; */
+
+/* margin-left:-10; */
+
+/* padding-left:-10; */
+
+/* writing-mode: vertical-lr; */
+
+/* text-orientation: upright; */
+
+/* content: "Pasaje"; */
+
+/* background-color: orange; */
+
+/* color:papayawhip; */
+
+/* font-weight:bold; */
+
+/* font-size:12pt; */
+
+/* } */
+
+#exTab1 .tab-content {
+	color: white;
+	background-color: #428bca;
+	padding: 5px 15px;
+}
+
+#exTab2 h3 {
+	color: white;
+	background-color: #428bca;
+	padding: 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills>li>a {
+	border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills>li>a {
+	border-radius: 4px 4px 0 0;
+}
+
+#exTab3 .tab-content {
+	color: white;
+	background-color: #428bca;
+	padding: 5px 15px;
+}
+
+.widget-title span a {
+	color: lightyellow;
+}
+
+.sharethis-inline-share-buttons {
+	margin-bottom: 20px !important;
+}
+

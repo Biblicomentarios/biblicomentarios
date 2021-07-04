@@ -1,0 +1,59 @@
+.tags{
+	float:left;
+}
+.tags span.tag{
+	cursor:pointer;
+	display:block;
+	float:left;
+	color:#fff;
+	background: #6B6B6B;
+	padding:5px;
+	padding-right:25px;
+	margin:4px;
+}
+.tags span.tag:hover{
+	opacity:0.7;
+}
+.tags span.tag,
+.tags span.tag:after {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.tags span.tag:after{
+	position: absolute;
+	content: "x";
+	padding: 0 4px;
+	margin: 0 5px;
+	font-size: 10px;
+}
+.tags input{
+	margin:4px;
+	padding:7px;
+	width:auto;
+}
+
+.postbox {
+	border-color: #dae4eb;
+}
+
+.postbox h2 {
+	display: block;
+	border-bottom: solid 1px #dae4eb;
+	padding: 12px !important;
+	margin: 0 !important;
+}
+
+.postbox h3 {
+	display: block;
+	border-bottom: solid 1px #dae4eb;
+}
+
+#wpa-masthead {
+	background-color: #fff;
+	border-bottom: solid 1px #dae4eb;
+}
+
+#wpa-masthead img {
+	margin: 10px;
+}

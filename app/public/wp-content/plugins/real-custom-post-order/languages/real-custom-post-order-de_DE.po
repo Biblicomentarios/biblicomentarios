@@ -1,0 +1,49 @@
+# Copyright (C) 2020 devowl.io GmbH
+# This file is distributed under the same license as the WP Real Custom Post Order plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Real Custom Post Order 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-03-18T08:38:11+01:00\n"
+"PO-Revision-Date: 2020-04-07 18:30+0200\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+#. Plugin Name of the plugin
+msgid "WP Real Custom Post Order"
+msgstr "WP Real Custom Post Order"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr "https://devowl.io"
+
+#. Description of the plugin
+msgid "Custom post order for posts, pages, WooCommerce products and custom post types using drag and drop. Simple and intuitive sorting of your content!"
+msgstr "Benutzerdefinierte Reihenfolge für Beiträge, Seiten, WooCommerce-Produkte und benutzerdefinierte Beitragstypen per Drag & Drop. Einfache und intuitive Sortierung deiner Inhalte!"
+
+#. Author of the plugin
+msgid "devowl.io GmbH"
+msgstr "devowl.io GmbH"
+
+#: inc/sortable/AbstractSortable.php:49
+msgid "Sequence array not valid."
+msgstr "Sequenz nicht gültig."
+
+#: inc/sortable/AbstractSortable.php:54
+msgid "Sequence value not a number."
+msgstr "Sequenzwert ist keine Zahl."
+
+#: inc/view/PostScreenSettings.php:30
+msgid "Custom order for this list table"
+msgstr "Benutzerdefinierte Reihenfolge für diese Tabelle"
+
+#: inc/view/PostScreenSettings.php:39
+msgid "Enabled"
+msgstr "Aktiviert"

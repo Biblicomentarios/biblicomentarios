@@ -1,0 +1,217 @@
+# Copyright (C) 2020 devowl.io
+# This file is distributed under the same license as the Real Category Management plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Category Management 3.2.12\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-03-04 17:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: devowl.io GmbH <mail@devowl.io>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "Real Category Management"
+msgstr "Real Category Management"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://codecanyon.net/item/wordpress-real-category-management-custom-"
+"category-order-tree-view/13580393"
+msgstr ""
+"https://codecanyon.net/item/wordpress-real-category-management-custom-"
+"category-order-tree-view/13580393"
+
+#. Description of the plugin
+msgid ""
+"Manage posts, pages and custom post-types in an explorer-like tree view and "
+"create a custom order for your categories and other taxonomies."
+msgstr ""
+"Verwalte Beiträge, Seiten und benutzerdefinierte Beitragstypen in einer "
+"Explorer-ähnlichen Baumansicht und erstelle eine benutzerdefinierte "
+"Reihenfolge für deine Kategorien und andere Taxonomien."
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr "devowl.io"
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr "https://devowl.io"
+
+#: inc/AdInitiator.php:1
+msgid "Full control over your categories"
+msgstr "Volle Kontrolle über deine Kategorien"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Do you maintain many categories? The default view of the categories can be a "
+"bit confusing, can’t it? This plugin creates an explorer-like tree on the "
+"left side of your posts table. Create, rename, delete or rearrange your "
+"categories with a single click!"
+msgstr ""
+"Verwaltest du viele Kategorien? Die Standardansicht der Kategorien kann "
+"etwas verwirrend sein, nicht wahr? Dieses Plugin erstellt einen explorer-"
+"ähnlichen Baum auf der linken Seite deiner Beitragstabelle. Erstelle, "
+"benenne, lösche oder ordne deine Kategorien mit einem einzigen Klick neu an!"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"In the PRO version you can also enable the tree on pages and custom post "
+"types."
+msgstr ""
+"In der PRO-Version kannst du auch den Baum für Seiten und benutzerdefinierte "
+"Beitragstypen aktivieren."
+
+#: inc/AdInitiator.php:1
+msgid "Supports WooCommerce products"
+msgstr "Unterstützt WooCommerce-Produkte"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Shop managers with many products also have to maintain numerous categories. "
+"Wouldn't it be helpful to maintain the product categories and attributes "
+"more elegantly?"
+msgstr ""
+"Shop Manager mit vielen Produkten müssen zahlreiche Kategorien pflegen. Wäre "
+"es nicht hilfreich, die Produktkategorien und -attribute eleganter zu "
+"pflegen?"
+
+#: inc/AdInitiator.php:1
+msgid "Switch pages without page reload"
+msgstr "Seitenwechsel ohne Neuladen"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Switching between pages or categories can usually take some time. With this "
+"plugin you can enjoy a fast loading of your tables."
+msgstr ""
+"Das Wechseln zwischen den Seiten oder Kategorien nimmt in der Regel einige "
+"Zeit in Anspruch. Mit diesem Plugin kannst du ein schnelleres Laden deiner "
+"Tabellen genießen."
+
+#: inc/AdInitiator.php:1
+msgid "Go to settings"
+msgstr "Gehe zu Einstellungen"
+
+#: inc/overrides/pro/PageCategory.php:1
+msgid "Page Categories"
+msgstr "Seiten Kategorien"
+
+#: inc/overrides/pro/PageCategory.php:1
+msgid "Page Category"
+msgstr "Seiten Kategorie"
+
+#: inc/overrides/pro/PageCategory.php:1
+msgid "Categories"
+msgstr "Kategorien"
+
+#: inc/rest/Post.php:1
+msgid "Something went wrong."
+msgstr "Etwas ist schiefgelaufen."
+
+#: inc/rest/Service.php:1
+msgid "No type or valid taxonomy provided."
+msgstr "Kein Typ oder gültige Taxonomie angegeben."
+
+#: inc/rest/Service.php:1
+msgid "No type or taxonomy provided."
+msgstr "Kein Typ oder Taxonomie angegeben."
+
+#: inc/rest/Service.php:1
+msgid "The passed term id was not found."
+msgstr "Die übergebene Term ID wurde nicht gefunden."
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "Nicht erlaubt"
+
+#: inc/rest/Service.php:1
+msgid "Real Category Management is not active for the current user."
+msgstr "Real Category Management ist für den aktuellen Benutzer nicht aktiv."
+
+#: inc/rest/Term.php:1
+msgid "Unknown error: The term could not be created."
+msgstr "Unbekannter Fehler: Der Term konnte nicht angelegt werden."
+
+#: inc/rest/Term.php:1
+msgid "Category does not exist."
+msgstr "Kategorie existiert nicht."
+
+#: inc/rest/Term.php:1
+msgid "You can not delete the default category."
+msgstr "Du kannst die Standard-Kategorie nicht löschen."
+
+#. translators:
+#: inc/TaxOrder.php:1
+msgid "No categories found for this post type (%1$s) with the taxonomy (%2$s)."
+msgstr ""
+"Keine Kategorien für diesen Beitragstyp (%1$s) mit der Taxonomie (%2$s) "
+"gefunden."
+
+#: inc/TaxOrder.php:1
+msgid "No item found."
+msgstr "Kein Eintrag gefunden."
+
+#: inc/view/ConfigPage.php:1
+msgid "Category Management"
+msgstr "Kategorie-Verwaltung"
+
+#: inc/view/ConfigPage.php:1
+msgid "Settings"
+msgstr "Einstellungen"
+
+#~ msgid ""
+#~ "<strong>You have not yet entered the license key</strong>. To receive "
+#~ "automatic updates, please enter the key in \"Enter license\"."
+#~ msgstr ""
+#~ "<strong>Der Lizenzschlüssel wurde noch nicht eingegeben</strong>. Um "
+#~ "automatische Updates zu erhalten, klicke auf “Lizenz eingeben”."
+
+#~ msgid "Get your PRO license now!"
+#~ msgstr "Holen dir jetzt deine PRO-Lizenz!"
+
+#~ msgid "Product attributes"
+#~ msgstr "Produktmerkmale"
+
+#~ msgid "Enable hierarchical product attributes (recommend for > 3.x)"
+#~ msgstr "Aktiviert hierarchische Produktattribute (empfohlen für > 3.x)"
+
+#~ msgid ""
+#~ "You use Real Category Management (Free), but you need the PRO version to "
+#~ "use this feature."
+#~ msgstr ""
+#~ "Du verwendest Real Category Management (Free), aber benötigst die PRO-"
+#~ "Version, um diese Funktion zu nutzen."
+
+#~ msgid "Learn more about PRO"
+#~ msgstr "Erfahre mehr über PRO"
+
+#~ msgid "Advanced settings for this post type"
+#~ msgstr "Erweiterte Einstellungen für diesen Post Type"
+
+#~ msgid "Tree view"
+#~ msgstr "Baumansicht"
+
+#~ msgid "Avoid page reload (tree view must be active)"
+#~ msgstr "Vermeide das erneute Laden der Seite (Baumansicht muss aktiv sein)"
+
+#~ msgid ""
+#~ "You are using Real Category Management (Free), but you need the PRO "
+#~ "version to activate categories for pages."
+#~ msgstr ""
+#~ "Du verwendest Real Category Management (Free), aber du benötigst die PRO-"
+#~ "Version, um Kategorien für Seiten zu aktivieren."
+
+#~ msgid ""
+#~ "You are using Real Category Management (Free), you need the PRO version "
+#~ "to use \"Avoid page reload\" and \"Tree view\" for custom post types."
+#~ msgstr ""
+#~ "Du verwendest Real Category Management (Free), benötigst aber die PRO-"
+#~ "Version, um die Funktionen ”Seitenneuladen vermeiden\" und \"Baumansicht"
+#~ "\" für benutzerdefinierte Beitragsarten zu verwenden."

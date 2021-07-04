@@ -1,0 +1,44 @@
+/* Meta boxes */
+
+#sharethis-meta-box .button-check-wrap {
+	display: block;
+	margin-bottom: .5rem;
+}
+
+#sharethis-meta-box .sharethis-shortcode {
+	background: #ffffff;
+	border: 1px solid #b4b9be;
+	width: 100%;
+	margin-right: 1rem;
+}
+
+#sharethis-meta-box .under-message {
+	font-style: italic;
+	color: #979797;
+}
+
+#sharethis-meta-box #sticky {
+	margin-bottom: 1rem;
+}
+
+/* Block styles */
+.inline-share-button-block img {
+	max-width: 37px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #a4d94a;
+	padding: 10px;
+}
+
+.inline-share-button-block {
+	font-size: 20px;
+	font-family: sans-serif;
+	border-bottom: 2px solid #93d227;
+	border-top: 2px solid #93d227;
+	padding: 10px;
+	color: #93d227;
+	text-align: center;
+	max-width: 400px;
+	margin: auto;
+}

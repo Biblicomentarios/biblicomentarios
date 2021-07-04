@@ -1,0 +1,90 @@
+.ui-dialog[aria-describedby="dialog-confirm"],
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-button-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+    font-weight: 400 !important;
+    padding: 0 !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] {
+    background: #f7f7f7 !important;
+    z-index: 100001 !important;
+}
+
+.ui-widget-overlay.ui-front {
+    z-index: 100000 !important
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-titlebar {
+    border: none !important;
+    border-radius: 0 !important;
+    height: 28px !important;
+    border-bottom: 1px solid #dedede !important;
+    padding: 3px 10px !important;
+    line-height: 28px !important;
+    background: #f7f7f7 !important;
+    border-radius: 3px 3px 0 0 !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-titlebar button {
+    display: none !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-title {
+    font-weight: 600 !important;
+    font-size: 12px !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-content {
+    padding: 8px 10px !important;
+    background: #fdfdfd !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-content p {
+    font-size: 12px !important;
+    color: #555 !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-button-text {
+    font-size: 12px !important;
+    color: #555;
+    height: 26px !important;
+    line-height: 26px !important;
+    display: block !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-buttonset button {
+    height: 28px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    background: #f7f7f7 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+    font-size: 12px !important;
+    padding: 0 10px !important;
+    color: #555 !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-buttonset button:hover {
+    background: #fafafa !important;
+    border-color: #999 !important;
+    color: #555 !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-buttonset button:focus {
+    border-color: #5c9bd8 !important;
+    outline: none !important;
+    background: #fafafa !important;
+    color: #555 !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-buttonset button:not(:first-of-type) {
+    margin-left: 4px !important;
+}
+
+.ui-dialog[aria-describedby="dialog-confirm"] .ui-dialog-buttonpane {
+    padding: 8px 10px !important;
+    background: #f7f7f7 !important;
+    margin-top: 0 !important;
+    border-top: 1px solid #dedede !important;
+    border-radius: 0 0 3px 3px !important;
+}

@@ -1,0 +1,107 @@
+.iworks-rate {
+  font-family: "Exo 2", sans-serif;
+  padding: 20px 30px; }
+  .iworks-rate h4 {
+    margin: 10px 0 0;
+    padding: 4px 38px 4px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.618;
+    --logo: attr(data-logo); }
+    .iworks-rate h4 strong {
+      font-weight: 900; }
+  .iworks-rate p {
+    font-size: 14px;
+    max-width: 800px;
+    line-height: 1.618;
+    margin: 0 0 10px;
+    padding: 4px 0; }
+  .iworks-rate.has-logo h4 {
+    display: flex;
+    align-items: center; }
+
+.iworks-rate-logo {
+  display: block;
+  width: 3em;
+  height: 3em;
+  margin-right: .3em;
+  content: "";
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain; }
+
+.iworks-rate-buttons {
+  margin-top: -10px;
+  padding: 10px 2px;
+  overflow: hidden; }
+  .iworks-rate-buttons .iworks-rate-button {
+    float: left;
+    margin: 20px 20px 0 0; }
+
+.iworks-rate-button {
+  margin: 20px auto;
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  padding: 9px 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.618;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  opacity: 1;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid transparent;
+  transition: color 0.3s !important;
+  z-index: 10;
+  cursor: pointer; }
+  .iworks-rate-button--green {
+    border-color: #46b450;
+    color: #46b450; }
+    .iworks-rate-button--green:after {
+      background-color: #46b450; }
+    .iworks-rate-button--green:focus {
+      color: #46b450;
+      box-shadow: 0 0 0 1px #46b450, 0 0 2px 1px rgba(79, 148, 212, 0.8);
+      outline: 1px solid transparent; }
+    .iworks-rate-button--green:hover {
+      color: #fff;
+      background-color: #46b450; }
+  .iworks-rate-button--blue {
+    border-color: #0073aa;
+    color: #0073aa; }
+    .iworks-rate-button--blue:after {
+      background-color: #0073aa; }
+    .iworks-rate-button--blue:focus {
+      box-shadow: 0 0 0 1px #0073aa, 0 0 2px 1px rgba(79, 148, 212, 0.8);
+      color: #0073aa;
+      outline: 1px solid transparent; }
+    .iworks-rate-button--blue:hover {
+      color: #fff;
+      background-color: #0073aa; }
+  .iworks-rate-button:before {
+    float: left;
+    margin-right: 10px;
+    font-family: dashicons;
+    font-size: 20px;
+    line-height: 1.1; }
+  .iworks-rate-button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    bottom: 0;
+    transition: all ease .3s;
+    z-index: -1; }
+  .iworks-rate-button:hover:after {
+    width: 100%; }
+
+.iworks-rate-center {
+  text-align: center; }
+
+/*# sourceMappingURL=admin.css.map */

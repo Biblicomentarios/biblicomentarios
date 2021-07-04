@@ -1,0 +1,40 @@
+.stockpack-dialog {
+  z-index: 2147483647 !important;
+
+  .message {
+    max-width: 100%;
+    width: 480px;
+
+    a {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    p.stockpack-error {
+      color: #dc3232;
+    }
+
+    .iframe-status {
+      font-style: italic;
+      border-left: 3px solid #444;
+      margin: 0 0 5px;
+      padding: 0 10px 0;
+    }
+
+    .stockpack-dialog-state {
+      font-weight: bold;
+    }
+
+    .stockpack-dialog-external {
+      font-style: italic;
+    }
+  }
+  .button-primary{
+    background: #0085ba !important;
+    &:disabled{
+      color:#66c6e4 !important;
+      text-shadow: none !important;
+    }
+  }
+}

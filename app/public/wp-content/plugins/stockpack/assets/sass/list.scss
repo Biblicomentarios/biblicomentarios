@@ -1,0 +1,58 @@
+.stockpack-browser {
+  li.attachment {
+    button.download {
+      display: none;
+      height: 24px;
+      width: 24px;
+      padding: 0;
+      border: 0;
+      position: absolute;
+      z-index: 10;
+      bottom: 0;
+      right: 0;
+      outline: none;
+      background: #eee;
+      cursor: pointer;
+      box-shadow: 0 0 0 1px #fff, 0 0 0 2px rgba(0, 0, 0, 0.15);
+
+      span.dashicons-download {
+        font-family: "dashicons";
+        color: #fff;
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+
+    &.details {
+      button.download {
+        display: block;
+        background-color: #0073aa;
+        box-shadow: 0 0 0 1px #fff,
+        0 0 0 2px #0073aa;
+      }
+    }
+
+    div.labels {
+      position: absolute;
+      z-index: 9;
+      top: 3px;
+
+      .label {
+        margin: 1px 3px;
+        background-color: #555D66;
+        color: #edeff0;
+        padding: 2px;
+        border-radius: 3px;
+
+        &.RM {
+          background-color: #606A73;
+        }
+      }
+    }
+    .quick-download-started{
+      border: 2px solid #007cba;
+      opacity: 0.7;
+  }
+}
+}
+

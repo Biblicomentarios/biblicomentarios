@@ -1,0 +1,36 @@
+.stockpack-no-search{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  .stockpack-no-search-wrapper{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 300px;
+    text-align: center;
+    img{
+      display: inline-block;
+    }
+    @include r(900) {
+      right: 267px;
+    }
+    @include r(640) {
+      left: 10px;
+      right: 10px;
+    }
+    h2{
+     margin-bottom: 20px;
+    }
+    .no-search-illustration{
+      text-align: center;
+    }
+    p.no-search-question{
+      margin:0;
+      color:#ccc;
+    }
+    p.no-search-response{
+      margin-top:0;
+    }
+  }
+}

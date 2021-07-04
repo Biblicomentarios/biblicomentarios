@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.stockpack-browser p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+.stockpack-browser select {
+  font-size: 14px;
+  line-height: 2;
+  /* 28px */
+  color: #32373c;
+  border-color: #7e8993;
+  box-shadow: none;
+  border-radius: 3px;
+  padding: 0 24px 0 8px;
+  min-height: 30px;
+  max-width: 25rem;
+  -webkit-appearance: none;
+  /* The SVG is arrow-down-alt2 from Dashicons. */
+  background: #fff url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E") no-repeat right 5px top 55%;
+  background-size: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.stockpack-browser select:hover {
+  color: #007cba;
+}
+
+.stockpack-browser .notice {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  border-left-width: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  margin: 5px 15px 2px;
+  padding: 4px 12px;
+  padding-right: 38px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 12px;
+}
+
+.stockpack-browser .notice-warning {
+  border-left-color: #ffb900;
+}
+
+.stockpack-browser .notice.is-dismissible {
+  padding-right: 38px;
+  position: relative;
+}
+
+.stockpack-browser .notice-dismiss {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  border: none;
+  margin: 0;
+  padding: 9px;
+  background: none;
+  color: #72777c;
+  cursor: pointer;
+}
+
+.stockpack-browser .notice-dismiss:before {
+  background: none;
+  color: #72777c;
+  content: "";
+  display: block;
+  font: normal 16px/20px dashicons;
+  speak: none;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.stockpack-dialog .message p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+.stockpack-dialog button.button-primary {
+  background: #007cba;
+  border-color: #007cba;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.stockpack-dialog button:hover {
+  cursor: pointer;
+}
+

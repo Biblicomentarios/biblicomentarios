@@ -1,0 +1,37 @@
+.stockpack-sidebar {
+  .attachment-info {
+    .thumbnail {
+      max-width: 267px;
+      max-height: 267px;
+
+      img {
+        max-width: 260px;
+        max-height: 260px;
+      }
+    }
+  }
+
+  .stockpack-downloader {
+    .license-stockpack-image {
+      margin-left: 10px;
+    }
+
+    .filename-change{
+      input {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+    .stockpack-already-licensed {
+      line-height: 31px;
+      padding-left: 10px;
+      font-style: italic;
+    }
+    .warning{
+      .notice{
+        margin:10px 0;
+      }
+    }
+  }
+}

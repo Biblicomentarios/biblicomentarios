@@ -1,0 +1,99 @@
+{
+    "packages": [
+        {
+            "name": "devowl-wp\/utils",
+            "version": "dev-refactor\/grunt-package",
+            "version_normalized": "dev-refactor\/grunt-package",
+            "dist": {
+                "type": "path",
+                "url": "..\/..\/packages\/utils",
+                "reference": "3b2eee5934e5ce0d94cdb5f4736259d448fe8531"
+            },
+            "archive": {
+                "exclude": [
+                    "lib",
+                    "tests"
+                ]
+            },
+            "require-dev": {
+                "10up\/wp_mock": "^0.4.2",
+                "antecedent\/patchwork": "^2.1.12",
+                "comcast\/php-legal-licenses": "^1.1.2",
+                "dealerdirect\/phpcodesniffer-composer-installer": "^0.7.0",
+                "metasyntactical\/composer-plugin-license-check": "^1.1.0",
+                "php-stubs\/wordpress-stubs": "^5.3.2",
+                "phpcompatibility\/php-compatibility": "^9.3",
+                "phpunit\/phpunit": "^7",
+                "rregeer\/phpunit-coverage-check": "^0.3.1",
+                "slevomat\/coding-standard": "^6.0@dev",
+                "squizlabs\/php_codesniffer": "^3.5",
+                "wp-coding-standards\/wpcs": "^2.2"
+            },
+            "type": "library",
+            "extra": {
+                "clean-all-except": [
+                    "src",
+                    "dist",
+                    "dev",
+                    "languages"
+                ],
+                "metasyntactical\/composer-plugin-license-check": {
+                    "whitelist": [
+                        "MIT",
+                        "ISC",
+                        "BSD-2-Clause",
+                        "BSD-3-Clause",
+                        "BSD",
+                        "Apache-2.0",
+                        "Apache2",
+                        "Artistic-2.0",
+                        "WTFPL",
+                        "CC-0",
+                        "CC0-1.0",
+                        "MPL-2.0",
+                        "ZLib",
+                        "Unlicense",
+                        "GPL-2.0",
+                        "GPL-2.0-or-later",
+                        "GPL-3",
+                        "GPL-3.0-or-later",
+                        "LGPL-3.0-or-later"
+                    ],
+                    "blacklist": [
+                        "*"
+                    ],
+                    "packages": [
+                        "ignore-packages-here@1.0.0"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "MatthiasWeb\\RealMediaLibrary\\Vendor\\MatthiasWeb\\Utils\\": "src\/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "MatthiasWeb\\RealMediaLibrary\\Vendor\\MatthiasWeb\\Utils\\Test\\": "test\/phpunit\/"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "devowl"
+                }
+            ],
+            "description": "Utility functionality for all your WordPress plugins.",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            },
+            "install-path": "..\/devowl-wp\/utils"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

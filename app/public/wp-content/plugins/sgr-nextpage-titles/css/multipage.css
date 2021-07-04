@@ -1,0 +1,126 @@
+/*
+Plugin Name: Multipage Plugin
+Plugin URI: http://wordpress.org/plugins/sgr-nextpage-titles/
+Author: Sergio De Falco
+Author URI: https://www.envire.it
+License: GPL v3
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Elements
+ * 2.0 - Table of contents
+ * 3.0 - Navigation links
+ * 4.0 - Media Queries
+ *    4.1 - < 710px
+ */
+
+/**
+ * 1.0 - Elements
+ */
+
+.mpp-post-navigation,
+.mpp-toc-container {
+	margin-bottom: 1.75em;
+}
+
+/**
+ * 2.0 - Table of contents
+ */
+
+.mpp-toc-container {
+	min-width: 260px;
+	max-width: 60%;
+	font-size: 95%;
+	padding: 1em 1.25em;
+	border: 1px solid rgba( 0, 0, 0, 0.1 );
+	display: table;
+}
+
+.mpp-toc-container.top-left {
+	float: left;
+	margin-top: 0.75em;
+	margin-right: 1.75em;
+}
+
+.mpp-toc-container.top-right {
+	float: right;
+	margin-top: 0.75em;
+	margin-left: 1.75em;
+}
+
+.mpp-toc-title {
+	position: relative;
+}
+
+.mpp-toc-title h2 {
+	font-size: 120%;
+	text-align: center;
+	margin-top: 0;
+}
+
+.mpp-toc-title .toctogglespan label {
+	position: absolute;
+	right: 1%;
+	top: 1%;
+	cursor: pointer;
+}
+
+.mpp-toc-container ul,
+.mpp-toc-container ul li {
+	padding: 0;
+	margin: 0;
+}
+
+.mpp-toc-container ul {
+	list-style: none !important;
+}
+
+/**
+ * 3.0 - Navigation links
+ */
+
+.mpp-post-navigation {
+	clear: both;
+}
+
+nav.mpp-post-navigation.next-previous .nav-links a[rel="next"] {
+    text-align: right;
+    float: right;
+}
+
+nav.mpp-post-navigation .nav-links a {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+nav.mpp-post-navigation.next-previous .nav-links a {
+    width: 50%;
+    display: inline-block;
+}
+
+nav.mpp-post-navigation.continue {
+	text-align: right;
+}
+
+/**
+ * 4.0 - Media Queries
+ */
+
+/**
+ * 4.1 - < 710px
+ */
+
+@media screen and (max-width: 710px) {
+	.mpp-toc-container.top,
+	.mpp-toc-container.top-left,
+	.mpp-toc-container.top-right,
+	.mpp-toc-container.bottom {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: none;
+		display: block;
+		float: none;
+	}
+}

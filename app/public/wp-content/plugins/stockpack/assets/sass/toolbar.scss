@@ -1,0 +1,31 @@
+.media-toolbar {
+  .stockpack-attribution {
+    display: inline-block;
+    &.hidden{
+      display: none;
+    }
+    .attribution{
+      margin-left: 0;
+      margin-top: 23px;
+      @include r(1080) {
+        width: 280px;
+        position: fixed;
+        bottom:40px;
+        max-width: 70%;
+      }
+      @include r(785) {
+        bottom:20px;
+      }
+
+      @include r(640) {
+        bottom:-11px;
+      }
+      @include r(520) {
+        bottom:54px;
+      }
+    }
+    .author-info{
+      display: block;
+    }
+  }
+}

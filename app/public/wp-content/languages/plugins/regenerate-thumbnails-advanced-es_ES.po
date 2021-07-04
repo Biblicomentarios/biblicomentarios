@@ -1,0 +1,414 @@
+# Translation of Plugins - reGenerate Thumbnails Advanced - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - reGenerate Thumbnails Advanced - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-01 10:35:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - reGenerate Thumbnails Advanced - Stable (latest release)\n"
+
+#: templates/admin/view_regenerate_process.php:70
+msgid "This can take a few seconds"
+msgstr "Esto puede tardar unos segundos"
+
+#: templates/admin/view_regenerate_process.php:69
+msgid "Process is pausing, please wait"
+msgstr "El proceso está pausándose, por favor, espera"
+
+#: templates/admin/view_regenerate_process.php:62
+msgid "Click Resume Process to continue"
+msgstr "Para continuar, haz clic en «Reanudar el proceso»"
+
+#: templates/admin/view_regenerate_process.php:61
+msgid "Process is paused"
+msgstr "El proceso está pausado"
+
+#: templates/admin/view_regenerate_process.php:38
+msgid "Resume Process"
+msgstr "Reanudar el proceso"
+
+#: templates/admin/view_regenerate_process.php:37
+msgid "Pause Process"
+msgstr "Pausar el proceso"
+
+#: build/shortpixel/notices/src/NoticeModel.php:218
+msgid "Hide Details"
+msgstr "Ocultar los detalles"
+
+#: build/shortpixel/notices/src/NoticeModel.php:214
+msgid "See Details"
+msgstr "Ver los detalles"
+
+#: classes/Plugin.php:164
+msgid "A fatal error occured!"
+msgstr "¡Ha ocurrido un error fatal!"
+
+#: classes/AjaxController.php:104
+msgid "<b>%s</b> failed on metadata. Possible issue with image"
+msgstr "<b>%s</b> ha fallado en los metadatos. Posiblemente hay un problema con la imagen."
+
+#: classes/AjaxController.php:99
+msgid "<b>%s</b> skipped. MimeType is an image, but reports non-displayable"
+msgstr "<b>%s</b> omitida. El MimeType es una imagen, pero no es visible"
+
+#: classes/AjaxController.php:94
+msgid "<b>%s</b> is missing or not an image file"
+msgstr "<b>%s</b> falta o no es un archivo de imagen"
+
+#: classes/AjaxController.php:85
+msgid "Preparing failed"
+msgstr "Preparando los que han fallado"
+
+#: classes/AjaxController.php:79
+msgid "Prepared %s items"
+msgstr "%s elementos preparados"
+
+#: classes/AjaxController.php:74
+msgid "Preparing Images and Thumbnails"
+msgstr "Preparando imágenes y miniaturas"
+
+#: templates/admin/view_ad.php:10
+msgid "Find Out More"
+msgstr "Descubre más"
+
+#: templates/admin/view_ad.php:9
+msgid "ARE YOU CONCERNED WITH YOUR SITE SPEED? Allow ShortPixel specialists to find the solution for you."
+msgstr "¿TE PREOCUPA LA VELOCIDAD DE TU SITIO? Deja que los especialistas de ShortPixel encuentren la solución."
+
+#: templates/admin/view_rta_settings.php:36
+#: templates/admin/view_rta_settings.php:57
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/admin/view_rta_settings.php:18
+msgid "Public Name"
+msgstr "Nombre público"
+
+#: templates/admin/view_regenerate_process.php:10
+msgid "Last Regenerated Image:"
+msgstr "Última imagen regenerada:"
+
+#: build/shortpixel/log/src/DebugItem.php:35
+msgid "[Data]"
+msgstr "[Datos]"
+
+#: classes/AjaxController.php:109
+msgid "Process stopped on request"
+msgstr "Proceso parado por petición"
+
+#: classes/AjaxController.php:89
+msgid "No images found for this period and/or settings or none uploaded"
+msgstr "No se han encontrado imágenes para este período y/o ajustes o no se ha subido ninguna."
+
+#: classes/AjaxController.php:70
+msgid "Site error, Invalid Nonce"
+msgstr "Error de sitio, Nonce no válido"
+
+#: classes/AjaxController.php:57
+msgid "Unknown Error occured"
+msgstr "Se ha producido un error desconocido"
+
+#: classes/Admin.php:152
+msgid "Image thumbnails regenerated"
+msgstr "Miniaturas de imagen regeneradas"
+
+#: classes/Controllers/AdminController.php:202
+msgid "Don't redo existing"
+msgstr "No rehacer existentes"
+
+#: classes/Plugin.php:163
+msgid "Process finished"
+msgstr "Proceso finalizado"
+
+#: classes/Plugin.php:162
+msgid "New Process started"
+msgstr "Nuevo proceso empezado"
+
+#: classes/Plugin.php:161
+msgid "Interrupted process resumed"
+msgstr "Continuando proceso interrumpido"
+
+#: classes/Plugin.php:124
+msgid "No Attachment ID found, not regenerating"
+msgstr "No se ha encontrado ningún ID de adjunto, no se ha regenerado"
+
+#: classes/Plugin.php:120
+msgid "Incorrect nonce"
+msgstr "Nonce incorrecto"
+
+#: templates/admin/rta_generate_thumbnails.php:12
+msgid "Regenerate Options"
+msgstr "Opciones de regeneración"
+
+#: templates/admin/view_rta_settings.php:90
+msgid "%s Don't redo existing %s  - prevent regenerating images that already have these sizes as a thumbnail file. "
+msgstr "%s No rehacer existentes %s  - evita la regeneración de imágenes que ya tienen estos tamaños como archivo de miniatura. "
+
+#: templates/admin/view_rta_settings.php:89
+msgid "Select the thumbnails you want to regenerate. "
+msgstr "Selecciona qué miniaturas quieres regenerar."
+
+#: templates/admin/view_rta_settings.php:81
+msgid "Regenerate these thumbnails:"
+msgstr "Regenerar estas miniaturas:"
+
+#: templates/admin/view_rta_regenerate.php:75
+msgid "For removing images that are gone on disk, but still in media library"
+msgstr "Para eliminar imágenes que ya no están en disco, pero aún están en la biblioteca de medios"
+
+#: templates/admin/view_rta_regenerate.php:74
+msgid "If the main image does not exist, removes this image, thumbnails and metadata"
+msgstr "Si la imagen principal no existe, elimina esta imagen, sus miniaturas y sus metadatos"
+
+#: templates/admin/view_rta_regenerate.php:71
+msgid "Remove non-existent images"
+msgstr "Eliminar imágenes que no existen"
+
+#: templates/admin/view_rta_regenerate.php:65
+msgid "Regenerate Thumbnails Advanced will not prevent new media uploads from generating removed sizes"
+msgstr "Regenerate Thumbnails Advanced no evitará que las subidas de nuevos medios generen tamaños eliminados"
+
+#: templates/admin/view_rta_regenerate.php:63
+msgid "Not selected thumbnails will be removed from your site. Check your settings if this is intentional."
+msgstr "Las miniaturas no seleccionadas se eliminarán de tu sitio. Comprueba tus ajustes si no es intencional."
+
+#: templates/admin/view_rta_regenerate.php:57
+msgid "Delete thumbnails and metadata not selected in the settings. Will delete thumbnails from disk - be sure they are not in use.  "
+msgstr "Borra miniaturas y metadatos no seleccionados en los ajustes. Eliminará las miniaturas del disco; asegúrate de que no estén en uso."
+
+#: templates/admin/view_rta_regenerate.php:55
+msgid "Delete Unselected Thumbnails"
+msgstr "Borrar miniaturas sin seleccionar"
+
+#: templates/admin/view_rta_regenerate.php:48
+msgid "Clean old metadata not defined in system sizes. Use after removing plugins / themes with old definitions. Will not remove thumbnails from disk"
+msgstr "Limpia metadatos antiguos no definidos en los tamaños del sistema. Úsalo después de eliminar plugins / temas con definiciones antiguas. No se eliminarán las miniaturas del disco"
+
+#: templates/admin/view_rta_regenerate.php:45
+msgid "Clean unknown metadata"
+msgstr "Limpiar metadatos desconocidos"
+
+#: templates/admin/view_rta_regenerate.php:34
+msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+#: templates/admin/view_regenerate_process.php:85
+msgid "Regenerate Thumbnails Advanced is done with your task"
+msgstr "Regenerate Thumbnails Advanced ha finalizado el trabajo"
+
+#: templates/admin/view_regenerate_process.php:84
+msgid "Done!"
+msgstr "¡Hecho!"
+
+#: templates/admin/view_regenerate_process.php:53
+msgid "Starting Process"
+msgstr "Iniciando proceso"
+
+#: classes/Plugin.php:160
+msgid "This will stop the regeneration process. You want to stop?"
+msgstr "Esto parará el proceso de regeneración. ¿Quieres parar?"
+
+#: classes/Plugin.php:159
+msgid "Are you sure you want to delete this image size?"
+msgstr "¿Estás seguro de que quieres eliminar este tamaño de imagen?"
+
+#: templates/admin/view_rta_regenerate.php:88
+msgid "Save your settings first"
+msgstr "Guarda tus ajustes primero"
+
+#: templates/admin/view_rta_regenerate.php:87
+msgid "Regenerate"
+msgstr "Regenerar"
+
+#: templates/admin/view_regenerate_process.php:115
+msgid "%s Activate ShortPixel %s to optimize your newly generated thumbnails."
+msgstr "%s Activa ShortPixel %s para optimizar las miniaturas recién generadas."
+
+#: templates/admin/view_regenerate_process.php:110
+msgid "Thumbnails successfully regenerated. <strong>Go to %s ShortPixel Bulk page %s to optimize the updated thumbnails.</strong>"
+msgstr "Miniaturas correctamente regeneradas. <strong>Ve a la %s página en lotes de ShortPixel %s para optimizar las miniaturas actualizadas.</strong>"
+
+#: templates/admin/view_regenerate_process.php:104
+msgid "More info"
+msgstr "Más información"
+
+#: templates/admin/view_regenerate_process.php:100
+msgid "Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Regenerate Thumbnails Advanced user! Forever!"
+msgstr "¡Consigue más cariño de Google comprimiendo las imágenes de tu sitio! ¡Comprueba cuánto puede ahorrar ShortPixel en tu sitio y obtén +50% de créditos al registrarte como usuario avanzado de Regenerate Thumbnails! ¡Para siempre!"
+
+#: templates/admin/view_regenerate_process.php:91
+msgid "Optimize your images with ShortPixel, get +50% credits!"
+msgstr "Optimiza tus imágenes con ShortPixel, ¡obtén +50% de créditos!"
+
+#: templates/admin/view_regenerate_process.php:43
+msgid "Stop Process"
+msgstr "Parar proceso"
+
+#: templates/admin/view_regenerate_process.php:54
+msgid "Please wait..."
+msgstr "Por favor, espera..."
+
+#: templates/admin/view_rta_settings.php:86
+msgid "Deselect All"
+msgstr "Anular todas las selecciones"
+
+#: templates/admin/view_rta_settings.php:85
+msgid "Select All"
+msgstr "Seleccionar todo"
+
+#: classes/Controllers/AdminController.php:36
+msgid "Right bottom"
+msgstr "Derecha abajo"
+
+#: classes/Controllers/AdminController.php:35
+msgid "Right center"
+msgstr "Derecha centro"
+
+#: classes/Controllers/AdminController.php:34
+msgid "Right top"
+msgstr "Derecha arriba"
+
+#: classes/Controllers/AdminController.php:33
+msgid "Center bottom"
+msgstr "Centro abajo"
+
+#: classes/Controllers/AdminController.php:32
+msgid "Center center"
+msgstr "Centro centro"
+
+#: classes/Controllers/AdminController.php:31
+msgid "Center top"
+msgstr "Centro arriba"
+
+#: classes/Controllers/AdminController.php:30
+msgid "Left bottom"
+msgstr "Izquierda abajo"
+
+#: classes/Controllers/AdminController.php:29
+msgid "Left center"
+msgstr "Izquierda centro"
+
+#: classes/Controllers/AdminController.php:28
+msgid "Left top"
+msgstr "Izquierda arriba"
+
+#: classes/Controllers/AdminController.php:27
+msgid "Yes"
+msgstr "Sí"
+
+#: classes/Controllers/AdminController.php:26
+msgid "No"
+msgstr "No"
+
+#: templates/admin/view_rta_regenerate.php:19
+msgid "Past Year"
+msgstr "El último año"
+
+#: templates/admin/view_rta_regenerate.php:18
+msgid "Past 6 Months"
+msgstr "Los últimos 6 meses"
+
+#: templates/admin/view_rta_regenerate.php:17
+msgid "Past 3 Months"
+msgstr "Los últimos 3 meses"
+
+#: templates/admin/view_rta_regenerate.php:16
+msgid "Past Month"
+msgstr "El último mes"
+
+#: templates/admin/view_rta_regenerate.php:15
+msgid "Past Week"
+msgstr "La última semana"
+
+#: templates/admin/view_rta_regenerate.php:14
+msgid "Past Day"
+msgstr "El último día"
+
+#: templates/admin/view_rta_regenerate.php:13
+msgid "All"
+msgstr "Todo"
+
+#: templates/admin/view_rta_regenerate.php:11
+msgid "Regenerate period:"
+msgstr "Período de regeneración:"
+
+#: templates/admin/view_rta_settings.php:108
+msgid "Saving"
+msgstr "Guardando"
+
+#: templates/admin/view_rta_settings.php:107
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: templates/admin/view_rta_settings.php:99
+msgid "Default JPEG Quality"
+msgstr "Calidad JPEG por defecto"
+
+#: templates/admin/view_rta_settings.php:48
+#: templates/admin/view_rta_settings.php:65
+msgid "Image Size name"
+msgstr "Nombre del tamaño de imagen"
+
+#: templates/admin/view_rta_settings.php:40
+#: templates/admin/view_rta_settings.php:59
+msgid "Height"
+msgstr "Altura"
+
+#: templates/admin/view_rta_settings.php:38
+#: templates/admin/view_rta_settings.php:58
+msgid "Width"
+msgstr "Ancho"
+
+#: templates/admin/view_rta_settings.php:22
+msgid "Image Size Name"
+msgstr "Nombre del tamaño de imagen"
+
+#: templates/admin/view_rta_settings.php:21
+msgid "Cropping"
+msgstr "Cortar"
+
+#: templates/admin/view_rta_settings.php:20
+msgid "Max. Height"
+msgstr "Altura máxima"
+
+#: templates/admin/view_rta_settings.php:19
+msgid "Max. Width"
+msgstr "Anchura máxima"
+
+#: templates/admin/view_rta_settings.php:8
+msgid "Add New Size"
+msgstr "Añadir nuevo tamaño"
+
+#: templates/admin/view_rta_settings.php:8
+msgid "Image Sizes"
+msgstr "Tamaños de imagen"
+
+#: classes/Plugin.php:84 classes/Plugin.php:176 classes/Plugin.php:226
+#: classes/Plugin.php:261 classes/Plugin.php:283 classes/Plugin.php:285
+msgid "Regenerate Thumbnails"
+msgstr "Regenerar miniaturas"
+
+#: classes/Plugin.php:182 templates/admin/rta_generate_thumbnails.php:16
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Author URI of the plugin
+msgid "https://shortpixel.com/"
+msgstr "https://shortpixel.com/"
+
+#. Author of the plugin
+msgid "ShortPixel"
+msgstr "ShortPixel"
+
+#. Description of the plugin
+msgid "Regenerate thumbnails fast and easy while removing unused thumbnails of existing images; very useful when changing a theme."
+msgstr "Regenera las miniaturas de forma rápida y fácil mientras eliminas las miniaturas que no se usan de las imágenes existentes; muy útil cuando se cambia de tema."
+
+#. Plugin Name of the plugin
+#: templates/admin/rta_generate_thumbnails.php:6
+msgid "Regenerate Thumbnails Advanced"
+msgstr "Regenerate Thumbnails Advanced"

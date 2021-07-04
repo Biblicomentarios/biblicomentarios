@@ -1,0 +1,201 @@
+#en_US
+PluginLimit.Line1=In this FREE version you can insert up to N.{0} different Tracking Code (remaining N.{1})
+PluginLimit.Line2=If you need more Tracking Code or more features please buy our PREMIUM version <a href="{0}" target="_blank"><b>HERE</b></a>
+Editor.Add=Tracking Code "#{0} ({1})" successfully stored.
+Button.Add=Add a new Tracking Code
+Button.BuyPRO=Buy PREMIUM
+
+Feedback.email=Contact email
+Feedback.email.check=Please specify a valid email
+Feedback.body=Feedback
+Feedback.body.check=Please specify your feedback
+Feedback.track=Send also track information (this can be very useful for us to solve your issue)
+FeedbackSuccess=Feedback successfully sent. We will reply you ASAP.
+FeedbackError=Errors sending feedback. Please email us at aleste@intellywp.com
+
+AboutNotice=Thank you for trying our amazing plugin. Now you are able to quickly track what you need. Feel free to contact us using our feedback form or our email <a href="mailto:aleste@intellywp.com">aleste@intellywp.com</a>
+AboutTitle=We make Intelly plugins for your Intelly site
+ManagerTitle=Tracking Code Manager FREE
+ManagerSubtitle=<b>WARNING</b> This does not filter your HTML code for errors or for malicious scripts. Use it at your own risk.
+SettingsTitle=Inline Related Posts (v.{0})
+FaqTitle=F.A.Q. Frequently Asked Question
+FeedbackHeader=Are you looking for new features? Send us a feedback
+AboutText1=We are Stefan and Alex, two guys in love with Wordpress, coding and marketing! Our company IntellyWP is an idea to bring Intelly ideas to your Intelly site ;)
+AboutText2=Feel free to reach us by the feedback form below.
+
+CodeDeleteNotice=Tracking code "#{0} ({1})" successfully deleted
+CodeUpdateNotice=Tracking code "#{0} ({1})" successfully updated
+CodeAddNotice=Tracking code "#{0} ({1})" successfully added
+
+FreeLicenseReached=You have reached the FREE version limit. Please buy the PREMIUM version or delete unused tracking code and create new ones.
+EditTitle=Edit tracking code
+EditSubtitle=Edit the information that you need and click "Save"
+AddTitle=New tracking code
+AddSubtitle=Fill in the information and click "Save"
+EnableAllowTrackingNotice1=Currently we receive plugin usage information. It allows us to have a BETTER development so many many thanks from the development team.
+EnableAllowTrackingNotice2=If you want to stop tracking please click <a href="{0}">HERE :(</a>
+DisableAllowTrackingNotice1=Seems that you are not allowing us to receive plugin usage information. It allows us to have a BETTER development without collecting any sensitive-data.
+DisableAllowTrackingNotice2=Please allow us to receive this information clicking <a href="{0}">HERE :)</a> once enabled you can disallow them in the About tab.
+DisableAllowTrackingNotice3=Welcome on board from the IntellyWP team and many thanks for choosing our products!
+
+Editor.active=Active?
+Editor.name=Name
+Editor.code=Paste your Tracking Code here
+Editor.position.0=Before &lt;/HEAD&gt;
+Editor.position.1=After &lt;BODY&gt;
+Editor.position.2=Before &lt;/BODY&gt;
+Editor.position=Position inside the code
+Editor.includeEverywhereActive=Include in the whole website (pages, posts and archives)
+Editor.includeCategoriesActive=Include in posts with specific categories
+Editor.includeTagsActive=Include in posts with specific tags
+Editor.includePostsOfTypeActive=Include in "<b>{0}</b>"
+Editor.exceptCategoriesActive=Exclude in posts with specific categories
+Editor.exceptTagsActive=Exclude in posts with specific tags
+Editor.exceptPostsOfTypeActive=Exclude in "<b>{0}</b>"
+Editor.includeLastPostsActive=Include in latest posts (specify the number of posts)
+
+DeactivateSuccess=License key "{0}" successfully deactivated
+DeactivateError=Errors deactivating key. Network problem??
+ActivateSuccess1=License key "{0}" successfully activated
+ActivateSuccess2=CONGRATS...YOU ARE NOW A PREMIUM MEMBER! :)
+ActivateError=Errors activating key. Network problem or wrong activation key.
+
+LicenseSection=License information
+LicenseSectionSubtitle=Insert the activation key received by email in the text below to see all the settings
+MetaboxSection=Metabox integration
+MetaboxSectionSubtitle=You will display a metabox to disable the plugin in a specific post or page.
+License.metabox=In "<b>{0}</b>"
+License.key=Insert the activation key received by email
+EmptyTrackingList=Your tracking code list is empty, please <a href="{0}">CLICK HERE</a> to create new ones.
+
+Notice.ProHeader1=Do you like this plugin?
+Notice.ProHeader2=Using the <b>PREMIUM</b> version you can also include/exclude tracking code:
+Notice.ProFeature1=In your custom post type {0}
+Notice.ProFeature2=In the latest post
+Notice.ProFeature3=In specific categories
+Notice.ProFeature4=In specific tags
+
+QuestionActiveOn=Do you want to activate this code?
+QuestionActiveOff=Do you want to deactivate this code?
+
+GeneralSection=Style Settings
+GeneralSectionSubtitle=Just few settings and Kaboooom!!
+RewriteSection=Plugin Settings
+RewriteSectionSubtitle=Set the plugin's behavior.
+EngineSection=Engine Settings
+EngineSectionSubtitle=Choose how the plugin discovers similar posts
+PreviewSection=Real time preview
+PreviewSectionSubtitle=Change any above settings to refresh preview OR <a href="javascript:IRP_changeRelatedBox()">REFRESH HERE</a>
+PreviewSectionMaxTime=With these settings the plugin has ran in max {0} milliseconds with {1} different posts. Enjoy! :)
+Settings.irpActive=Active?
+Settings.irpText=Related text
+Settings.irpBackgroundColor=Background Color
+Settings.irpBorderColor=Border Color
+Settings.irpRewriteActive=Insert in already existing posts?
+Settings.irpRewriteBoxesCount=How many boxes per single post?
+Settings.irpRewritePostsInBoxCount=Max posts per box N.
+Settings.irpRewriteThreshold=Interval between the boxes <i>(minimum N° words)</i>
+Settings.irpRewriteAtEnd=Insert a box at the end of the post? (if needed)
+Settings.irpRewritePostType=Use on <b>{0}</b>
+Settings.irpRewritePostsDays=Only posts of last N. days<br /><i>(set zero for no limits)</i>
+Settings.irpEngineSearch=Search similar posts
+Settings.irpEngineSearch.0=Using categories and tags
+Settings.irpEngineSearch.1=Using only categories
+Settings.irpEngineSearch.2=Using only tags
+Settings.irpShowPoweredBy=Display "Powered by" text<br/><i>(and show us some love :)</i>
+Settings.irpTemplate=Box template
+Settings.irpTemplateBackgroundColor=Background color
+Settings.irpTemplateBorderColor=Left border color
+Settings.irpTemplateShadow=Shadow?
+Settings.irpTemplateRelatedTextColor=Related Text Color
+Settings.template-linkRel=Link "rel" attribute
+Settings.template-linkTarget=Link "target" attribute
+Settings.key=Activation key
+
+TemplateName=Example template "{0}"
+FirstTimeActivation=Thank you for activating our plugin. This is the page settings where you need to start to configure it. You will see this box only the first time.
+Settings.metabox=Integrate in <b>"{0}"</b>
+EditorSubtitle=Select the item that you want to insert into the box automatically created by the Intelly Related Posts
+Faq.Question1=Why should I use this plugin?
+Faq.Response1=Because it will increase the page views on your site, improving engagement and reducing your bounce rate.
+Faq.Question2=Can I use the Inline related Posts plugin along with another Related posts plugin?
+Faq.Response2=Yes you can! Our plugin puts fancy boxes INSIDE the content, not at the end of it.
+Faq.Question3=Will this plugin break the structure of my content?
+Faq.Response3=NOPE. Our algorithm knows HTML tags and avoid placing the boxes in the wrong place!
+Faq.Question4=Will this plugin slow my website?
+Faq.Response4=Absolutely Not! Inline Related Posts is built with lightweight code and you won’t notice any difference in speed using it.
+
+EasySection=Easy Configuration
+CoolSection=Cool Configuration (are you ready?)
+Settings.template-ctaText=Related text or Call-To-Action (entering 'READ' will translate 'READ' from the language translation file)
+Settings.template-textTransform=Text transform
+Settings.template-useDefaults=Use template colors schema
+Settings.template-ctaTextColor=Related Text Color
+Settings.template-ctaTextColorHover=Related Text Color Hover
+Settings.template-ctaBoxColor=Related Box Color
+Settings.template-ctaBoxColorHover=Related Box Color Hover
+Settings.template-boxColor=Box Background Color
+Settings.template-boxColorHover=Box Color Hover
+Settings.template-postTitleColor=Post Title Color
+Settings.template-postTitleColorHover=Post Title Color Hover
+Settings.template-borderColor=Border Color
+Settings.template-borderColorHover=Border Color Hover
+Settings.template-useHoverDefaults=Use template hover colors schema
+Settings.template-template=Theme
+Settings.template-hasShadow=Display border shadow
+Settings.template-hasPoweredBy=Display "Powered by" text <i>(and show us some love :)</i>
+Settings.template-boxOpacity=Initial opacity %
+Settings.Color.border=Border Color
+Settings.Color.arrow=Arrow background Color
+Settings.Color.hover=Hover Box background Color
+Settings.Color.button=Button Color
+Notice.DontSave=Please <a href="{0}">Buy PREMIUM</a> to use this theme
+
+Notice.ProHeader1=Do you like this plugin?
+Notice.ProHeader2=With <b>PREMIUM</b> version you can have awesome features like:
+Notice.ProFeature1=Configure UNLIMITED Inline Related Boxes
+Notice.ProFeature2=Premium box themes with featured images
+Notice.ProFeature3=Configure hover effect with different colors
+Notice.ProFeature4=24/7 World champion support
+Notice.ProFeature5=FREE IntellyTrust: Solve your problem in 48h
+Notice.ProFeature6=100 seconds Install & Forget
+Notice.ProCTA=Check all premium features now ››
+
+Sidebar.Title=How to contact us?
+Sidebar1.Name=IntellyWP (homepage)
+Sidebar1.Url=https://intellywp.com
+Sidebar2.Name=Our plugins
+Sidebar2.Url=https://intellywp.com/plugins
+Sidebar3.Name=Contact support
+Sidebar3.Url=http://intellywp.com/support
+Sidebar4.Name=Like us on Facebook
+Sidebar4.Url=https://www.facebook.com/intellywp/
+Sidebar5.Name=Follow us on Twitter
+Sidebar5.Url=https://twitter.com/intellywp
+Sidebar6.Name=Rate us on Wordpress
+Sidebar6.Url=https://wordpress.org/support/plugin/intelly-related-posts/reviews/#postform
+
+Plugin1.Name=Tracking Code Manager
+Plugin1.Permalink=https://wordpress.org/plugins/tracking-code-manager/
+Plugin1.Subtitle=A plugin to manage ALL your tracking code and conversion pixels. Compatible with Facebook Ads, Google Adwords, WooCommerce, Easy Digital Downloads.
+Plugin2.Name=Welcome Bar
+Plugin2.Permalink=https://wordpress.org/plugins/intelly-welcome-bar/
+Plugin2.Subtitle=Increase engagement and drive specific offers to the visitors coming from a specific traffic source. As seen on BetaList and ProductHunt.
+Plugin3.Name=Post's Footer Manager
+Plugin3.Permalink=https://wordpress.org/plugins/intelly-posts-footer-manager
+Plugin3.Subtitle=Clean the mess after your content! Organize your post's footer, insert what you want, order elements, create groups for specific categories.
+Plugin4.Name=Evergreen Countdown Timer
+Plugin4.Permalink=https://wordpress.org/plugins/intelly-countdown/
+Plugin4.Subtitle=Evergreen Countdown is a plugin built for marketers that need a reliable solution to use scarcity on their websites and landing pages.
+Plugin5.Name=GDPR Framework
+Plugin5.Permalink=https://wordpress.org/plugins/gdpr-framework/
+Plugin5.Subtitle=A plugin that gives you a simple and elegant interface to handle Data Subject Access Requests (DSARs) and more.
+PluginCTA=See more..
+
+YouHaveThePremiumVersion1=You have installed the PREMIUM version of this plugin, please click <a href="{0}">here</a> to have access at all the features.
+YouHaveThePremiumVersion2=You can deactivate the "<b>Inline Related Posts</b>" plugin and only still active the "<b>Inline Related Posts PRO</b>" plugin
+
+Settings.marginTop=CSS margin-top
+Settings.marginBottom=CSS margin-bottom
+GuruInfo=Below some GURU info (useful to request support at support@intellywp.com)
+XdebugException=XdebugException: please contact our support at support@intellywp.com. Few hours and we will help you, guaranteed :)

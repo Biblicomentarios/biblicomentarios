@@ -1,0 +1,28 @@
+# Translation of Plugins - Map Block Leaflet - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Map Block Leaflet - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-09 12:53:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Map Block Leaflet - Development (trunk)\n"
+
+#. Author URI of the plugin
+msgid "https://goiblas.com"
+msgstr "https://goiblas.com"
+
+#. Author of the plugin
+msgid "Jesús Olazagoitia"
+msgstr "Jesús Olazagoitia"
+
+#. Plugin Name of the plugin
+msgid "Map Block Leaflet"
+msgstr "Map Block Leaflet"
+
+#. Description of the plugin
+msgid "Map Block Leaflet -- Allows embed maps in your contents, good alternative to Google Maps without the need for api key"
+msgstr "Map Block Leaflet -- Permite añadir mapas a tus contenidos, una buena alternativa a Google Maps, no necesitas clave api"

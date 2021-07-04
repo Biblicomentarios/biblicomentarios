@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-31T13:23:09+02:00\n"
+"PO-Revision-Date: 2020-04-07 18:39+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: admin.js:367
+msgid "Did you know that?"
+msgstr "Le saviez-vous ?"
+
+#: admin.js:369
+msgid ""
+"You are now able to sort your post entries with drag & drop. Just drag this "
+"bar and you are ready to sort! Tip: You can enable/disable sortable "
+"functionality in \"Screen settings\"."
+msgstr ""
+"Vous pouvez maintenant trier vos envois par glisser-déposer. Il suffit de "
+"faire glisser cette barre et vous êtes prêt à trier ! Astuce : Vous pouvez "
+"activer / désactiver la fonctionnalité de tri dans les \"Paramètres d'écran"
+"\"."
+
+#: admin.js:607
+msgid "Close"
+msgstr "Fermer"
+
+#: admin.js:614
+msgid "Clear filters"
+msgstr "Effacer les filtres"
+
+#: admin.js:622
+msgid "List not sortable"
+msgstr "Liste non triable"
+
+#: admin.js:624
+msgid ""
+"The table currently has a filter or search active and is different from the "
+"originally sorted entries."
+msgstr ""
+"Le tableau dispose actuellement d'un filtre ou d'une recherche active et "
+"est différent des entrées triées à l'origine."
+
+#~ msgid "Hello, World!"
+#~ msgstr "Bonjour, le monde !"
+
+#~ msgid "I got generated from your new plugin!"
+#~ msgstr "J'ai été généré par votre nouveau plugin !"

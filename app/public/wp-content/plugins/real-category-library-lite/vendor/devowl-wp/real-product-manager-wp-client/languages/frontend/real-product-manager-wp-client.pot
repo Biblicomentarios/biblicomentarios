@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#: index.js:1
+msgid "Upgrade to PRO Version"
+msgstr ""
+
+#: index.js:1
+msgid "Plugin do not work"
+msgstr ""
+
+#: index.js:1
+msgid "Not the features I want"
+msgstr ""
+
+#: index.js:1
+msgid "Incompatible with themes/plugins"
+msgstr ""
+
+#: index.js:1
+msgid "Lack of documentation"
+msgstr ""
+
+#: index.js:1
+msgid "Found a better plugin"
+msgstr ""
+
+#: index.js:1
+msgid "Temporary deactivation"
+msgstr ""
+
+#: index.js:1
+msgid "Other"
+msgstr ""
+
+#: index.js:1
+msgid "Are you sure you want to leave the feedback form?"
+msgstr ""
+
+#: index.js:1
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: index.js:1
+msgid "Deactivate"
+msgstr ""
+
+#: index.js:1
+msgid "Sorry to see you go"
+msgstr ""
+
+#: index.js:1
+msgid "Please give us feedback why you deactivate %s."
+msgstr ""
+
+#: index.js:1
+msgid "Please provide a reason!"
+msgstr ""
+
+#: index.js:1
+msgid "What could we do better?"
+msgstr ""
+
+#: index.js:1
+msgid "Email for answer/solution"
+msgstr ""
+
+#: index.js:1
+msgid "Please provide a valid email!"
+msgstr ""
+
+#: index.js:1
+msgid "Please confirm that you have checked the privacy policy."
+msgstr ""
+
+#: index.js:1
+msgid "I would like to receive an answer for my issue. For this purpose I agree to the data processing of my feedback and my email address. I have read the %s {{a}}privacy policy{{/a}} and agree to it."
+msgstr ""
+
+#: index.js:1
+msgid "Allow us to reply to you via email and we will get back to you in a timely manner!"
+msgstr ""
+
+#: index.js:1
+msgid "Are there any problems with setting up or using the plugin? Maybe we can help you in the support. {{a}}Contact support{{/a}}."
+msgstr ""
+
+#: index.js:1
+msgid "https://devowl.io/support"
+msgstr ""
+
+#: index.js:1
+msgid "Learn more"
+msgstr ""
+
+#: index.js:1
+msgid "Your license has been activated!"
+msgstr ""
+
+#: index.js:1
+msgid "https://devowl.io/knowledge-base/the-limit-of-activated-clients-for-this-license-has-already-been-reached/"
+msgstr ""
+
+#: index.js:1
+msgid "Installation type and license key for {{strong}}%s{{/strong}}"
+msgstr ""
+
+#: index.js:1
+msgid "Installation type and license key"
+msgstr ""
+
+#: index.js:1
+msgid "https://devowl.io/knowledge-base/devowl-where-can-i-find-my-license-key/"
+msgstr ""
+
+#: index.js:1
+msgid "Please enter a valid license key!"
+msgstr ""
+
+#: index.js:1
+msgid "Please choose an installation type!"
+msgstr ""
+
+#: index.js:1
+msgid "Installation type"
+msgstr ""
+
+#: index.js:1
+msgid "Select installation type..."
+msgstr ""
+
+#: index.js:1
+msgid "Production"
+msgstr ""
+
+#: index.js:1
+msgid "Development"
+msgstr ""
+
+#: index.js:1
+msgid "What is an installation type?"
+msgstr ""
+
+#: index.js:1
+msgid "You can use each license in production as well as in development environments. Please note that in development environments, you may see a notice that this is a developer-only license."
+msgstr ""
+
+#: index.js:1
+msgid "Generally speaking, you use \"Development\" when your site is not yet live, or it is a staging environment of your site. \"Production\" is what you use once your site is live. You can change the installation-type at any time by deactivating the license and activate it again."
+msgstr ""
+
+#: index.js:1
+msgid "Manage licenses in the customer center"
+msgstr ""
+
+#: index.js:1
+msgid "Updates containing bug fixes and new features will be downloaded and installed automatically."
+msgstr ""
+
+#: index.js:1
+msgid "Please confirm that you have read the privacy policy!"
+msgstr ""
+
+#: index.js:1
+msgid "I allow to transfer technical data about this WordPress installation to the update server of %1$s and get latest announcements. This data is required for license activation and update functionality. I have read and agree to the {{a}}privacy policy{{/a}} of %1$s."
+msgstr ""
+
+#: index.js:1
+msgid "I allow telemetry data about the use of this WordPress plugin to be collected in accordance with the %1$s {{a}}privacy policy{{/a}}. This data does not include any personal information about users of the plugin. Collected data will be used to provide you with the best possible support and to improve the plugin."
+msgstr ""
+
+#: index.js:1
+msgid "I would like to receive the %1$s newsletter with WordPress news, sales and product offers (approx. 1-2 per month) by email. I have read the %1$s {{a}}privacy policy{{/a}} and agree to it. I know that I can unsubscribe from the newsletter at any time."
+msgstr ""
+
+#: index.js:1
+msgid "First name"
+msgstr ""
+
+#: index.js:1
+msgid "Please enter your first name!"
+msgstr ""
+
+#: index.js:1
+msgid "Email"
+msgstr ""
+
+#: index.js:1
+msgid "Please enter your email address!"
+msgstr ""
+
+#: index.js:1
+msgid "Please note that we will send you an email for confirmation. Only after you have clicked on the activation link within the email, you will receive the newsletter."
+msgstr ""
+
+#: index.js:1
+msgid "Activated %s"
+msgstr ""
+
+#: index.js:1
+msgid "Telemetry data sharing enabled"
+msgstr ""
+
+#: index.js:1
+msgid "Telemetry data sharing disabled"
+msgstr ""
+
+#: index.js:1
+msgid "Your license key"
+msgstr ""
+
+#: index.js:1
+msgid "Your installation is fully activated."
+msgstr ""
+
+#: index.js:1
+msgid "Show announcements for this plugin"
+msgstr ""
+
+#: index.js:1
+msgid "Save"
+msgstr ""
+
+#: index.js:1
+msgid "License settings"
+msgstr ""

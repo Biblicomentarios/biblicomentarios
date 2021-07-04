@@ -1,0 +1,6 @@
+#blog-page-main ol li a, #blog-page-main ul li a{
+    text-decoration: none;
+}
+#blog-page-main {
+    padding-left: 25px;
+}

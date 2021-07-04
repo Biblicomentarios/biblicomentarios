@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2020-09-25 09:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cross/CrossRealCategoryLibrary.php:50
+msgid "Do you manage many categories?"
+msgstr "Verwaltest du viele Kategorien?"
+
+#: cross/CrossRealCategoryLibrary.php:52
+msgid ""
+"Do you still create your categories this way? Get an explorer-like tree view "
+"directly in your posts/page table!"
+msgstr ""
+"Erstellst du deine Kategorien immer noch auf diese Weise? Erhalte eine "
+"Explorer-ähnliche Baumansicht direkt in deinen Beitrags- und Seitentabellen!"
+
+#: cross/CrossRealCategoryLibrary.php:59
+msgid "Manage product categories/attributes?"
+msgstr "Produktkategorien/-attribute verwalten?"
+
+#: cross/CrossRealCategoryLibrary.php:61
+msgid ""
+"Do you still create your product categories and attributes this way? Get an "
+"explorer-like tree view directly to your WooCommerce products table!"
+msgstr ""
+"Erstellst du Produktkategorien und -attribute immer noch auf diese Weise? "
+"Hole dir eine Explorer-ähnliche Baumansicht direkt in deine WooCommerce-"
+"Produkttabelle!"
+
+#: cross/CrossRealCategoryLibrary.php:68
+msgid "Paginate without reload?"
+msgstr "Blättern ohne Nachladen?"
+
+#: cross/CrossRealCategoryLibrary.php:70
+msgid ""
+"Do you want to paginate through your posts and pages without having to "
+"reload the complete page?"
+msgstr ""
+"Möchten du deine Beiträge und Seiten durchblättern, ohne die gesamte Seite "
+"neu laden zu müssen?"
+
+#: cross/CrossRealCategoryLibrary.php:77
+msgid "Assigning much faster?"
+msgstr "Viel schneller zuweisen?"
+
+#: cross/CrossRealCategoryLibrary.php:79
+msgid ""
+"You can move or insert a post or page directly into a category without "
+"having to deal with checkboxes."
+msgstr ""
+"Du kannst einen Beitrag oder eine Seite direkt in eine Kategorie "
+"verschieben, ohne dich mit diesen Checkboxen befassen zu müssen."
+
+#: cross/CrossRealCookieBanner.php:91
+msgid "cookie-banner-frontend.png"
+msgstr "de/cookie-banner-frontend.png"
+
+#: cross/CrossRealCookieBanner.php:93
+msgid "https://devowl.io/go/real-cookie-banner?source=cross-rcb"
+msgstr "https://devowl.io/de/go/real-cookie-banner?source=cross-rcb"
+
+#. translators:
+#: cross/CrossRealCookieBanner.php:110
+msgid "Is %s really set up in compliance with GDPR?"
+msgstr "Ist %s wirklich in Übereinstimmung zur DSGVO eingerichtet?"
+
+#. translators:
+#: cross/CrossRealCookieBanner.php:115
+msgid ""
+"%s is not easy to set up so that you provide all cookies on your website "
+"completely and correctly. How about a simpler alternative like Real Cookie "
+"Banner?"
+msgstr ""
+"%s ist nicht einfach einzurichten, damit du alle Cookies auf deiner Webseite "
+"vollständig und korrekt bereitstellst. Wie wäre es mit einer einfacheren "
+"Alternative wie Real Cookie Banner?"
+
+#: cross/CrossRealCookieBanner.php:128 cross/CrossRealCookieBanner.php:144
+#: cross/CrossRealCookieBanner.php:157
+msgid "Is your website GDPR compliant?"
+msgstr "Ist deine Webseite DSGVO-konform?"
+
+#. translators:
+#: cross/CrossRealCookieBanner.php:131
+msgid ""
+"You use %s as cookie banner. This plugin may not meet all legal requirements "
+"in its default configuration. Real Cookie Banner could be a better "
+"alternative for you!"
+msgstr ""
+"Du verwendest %s als Cookie-Banner. Dieses Plugin erfüllt in seiner "
+"Standardkonfiguration möglicherweise nicht alle gesetzlichen Anforderungen. "
+"Real Cookie Banner könnte eine bessere Alternative für dich sein!"
+
+#. translators:
+#: cross/CrossRealCookieBanner.php:147
+msgid ""
+"You use %s as cookie banner. This plugin is not a full opt-in consent cookie "
+"banner as required by the ePrivacy Directive in the EU. Real Cookie Banner "
+"could be a better alternative for you!"
+msgstr ""
+"Du verwendest %s als Cookie-Banner. Dieses Plugin ist kein Cookie-Banner mit "
+"vollständiger Opt-in-Zustimmung, wie von der ePrivacy-Richtlinie in der EU "
+"gefordert. Real Cookie Banner könnte eine bessere Alternative für dich sein!"
+
+#: cross/CrossRealCookieBanner.php:158
+msgid ""
+"Websites targeting users from the EU and setting non-essential cookies "
+"require an opt-in cookie banner. We recommend Real Cookie Banner as ePrivacy "
+"Directive and GDPR compliant solution for WordPress."
+msgstr ""
+"Webseiten, die sich an Nutzer aus der EU richten und nicht essenzielle "
+"Cookies setzen, erfordern ein Opt-in-Cookie-Banner. Wir empfehlen Real "
+"Cookie Banner als ePrivacy-Richtlinie und DSGVO-konforme Lösung für "
+"WordPress."
+
+#: cross/CrossRealMediaLibrary.php:49
+msgid "File finally found?"
+msgstr "Datei endlich gefunden?"
+
+#: cross/CrossRealMediaLibrary.php:51
+msgid ""
+"Your WordPress site will certainly continue to grow. Organize your media "
+"library with folders!"
+msgstr ""
+"Deine WordPress Website wird sicherlich weiter wachsen. Organisiere deine "
+"Medienbibliothek mit Ordnern!"
+
+#: cross/CrossRealMediaLibrary.php:58
+msgid "Does it take long to find a file?"
+msgstr "Dauert es lange, eine Datei zu finden?"
+
+#: cross/CrossRealMediaLibrary.php:60
+msgid ""
+"Inserting media into a post or page can be stressful. Use folders to "
+"organize your media library!"
+msgstr ""
+"Das Einfügen von Medien in einen Beitrag oder eine Seite kann kompliziert "
+"sein. Verwende Ordner, um deine Medienbibliothek zu organisieren!"
+
+#: cross/CrossRealPhysicalMedia.php:47 cross/CrossRealPhysicalMedia.php:56
+msgid "Did you know that?"
+msgstr "Wusstest du das?"
+
+#: cross/CrossRealPhysicalMedia.php:49 cross/CrossRealPhysicalMedia.php:58
+msgid ""
+"Your uploads can say more than a thousand words. Unfortunately, search "
+"engines do not understand the content of e.g. images. Organize your uploads "
+"directly in meaningful folder names and get a better ranking in search "
+"engines!"
+msgstr ""
+"Deine Uploads können mehr als tausend Worte sagen. Leider verstehen "
+"Suchmaschinen den Inhalt von z.B. Bildern nicht. Organisiere deine Uploads "
+"direkt in aussagekräftigen Ordnernamen und erhalte ein besseres Ranking in "
+"Suchmaschinen!"
+
+#: Service.php:160 Service.php:279
+msgid "No such plugin slug available."
+msgstr "Kein solcher Plugin Slug verfügbar."
+
+#: Service.php:215
+msgid "The abstract implementation for your slug could not be found."
+msgstr "Die abstrakte Implementierung für en Slug wurde nicht gefunden."
+
+#: Service.php:272
+msgid "You must agree to our privacy policy to continue."
+msgstr "Du musst unserer Datenschutzerklärung zustimmen, um fortzufahren."
+
+#. translators:
+#: view/Options.php:50
+msgid "Products of %s"
+msgstr "Produkte von %s"
+
+#. translators:
+#: view/Options.php:72
+msgid ""
+"Show advertising for not yet installed %s products in the WordPress backend"
+msgstr ""
+"Zeige Werbung für noch nicht installierte %s Produkte im WordPress Backend an"
+
+#: WelcomePage.php:58
+msgid "Learn more about this plugin"
+msgstr "Erfahre mehr über dieses Plugin"
+
+#: WelcomePage.php:65 WelcomePage.php:134
+msgid "Support"
+msgstr "Support"
+
+#: WelcomePage.php:72 WelcomePage.php:137
+msgid "Rate plugin"
+msgstr "Plugin bewerten"
+
+#: WelcomePage.php:126
+msgid "Version"
+msgstr "Version"
+
+#: WelcomePage.php:131
+msgid "Info"
+msgstr "Info"
+
+#: WelcomePage.php:145
+msgid "Key feature"
+msgid_plural "Key features"
+msgstr[0] "Hauptfunktion"
+msgstr[1] "Hauptfunktionen"
+
+#: WelcomePage.php:153
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: WelcomePage.php:156
+msgid ""
+"Receive the latest news about devowl.io WordPress plugins directly in your "
+"inbox"
+msgstr ""
+"Erhalte die neuesten Nachrichten über devowl.io WordPress-Plugins direkt in "
+"Ihrem Posteingang"
+
+#: WelcomePage.php:160
+msgid "Enter your email..."
+msgstr "E-Mail-Adresse eingeben..."
+
+#. translators:
+#: WelcomePage.php:168
+msgid ""
+"I want to receive WordPress news from devowl.io via email and agree to the "
+"<a %s>privacy policy</a>."
+msgstr ""
+"Ich möchte WordPress News von devowl.io per E-Mail erhalten und stimme den "
+"<a %s>Datenschutzrichtlinien</a> zu."
+
+#: WelcomePage.php:172
+msgid "https://devowl.io/privacy-policy/"
+msgstr "https://devowl.io/de/datenschutzerklaerung/"
+
+#: WelcomePage.php:179
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: WelcomePage.php:252
+msgid "Additional plugins by devowl.io"
+msgstr "Weitere WordPress-Plugins von devowl.io"
+
+#: WelcomePage.php:322
+msgid "Available in"
+msgstr "Verfügbar in"

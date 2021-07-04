@@ -1,0 +1,45 @@
+.html-options,
+.affected-posts-options,
+.advanced-match-options {
+    display: none;
+}
+
+.expand-icon {
+    background: url("../img/arrow-down-f7f7f7.png") 0 0 no-repeat !important;
+    width: 20px !important;
+    height: 20px !important;
+    float: right;
+    margin: 2px 0;
+    cursor: pointer;
+}
+
+.group-trigger {
+    background: #f7f7f7;
+    cursor: pointer;
+}
+
+.group-title {
+    font-weight: 600;
+    color: #333 !important;
+    text-align: left !important;
+}
+
+.expand-icon.arrow-down {
+    background: url("../img/arrow-up-f7f7f7.png") 0 0 no-repeat !important;
+}
+
+table.daext-items .icons-container {
+    width: 76px !important;
+    max-width: 76px !important;
+}
+
+table.daext-items .clone {
+    background: url("../img/clone.png") 0 0 no-repeat !important;
+    margin-right: 8px !important;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+table.daext-items .clone:hover {
+    background: url("../img/clone-hover.png") 0 0 no-repeat !important;
+}

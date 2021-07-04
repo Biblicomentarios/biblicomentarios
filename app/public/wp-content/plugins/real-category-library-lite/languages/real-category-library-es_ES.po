@@ -1,0 +1,174 @@
+# Copyright (C) 2021 devowl.io
+# This file is distributed under the same license as the Real Category Management plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-03-07 20:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "Real Category Management"
+msgstr "Real Category Management"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://codecanyon.net/item/wordpress-real-category-management-custom-"
+"category-order-tree-view/13580393"
+msgstr ""
+"https://codecanyon.net/item/wordpress-real-category-management-custom-"
+"category-order-tree-view/13580393"
+
+#. Description of the plugin
+msgid ""
+"Manage posts, pages and custom post-types in an explorer-like tree view and "
+"create a custom order for your categories and other taxonomies."
+msgstr ""
+"Administra publicaciones, páginas y tipos de publicaciones personalizadas en "
+"una vista jerárquica parecida a un explorador y crea un orden personalizado "
+"para tus categorías y otras taxonomías."
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr "devowl.io"
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr "https://devowl.io"
+
+#: inc/AdInitiator.php:1
+msgid "Full control over your categories"
+msgstr "Control total de tus categorías"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Do you maintain many categories? The default view of the categories can be a "
+"bit confusing, can’t it? This plugin creates an explorer-like tree on the "
+"left side of your posts table. Create, rename, delete or rearrange your "
+"categories with a single click!"
+msgstr ""
+"¿Mantienes muchas categorías? La vista predeterminada de las categorías "
+"puede ser un poco confusa, ¿verdad? Este complemento crea un árbol similar a "
+"un explorador en el lado izquierdo de la tabla de publicaciones. ¡Crea, "
+"cambia el nombre, elimina o reorganiza tus categorías con un solo clic!"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"In the PRO version you can also enable the tree on pages and custom post "
+"types."
+msgstr ""
+"En la versión PRO también puedes habilitar el árbol en páginas y tipos de "
+"publicaciones personalizadas."
+
+#: inc/AdInitiator.php:1
+msgid "Supports WooCommerce products"
+msgstr "Admite productos WooCommerce"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Shop managers with many products also have to maintain numerous categories. "
+"Wouldn't it be helpful to maintain the product categories and attributes "
+"more elegantly?"
+msgstr ""
+"Los gerentes de tiendas con muchos productos también deben mantener "
+"numerosas categorías. ¿No sería útil mantener las categorías de productos y "
+"los atributos de una manera más elegante?"
+
+#: inc/AdInitiator.php:1
+msgid "Switch pages without page reload"
+msgstr "Cambiar de página sin recargar la página"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Switching between pages or categories can usually take some time. With this "
+"plugin you can enjoy a fast loading of your tables."
+msgstr ""
+"El cambio entre páginas o categorías suele llevar tiempo. Con este "
+"complemento puedes disfrutar de una carga rápida de tus tablas."
+
+#: inc/AdInitiator.php:1
+msgid "Go to settings"
+msgstr "Ir a la configuración"
+
+#: inc/overrides/pro/PageCategory.php:1
+msgid "Page Categories"
+msgstr "Categorías de página"
+
+#: inc/overrides/pro/PageCategory.php:1
+msgid "Page Category"
+msgstr "Categoría de página"
+
+#: inc/overrides/pro/PageCategory.php:1
+msgid "Categories"
+msgstr "Categorías"
+
+#: inc/rest/Post.php:1
+msgid "Something went wrong."
+msgstr "Algo ha ido mal."
+
+#: inc/rest/Service.php:1
+msgid "No type or valid taxonomy provided."
+msgstr "No se proporciona ningún tipo o taxonomía válida."
+
+#: inc/rest/Service.php:1
+msgid "No type or taxonomy provided."
+msgstr "No se proporciona ningún tipo ni taxonomía."
+
+#: inc/rest/Service.php:1
+msgid "The passed term id was not found."
+msgstr "No se encontró el ID del término aprobado."
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "Prohibido"
+
+#: inc/rest/Service.php:1
+msgid "Real Category Management is not active for the current user."
+msgstr "Real Category Management no está activo para el usuario actual."
+
+#: inc/rest/Term.php:1
+msgid "Unknown error: The term could not be created."
+msgstr "Error desconocido: no se pudo crear el término."
+
+#: inc/rest/Term.php:1
+msgid "Category does not exist."
+msgstr "Categoría no existe."
+
+#: inc/rest/Term.php:1
+msgid "You can not delete the default category."
+msgstr "No puedes eliminar la categoría predeterminada."
+
+#. translators:
+#: inc/TaxOrder.php:1
+msgid "No categories found for this post type (%1$s) with the taxonomy (%2$s)."
+msgstr ""
+"No se han encontrado categorías para este tipo de publicación (%1$s) con la "
+"taxonomía (%2$s)."
+
+#: inc/TaxOrder.php:1
+msgid "No item found."
+msgstr "No se ha encontrado ningún artículo."
+
+#: inc/view/ConfigPage.php:1
+msgid "Category Management"
+msgstr "Gestión por categorías"
+
+#: inc/view/ConfigPage.php:1
+msgid "Settings"
+msgstr "Ajustes"
+
+#~ msgid ""
+#~ "<strong>You have not yet entered the license key</strong>. To receive "
+#~ "automatic updates, please enter the key in \"Enter license\"."
+#~ msgstr ""
+#~ "<strong>Aún no has introducido la clave de licencia</strong>. Para "
+#~ "recibir actualizaciones automáticas, por favor introduce la clave en "
+#~ "«Introducir licencia»."

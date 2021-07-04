@@ -1,0 +1,27 @@
+/*
+Plugin Name: Multipage Plugin
+Plugin URI: http://wordpress.org/plugins/sgr-nextpage-titles/
+Author: Sergio De Falco
+Author URI: https://www.envire.it
+License: GPL v3
+*/
+
+i.mce-i-subpage:before {
+	content: "\f133";
+}
+
+i.mce-i-subpage {
+	font: 400 20px/1 dashicons;
+	margin-left: -2px;
+	padding: 0 2px 0 0;
+	vertical-align: top
+}
+
+.clear{
+	clear: both;
+}
+
+.settings_page_mpp-settings label a {
+	text-decoration: none;
+	color: #444;
+}

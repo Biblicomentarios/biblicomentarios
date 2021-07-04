@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#: admin.js:1
+msgid "Did you know that?"
+msgstr ""
+
+#: admin.js:1
+msgid "You are now able to sort your post entries with drag & drop. Just drag this bar and you are ready to sort! Tip: You can enable/disable sortable functionality in \"Screen settings\"."
+msgstr ""

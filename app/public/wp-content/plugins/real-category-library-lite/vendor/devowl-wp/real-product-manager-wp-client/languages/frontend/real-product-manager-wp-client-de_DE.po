@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-04-15 17:02+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: index.js:1
+msgid "Upgrade to PRO Version"
+msgstr "Upgrade auf PRO-Version"
+
+#: index.js:1
+msgid "Plugin do not work"
+msgstr "Plugin funktioniert nicht"
+
+#: index.js:1
+msgid "Not the features I want"
+msgstr "Nicht die gewünschten Features"
+
+#: index.js:1
+msgid "Incompatible with themes/plugins"
+msgstr "Inkompatibel mit Themes/Plugins"
+
+#: index.js:1
+msgid "Lack of documentation"
+msgstr "Fehlende Dokumentation"
+
+#: index.js:1
+msgid "Found a better plugin"
+msgstr "Besseres Plugin gefunden"
+
+#: index.js:1
+msgid "Temporary deactivation"
+msgstr "Temporäre Deaktivierung"
+
+#: index.js:1
+msgid "Other"
+msgstr "Anderer Grund"
+
+#: index.js:1
+msgid "Are you sure you want to leave the feedback form?"
+msgstr "Bist du sicher, dass du das Feedback-Formular verlassen möchtest?"
+
+#: index.js:1
+msgid "Skip & Deactivate"
+msgstr "Überspringen & Deaktivieren"
+
+#: index.js:1
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: index.js:1
+msgid "Sorry to see you go"
+msgstr "Tut uns leid, dich gehen zu sehen"
+
+#: index.js:1
+msgid "Please give us feedback why you deactivate %s."
+msgstr "Bitte gib uns Feedback, warum du %s deaktivierst."
+
+#: index.js:1
+msgid "Please provide a reason!"
+msgstr "Bitte gib einen Grund an!"
+
+#: index.js:1
+msgid "What could we do better?"
+msgstr "Was könnten wir besser machen?"
+
+#: index.js:1
+msgid "Email for answer/solution"
+msgstr "E-Mail für Antwort/Lösung"
+
+#: index.js:1
+msgid "Please provide a valid email!"
+msgstr "Bitte gib eine gültige E-Mail an!"
+
+#: index.js:1
+msgid "Please confirm that you have checked the privacy policy."
+msgstr ""
+"Bitte bestätige, dass du die Datenschutzbestimmungen zur Kenntnis genommen "
+"hast."
+
+#: index.js:1
+msgid ""
+"I would like to receive an answer for my issue. For this purpose I agree to "
+"the data processing of my feedback and my email address. I have read the %s "
+"{{a}}privacy policy{{/a}} and agree to it."
+msgstr ""
+"Ich würde gerne eine Antwort auf meine Frage erhalten. Zu diesem Zweck "
+"stimme ich der Datenverarbeitung meines Feedbacks und meiner E-Mail-Adresse "
+"zu. Ich habe die %s {{a}}Datenschutzerklärung{{/a}} gelesen und stimme "
+"dieser zu."
+
+#: index.js:1
+msgid ""
+"Allow us to reply to you via email and we will get back to you in a timely "
+"manner!"
+msgstr ""
+"Erlaube uns, dir per E-Mail zu antworten und wir werden uns zeitnah bei dir "
+"melden!"
+
+#: index.js:1
+msgid ""
+"Are there any problems with setting up or using the plugin? Maybe we can "
+"help you in the support. {{a}}Contact support{{/a}}."
+msgstr ""
+"Gibt es Probleme beim Einrichten oder bei der Benutzung des Plugins? "
+"Vielleicht können wir dir im Support helfen. {{a}}Kontakt zum Support{{/a}}."
+
+#: index.js:1
+msgid "https://devowl.io/support"
+msgstr "https://devowl.io/support"
+
+#: index.js:1
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
+#: index.js:1
+msgid "Your license has been activated!"
+msgstr "Deine Lizenz wurde aktiviert!"
+
+#: index.js:1
+msgid ""
+"https://devowl.io/knowledge-base/the-limit-of-activated-clients-for-this-"
+"license-has-already-been-reached/"
+msgstr ""
+"https://devowl.io/de/wissensdatenbank/das-limit-der-aktivierten-clients-fuer-"
+"diese-lizenz-wurde-bereits-erreicht/"
+
+#: index.js:1
+msgid "Installation type and license key for {{strong}}%s{{/strong}}"
+msgstr "Installationstyp und Lizenzschlüssel für {{strong}}%s{{/strong}}"
+
+#: index.js:1
+msgid "Installation type and license key"
+msgstr "Installationstyp und Lizenzschlüssel"
+
+#: index.js:1
+msgid ""
+"https://devowl.io/knowledge-base/devowl-where-can-i-find-my-license-key/"
+msgstr ""
+"https://devowl.io/de/wissensdatenbank/devowl-wo-finde-ich-meinen-"
+"lizenzschluessel/"
+
+#: index.js:1
+msgid "Please enter a valid license key!"
+msgstr "Bitte gib einen gültigen Lizenzschlüssel ein!"
+
+#: index.js:1
+msgid "Please choose an installation type!"
+msgstr "Bitte wähle einen Installationstyp!"
+
+#: index.js:1
+msgid "Installation type"
+msgstr "Installationstyp"
+
+#: index.js:1
+msgid "Select installation type..."
+msgstr "Installationstyp auswählen…"
+
+#: index.js:1
+msgid "Production"
+msgstr "Produktion"
+
+#: index.js:1
+msgid "Development"
+msgstr "Entwicklung"
+
+#: index.js:1
+msgid "What is an installation type?"
+msgstr "Was ist ein Installationstyp?"
+
+#: index.js:1
+msgid ""
+"You can use each license in production as well as in development "
+"environments. Please note that in development environments, you may see a "
+"notice that this is a developer-only license."
+msgstr ""
+"Du kannst jede Lizenz sowohl in Produktions- als auch in "
+"Entwicklungsumgebungen verwenden. Bitte beachte, dass du in "
+"Entwicklungsumgebungen einen Hinweis darauf sehen kannst, dass es sich um "
+"eine Entwicklerlizenz handelt."
+
+#: index.js:1
+msgid ""
+"Generally speaking, you use \"Development\" when your site is not yet live, "
+"or it is a staging environment of your site. \"Production\" is what you use "
+"once your site is live. You can change the installation-type at any time by "
+"deactivating the license and activate it again."
+msgstr ""
+"Allgemein gesprochen, verwendest Du \"Entwicklung\", wenn Deine Seite noch "
+"nicht live ist oder es sich um ein Staging-Umgebung Deiner Website handelt. "
+"\"Produktion\" verwendest Du, sobald Deine Website öffentlich ist. Du kannst "
+"den Installations-Typen später jederzeit ändern, indem Du die Lizenz "
+"deaktivierst und erneut aktivierst."
+
+#: index.js:1
+msgid "Manage licenses in the customer center"
+msgstr "Verwalte Lizenzen im Kundencenter"
+
+#: index.js:1
+msgid ""
+"Updates containing bug fixes and new features will be downloaded and "
+"installed automatically."
+msgstr ""
+"Updates, die Fehlerkorrekturen und neue Funktionen enthalten, werden "
+"automatisch heruntergeladen und installiert."
+
+#: index.js:1
+msgid "Please confirm that you have read the privacy policy!"
+msgstr "Bitte bestätige, dass du die Datenschutzerklärung gelesen hast!"
+
+#: index.js:1
+msgid ""
+"I allow to transfer technical data about this WordPress installation to the "
+"update server of %1$s and get latest announcements. This data is required "
+"for license activation and update functionality. I have read and agree to "
+"the {{a}}privacy policy{{/a}} of %1$s."
+msgstr ""
+"Ich erlaube, technische Daten über diese WordPress-Installation auf den "
+"Update-Server von %1$s zu übertragen und aktuelle Ankündigungen zu erhalten. "
+"Diese Daten werden für die Lizenzaktivierung und Updatefunktionalität "
+"benötigt. Ich habe die {{a}}Datenschutzerklärung{{/a}} von %1$s gelesen und "
+"stimme ihr zu."
+
+#: index.js:1
+msgid ""
+"I allow telemetry data about the use of this WordPress plugin to be "
+"collected in accordance with the %1$s {{a}}privacy policy{{/a}}. This data "
+"does not include any personal information about users of the plugin. "
+"Collected data will be used to provide you with the best possible support "
+"and to improve the plugin."
+msgstr ""
+"Ich erlaube die Erhebung von Telemetrie-Daten über die Nutzung dieses "
+"WordPress-Plugins in Einklang mit der %1$s {{a}}privacy policy{{/a}}. Diese "
+"Daten enthalten keine persönlichen Informationen über die Nutzer des "
+"Plugins. Die gesammelten Daten werden verwendet, um dir den bestmöglichen "
+"Support zu bieten und das Plugin zu verbessern."
+
+#: index.js:1
+msgid ""
+"I would like to receive the %1$s newsletter with WordPress news, sales and "
+"product offers (approx. 1-2 per month) by email. I have read the %1$s {{a}}"
+"privacy policy{{/a}} and agree to it. I know that I can unsubscribe from the "
+"newsletter at any time."
+msgstr ""
+"Ich möchte den %1$s Newsletter mit WordPress News, Angeboten und "
+"Produktneuheiten (ca. 1-2 pro Monat) per E-Mail erhalten. Ich habe die %1$s "
+"{{a}}Datenschutzerklärung {{/a}} gelesen und bin damit einverstanden. Ich "
+"weiß, dass ich den Newsletter jederzeit abbestellen kann."
+
+#: index.js:1
+msgid "First name"
+msgstr "Vorname"
+
+#: index.js:1
+msgid "Please enter your first name!"
+msgstr "Bitte gib deinen Vornamen ein!"
+
+#: index.js:1
+msgid "Email"
+msgstr "E-Mail"
+
+#: index.js:1
+msgid "Please enter your email address!"
+msgstr "Bitte gib deine E-Mail-Adresse ein!"
+
+#: index.js:1
+msgid ""
+"Please note that we will send you an email for confirmation. Only after you "
+"have clicked on the activation link within the email, you will receive the "
+"newsletter."
+msgstr ""
+"Bitte beachte, dass wir dir eine E-Mail zur Bestätigung schicken werden. "
+"Erst nachdem du auf den Aktivierungslink in der E-Mail geklickt hast, "
+"erhältst du den Newsletter."
+
+#: index.js:1
+msgid "Activated %s"
+msgstr "%s aktiviert"
+
+#: index.js:1
+msgid "Telemetry data sharing enabled"
+msgstr "Teilen von Telemetrie-Daten aktiviert"
+
+#: index.js:1
+msgid "Telemetry data sharing disabled"
+msgstr "Teilen von Telemetrie-Daten deaktiviert"
+
+#: index.js:1
+msgid "Your license key"
+msgstr "Dein Lizenzschlüssel"
+
+#: index.js:1
+msgid "Your installation is fully activated."
+msgstr "Deine Installation ist vollständig aktiviert."
+
+#: index.js:1
+msgid "Show announcements for this plugin"
+msgstr "Ankündigungen für dieses Plugin anzeigen"
+
+#: index.js:1
+msgid "Save"
+msgstr "Speichern"
+
+#: index.js:1
+msgid "License settings"
+msgstr "Lizenzeinstellungen"
+
+#~ msgid "View and manage my licenses"
+#~ msgstr "Meine Lizenzen anzeigen und verwalten"
+
+#~ msgid "Theme / Plugin incompatibility"
+#~ msgstr "Inkompatibel mit anderen Themes oder Plugins"
+
+#~ msgid "Please input a valid email here!"
+#~ msgstr "Bitte gib deine E-Mail Adresse ein!"

@@ -1,0 +1,380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Creating \"%s\"..."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "\"%s\" successfully created."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Category tree will be reordered soon..."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Category tree is successfully reordered."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Categories"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "No category found"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Click the button above to create a new category."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "No search results found"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Cancel"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Click this to create a new category"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "To create a subcategory, simply select a category from the list and click this button."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "New"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Back"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Save"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Reorder entries"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Start to reorder the entries with the help of the free plugin {{strong}}Real Custom Post Order{{/strong}}."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Refresh"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Refreshes the category view."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Rename"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Rename the currently selected category."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Delete"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Delete the currently selected category."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Rearrange"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Change the hierarchical order of the categories."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "View and edit category"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Select a category and see more details about it or edit it."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Product not yet activated. {{a}}Activate now{{/a}} or {{d}}dismiss notice{{/d}}."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Enable category tree"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Thanks for using Real Category Management (Free)."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Learn more about PRO"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Hide for 20 days"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "PRO feature"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Unlock feature"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Move"
+msgid_plural "Move %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Hold any key to assign to an additional category"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Copy"
+msgid_plural "Copy %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Release key to move"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Copying post to %(category)s..."
+msgid_plural "Copying %(count)d posts to %(category)s..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Moving post to %(category)s..."
+msgid_plural "Moving %(count)d posts to %(category)s..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Post successfully copied."
+msgid_plural "%(count)d posts successfully copied."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Post successfully moved."
+msgid_plural "%(count)d posts successfully moved."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "No entries"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Renaming \"%s\"..."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "\"%s\" successfully renamed."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "If you want to use the custom order functionality for this post type, you need to install and activate the free plugin \"Real Custom Post Order\"."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Install plugin"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "\"Simple Page Ordering\" is not available here. You can only reorder post types with hierarchical structure and an \"Order\" attribute."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Learn more"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "You can not delete \"%s\" because it contains subcategories."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Deleting \"%s\"..."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "\"%s\" successfully deleted."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "Are you sure you want to delete \"%s\"? Note: The posts in this category will NOT be deleted automatically."
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+msgid "OK"
+msgstr ""
+
+#: admin.lite.js:1
+#: admin.pro.js:1
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "All posts"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Category Management"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "You can decide for which post types the additional features of Real Category Management should apply."
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Category tree enabled for %s."
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Category tree disabled for %s."
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Pagination without reloading the page enabled for %s."
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Pagination without reloading the page disabled for %s."
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Custom Post Type UI"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "To create custom taxonomies we highly recommend to use the 3rd party plugin Custom Post Type UI. Would you like to install and activate it now?"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Open"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "There are no taxonomies available for this post type. You need to register your own taxonomy so that you can organize your content into its categories."
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Create custom taxonomy"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Post type"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Show category tree"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Pagination without page reload"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Media"
+msgstr ""
+
+#: options.lite.js:1
+#: options.pro.js:1
+msgid "Use Real Media Library to enable folder management"
+msgstr ""

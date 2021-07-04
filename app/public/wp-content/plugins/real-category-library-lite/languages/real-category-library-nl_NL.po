@@ -1,0 +1,172 @@
+# Copyright (C) 2021 devowl.io
+# This file is distributed under the same license as the Real Category Management plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-03-05 12:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "Real Category Management"
+msgstr "Real Category Management"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://codecanyon.net/item/wordpress-real-category-management-custom-"
+"category-order-tree-view/13580393"
+msgstr ""
+"https://codecanyon.net/item/wordpress-real-category-management-custom-"
+"category-order-tree-view/13580393"
+
+#. Description of the plugin
+msgid ""
+"Manage posts, pages and custom post-types in an explorer-like tree view and "
+"create a custom order for your categories and other taxonomies."
+msgstr ""
+"Beheer posts, pagina's en eigen posttypes in een verkennerachtig "
+"bomenoverzicht en creëer een custom order voor uw categorieën en andere "
+"taxonomieën."
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr "devowl.io"
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr "https://devowl.io"
+
+#: inc/AdInitiator.php:1
+msgid "Full control over your categories"
+msgstr "Volledige controle over uw categorieën"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Do you maintain many categories? The default view of the categories can be a "
+"bit confusing, can’t it? This plugin creates an explorer-like tree on the "
+"left side of your posts table. Create, rename, delete or rearrange your "
+"categories with a single click!"
+msgstr ""
+"Onderhoud u veel verschillende categorieën? Het standaardoverzicht van de "
+"categorieën kan vrij verwarrend zijn, toch? Deze plugin creëert een "
+"verkennerachtige boom aan de linkerkant van uw posttabel. Creëer, hernoem, "
+"verwijder of herorden uw categorieën met slechts één klik!"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"In the PRO version you can also enable the tree on pages and custom post "
+"types."
+msgstr ""
+"In de PRO-versie kunt u ook de boom activeren op pagina's en eigen posttypes."
+
+#: inc/AdInitiator.php:1
+msgid "Supports WooCommerce products"
+msgstr "Ondersteunt WooCommerce producten"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Shop managers with many products also have to maintain numerous categories. "
+"Wouldn't it be helpful to maintain the product categories and attributes "
+"more elegantly?"
+msgstr ""
+"Winkeleigenaren met veel producten moeten ook talloze categorieën "
+"onderhouden. Zou het niet handiger zijn om de productcategorieën en "
+"kenmerken eleganter weer te geven?"
+
+#: inc/AdInitiator.php:1
+msgid "Switch pages without page reload"
+msgstr "Tussen pagina's wisselen zonder dat deze herladen"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Switching between pages or categories can usually take some time. With this "
+"plugin you can enjoy a fast loading of your tables."
+msgstr ""
+"Tussen pagina's of categorieën wisselen neemt vaak tijd in beslag. Met deze "
+"plugin kunt u genieten van het snel laden van uw tabellen."
+
+#: inc/AdInitiator.php:1
+msgid "Go to settings"
+msgstr "Ga naar instellingen"
+
+#: inc/overrides/pro/PageCategory.php:1
+msgid "Page Categories"
+msgstr "Pagina-categorieën"
+
+#: inc/overrides/pro/PageCategory.php:1
+msgid "Page Category"
+msgstr "Pagina-categorie"
+
+#: inc/overrides/pro/PageCategory.php:1
+msgid "Categories"
+msgstr "Categorieën"
+
+#: inc/rest/Post.php:1
+msgid "Something went wrong."
+msgstr "Er is iets misgegaan."
+
+#: inc/rest/Service.php:1
+msgid "No type or valid taxonomy provided."
+msgstr "Geen type of geldige taxonomie ingevoerd."
+
+#: inc/rest/Service.php:1
+msgid "No type or taxonomy provided."
+msgstr "Geen type of taxonomie ingevoerd."
+
+#: inc/rest/Service.php:1
+msgid "The passed term id was not found."
+msgstr "De ingevoerde term id is niet gevonden."
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "Verboden"
+
+#: inc/rest/Service.php:1
+msgid "Real Category Management is not active for the current user."
+msgstr "Real Category Management is niet actief voor de huidige gebruiker."
+
+#: inc/rest/Term.php:1
+msgid "Unknown error: The term could not be created."
+msgstr "Onbekende fout: Deze term kan niet worden gecreëerd."
+
+#: inc/rest/Term.php:1
+msgid "Category does not exist."
+msgstr "Categorie bestaat niet."
+
+#: inc/rest/Term.php:1
+msgid "You can not delete the default category."
+msgstr "U kunt de standaardcategorie niet verwijderen."
+
+#. translators:
+#: inc/TaxOrder.php:1
+msgid "No categories found for this post type (%1$s) with the taxonomy (%2$s)."
+msgstr ""
+"Geen categorieën gevonden voor dit posttype (%1$s) met de taxonomie (%2$s)."
+
+#: inc/TaxOrder.php:1
+msgid "No item found."
+msgstr "Geen item gevonden."
+
+#: inc/view/ConfigPage.php:1
+msgid "Category Management"
+msgstr "Categoriebeheer"
+
+#: inc/view/ConfigPage.php:1
+msgid "Settings"
+msgstr "Instellingen"
+
+#~ msgid ""
+#~ "<strong>You have not yet entered the license key</strong>. To receive "
+#~ "automatic updates, please enter the key in \"Enter license\"."
+#~ msgstr ""
+#~ "<strong>U heeft uw licentiesleutel nog niet ingevoerd</strong>. Om "
+#~ "automatische updates te ontvangen, voer alstublieft de sleutel in bij "
+#~ "\"Licentie invoeren\"."

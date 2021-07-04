@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Auto Links\n"
+"POT-Creation-Date: 2013-09-16 14:29+0100\n"
+"PO-Revision-Date: 2013-09-17 11:39+0100\n"
+"Last-Translator: Maarten Brakkee <maarten.brakkee@protagonist.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: Nederlands\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../seo-auto-links-admin.php:9
+msgid ""
+"With SEO Auto Links you can easily add (automatically) links for keywords "
+"and phrases in posts, pages and comments and link them to corresponding "
+"posts, pages, categories, tags or any URL. Set the following settings to "
+"your own needs and let SEO Auto Links do the work for you."
+msgstr ""
+"Met SEO Auto Links kunt u gemakkelijk links (automatisch) toevoegen voor "
+"trefwoorden en zinnen in berichten, pagina''s en reacties en deze linken "
+"naar bijbehorende berichten, pagina's, categorieën, tags of een willekeurige "
+"url. Stel de volgende instellingen in naar uw eigen wensen en laat SEO Auto "
+"Links het werk voor u doen."
+
+#: ../seo-auto-links-admin.php:10
+msgid ""
+"If you find any bugs or have ideas for the plugin, please let me know at:"
+msgstr ""
+"Als u fouten vindt of ideeën heeft voor de plugin, laat het mij weten op:"
+
+#: ../seo-auto-links-admin.php:10
+msgid "Post your found bug or idea at WordPress.org"
+msgstr "Plaats uw gevonden bug of idee op WordPress.org"
+
+#: ../seo-auto-links-admin.php:13
+msgid "Internal Links"
+msgstr "Interne Links"
+
+#: ../seo-auto-links-admin.php:15
+msgid ""
+"SEO Auto Links can process your posts, pages and comments in search for "
+"keywords to automatically interlink."
+msgstr ""
+"SEO Auto Links kan uw berichten, pagina's en reacties verwerken om "
+"trefwoorden te zoeken om automatisch intern te linken."
+
+#: ../seo-auto-links-admin.php:19 ../seo-auto-links-admin.php:114
+msgid "Posts"
+msgstr "Berichten"
+
+#: ../seo-auto-links-admin.php:20 ../seo-auto-links-admin.php:24
+#: ../seo-auto-links-admin.php:28 ../seo-auto-links-admin.php:32
+#: ../seo-auto-links-admin.php:48 ../seo-auto-links-admin.php:99
+#: ../seo-auto-links-admin.php:115 ../seo-auto-links-admin.php:119
+#: ../seo-auto-links-admin.php:123 ../seo-auto-links-admin.php:127
+#: ../seo-auto-links-admin.php:135 ../seo-auto-links-admin.php:139
+msgid "Enable"
+msgstr "Activeren"
+
+#: ../seo-auto-links-admin.php:20 ../seo-auto-links-admin.php:24
+msgid "Allow self linking"
+msgstr "Links naar zelf toestaan"
+
+#: ../seo-auto-links-admin.php:23 ../seo-auto-links-admin.php:118
+msgid "Pages"
+msgstr "Pagina's"
+
+#: ../seo-auto-links-admin.php:27
+msgid "Comments"
+msgstr "Reacties"
+
+#: ../seo-auto-links-admin.php:28 ../seo-auto-links-admin.php:123
+#: ../seo-auto-links-admin.php:127
+msgid "May slow down performance."
+msgstr "Kan de zorgen voor meer laadtijd."
+
+#: ../seo-auto-links-admin.php:31
+msgid "RSS feeds"
+msgstr "RSS feeds"
+
+#: ../seo-auto-links-admin.php:32
+msgid ""
+"Allow processing of RSS feeds. SEO Auto links will embed links in all posts "
+"in your RSS feed (according to other options)."
+msgstr ""
+"RSS-feeds verwerken toestaan. SEO Auto links zal links in al uw berichten in "
+"de RSS-feed insluiten (volgens andere opties)."
+
+#: ../seo-auto-links-admin.php:35
+msgid "Max Links"
+msgstr "Max. Links"
+
+#: ../seo-auto-links-admin.php:36
+msgid ""
+"You can limit the maximum number of different links that will be generated "
+"per post. Set to 0 for no limit."
+msgstr ""
+"U kunt het maximale aantal verschillende links limiteren welke zullen worden "
+"gegenereerd per bericht. Stel in op 0 voor geen limiet."
+
+#: ../seo-auto-links-admin.php:39
+msgid "Max Keyword Links"
+msgstr "Max. Trefwoord Links"
+
+#: ../seo-auto-links-admin.php:40
+msgid ""
+"You can limit the maximum number of links created with the same keyword. Set "
+"to 0 for no limit."
+msgstr ""
+"U kunt het maximale aantal links met hetzelfde trefwoord limiteren. Stel in "
+"op 0 voor geen limiet."
+
+#: ../seo-auto-links-admin.php:43
+msgid "Max Same URLs"
+msgstr "Max. zelfde urls"
+
+#: ../seo-auto-links-admin.php:44
+msgid ""
+"Limit number of same URLs the plugin will link to. Works only when Max "
+"Keyword Links above is set to 1. Set to 0 for no limit."
+msgstr ""
+"Limiteer het aantal zelfde urls waarnaar de plugin linkt.  Werkt alleen als "
+"Max. Trefwoord Links hierboven is ingesteld op 1. Voor geen limiet, "
+"instellen op 0."
+
+#: ../seo-auto-links-admin.php:47
+msgid "Case sensitive"
+msgstr "Hoofdlettergevoelig"
+
+#: ../seo-auto-links-admin.php:48
+msgid "Set whether matching should be case sensitive."
+msgstr "Instellen of overeenkomsten hoofdletter gevoelig zijn."
+
+#: ../seo-auto-links-admin.php:52 ../seo-auto-links-admin.php:76
+#: ../seo-auto-links-admin.php:103 ../seo-auto-links-admin.php:143
+msgid "Save all settings"
+msgstr "Alles opslaan"
+
+#: ../seo-auto-links-admin.php:57
+msgid "Custom Keywords"
+msgstr "Aangepaste Trefwoorden"
+
+#: ../seo-auto-links-admin.php:59
+msgid ""
+"Here you can enter manually the extra keywords you want to automaticaly "
+"link. Use comma to seperate keywords and add target url at the end. Use a "
+"new line for new url and set of keywords. You can have these keywords link "
+"to any url, not only your site."
+msgstr ""
+"Hier kunt u handmatig extra trefwoorden opgeven u automatisch wenst te "
+"linken. Gebruik komma's om trefwoorden te scheiden en voeg de doel url aan "
+"het einde toe. Gebruik een nieuwe regel voor een nieuwe url en een "
+"trefwoorden set.  U kunt de trefwoorden laten verwijzen naar elke url, niet "
+"alleen van uw site."
+
+#: ../seo-auto-links-admin.php:63
+msgid "Keywords & links"
+msgstr "Trefwoorden en links"
+
+#: ../seo-auto-links-admin.php:64
+msgid "Example"
+msgstr "Voorbeeld"
+
+#: ../seo-auto-links-admin.php:64
+msgid "google webmaster, http://www.google.com/webmasters/"
+msgstr "google webmaster, http://www.google.com/webmasters/"
+
+#: ../seo-auto-links-admin.php:64
+msgid "wiki, wikipedia, http://wikipedia.org"
+msgstr "wiki, wikipedia, http://wikipedia.org"
+
+#: ../seo-auto-links-admin.php:67
+msgid "Grouped keywords"
+msgstr "Gegroepeerde trefwoorden"
+
+#: ../seo-auto-links-admin.php:68
+msgid "Prevent duplicate"
+msgstr "Dubbele voorkomen"
+
+#: ../seo-auto-links-admin.php:68
+msgid ""
+"Prevent Duplicate links for grouped keywords (will link only first of the "
+"keywords found in text)."
+msgstr ""
+"Voorkom dubbele links voor gegroepeerde trefwoorden (alleen het eerst "
+"gevonden trefwoord wordt gelinkt)."
+
+#: ../seo-auto-links-admin.php:71
+msgid "Load from URL"
+msgstr "Laad van url"
+
+#: ../seo-auto-links-admin.php:72
+msgid "Load custom keywords from a URL. This appends to the list above."
+msgstr ""
+"Laad aangepaste tredwoorden van een url. Dit breid de lijst hierboven uit."
+
+#: ../seo-auto-links-admin.php:81
+msgid "Excluding"
+msgstr "Uitsluiten"
+
+#: ../seo-auto-links-admin.php:86
+msgid "Heading"
+msgstr "Kopteksten"
+
+#: ../seo-auto-links-admin.php:87
+msgid "Exclude"
+msgstr "Uitsluiten"
+
+#: ../seo-auto-links-admin.php:87
+msgid "Prevent linking in heading tags (h1, h2, h3, h4, h5 and h6)."
+msgstr "Voorkom links in kopteksten (h1, h2, h3, h4, h5 en h6)."
+
+#: ../seo-auto-links-admin.php:90
+msgid "Ignore posts / pages"
+msgstr "Negeer berichten / pagina's"
+
+#: ../seo-auto-links-admin.php:91
+msgid ""
+"You may wish to forbid automatic linking on certain posts or pages. Separate "
+"them by comma (ID, slug or name)."
+msgstr ""
+"Het zou kunnen dat u wenst automatisch linken uit te schakelen voor bepaalde "
+"berichten of pagina's. Scheid ze met een komma (ID, slug of naam)."
+
+#: ../seo-auto-links-admin.php:94
+msgid "Ignore keywords"
+msgstr "Negeer trefwoorden"
+
+#: ../seo-auto-links-admin.php:95
+msgid ""
+"You may wish to ignore certain words or phrases from automatic linking. "
+"Separate them by comma."
+msgstr ""
+"Het kan voorkomen dat u bepaalde woorden of zinnen wilt uitsluiten van "
+"automatisch linken. Scheid ze met een komma."
+
+#: ../seo-auto-links-admin.php:98
+msgid "Single posts / pages only"
+msgstr "Alleen enkele berichten / pagina's"
+
+#: ../seo-auto-links-admin.php:99
+msgid ""
+"To reduce database load you can choose to have SEO Auto links work only on "
+"single posts and pages (for example not on main page or archives)."
+msgstr ""
+"Om database load te verminderen kunt u ervoor kiezen dat SEO Auto links "
+"alleen werkt op enkele berichten en pagina's (bijv. niet op de hoofdpagina "
+"of archieven)."
+
+#: ../seo-auto-links-admin.php:108
+msgid "Targeting"
+msgstr "Linken naar"
+
+#: ../seo-auto-links-admin.php:110
+msgid ""
+"The targets SEO Auto links should consider. The match will be based on post/"
+"page title or category/tag name, case insensitive."
+msgstr ""
+"De doelen SEO Auto links moet overwegen. De overeenkomst zal worden "
+"gebasseerd op bericht / pagina titel of categorie / tag naam, "
+"hoofdlettergevoelig."
+
+#: ../seo-auto-links-admin.php:115
+msgid "Enable to link internal links to posts."
+msgstr "Activeer om intern te linken naar berichten."
+
+#: ../seo-auto-links-admin.php:119
+msgid "Enable to link internal links to pages."
+msgstr "Activeer om intern te linken naar pagina's."
+
+#: ../seo-auto-links-admin.php:122
+msgid "Categories"
+msgstr "Catgeorieën"
+
+#: ../seo-auto-links-admin.php:123
+msgid "Enable to link internal links to categories."
+msgstr "Activeer om intern te linken naar categorieën."
+
+#: ../seo-auto-links-admin.php:126
+msgid "Tags"
+msgstr "Tags"
+
+#: ../seo-auto-links-admin.php:127
+msgid "Enable to link internal links to tags."
+msgstr "Activeer om intern te linken naar tags."
+
+#: ../seo-auto-links-admin.php:130
+msgid "Minimum categories / tags"
+msgstr "Minimale categorieën / tags"
+
+#: ../seo-auto-links-admin.php:131
+msgid ""
+"Only link categories and tags that have been used the above number of times "
+"or more."
+msgstr ""
+"Link alleen categorieën en tags welke minimaal het bovenstaande aantal keer "
+"zijn gebruikt."
+
+#: ../seo-auto-links-admin.php:134
+msgid "Add nofollow"
+msgstr "Nofollow toevoegen"
+
+#: ../seo-auto-links-admin.php:135
+msgid "Add a nofollow attribute to the external links."
+msgstr "Voeg het nofollow attribuut toe aan externe links."
+
+#: ../seo-auto-links-admin.php:138
+msgid "Open in new window"
+msgstr "Openen in nieuw venster"
+
+#: ../seo-auto-links-admin.php:139
+msgid "Open the external links in a new window."
+msgstr "Open de extere links in een nieuw venster."
+
+#: ../seo-auto-links.php:373
+msgid "Plugin settings saved."
+msgstr "Plugin instellingen opgeslagen."

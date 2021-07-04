@@ -1,0 +1,47 @@
+/*
+Plugin Name: Multipage Plugin
+Plugin URI: http://wordpress.org/plugins/sgr-nextpage-titles/
+Author: Sergio De Falco
+Author URI: https://www.envire.it
+License: GPL v3
+*/
+
+.wp-block-freeform.block-library-rich-text__tinymce .wp-more-tag.mce-wp-subpage {
+    background-image: url(/wp-content/plugins/sgr-nextpage-titles-premium/inc/admin/tinymce/images/subpage-2x.png);
+}
+
+.block-editor-block-list__block[data-type="multipage/subpage"] {
+    max-width: 100%;
+}
+
+.block-editor-block-list__block[data-type="multipage/subpage"] .editor-format-toolbar {
+	display: none;
+}
+
+.mpp-block-subpage {
+	text-align: center;
+	white-space: nowrap;
+}
+
+/* .mpp-block-subpage:before {
+	content: "";
+	position: absolute;
+	top: calc(50%);
+	left: 0;
+	right: 0;
+	border-top: 3px dashed #ccd0d4;
+} */
+
+.mpp-block-subpage > span {
+	font-size: 13px;
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	color: #6c7781;
+	border-radius: 4px;
+	background: #fff;
+	padding: 6px 8px;
+	height: 24px;
+}

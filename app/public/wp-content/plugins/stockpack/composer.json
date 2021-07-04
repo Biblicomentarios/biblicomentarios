@@ -1,0 +1,25 @@
+{
+    "name": "derikon/stockpack",
+    "description": "StockPack plugin",
+    "version": "3.0.4",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Ionut Calara",
+            "email": "ionut.calara@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "files": [
+            "extra/captions.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "tareq1988/wordpress-settings-api-class": "~1.2",
+        "collizo4sky/persist-admin-notices-dismissal": "~1.4.3"
+    }
+}

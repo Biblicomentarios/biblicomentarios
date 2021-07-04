@@ -1,0 +1,92 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8b0bf1cd0db831fbce2a18b338e3aa07",
+    "packages": [
+        {
+            "name": "collizo4sky/persist-admin-notices-dismissal",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/collizo4sky/persist-admin-notices-dismissal.git",
+                "reference": "2d7d8bb3cba631ad227c92296a4b675d7cbc71d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/collizo4sky/persist-admin-notices-dismissal/zipball/2d7d8bb3cba631ad227c92296a4b675d7cbc71d7",
+                "reference": "2d7d8bb3cba631ad227c92296a4b675d7cbc71d7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "persist-admin-notices-dismissal.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Collins Agbonghama",
+                    "email": "me@w3guy.com"
+                }
+            ],
+            "description": "Simple library to persist dismissal of admin notices across pages in WordPress dashboard.",
+            "time": "2019-03-12T05:19:51+00:00"
+        },
+        {
+            "name": "tareq1988/wordpress-settings-api-class",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tareq1988/wordpress-settings-api-class.git",
+                "reference": "ecb2778e17ef5d871f2d13697406d5efed9068ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tareq1988/wordpress-settings-api-class/zipball/ecb2778e17ef5d871f2d13697406d5efed9068ac",
+                "reference": "ecb2778e17ef5d871f2d13697406d5efed9068ac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Tareq Hasan",
+                    "email": "tareq@wedevs.com",
+                    "homepage": "http://tareq.wedevs.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress settings API Abstraction Class",
+            "homepage": "https://github.com/tareq1988/wordpress-settings-api-class",
+            "keywords": [
+                "settings-api",
+                "wordpress",
+                "wp"
+            ],
+            "time": "2015-10-18T08:33:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

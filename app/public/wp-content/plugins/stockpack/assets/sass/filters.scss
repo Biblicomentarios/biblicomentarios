@@ -1,0 +1,221 @@
+.stockpack-browser {
+  &.attachments-browser {
+    .media-toolbar {
+      overflow: visible;
+
+      &-primary {
+        max-width: 60%;
+      }
+    }
+  }
+}
+
+.provider-filter {
+  display: inline-block;
+  top: -2px;
+  position: relative;
+
+  .group-label {
+    position: absolute;
+    top: -16px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1;
+  }
+}
+
+.stockpack-close-filter {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+
+  &:after {
+    font-family: "dashicons";
+    content: "\f158";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    vertical-align: middle;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    &:after {
+      color: #0073aa;
+    }
+  }
+}
+
+#stockpack-advanced-area {
+  display: inline-block;
+  position: relative;
+  @include rmm(640, 690) {
+    display: block;
+  }
+  @include rmm(200, 360) {
+    display: block;
+  }
+
+  #stockpack-advanced-filters {
+    position: absolute;
+    width: 400px;
+    padding: 20px;
+    top: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: #fcfcfc;
+    display: none;
+    overflow-y: scroll;
+    max-height: calc(100vh - 300px);
+    @include r(900) {
+      top: 50px;
+    }
+    @include rmm(640, 690) {
+      top: 50px;
+    }
+    @include r(640) {
+      left: -142px;
+    }
+    @include r(480) {
+      width: 300px;
+      left: -35%;
+    }
+    @include r(370) {
+      width: 250px;
+      left: -18%;
+    }
+    @include rmm(200, 360) {
+      top: 50px;
+    }
+
+    &.visible {
+      display: block;
+    }
+  }
+}
+
+.stockpack-filters-trigger {
+  padding-right: 10px;
+  cursor: pointer;
+
+  @include r(900) {
+    text-align: right;
+    padding-top: 16px;
+    font-size: 14px;
+  }
+  @include rmm(640, 690) {
+    margin-top: 30px;
+    text-align: right;
+  }
+  @include rmm(200, 360) {
+    margin-top: 30px;
+    text-align: right;
+  }
+}
+
+// todo implement popup for filters
+// remove toolbar overflow hidden
+// adjust mobile
+
+.stockpack-filters-sub-container {
+  .advanced-filters {
+    width: 40%;
+    float: left;
+    padding-bottom: 15px;
+    margin-right: 10%;
+    min-width: 150px;
+
+    span.group-label {
+      display: block;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+
+    span.checkbox-component {
+      display: inline-block;
+      padding-right: 10px;
+      padding-bottom: 10px;
+
+      label {
+        top: -3px;
+        position: relative;
+      }
+    }
+
+    span.radio-component {
+      display: block;
+      padding-bottom: 10px;
+
+      label {
+        top: -3px;
+        position: relative;
+      }
+    }
+  }
+}
+
+.stockpack-filters-actions {
+  clear: both;
+  text-align: right;
+}
+
+#stockpack-category-filter {
+  margin-bottom: 26px;
+}
+
+#stockpack-color-filter {
+  width: 100%;
+}
+
+.media-modal {
+  .stockpack-browser.attachments-browser {
+    .media-toolbar-primary {
+      //max-width: 100%;
+      //width: 360px;
+      @include r(1060) {
+        width: 302px;
+        max-width: 100%;
+      }
+      @include r(380) {
+        width: 250px;
+      }
+
+      .search {
+        width: 45%;
+        margin-right: 5%;
+        float: none;
+        @include r(900) {
+          width: 45%;
+        }
+        @include r(380) {
+          width: 100%;
+          margin-right: 0;
+        }
+
+      }
+
+      .provider-filter {
+        @include r(380) {
+          display: none;
+        }
+      }
+    }
+
+    .provider-hidden {
+      .media-toolbar-primary {
+        .search {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.media-router > a {
+  @include r(325) {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,232 @@
+# Translation of Plugins - Multipage - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Multipage - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-18 17:30:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Multipage - Stable (latest release)\n"
+
+#: inc/mpp-template.php:238
+msgid "Hide"
+msgstr "Ocultar"
+
+#: inc/admin/admin-settings.php:103
+msgid "Enable pretty links"
+msgstr "Activar enlaces amigables"
+
+#: inc/admin/admin-settings.php:122
+msgid "Hidden"
+msgstr "Oculto"
+
+#: inc/mpp-template.php:49
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: inc/mpp-template.php:48
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: inc/admin/admin-settings.php:203
+msgid "hidden — Hide subpage labels, display only the title"
+msgstr "oculto - Ocultar las etiquetas de las subpáginas, mostrar sólo el título"
+
+#: inc/admin/admin-settings.php:201
+msgid "number — Display numbers before the subpage title"
+msgstr "número - Mostrar números antes del título de la subpágina"
+
+#: inc/admin/admin-settings.php:179
+msgid "hidden"
+msgstr "oculto"
+
+#: inc/admin/admin-settings.php:178
+msgid "below the post content"
+msgstr "debajo del contenido de la entrada"
+
+#: inc/admin/admin-settings.php:177
+msgid "above the post content"
+msgstr "por encima del contenido de la entrada"
+
+#: inc/admin/admin-settings.php:176
+msgid "above the post content, align right"
+msgstr "por encima del contenido de la entrada, alineado a la derecha"
+
+#: inc/admin/admin-settings.php:175
+msgid "above the post content, align left"
+msgstr "por encima del contenido de la entrada, alineado a la izquierda"
+
+#: inc/admin/admin-settings.php:121
+msgid "Next and previous"
+msgstr "Siguiente y anterior"
+
+#: inc/admin/admin-settings.php:120
+msgid "Continue or back to intro"
+msgstr "Continuar o volver a la introducción"
+
+#: inc/admin/admin-settings.php:74
+msgid "Last page — Display comments only on the last page"
+msgstr "Última página - Mostrar los comentarios sólo en la última página"
+
+#: inc/admin/admin-settings.php:73
+msgid "First page — Display comments only on the first page"
+msgstr "Primera página - Mostrar los comentarios sólo en la primera página"
+
+#: inc/admin/admin-settings.php:72
+msgid "All pages — Display comments on all post pages"
+msgstr "Todas las páginas - Mostrar los comentarios en todas las páginas de la publicación"
+
+#: inc/admin/admin-settings.php:43
+msgid "Display the excerpt on all the post pages"
+msgstr "Mostrar el extracto en todas las páginas de entradas"
+
+#: inc/admin/admin-settings.php:271 inc/admin/admin-functions.php:107
+msgid "Options"
+msgstr "Opciones"
+
+#: classes/class-mpp-table-of-contents-widget.php:110
+msgid "Title:"
+msgstr "Título:"
+
+#: inc/admin/admin-settings.php:208 classes/class-mpp-admin.php:211
+msgid "Row labels"
+msgstr "Etiquetas de filas"
+
+#: classes/class-mpp-admin.php:207
+msgid "Position"
+msgstr "Posición"
+
+#: classes/class-mpp-admin.php:196
+msgid "Disable the standard pagination"
+msgstr "Desactivar la paginación estándar"
+
+#: classes/class-mpp-admin.php:192
+msgid "Navigation type"
+msgstr "Tipo de navegación"
+
+#: classes/class-mpp-admin.php:189
+msgid "Pagination"
+msgstr "Paginación"
+
+#: inc/admin/admin-settings.php:78 classes/class-mpp-admin.php:181
+msgid "Display comments on"
+msgstr "Mostrar comentarios en"
+
+#: classes/class-mpp-admin.php:174
+msgid "Main Settings"
+msgstr "Ajustes principales"
+
+#: classes/class-mpp-admin.php:142 classes/class-mpp-admin.php:143
+msgid "Multipage Advaced Settings"
+msgstr "Ajustes avanzados de Multipage"
+
+#. Plugin Name of the plugin
+#: classes/class-mpp-admin.php:134
+msgid "Multipage"
+msgstr "Multipage"
+
+#: classes/class-mpp-admin.php:133
+msgid "Multipage Options"
+msgstr "Opciones de Multipage"
+
+#: class-mpp.php:404
+msgid "Page %"
+msgstr "Página %"
+
+#: class-mpp.php:358
+msgid "Page %1$d of %2$d"
+msgstr "Página %1$d de %2$d"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/sgr-nextpage-titles/"
+msgstr "http://wordpress.org/plugins/sgr-nextpage-titles/"
+
+#. Description of the plugin
+msgid "Multipage Plugin for WordPress will give you the ability to order a post in multiple subpages, giving each subpage a title and having a table of contents."
+msgstr "Multipágina plug-in para el Wordpress permite ordenar los posts en más subpáginas, dando a cada subpágina un título y visualizando un sumario."
+
+#: inc/mpp-template.php:237
+msgid "Contents"
+msgstr "Contenidos"
+
+#. Author URI of the plugin
+msgid "https://www.envire.it"
+msgstr "https://www.envire.it"
+
+#: class-mpp.php:361
+msgid "Page %s"
+msgstr "Página %s"
+
+#: classes/class-mpp-admin.php:319
+msgid "subpage"
+msgstr "subpágina"
+
+#: inc/admin/tinymce/languages.php:18 classes/class-mpp-admin.php:319
+#: classes/class-mpp-admin.php:399 inc/admin/tinymce/js/plugin.js:13
+msgid "Start a new Subpage"
+msgstr "Inicia una nueva subpágina"
+
+#: class-mpp.php:178 classes/class-mpp-admin.php:177
+msgid "Intro"
+msgstr "Introducción"
+
+#: inc/admin/tinymce/languages.php:19 classes/class-mpp-admin.php:322
+#: classes/class-mpp-admin.php:400 inc/admin/tinymce/js/plugin.js:22
+msgid "Enter the subpage title"
+msgstr "Introduce el título de la subpágina"
+
+#: classes/class-mpp-admin.php:295
+msgid "Settings"
+msgstr "Ajustes"
+
+#: inc/admin/admin-settings.php:247
+msgid "Add a link for the comments inside the table of contents"
+msgstr "Añadir un enlace para los comentarios dentro de la tabla de contenidos"
+
+#: inc/admin/admin-settings.php:232
+msgid "Hide the table of contents header"
+msgstr "Ocultar la cabecera de la tabla de contenidos."
+
+#: inc/admin/admin-settings.php:161
+msgid "Display the table of contents only on the first page of the post"
+msgstr "Mostrar la tabla de contenidos sólo en la primera página de la entrada."
+
+#: classes/class-mpp-admin.php:232
+msgid "Rewrite Content Priority"
+msgstr "Reescribir la prioridad de los contenidos"
+
+#: classes/class-mpp-admin.php:228
+msgid "Rewrite Title Priority"
+msgstr "Reescribir la prioridad del título"
+
+#: inc/admin/admin-functions.php:111 inc/admin/admin-advanced-settings.php:111
+msgid "Advanced"
+msgstr "Avanzadas"
+
+#: classes/class-mpp-admin.php:200
+msgid "Table of contents"
+msgstr "Sumario"
+
+#: classes/class-mpp-admin.php:203
+msgid "Only on the first page"
+msgstr "Sólo en la primera página"
+
+#: classes/class-mpp-admin.php:215
+msgid "Hide header"
+msgstr "Oculta la intestación"
+
+#: classes/class-mpp-admin.php:219
+msgid "Comments link"
+msgstr "Enlaza los comentarios"
+
+#: inc/admin/admin-settings.php:269 inc/admin/admin-advanced-settings.php:109
+#: inc/admin/admin-premium.php:35
+msgid "Multipage Settings"
+msgstr "Herramientas Multipage"
+
+#: inc/mpp-template.php:211
+msgid "Comments"
+msgstr "Comentarios"

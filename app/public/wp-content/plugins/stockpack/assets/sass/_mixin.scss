@@ -1,0 +1,12 @@
+@mixin r($width) {
+  @media only screen and (max-width: $width+ "px") {
+    @content
+  }
+
+}
+@mixin rmm($width1,$width2) {
+  @media only screen and (min-width: $width1+ "px") and (max-width:$width2+"px") {
+    @content
+  }
+
+}

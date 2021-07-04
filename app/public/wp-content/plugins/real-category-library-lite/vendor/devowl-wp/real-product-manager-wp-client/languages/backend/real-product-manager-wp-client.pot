@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#: AbstractInitiator.php:1
+msgid "https://devowl.io/account"
+msgstr ""
+
+#: client/ClientUtils.php:1
+msgid "Something went wrong while parsing an error message from the remote server."
+msgstr ""
+
+#. translators:
+#: license/License.php:1
+msgid "The plugin has a new update server, so you need to reactivate your license (%s) to continue receiving updates."
+msgstr ""
+
+#: license/License.php:1
+msgid "You are using a WordPress mulisite. According to the license agreement of the plugin you need one license per website. If you have used only one license for all websites in your WordPress mulisite, this was only possible because it was not technically prevented. We ask for your understanding if this causes any inconvenience!"
+msgstr ""
+
+#: license/License.php:1
+#: license/License.php:1
+msgid "You have not yet activated a license for this plugin on your website."
+msgstr ""
+
+#: license/License.php:1
+msgid "The license has been automatically deactivated because your website is running on a new domain. Please activate the license again!"
+msgstr ""
+
+#: license/License.php:1
+msgid "License key"
+msgstr ""
+
+#: license/LicenseActivation.php:1
+msgid "You have already activated a license for this plugin. Please deactivate it first!"
+msgstr ""
+
+#: license/PluginUpdateLicensePool.php:1
+msgid "You need to provide at least one license!"
+msgstr ""
+
+#: license/PluginUpdateLicensePool.php:1
+msgid "You need to provide an email and name if you want to subscribe to the newsletter!"
+msgstr ""
+
+#. translators:
+#: license/PluginUpdateLicensePool.php:1
+msgid "The license server for checking the license cannot be reached. Please check if you are blocking access to %s e.g. by a firewall."
+msgstr ""
+
+#: rest/PluginUpdate.php:1
+msgid "Something went wrong. Please try again later!"
+msgstr ""
+
+#: view/AnnouncementView.php:1
+msgid "Dismiss"
+msgstr ""
+
+#: view/PluginUpdateView.php:1
+msgid "You have not yet entered the license key."
+msgstr ""
+
+#: view/PluginUpdateView.php:1
+msgid "Activate license to receive automatic updates."
+msgstr ""
+
+#: view/PluginUpdateView.php:1
+msgid "License"
+msgstr ""
+
+#. translators:
+#: view/PluginUpdateView.php:1
+msgid "You have not yet activated a license for the plugin %s. Activate license to receive automatic updates."
+msgstr ""
+
+#. translators:
+#: view/PluginUpdateView.php:1
+msgid "Updates of %s are waiting for you when you activate your license. Activate your license in the settings now!"
+msgstr ""
+
+#. translators:
+#: view/PluginUpdateView.php:1
+msgid "Activate your %s to use all features with great support. Activate now!"
+msgstr ""
+
+#. translators:
+#: view/PluginUpdateView.php:1
+msgid "You still have not activated your %s license. Activate your license now in the settings!"
+msgstr ""
+
+#. translators:
+#: view/PluginUpdateView.php:1
+msgid "You are not allowed to use %s according to our license terms unless you have purchased a license. Activate in the settings or buy now!"
+msgstr ""
+
+#. translators:
+#: view/PluginUpdateView.php:1
+msgid "Attention! Pirates distribute %s for free without a license. Activate your license in the settings to show that you are not a pirate!"
+msgstr ""
+
+#. translators:
+#: view/PluginUpdateView.php:1
+msgid "You are probably using an illegally purchased copy of %s without a license. Check your license now!"
+msgstr ""
+
+#. translators:
+#: view/PluginUpdateView.php:1
+msgid "You are probably using an illegal copy of %s. Purchase a license now or activate your license in the settings and continue using this software with a clear conscience!"
+msgstr ""
+
+#: view/PluginUpdateView.php:1
+msgid "Activate now"
+msgstr ""

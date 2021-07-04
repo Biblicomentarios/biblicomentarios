@@ -1,0 +1,1512 @@
+# Translation of Plugins - Revive Old Posts &#8211; Social Media Auto Post and Scheduling Plugin - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Revive Old Posts &#8211; Social Media Auto Post and Scheduling Plugin - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-21 08:59:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Revive Old Posts &#8211; Social Media Auto Post and Scheduling Plugin - Development (trunk)\n"
+
+#: includes/class-rop-i18n.php:454
+msgid "Maximum concurrent post shares is 4."
+msgstr "El máximo de comparticiones concurrentes de entradas es de 4."
+
+#: includes/class-rop-i18n.php:453
+msgid "At least one posts need to be shared."
+msgstr "Al menos debe compartirse una entrada."
+
+#: includes/class-rop-i18n.php:452
+msgid "You need to have at least one post type to share."
+msgstr "Tienes que tener al menos un tipo de contenido que compartir."
+
+#: includes/class-rop-i18n.php:451
+msgid "Lowest allowed value for \"Recurring Schedule Interval\" is %d minutes."
+msgstr "El valor mínimo permitido para el «Intervalo de programación recurrente» es de %d minutos."
+
+#: includes/class-rop-i18n.php:450
+msgid "Lowest allowed value for \"Minimum Interval Between Shares\" is %s hours. Upgrade to Business Plan or higher to fine tune posting times and days."
+msgstr "Le mEl valor mínimo permitido para el «Intervalo mínimo entre compartidos» es de %s horas. Actualiza al plan Business o superior para publicar con una frecuencia inferior."
+
+#: includes/class-rop-i18n.php:449
+msgid "Minimum interval between consecutive shares is 6 minutes."
+msgstr "El intervalo mínimo entre compartidos consecutivos es de 6 minutos."
+
+#: includes/class-rop-i18n.php:448
+msgid "Learn More!"
+msgstr "¡Aprender más!"
+
+#: includes/class-rop-i18n.php:447
+msgid "Learn More"
+msgstr "Aprender más"
+
+#: includes/class-rop-i18n.php:446
+msgid "Revive Network allows you to share content from multiple RSS or Atom feeds from any website on the web to your connected social media accounts. An active Revive Old Posts Pro subscription is required to download and use Revive Network."
+msgstr "Revive Network te permite compartir contenido desde varios feeds RSS o Atom desde cualquier web de la web a tus cuentas conectadas de medios sociales. Se requiere una suscripción Pro de Revive Old Posts para descargar y usar Revive Network."
+
+#: includes/class-rop-i18n.php:438
+msgid "An active Pro license is needed to share to %1$s"
+msgstr "Es necesaria una licencia activa de la versión Pro para compartir a %1$s"
+
+#: includes/class-rop-i18n.php:437
+msgid "No image was found for post %1$s cannot share as an image post to: %2$s. Please double check that you have a featured image set."
+msgstr "No se ha encontrado ninguna imagen para la entrada %1$s no puede compartir como imagen de la entrada a: %2$s. Por favor, vuelve a comprobar que tienes configurada una imagen destacada."
+
+#: includes/class-rop-i18n.php:418
+msgid "Connect or switch on an account in the Revive Old Posts dashboard to use the Instant Share (Post on Publish) feature."
+msgstr "Conecta o cambia de cuenta en el escritorio de Revive Old Posts para usar la característica de compartir instantáneo."
+
+#: includes/class-rop-i18n.php:413
+msgid "Dismiss Permanently"
+msgstr "Descartar permanentemente"
+
+#: includes/class-rop-i18n.php:411 includes/class-rop-i18n.php:412
+msgid "Expose your followers to other relevant content sources, and keep their interest by sharing posts from your favorite blogs to your social media accounts.%1$s %2$sRevive Network%3$s is an Addon plugin for Revive Old Posts that lets you share content from any RSS or Atom feed to your connected accounts."
+msgstr "Expón a tus seguidores a otras fuentes de contenido relevantes, y mantén su interés compartiendo entradas de tus blogs favoritos en tus cuentas de medios sociales. %1$s %2$sRevive Network%3$s es un plugin de extensión para Revive Old Posts que te permite compartir contenido desde cualquier feed RSS o Atom a tus cuentas conectadas."
+
+#: includes/class-rop-i18n.php:410
+msgid "%1$sRSS Sharing In Revive Old Posts%2$s"
+msgstr "%1$sCompartir RSS en Revive Old Posts%2$s"
+
+#: includes/class-rop-i18n.php:315
+msgid "The Custom Schedule is available only in the Business and Marketer versions of the plugin."
+msgstr "La programación personalizada solo está disponible en las versiones Business y Marketer del plugin."
+
+#: includes/class-rop-i18n.php:300
+msgid "%1$sNote:%2$s is.gd shortener is not currently supported by VK.com."
+msgstr "%1$sNota:%2$s el acortador is.gd actualmente no está admitido por VK.com."
+
+#: includes/class-rop-i18n.php:299
+msgid "%1$sNote:%2$s Instagram posts need to be an image."
+msgstr "%1$sNota:%2$s Las publicaciones de Instagram tienen que ser una imagen."
+
+#: includes/class-rop-i18n.php:298
+msgid "%1$sNote:%2$s We recommend that you disable links for Instagram posts. If you do leave this option checked, then we recommend that you enable a shortener."
+msgstr "%1$sNota:%2$s Te recomendamos que desactives enlaces en las publicaciones de Instagram. Si dejas marcada esta opción te recomendamos que actives un acortador."
+
+#: includes/class-rop-i18n.php:297
+msgid "%1$sNote:%2$s Maximum characters supported by Twitter is 280."
+msgstr "%1$sNota:%2$s El máximo de caracteres admitido por Twitter es de 280."
+
+#: includes/class-rop-i18n.php:287
+msgid "Choose language"
+msgstr "Elige un idioma"
+
+#: includes/class-rop-i18n.php:285
+msgid "Language-based sharing only available in the %1$sPro version%2$s"
+msgstr "Compartir según el idioma solo está disponible en la %1$sversión Pro%2$s"
+
+#: includes/class-rop-i18n.php:251
+msgid "Per account Taxonomy filters feature is available in the Pro version (Personal Plan and higher)."
+msgstr "La característica de filtros de taxonomía por cuenta está disponible en la versión Pro (plan Personal y superior)."
+
+#: includes/class-rop-i18n.php:229
+msgid "Post Excerpt"
+msgstr "Extracto de la entrada"
+
+#: includes/class-rop-i18n.php:223
+msgid "We've detected that this is a multilingual website. Select the post language you want to share to this account."
+msgstr "Hemos detectado que esta es una web multilingüe. Selecciona el idioma de la publicación que quieres compartir en esta cuenta."
+
+#: includes/class-rop-i18n.php:222
+msgid "Language"
+msgstr "Idioma"
+
+#: includes/class-rop-i18n.php:196
+msgid "This option allows you to choose which accounts you'd like to share to instead of having them all checked automatically."
+msgstr "Esta opción te permite elegir en qué cuentas te gustaría compartir en vez de que se marquen todas automáticamente."
+
+#: includes/class-rop-i18n.php:195
+msgid "Choose Accounts Manually"
+msgstr "Elegir las cuentas manualmente"
+
+#: includes/class-rop-i18n.php:186
+msgid "Enable Instant Sharing Feature (Post on Publish)"
+msgstr "Activar la característica de compartir instantáneo"
+
+#: includes/class-rop-i18n.php:152
+msgid ""
+"Changing the maximum post age is available in the Pro\n"
+"\t\t\t\t\tversion.."
+msgstr ""
+"Cambiar la edad máxima de la entrada está disponible en la versión\n"
+"\t\t\t\t\tPro.."
+
+#: includes/class-rop-i18n.php:147
+msgid ""
+"Changing the number of posts per share is available in the Pro\n"
+"\t\t\t\t\t\t\tversion."
+msgstr ""
+"Cambiar el número de entradas por compartido está disponible en la versión\n"
+"\t\t\t\t\t\t\tPro."
+
+#: includes/class-rop-i18n.php:426
+msgid "ROP has detected that this is a development website. Share process skipped."
+msgstr "ROP ha detectado que esta es una web en desarrollo. Omitido el proceso de compartir."
+
+#: includes/class-rop-i18n.php:403
+msgid "Hi! This email was sent by Revive Old Posts on your website. Your LinkedIn token is about to expire. You need to refresh it to continue sharing without issue. Click the link below to find out why and how: %1$s %2$s. %3$sThis is the final notice email you will receieve from Revive Old Posts."
+msgstr "¡Hola! Este correo electrónico lo ha enviado Revive Old Posts en tu web. Tu token de LinkedIn está a punto de caducar. Tienes que recargarlo para seguir compartiendo sin problemas. Haz clic en el siguiente enlace para descubrir por qué y cómo: %1$s %2$s. %3$sEste es el correo electrónico de aviso final que recibirás de Revive Old Posts."
+
+#: includes/class-rop-i18n.php:400
+msgid "Final - Refresh Your LinkedIn Token"
+msgstr "Final - Recarga tu token de LinkedIn"
+
+#: includes/class-rop-i18n.php:371
+msgid "This seems to be a staging or development website. Some post types will not share to your accounts. %1$sLearn How to Turn Off%2$s"
+msgstr "Esta parece ser una web en pruebas o en desarrollo. Algunos tipos de contenido no se compartirán en tus cuentas. %1$sAprende cómo desactivarlo%2$s"
+
+#: tweet-old-post.php:67
+msgid "%1$s %2$sRevive Old Posts:%3$s You have Buffer account(s) connected to Revive Old Posts. You need to remove these accounts to avoid issues with the plugin. Plugin has been deactivated. %4$sClick here to read the article with the fix.%5$s %6$s"
+msgstr "%1$s %2$sRevive Old Posts:%3$s Tienes cuenta(s) de Buffer conectadas a Revive Old Posts. Tienes que quitar estas cuentas para evitar problemas con el plugin. El plugin se ha desactivado. %4$sHaz clic aquí para leer el artículo con la corrección.%5$s %6$s"
+
+#: includes/admin/class-rop-admin.php:638
+#: includes/admin/class-rop-admin.php:639
+msgid "Addons"
+msgstr "Extensiones"
+
+#: includes/class-rop-i18n.php:445
+msgid "Post data for share empty."
+msgstr "Datos de la entrada a compartir vacíos."
+
+#: includes/class-rop-i18n.php:444
+msgid "cURL was not detected on your website. Please contact your Web Host and ask that they enable cURL for your website."
+msgstr "No se ha detectado cURL en tu web. Por favor, contacta con tu alojamiento web y pídele que active cURL en tu web."
+
+#: includes/class-rop-i18n.php:436
+msgid "There was an issue fetching the LinkedIn Token. Please contact Revive Old Posts support for assistance."
+msgstr "Ocurrió un error al recuperar el token de LinkedIn. Por favor, contacta con el soporte de Revive Old Posts para obtener ayuda."
+
+#: includes/class-rop-i18n.php:435
+msgid "Cannot share image to LinkedIn. exif_imagetype() function is missing from your system. Please contact your web host and ask that this function be enabled on your hosting."
+msgstr "No se puede compartir la imagen en LinkedIn. La función exif_imagetype() no está disponible en tu sistema. Por favor, contacta con tu alojamiento web y pídele que esté activa esta función en tu alojamiento."
+
+#: includes/class-rop-i18n.php:407
+msgid "This will remove the Cron server authentication key from your local database. %1$s A new authentication key will be created when you register to the remote Cron server."
+msgstr "Esto eliminará la clave de identificación del servidor Cron de tu base de datos local. %1$s Se creará una nueva clave de identificación cuando registres el servidor cron remoto."
+
+#: includes/class-rop-i18n.php:406
+msgid "This option will delete your website information from our Remote Cron Service. %1$s Revive Old Posts will then fallback to using the Local Cron System built into WordPress. %1$s You can re-enable the Remote Cron System at anytime from General Settings > Cron Type, switch from Local Cron to Remote."
+msgstr "Esta opción borrará la información de tu web de nuestro servicio de cron remoto. %1$s Revive Old Posts entonces volverá a usar el sistema de cron local incluido en WordPress. %1$s Puedes reactivar el sistema de cron remoto en cualquier momento desde los Ajustes generales > Tipo de cron, cambia de cron local a remoto."
+
+#: includes/class-rop-i18n.php:238
+msgid "Add custom content to shared posts. It supports magic tags in the Pro version of ROP %1$sLearn More%2$s"
+msgstr "Añade contenido personalizado a las publicaciones compartidas. Es compatible con etiquetas mágicas en la versión Pro de ROP %1$sSaber más%2$s"
+
+#: includes/class-rop-i18n.php:204
+msgid "I understand that some site data is stored on the ROP's Remote Cron System to provide this service <a href=\"https://docs.revive.social/article/1317-info-we-collect-for-remote-cron-service\" target=\"_blank\">Read More Here</a>."
+msgstr "Comprendo que algunos datos del sitio están almacenados en el sistema cron remoto de ROP para poder facilitar este servicio <a href=\"https://docs.revive.social/article/1317-info-we-collect-for-remote-cron-service\" target=\"_blank\">Lee más aquí</a>."
+
+#: includes/class-rop-i18n.php:203
+msgid "Select the between your local built-in WordPress task scheduler, or Revive Social's, %1$sLearn More%2$s."
+msgstr "Selecciona entre tu programador de tareas incluido en WordPress o el de Revive Social, %1$sSaber más%2$s."
+
+#: includes/class-rop-i18n.php:202
+msgid "Cron Job Type"
+msgstr "Tipo de trabajo cron"
+
+#: includes/class-rop-i18n.php:85
+msgid "Sign in to Vkontake"
+msgstr "Accede a Vkontake"
+
+#: cron-system/includes/class-debug-page.php:247
+msgid "Clear Local Cron Data"
+msgstr "Vaciar datos locales del cron"
+
+#: cron-system/includes/class-debug-page.php:227
+msgid "Delete Remote Cron Service Data"
+msgstr "Borrar datos del servicio de cron remoto"
+
+#: cron-system/includes/class-debug-page.php:215
+msgid "Check connection"
+msgstr "Comprobar conexión"
+
+#: cron-system/includes/class-debug-page.php:211
+msgid "Server -> WordPress:"
+msgstr "Servidor -> WordPress:"
+
+#: cron-system/includes/class-debug-page.php:208
+msgid "WordPress -> Server:"
+msgstr "WordPress -> Servidor:"
+
+#: cron-system/includes/class-debug-page.php:206
+msgid "Check connection with<br/>ROP Cron SyStem: "
+msgstr "Comprueba la conexión con el<br/>sistema cron de ROP: "
+
+#: cron-system/includes/class-debug-page.php:199
+msgid "No version of CURL detected."
+msgstr "No se ha detectado ninguna versión de cURL."
+
+#: cron-system/includes/class-debug-page.php:186
+msgid "cURL Info: "
+msgstr "Información de cURL: "
+
+#: cron-system/includes/class-debug-page.php:178
+msgid "PHP 7 is recommended"
+msgstr "Se recomienda PHP 7"
+
+#: cron-system/includes/class-debug-page.php:172
+msgid "PHP Version: "
+msgstr "Versión de PHP: "
+
+#: cron-system/includes/class-debug-page.php:167
+msgid "Debug Info: "
+msgstr "Información de depuración: "
+
+#: cron-system/includes/class-debug-page.php:140
+#: cron-system/includes/class-debug-page.php:141
+msgid "Debug Remote Cron"
+msgstr "Depuración del cron remoto"
+
+#: cron-system/includes/class-debug-page.php:125
+msgid "Requested failed to complete."
+msgstr "No se pudo completar la solicitud."
+
+#: cron-system/includes/class-debug-page.php:124
+msgid "Request completed"
+msgstr "Solicitud completada"
+
+#: cron-system/includes/class-debug-page.php:96
+msgid "The authentication has been removed."
+msgstr "Se ha eliminado la identificación."
+
+#: cron-system/includes/class-debug-page.php:71
+msgid "Remote account removed and the plugin reverted to using your WordPress CronJob."
+msgstr "Cuenta remota eliminada y el plugin revertido para usar tu trabajo cron de WordPress."
+
+#: cron-system/includes/class-debug-page.php:52
+msgid "To delete the remove cron account, you need the authentication key."
+msgstr "Para borrar la cuenta eliminada del cron necesitas la clave de identificación."
+
+#: includes/class-rop-i18n.php:434
+msgid "Unable to find Google_Service_MyBusiness Class. Please ensure you have the Revive Old Posts Pro Addon activated."
+msgstr "No ha sido posible encontrar la clase Google_Service_MyBusiness. Por favor, asegúrate de que tienes activa la extensión Revive Old Posts Pro."
+
+#: includes/class-rop-i18n.php:433
+msgid "Unable to find Google_Client Class. Please ensure you have the Revive Old Posts Pro Addon activated."
+msgstr "No ha sido posible encontrar la clase Google_Client. Por favor, asegúrate de que tienes activa la extensión Revive Old Posts Pro."
+
+#: includes/class-rop-i18n.php:284
+msgid "Sharing as an Image Post is available in the Pro version."
+msgstr "Compartir entradas como imágenes está disponible en la versión Pro."
+
+#: includes/class-rop-i18n.php:129
+msgid "How many hours between each share?"
+msgstr "¿Cuántas horas entre cada compartido?"
+
+#: includes/class-rop-i18n.php:432
+msgid "Google My Business error: No valid accounts found. Please make sure you have access to a Google My Business location."
+msgstr "Error de Google My Business: No se ha encontrado ninguna cuenta válida. Asegúrate de que tengas acceso a una ubicación de Google My Business."
+
+#: includes/class-rop-i18n.php:431
+msgid "Could not share post to Google My Business with LIVE state: "
+msgstr "No se pudo compartir la publicación en Google My Busines con el estado de visible: "
+
+#: includes/class-rop-i18n.php:430
+msgid "Failed to retrieve Google My Business access token: "
+msgstr "Fallo al recuperar el token de acceso de Google My Business: "
+
+#: includes/class-rop-i18n.php:425
+msgid "This post went out on the last share event and might be a duplicate. Skipping..."
+msgstr "Esta entrada salió en el último evento de compartir y podría ser un duplicado. Omitiendo…"
+
+#: includes/class-rop-i18n.php:296
+msgid "No post format found for the following network, please go to \"Post Format\" tab and save your changes for: "
+msgstr "No se ha encontrado ningún formato de publicación para la siguiente red, ve a la pestaña de «Formato de publicación» y guarda los cambios: "
+
+#: includes/class-rop-i18n.php:84
+msgid "Sign in to Google My Business"
+msgstr "Conéctate a Google My Business"
+
+#: includes/class-rop-i18n.php:421
+msgid "%1$sCustom instant share messages are available in the %2$sPro version%3$s of the plugin.%4$s"
+msgstr "%1$sLos mensajes instantáneos para compartir están disponibles en la %2$sversión Pro%3$s del plugin.%4$s"
+
+#: includes/class-rop-i18n.php:276
+msgid "Share As Image Post"
+msgstr "Compartir como publicación de imagen"
+
+#: includes/class-rop-i18n.php:242
+msgid "End of Caption"
+msgstr "Fin de la leyenda"
+
+#: includes/class-rop-i18n.php:241
+msgid "Beginning of Caption"
+msgstr "Comienzo de la leyenda"
+
+#: includes/class-rop-i18n.php:240
+msgid "Choose where you want the Additional Text to appear."
+msgstr "Elige dónde quieres que aparezca el texto adicional."
+
+#: includes/class-rop-i18n.php:236
+msgid "Maximum length of the message, in characters. Each letter is considered a character."
+msgstr "Longitud máxima del mensaje, en caracteres. Cada letra se considera un caracter."
+
+#: includes/class-rop-i18n.php:235
+msgid "Maximum Characters"
+msgstr "Máximo de caracteres"
+
+#: includes/class-rop-i18n.php:225
+msgid "Which part of the post should we use as the caption?"
+msgstr "¿Qué parte de la entrada debería usarse como leyenda?"
+
+#: includes/class-rop-i18n.php:224
+msgid "Share Content"
+msgstr "Compartir contenido"
+
+#: includes/class-rop-i18n.php:190
+msgid "This option sends the post out as soon as you click the publish button, instead of relying on a Cron task. <a href=\"https://docs.revive.social/article/1259-how-to-make-instant-share-feature-truly-immediate\" target=\"_blank\">Learn more</a>."
+msgstr "Esta opción envía la publicación tan pronto como hagas clic en el botón de publicar, en vez de depender de una tarea del Cron. <a href=\"https://docs.revive.social/article/1259-how-to-make-instant-share-feature-truly-immediate\" target=\"_blank\">Aprende más</a>."
+
+#: includes/class-rop-i18n.php:189
+msgid "Use True Instant Share"
+msgstr "Usar el compartido instantáneo real"
+
+#: includes/class-rop-i18n.php:183
+msgid "Share Message Variations In the Order They Are Added."
+msgstr "Compartir variaciones del mensaje en el orden en que se añaden."
+
+#: includes/class-rop-i18n.php:138
+msgid "If all available posts have been shared to your active accounts, should we automatically restart the sharing?"
+msgstr "Si se han compartido en tus cuentas activas todas las entradas disponibles, ¿deberíamos reiniciar automáticamente el compartido?"
+
+#: includes/class-rop-i18n.php:83
+msgid "Sign in to Tumblr"
+msgstr "Conéctate a Tumblr"
+
+#: includes/class-rop-i18n.php:295
+msgid "Post Format option empty, \"Share scheduled posts to social media on publish\" cannot work. Please go to the Post Format tab and click \"Save\" for this feature to work"
+msgstr "Opción de formato de publicación vacía, «Compartir entradas programadas en los medios sociales al publicarlas» no puede funcionar. Ve a la pestaña de formato de publicación y haz clic en «Guardar» para que funcione esta característica"
+
+#: includes/class-rop-i18n.php:126
+msgid "Upgrade to Pro version to select more than 30 posts."
+msgstr "Actualiza a la versión Pro para seleccionar más de 30 publicaciones."
+
+#: includes/class-rop-i18n.php:125
+msgid "Upgrade to Pro version to select more than 30 posts. You can upgrade %1$shere%2$s."
+msgstr "Actualiza a la versión Pro para seleccionar más de 30 publicaciones. Puedes actualizar %1$saquí%2$s."
+
+#: includes/admin/abstract/class-rop-services-abstract.php:532
+msgid "You need to reconnect your Facebook account."
+msgstr "Tienes que volver a conectar a tu cuenta de Facebook."
+
+#: includes/class-rop-i18n.php:168
+msgid "Filter posts list by Taxonomy"
+msgstr "Filtrar la lista de entradas por taxonomía"
+
+#: includes/class-rop-i18n.php:146
+msgid "Filter posts list by Post Type"
+msgstr "Filtrar la lista de entradas por tipo de contenido"
+
+#: includes/class-rop-i18n.php:143
+msgid "Upgrade to Pro version to select more than 4 taxonomies. You can upgrade %1$shere%2$s."
+msgstr "Actualiza a la versión Pro para seleccionar más de 4 taxonomías. Puedes actualizar %1$saquí%2$s."
+
+#: includes/class-rop-i18n.php:277
+msgid "Should ROP share your posts as an image post? <a href=\"https://docs.revive.social/article/958-how-to-share-posts-as-image-posts-to-social-accounts\" target=\"_blank\">Learn more</a>."
+msgstr "¿Debería ROP compartir tus entradas como publicación de imagen? <a href=\"https://docs.revive.social/article/958-how-to-share-posts-as-image-posts-to-social-accounts\" target=\"_blank\">Aprende más</a>."
+
+#: includes/class-rop-i18n.php:201
+msgid " This feature is only available in the Pro version."
+msgstr "Esta característica solo está disponible en la versión Pro."
+
+#: includes/class-rop-i18n.php:199
+msgid "Allows for the sharing of posts scheduled to publish at a future date by WordPress to your active social media accounts as soon as they change from \"Scheduled\" to \"Published\". <a href=\"https://docs.revive.social/article/1194-share-scheduled-posts-to-social-media-on-publish-with-revive-old-posts\" target=\"_blank\">Learn more</a>."
+msgstr "Permite que se compartan publicaciones de las entradas programadas en una fecha futura desde WordPress a tus cuentas de redes sociales activas cuando cambien de «Programada» a «Publicada». <a href=\"https://docs.revive.social/article/1194-share-scheduled-posts-to-social-media-on-publish-with-revive-old-posts\" target=\"_blank\">Aprende más</a>."
+
+#: includes/class-rop-i18n.php:198
+msgid "Share Scheduled Posts to Social Media On Publish"
+msgstr "Compartir en los medios sociales al publicarse las entradas programadas"
+
+#: includes/class-rop-i18n.php:187
+msgid "Allows you to share posts immediately on publish/update. <a href=\"https://docs.revive.social/article/933-how-to-share-posts-immediately-with-revive-old-posts\" target=\"_blank\">Learn more</a>."
+msgstr "Te permite compartir entradas inmediatamente al publicarlas/actualizarlas. <a href=\"https://docs.revive.social/article/933-how-to-share-posts-immediately-with-revive-old-posts\" target=\"_blank\">Aprende más</a>."
+
+#: includes/class-rop-i18n.php:180
+msgid "These messages will override the Post Content option in Post Format settings. You can go to each post and add multiple share content variations. <a href=\"https://docs.revive.social/article/971-how-to-add-variations-to-revive-old-posts-shares\" target=\"_blank\">Learn more</a>."
+msgstr "Estos mensajes se saltarán la opción de publicar contenido de los ajustes de formato de publicación. Puedes ir a cada entrada y añadir múltiples variaciones de compartir. <a href=\"https://docs.revive.social/article/971-how-to-add-variations-to-revive-old-posts-shares\" target=\"_blank\">Aprende más</a>."
+
+#: includes/class-rop-i18n.php:163
+msgid ""
+"Taxonomies available for the selected post types. Use to include or exclude\n"
+"\t\t\t\t\t\t\tposts. <a href=\"https://docs.revive.social/article/457-how-to-exclude-taxonomies-in-revive-old-post\" target=\"_blank\">Learn more</a>."
+msgstr ""
+"Taxonomías disponibles para los tipos de contenido seleccionados. Utilízalo para incluir o excluir\n"
+"\t\t\t\t\t\t\tentradas. <a href=\"https://docs.revive.social/article/457-how-to-exclude-taxonomies-in-revive-old-post\" target=\"_blank\">Aprende más</a>."
+
+#: includes/class-rop-i18n.php:145
+msgid "Which post types should Revive Old Posts share? <a href=\"https://docs.revive.social/article/968-how-to-share-different-wordpress-post-types-to-social-media-w-revive-old-posts\" target=\"_blank\">Learn more</a>."
+msgstr "¿Qué tipos de contenido debería compartir Revive Old Posts? <a href=\"https://docs.revive.social/article/968-how-to-share-different-wordpress-post-types-to-social-media-w-revive-old-posts\" target=\"_blank\">Aprende más</a>."
+
+#: includes/class-rop-i18n.php:135
+msgid "Number of posts to share per account when a share occurs."
+msgstr "Número de entradas a compartir por cuenta cuando se realiza un compartido."
+
+#: includes/class-rop-i18n.php:402
+msgid "Hi! This email was sent by Revive Old Posts on your website. Your LinkedIn token is about to expire. You need to refresh it to continue sharing without issue. Click the link below to find out why and how: %1$s %2$s"
+msgstr "¡Hola! Este correo electrónico lo ha enviado Revive Old Posts en tu web. Tu token de LinkedIn está a punto de caducar. Tienes que recargar para seguir compartiendo sin este problema. Haz clic en el siguiente enlace para descubrir por qué y cómo: %1$s %2$s"
+
+#: includes/class-rop-i18n.php:399
+msgid "Revive Old Posts - Refresh Your LinkedIn Token"
+msgstr "Revive Old Posts - Recarga tu token de LinkedIn"
+
+#: includes/class-rop-i18n.php:398
+msgid "Revive Old Posts - All Posts Shared"
+msgstr "Revive Old Posts - Todas las publicaciones compartidas"
+
+#: includes/class-rop-i18n.php:395
+msgid "Remove image"
+msgstr "Eliminar imagen"
+
+#: includes/class-rop-i18n.php:394
+msgid "Change image"
+msgstr "Cambiar imagen"
+
+#: includes/class-rop-i18n.php:393
+msgid "Upload image"
+msgstr "Subir imagen"
+
+#: includes/class-rop-i18n.php:385
+msgid "Your Linkedin access token is about to expire. You need to refresh your LinkedIn token to continue sharing without issue. Paste this link in your browser to find out why and how: https://is.gd/refresh_linkedin_token"
+msgstr "Tu token de acceso a Linkedin está a punto de caducar. Tienes que recargar tu token de LinkedIn para seguir compartiendo sin este problema. Pega este enlace en tu navegador para descubrir por qué y cómo: https://is.gd/refresh_linkedin_token"
+
+#: includes/class-rop-i18n.php:345
+msgid "Sharing Logs"
+msgstr "Registros de compartidos"
+
+#: includes/class-rop-i18n.php:122
+msgid "Limit reached"
+msgstr "Límite alcanzado"
+
+#: includes/class-rop-i18n.php:121 includes/class-rop-i18n.php:441
+msgid "Available in Pro"
+msgstr "Disponible en la versión Pro"
+
+#: includes/class-rop-i18n.php:119
+msgid "Loading Your Dashboard..."
+msgstr "Cargando tu escritorio…"
+
+#: includes/class-rop-i18n.php:113
+msgid ""
+"\n"
+"\t\t\t\t\t You have more than one Twitter account connected. Twitter has changed it's policy regarding automatic posting of same content across multiple accounts. You should ensure you comply with this policy by sharing to only one twitter account at a time, or you risk getting one of your accounts BANNED. Disconnect one of your Twitter accounts to avoid having your account banned.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t Has conectado más de una cuenta de Twitter. Twitter ha cambiado su política de publicación automática del mismo contenido desde varias cuentas. Deberías asegurarte de cumplir esta política compartiendo a solo una cuenta de Twitter cada vez, o te arriesgas a que ANULEN algunas tus cuentas. Desconecta una de tus cuentas de Twitter para evitar que te anulen la cuenta.\n"
+"\t\t\t"
+
+#: includes/class-rop-i18n.php:106
+msgid "A maximum of 1 Facebook and Twitter account can be connected to the Lite version of Revive Old Posts. Upgrade to unlock more great features including more social networks! Check out the Lite vs Pro %1$stable here%2$s."
+msgstr "Solo se puede conectar un máximo de 1 cuenta de Facebook y Twitter en la versión Lite de Revive Old Posts. ¡Actualiza para desbloquear más fantásticas características, incluyendo más redes sociales! Echa un vistazo a la %1$stabla%2$s de Lite frente a Pro."
+
+#: includes/class-rop-i18n.php:99
+msgid " Add more accounts"
+msgstr " Añade más cuentas"
+
+#: includes/class-rop-i18n.php:82
+msgid "Sign in to LinkedIn"
+msgstr "Conéctate a LinkedIn"
+
+#: includes/admin/class-rop-pointers.php:491
+msgid "Finish"
+msgstr "Terminar"
+
+#: includes/admin/class-rop-pointers.php:372
+msgid "Switch to the accounts tab now to add your social media accounts to the plugin and begin sharing."
+msgstr "Cambia ahora a la pestaña de cuentas para añadir tus cuentas de medios sociales al plugin y empezar a compartir."
+
+#: includes/admin/class-rop-pointers.php:371
+msgid "Add Your Accounts"
+msgstr "Añade tus cuentas"
+
+#: includes/admin/class-rop-admin.php:651
+msgid "Plugin Roadmap"
+msgstr "Hoja de ruta del plugin"
+
+#: includes/admin/class-rop-admin.php:650
+msgid "Roadmap"
+msgstr "Hoja de ruta"
+
+#: includes/class-rop-i18n.php:379
+msgid "You need to verify your website domain with Facebook so your shares can show as article posts on Facebook. [ <a href=\"https://docs.revive.social/article/1136-facebook-text-posts-vs-article-posts\" target=\"_blank\">Read this doc</a> ] for more information"
+msgstr "Tienes que verificar el dominio de tu web en Facebook para que tus compartidos puedan mostrarse como artículos en Facebook. [ <a href=\"https://docs.revive.social/article/1136-facebook-text-posts-vs-article-posts\" target=\"_blank\">Lee esta documentación</a> ] para más información"
+
+#: includes/class-rop-i18n.php:357
+msgid "to"
+msgstr "a"
+
+#: includes/class-rop-i18n.php:356
+msgid "Click"
+msgstr "Clic"
+
+#: includes/class-rop-i18n.php:355
+msgid "Status"
+msgstr "Estado"
+
+#: includes/class-rop-i18n.php:354
+msgid "Error (check logs)"
+msgstr "Error (comprobar registros)"
+
+#: includes/class-rop-i18n.php:353
+msgid "Sharing to Accounts"
+msgstr "Compartiendo en las cuentas"
+
+#: includes/class-rop-i18n.php:352
+msgid "Sharing Not Started"
+msgstr "No se ha iniciado el compartido"
+
+#: includes/class-rop-i18n.php:351
+msgid "Issues encountered when trying to share content on social media, check the <a href=\"%s\">Logs menu</a> for more information. "
+msgstr "Se han encontrado problemas al tratar de compartir contenido en los medios sociales, revisa el <a href=\"%s\">menú de registros</a> para más información. "
+
+#: includes/class-rop-i18n.php:304
+msgid "Time now"
+msgstr "Hora actual"
+
+#: includes/class-rop-i18n.php:120
+msgid "Loading..."
+msgstr "Cargando…"
+
+#: includes/class-rop-i18n.php:97
+msgid "Use the network buttons below to sign in and add your social media accounts to the plugin."
+msgstr "Usa los siguientes botones de redes para acceder y añadir al plugin tus cuentas de medios sociales."
+
+#: includes/class-rop-i18n.php:93
+msgid "You Need to Connect an Account"
+msgstr "Tienes que conectar una cuenta"
+
+#: includes/admin/class-rop-admin.php:1428
+msgid "%1$s%2$sRevive Old Posts:%3$s There might be an issue preventing Revive Old Posts from sharing to your connected accounts. If sharing is not working, then see %4$shere for solutions.%5$s%6$s%7$s"
+msgstr "%1$s%2$sRevive Old Posts:%3$s puede haber un problema que impide que Revive Old Post comparta con tus cuentas conectadas. Si no está compartiendo, entonces mira %4$saquí para ver soluciones.%5$s%6$s%7$s"
+
+#: includes/admin/abstract/class-rop-services-abstract.php:609
+msgid " Please copy and paste the following link in your browser to see the solution: "
+msgstr "Por favor, copia y pega el siguiente enlace en tu navegador para ver la solución: "
+
+#: includes/admin/abstract/class-rop-services-abstract.php:608
+msgid "This error is a known one: "
+msgstr "Este error es conocido: "
+
+#: includes/admin/abstract/class-rop-services-abstract.php:528
+msgid "You need to put your Facebook app through review."
+msgstr "Tienes que poner en revisión tu aplicación de Facebook."
+
+#: includes/admin/abstract/class-rop-services-abstract.php:524
+msgid "You need to verify your website with Facebook before sharing posts as article posts."
+msgstr "Antes de compartir las entradas como artículos publicados, tienes que verificar tu web con Facebook."
+
+#: includes/admin/class-rop-logger.php:169
+msgid "Your Twitter credentials seem to be wrong. Please double check your API Key and API Secret Key."
+msgstr "Tus credenciales de Twitter parecen ser erróneas. Por favor, vuelve a comprobar tu clave de la API y tu clave secreta de la API."
+
+#: includes/admin/class-rop-logger.php:168
+msgid "The Callback URL of your Twitter application seems to be wrong."
+msgstr "La URL de retorno de tu aplicación de Twitter parece ser errónea."
+
+#: includes/admin/class-rop-logger.php:167
+msgid "In order to connect with Facebook it's required to select at least one Page in the authentification process."
+msgstr "Para poder conectar con Facebook es necesario seleccionar al menos una página en el proceso de identificación."
+
+#: includes/class-rop-i18n.php:90
+msgid "This field is required"
+msgstr "Este campo es obligatorio"
+
+#: includes/class-rop-i18n.php:107
+msgid "You need to activate your license key <a href=\"/wp-admin/options-general.php#tweet_old_post_pro_license\" style=\"cursor: pointer\">HERE</a> to unlock the Pro features of Revive Old Posts."
+msgstr "Tienes que activar tu clave de licencia <a href=\"/wp-admin/options-general.php#tweet_old_post_pro_license\" style=\"cursor: pointer\">AQUÍ</a> para desbloquear las características Pro de Revive Old Posts."
+
+#: includes/class-rop-i18n.php:81
+msgid "Sign in to Twitter"
+msgstr "Conectar a Twitter"
+
+#: includes/admin/class-rop-pointers.php:124
+msgid "You can add your social media accounts here. %1$sLet's do this later%2$s."
+msgstr "Puedes añadir aquí tus cuentas en medios sociales. %1$sHagamos esto más tarde%2$s."
+
+#: includes/class-rop-i18n.php:105
+msgid "<b>Add Your Accounts:</b>"
+msgstr "<b>Añade tus cuentas:</b>"
+
+#: includes/class-rop-i18n.php:384
+msgid "Roadmap & Voting"
+msgstr "Hoja de ruta y votos"
+
+#: includes/class-rop-i18n.php:401
+msgid "All posts have been shared to your connected social media accounts. No previously shared posts will be re-shared until you click the button to \"Stop Sharing\" and \"Start Sharing\" on the Revive Old Posts plugin dashboard."
+msgstr "Todas las entradas se han compartido en tus cuentas de medios sociales conectadas. No se volverá a compartir ninguna entrada compartida previamente hasta que hagas clic en el botón «Dejar de compartir» y «Empezar a compartir» en el escritorio del plugin Revive Old Posts."
+
+#: includes/class-rop-i18n.php:383
+msgid "Documentation"
+msgstr "Documentación"
+
+#: includes/class-rop-i18n.php:378
+msgid "Get Support"
+msgstr "Obtener soporte"
+
+#: includes/class-rop-i18n.php:87
+msgid "We collect some info, learn more %1$shere%2$s."
+msgstr "Recopilamos algo de información, aprende más %1$saquí%2$s."
+
+#: includes/class-rop-i18n.php:86
+msgid "Or"
+msgstr "O"
+
+#: includes/class-rop-i18n.php:79
+msgid "Use your own keys"
+msgstr "Utiliza tus propias claves"
+
+#: includes/class-rop-i18n.php:80
+msgid "Sign in to Facebook"
+msgstr "Identifícate en Facebook"
+
+#: includes/admin/class-rop-admin.php:1282
+msgid "%1$s%2$sRevive Old Posts:%3$s The WordPress Cron seems is disabled on your website. This can cause sharing issues with Revive Old Posts. If sharing is not working, then see %4$shere for solutions.%5$s%6$s%7$s"
+msgstr "%1$s%2$sRevive Old Posts:%3$s El cron de WordPress Cron parece estar desastivado en tu web. Esto puede provocar problemas al compartir con Revive Old Posts. Si no funciona el compartir mira %4$saquí para posibles soluciones.%5$s%6$s%7$s"
+
+#: includes/admin/class-rop-admin.php:1220
+msgid "%1$s%2$sRevive Old Posts:%3$s The Linkedin API Has been updated. You need to reconnect your LinkedIn account to continue posting to LinkedIn. Please see %4$sthis article for instructions.%5$s%6$s%7$s"
+msgstr "%1$s%2$sRevive Old Posts:%3$s La API de Linkedin se ha actualizado. Tienes que volver a conectar tu cuenta de LinkedIn para seguir publicando en LinkedIn. Por favor,  lee %4$seste artículo para las instrucciones.%5$s%6$s%7$s"
+
+#: includes/class-rop-i18n.php:391
+msgid "Add share message variations to this post %1$sLearn More%2$s."
+msgstr "Añade variaciones del mensaje a compartir para esta entrada %1$sAprende más%2$s."
+
+#: includes/class-rop-i18n.php:389
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: includes/class-rop-i18n.php:184
+msgid "By default message variations are shared randomly. Checking this box will cause them to share in the order they were added."
+msgstr "Por defecto, las variaciones del mensaje se comparten aleatoriamente. Marcando esta casillas harás que se compartan en el orden en el que se añadieron."
+
+#: includes/admin/class-rop-admin.php:692
+msgid "Share to more accounts by upgrading to the extended version for "
+msgstr "Comparte a más cuentas actualizado a la versión extendida para "
+
+#: includes/class-rop.php:230
+msgid "Hi there, <br/><strong>Revive Social</strong> team here, we noticed you've been using our plugin for a while now, has it been a great help? If so, would you mind leaving us a review? It would help a ton, thanks!<br/>"
+msgstr "Hola, <br/>Somos el equipo de <strong>Revive Social</strong>, nos hemos dado cuenta de que has estado usando nuestro plugin durante un tiempo, ¿ha sido una gran ayuda? Si es así, ¿te importaría dejarnos una reseña? Ayudaría una tonelada, ¡gracias!<br/>"
+
+#: includes/class-rop.php:219
+msgid "No, thanks"
+msgstr "No gracias"
+
+#: includes/class-rop.php:210
+msgid "Sure!"
+msgstr "¡Por supuesto!"
+
+#: includes/class-rop.php:200
+msgid "Below is a detailed view of all data that ReviveSocial will receive if you fill in this survey. No domain name, email address or IP addresses are transmited after you submit the survey."
+msgstr "A continuación se muestra una vista detallada de todos los datos que ReviveSocial recibirá si rellenas esta encuesta. No se transmite ningún nombre de dominio, dirección de correo electrónico o dirección IP después de enviar la encuesta."
+
+#: includes/class-rop-i18n.php:392
+msgid "Content Variation #"
+msgstr "Variación de contenido #"
+
+#: includes/class-rop-i18n.php:390
+msgid "New Content Variation"
+msgstr "Añadir nueva variación de contenido"
+
+#: includes/class-rop-i18n.php:179
+msgid "Enable Share Content Variations"
+msgstr "Permitir compartir variaciones de contenido"
+
+#: includes/admin/class-rop-admin.php:161
+msgid "%1$s%2$sRevive Old Posts:%3$s Please upgrade your Bit.ly keys. See this %4$sarticle for instructions.%5$s%6$s"
+msgstr "%1$s%2$sRevive Old Posts:%3$s Por favor, actualiza tus claves de Bit.ly. Lee este %4$sartículo para las instrucciones.%5$s%6$s"
+
+#: includes/admin/class-rop-pointers.php:488
+msgid "Next"
+msgstr "Siguiente"
+
+#: includes/admin/class-rop-pointers.php:359
+msgid "Once you've connected your accounts and setup their Post Format settings, use this button to start the plugin."
+msgstr "Una vez hayas conectado tus cuentas y configurado los ajustes de sus formatos de publicación, utiliza este botón para lanzar el plugin."
+
+#: includes/admin/class-rop-pointers.php:343
+msgid "The resolution to most of these possible errors can be found %1$s%2$sHere%3$s%4$s."
+msgstr "La solución a la mayoría de estos posibles errores la puedes encontrar %1$s%2$saquí%3$s%4$s."
+
+#: includes/admin/class-rop-pointers.php:342
+msgid "You can track the success and failings of your shares here."
+msgstr "Aquí puedes hacer seguimiento del éxito y fallos de tus compartidos."
+
+#: includes/admin/class-rop-pointers.php:341
+msgid "Share Log"
+msgstr "Registro de compartidos"
+
+#: includes/admin/class-rop-pointers.php:325
+msgid "You'll be able to have look at the posts scheduled to go out by ROP. You can even skip or block them from sharing in the future."
+msgstr "Podrás ver las entradas programadas para salir por ROP. Incluso puedes omitirlas o bloquearlas para que no se compartan en el futuro."
+
+#: includes/admin/class-rop-pointers.php:308
+msgid "Custom scheduling allows you to refine the post times and days of your posts."
+msgstr "La programación personalizada te permite refinar las horas y los días de tus publicaciones."
+
+#: includes/admin/class-rop-pointers.php:292
+msgid "Once you've connected an account(s) you'll be able to configure the settings for the account(s) here."
+msgstr "Una vez que hayas conectado una(s) cuenta(s), podrás configurar lo(s) ajuste(s) de la(s) cuenta(s) aquí."
+
+#: includes/admin/class-rop-pointers.php:275
+msgid "You can add multiple custom messages to individual posts as share variations! ROP will randomly select one to share."
+msgstr "¡Puedes añadir múltiples mensajes personalizados a mensajes individuales como variaciones de compartir! ROP seleccionará al azar uno para compartirlo."
+
+#: includes/admin/class-rop-pointers.php:274
+msgid "Share Content Variations"
+msgstr "Compartir variaciones de contenido"
+
+#: includes/admin/class-rop-pointers.php:258
+msgid "ROP not only works on autopilot, it can also be used to push new posts to your social networks immediately."
+msgstr "ROP no sólo funciona con piloto automático, sino que también se puede utilizar para enviar nuevos mensajes a las redes sociales inmediatamente."
+
+#: includes/admin/class-rop-pointers.php:257
+msgid "Share on Publish"
+msgstr "Compartir al publicar"
+
+#: includes/admin/class-rop-pointers.php:242
+msgid "Selecting options here and leaving the Exclude box %1$sunchecked%2$s will %1$sonly share%2$s posts in those taxonomies."
+msgstr "Seleccionando aquí las opciones y dejando la casilla de excluir %1$ssin marcar%2$s %1$ssolo compartirá%2$s entradas en esas taxonomías."
+
+#: includes/admin/class-rop-pointers.php:241
+msgid "Selecting options here and %1$schecking%2$s the Exclude box will %1$sprevent%2$s posts in those taxonomies from sharing."
+msgstr "Seleccionando aquí las opciones y %1$smarcando%2$s la casilla de excluir %1$simpides%2$s compartir esas taxonomías."
+
+#: includes/admin/class-rop-pointers.php:240
+msgid "%1$sNote:%2$s"
+msgstr "%1$sNota:%2$s"
+
+#: includes/admin/class-rop-pointers.php:239
+msgid "Here you can set which WordPress taxonomies you'd like to include/exclude from sharing."
+msgstr "Aquí puedes establecer qué taxonomías de WordPress te gustaría incluir/excluir de compartir."
+
+#: includes/admin/class-rop-pointers.php:238
+msgid "Taxonomy Filtering"
+msgstr "Filtrado de taxonomías"
+
+#: includes/admin/class-rop-pointers.php:223
+#: includes/admin/class-rop-pointers.php:259
+#: includes/admin/class-rop-pointers.php:276
+#: includes/admin/class-rop-pointers.php:309
+#: includes/admin/class-rop-pointers.php:326
+msgid "%1$s%2$sLearn more about this feature%3$s%4$s."
+msgstr "%1$s%2$sAprende más sobre esta característica %3$s%4$s."
+
+#: includes/admin/class-rop-pointers.php:222
+msgid "You can share media straight from your media library!"
+msgstr "¡Puedes compartir medios directamente desde tu biblioteca de medios!"
+
+#: includes/admin/class-rop-pointers.php:221
+msgid "ROP works with any post type, from products to posts, to custom post types."
+msgstr "Rop funciona con cualquier tipo de contenido, desde productos hasta entradas, pasando por tipos de contenido personalizados."
+
+#: includes/admin/class-rop-pointers.php:205
+msgid "Checking this option ensures that your posts share perpetually."
+msgstr "Al marcar esta opción, te aseguras de que tus entradas se compartan perpetuamente."
+
+#: includes/admin/class-rop-pointers.php:204
+msgid "Autopilot"
+msgstr "Piloto automático"
+
+#: includes/admin/class-rop-pointers.php:189
+msgid "E.g. setting this option to 15 would mean that posts older than 15 days will not be shared."
+msgstr "Por ejemplo, establecer esta opción en 15 significaría que las entradas de más de 15 días no se compartirán."
+
+#: includes/admin/class-rop-pointers.php:188
+msgid "Here you can set the maximum age of posts that are eligible to be shared."
+msgstr "Aquí puedes establecer la edad máxima de entradas elegibles para ser compartidas."
+
+#: includes/admin/class-rop-pointers.php:187 includes/class-rop-i18n.php:132
+msgid "Maximum Post Age"
+msgstr "Edad máxima de la entrada"
+
+#: includes/admin/class-rop-pointers.php:172
+msgid "Here you can set how old posts should be before they are eligible to be shared."
+msgstr "Aquí puedes establecer la antigüedad de las entradas antes de que puedan ser compartidas."
+
+#: includes/admin/class-rop-pointers.php:171 includes/class-rop-i18n.php:130
+msgid "Minimum Post Age"
+msgstr "Edad mínima de la entrada"
+
+#: includes/admin/class-rop-pointers.php:156
+msgid "Here you can set how many hours you'd like between shares."
+msgstr "Aquí puedes establecer cuántas horas quieres entre compartidos."
+
+#: includes/admin/class-rop-pointers.php:155
+msgid "Time Between Shares"
+msgstr "Tiempo entre compartidos"
+
+#: includes/admin/class-rop-pointers.php:140
+msgid "This is the main configuration page of the plugin, we'll go through a few of the settings, click it now."
+msgstr "Esta es la página principal de configuración del plugin, revisaremos algunos de los ajustes, haz clic aquí."
+
+#: includes/admin/class-rop-pointers.php:123
+msgid "Adding Accounts"
+msgstr "Añadir cuentas"
+
+#: includes/admin/class-rop-pointers.php:108
+msgid "Your social media accounts will show here once connected."
+msgstr "Tus cuentas de medios sociales se mostrarán aquí una vez estén conectadas."
+
+#: includes/admin/class-rop-pointers.php:107
+msgid "Accounts Area"
+msgstr "Área de cuentas"
+
+#: includes/admin/class-rop-pointers.php:70
+msgid "Click here to get started with Revive Old Posts (ROP)."
+msgstr "Haz clic aquí para empezar con Revive Old Posts (ROP)."
+
+#: includes/admin/class-rop-pointers.php:69
+msgid "Get Started"
+msgstr "Primeros pasos"
+
+#: includes/class-rop-i18n.php:173
+msgid ""
+"If checked, UTM query tags will be added to URL of shares so that you can better track\n"
+"\t\t\t\t\t\t\ttraffic from Revive Old Posts."
+msgstr ""
+"Si está marcada, las etiquetas de consulta UTM se añadirán a la URL de los compartidos para que puedas mejorar el seguimiento\n"
+"\t \t \t \t \t \t \t \t \t del tráfico desde Revive Old Posts."
+
+#: includes/class-rop-i18n.php:239
+msgid "...written by {author} on {date}."
+msgstr "...escrito por {author} el {date}."
+
+#: includes/class-rop-i18n.php:207
+msgid "Should we delete all saved settings on deletion of the Revive Old Posts plugin?"
+msgstr "¿Deberíamos borrar todos los ajustes guardados al borrar el plugin Revive Old Posts?"
+
+#: includes/class-rop-i18n.php:206
+msgid "Housekeeping"
+msgstr "Limpieza"
+
+#: includes/class-rop-i18n.php:193
+msgid "Instant sharing option will be checked by default when creating new posts."
+msgstr "La opción de compartir instantáneamente se marcará por defecto en las nuevas entradas."
+
+#: includes/class-rop-i18n.php:192
+msgid "Enable Instant Sharing By Default"
+msgstr "Activa el compartir al instante por defecto."
+
+#: tweet-old-post.php:113
+msgid "%1$s You're using a PHP version lower than 7.1! Revive Old Posts requires at least %2$sPHP 7.1%3$s to function properly. Plugin has been deactivated. %4$sLearn more here%5$s. %6$s"
+msgstr "¡%1$sEstás usando una versión de PHP inferior a la 7.1! Para funcionar correctamente, Revive Old Posts necesita, al menos, %2$sPHP 7.1%3$s. El plugin ha sido desactivado. %4$sAprende más aquí%5$s.%6$s"
+
+#: includes/class-rop-i18n.php:420
+msgid "These checkboxes will be cleared once the post is shared."
+msgstr "Estas casillas deben vaciarse una vez se comparta la entrada."
+
+#: includes/class-rop-i18n.php:419
+msgid "Share <b>immediately</b> via <small>Revive Old Posts</small>  "
+msgstr "Comparte <b>immediatamente</b> desde <small>Revive Old Posts</small>  "
+
+#: includes/class-rop-i18n.php:294
+msgid "Media posting is available in the Business version."
+msgstr "La publicación de medios está disponible en la versión Business."
+
+#: includes/class-rop-i18n.php:293
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/class-rop-i18n.php:292
+msgid "Alt Text"
+msgstr "Texto alternativo"
+
+#: includes/class-rop-i18n.php:291
+msgid "Caption"
+msgstr "Leyenda"
+
+#: includes/class-rop-i18n.php:290
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-rop-i18n.php:289
+msgid "Which content should we share for media posts?"
+msgstr "¿Qué contenido deberíamos compartir de las publicaciones de medios?"
+
+#: includes/class-rop-i18n.php:288
+msgid "Media Posts Content"
+msgstr "Contenido de publicaciones de medios"
+
+#: includes/class-rop-i18n.php:283
+msgid "Custom UTMs are only available in the Pro version."
+msgstr "Los UTM personalizados solo están disponibles en la versión Pro."
+
+#: includes/class-rop-i18n.php:282
+msgid "The campaign name you want to show in Google Analytics e.g: \"november_sale\" etc."
+msgstr "El nombre de campaña que quieras mostrar en Google Analytics, p.ej: \"oferta_noviembre\", etc."
+
+#: includes/class-rop-i18n.php:281
+msgid "Campaign Name"
+msgstr "Nombre de campaña"
+
+#: includes/class-rop-i18n.php:280
+msgid "The marketing medium you want to show in Google Analytics e.g: \"social\", \"website\", etc."
+msgstr "El medio de márketing que quieras mostrar en Google Analytics, p.ej.: \"social\", \"web\", etc."
+
+#: includes/class-rop-i18n.php:279
+msgid "Campaign Medium"
+msgstr "Medio de la campaña"
+
+#: includes/class-rop-i18n.php:144
+msgid "You need to select the media files which you want to share, find out more information %1$shere%2$s."
+msgstr "Tienes que seleccionar los archivos de medios que quieras compartir, descubre más información %1$saquí%2$s."
+
+#: includes/class-rop-i18n.php:372
+msgid ""
+"It seems there is an issue with your WordPress configuration and the core REST API functionality is not available. This is crucial as Revive Old Posts relies on this functionality in order to work.<br/>\n"
+"The root cause might be either a security plugin which blocks this feature or some faulty server configuration which constrain this WordPress feature. <br/>\n"
+"You can try to disable any of the security plugins that you use in order to see if the issue persists or ask the hosting company to further investigate."
+msgstr ""
+"Parece que hay un problema con tu configuración de WordPress y la funcionalidad base de la REST API no está disponible. Esto es crucial pues Revive Old Post se apoya en esta funcionalidad para funcionar.<br/>\n"
+"La causa original puede ser o un plugin de seguridad que bloquea esta característica o alguna configuración fallida del servidor que restringe esta característica de WordPress.<br/>\n"
+"Puedes tratar de desactivar alguno de los plugins de seguridad que uses para ver si persiste el problema o preguntar a tu empresa de alojamiento para seguir investigando."
+
+#: includes/class-rop-i18n.php:110 includes/class-rop-i18n.php:111
+msgid "You can check %1$shere%2$s for how to get these details."
+msgstr "Puedes comprobar %1$saquí%2$s cómo conseguir estos detalles."
+
+#: includes/class-rop-i18n.php:370
+msgid "Once every 5 min"
+msgstr "Una vez cada 5 minutos"
+
+#: includes/class-rop-i18n.php:334
+msgid "Link using"
+msgstr "Enlace usando"
+
+#: includes/class-rop-i18n.php:218
+msgid "Load more posts."
+msgstr "Cargar más entradas."
+
+#: includes/class-rop-i18n.php:217
+msgid "No posts found."
+msgstr "No se han encontrado entradas."
+
+#: includes/class-rop-i18n.php:216
+msgid "Exclude this post"
+msgstr "Excluir esta entrada"
+
+#: includes/class-rop-i18n.php:215
+msgid "Include this post"
+msgstr "Incluir esta entrada"
+
+#: includes/class-rop-i18n.php:214
+msgid "Exclude all matching"
+msgstr "Excluir todas las que coincidan"
+
+#: includes/class-rop-i18n.php:213
+msgid "Show only excluded posts"
+msgstr "Mostrar solo entradas excluidas"
+
+#: includes/class-rop-i18n.php:212
+msgid "Search post to exclude..."
+msgstr "Buscar entrada a excluir…"
+
+#: includes/class-rop-i18n.php:211
+msgid "Save filters"
+msgstr "Guardar filtros"
+
+#: includes/class-rop-i18n.php:210
+msgid "Exclude taxononmies"
+msgstr "Excluir taxonomías"
+
+#: includes/class-rop-i18n.php:92
+msgid "Remove account from the list."
+msgstr "Quitar cuenta de la lista."
+
+#: includes/admin/class-rop-admin.php:614
+#: includes/admin/class-rop-admin.php:615
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: includes/class-rop-i18n.php:369
+msgid "Sharing..."
+msgstr "Compartiendo..."
+
+#: includes/class-rop-i18n.php:368
+msgid "Next share"
+msgstr "Siguiente compartido"
+
+#: includes/class-rop-i18n.php:367
+msgid "Nothing found matching"
+msgstr "No se encontró nada que coincida"
+
+#: includes/class-rop-i18n.php:366
+msgid "Upgrade to Business."
+msgstr "Mejorar a Business."
+
+#: includes/class-rop-i18n.php:365
+msgid "Upgrade to Pro."
+msgstr "Actualizar a Pro."
+
+#: includes/class-rop-i18n.php:364
+msgid "You will need at least one active account to start sharing."
+msgstr "Necesitarás al menos una cuenta activa para comenzar a compartir."
+
+#: includes/class-rop-i18n.php:363
+msgid "Sharing"
+msgstr "Compartir"
+
+#: includes/class-rop-i18n.php:362
+msgid "Stop"
+msgstr "Detener"
+
+#: includes/class-rop-i18n.php:361
+msgid "Start"
+msgstr "Iniciar"
+
+#: includes/class-rop-i18n.php:360
+msgid "in"
+msgstr "en"
+
+#: includes/class-rop-i18n.php:347
+msgid "No recent logs!"
+msgstr "¡Sin registros recientes!"
+
+#: includes/class-rop-i18n.php:346
+msgid "Clear logs"
+msgstr "Vaciar registros"
+
+#: includes/class-rop-i18n.php:341
+msgid "Insert"
+msgstr "Insertar"
+
+#: includes/class-rop-i18n.php:340
+msgid "Insert a media"
+msgstr "Insertar un medio"
+
+#: includes/class-rop-i18n.php:339
+msgid "Block"
+msgstr "Bloquear"
+
+#: includes/class-rop-i18n.php:338
+msgid "Skip"
+msgstr "Saltar"
+
+#: includes/class-rop-i18n.php:337
+msgid "No Image"
+msgstr "Sin imagen"
+
+#: includes/class-rop-i18n.php:333
+msgid "Link"
+msgstr "Enlace"
+
+#: includes/class-rop-i18n.php:331
+msgid "Ban this post from sharing in the future."
+msgstr "Evitar que esta entrada se comparta en el futuro."
+
+#: includes/class-rop-i18n.php:330
+msgid "Reschedule this post."
+msgstr "Reprogramar esta entrada."
+
+#: includes/class-rop-i18n.php:329
+msgid "Content"
+msgstr "Contenido"
+
+#: includes/class-rop-i18n.php:328
+msgid "Remove"
+msgstr "Quitar"
+
+#: includes/class-rop-i18n.php:327
+msgid "Upload"
+msgstr "Subir"
+
+#: includes/class-rop-i18n.php:326
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/class-rop-i18n.php:325
+msgid "Refresh Queue"
+msgstr "Refrescar cola"
+
+#: includes/class-rop-i18n.php:324
+msgid "Check if you have at least an <b>\"Active account\"</b>, what posts and pages are selected in <b>\"General Settings\"</b> and if a <b>\"Schedule\"</b> is defined."
+msgstr "Comprueba si tienes al menos una <b>\"cuenta activa\"</b>, qué entradas y páginas están seleccionadas en los <b>\"Ajustes generales\"</b> y si se ha definido una if a <b>\"programación\"</b>."
+
+#: includes/class-rop-i18n.php:323
+msgid "No queued posts!"
+msgstr "¡No hay entradas encoladas!"
+
+#: includes/class-rop-i18n.php:322
+msgid "You can edit the posts from the queue only the Business and Marketer versions of the plugin. View more details %1$shere%2$s."
+msgstr "Puedes modificar las entradas de la cola solo en la versión Business del plugin. Ve más detalles %1$saquí%2$s."
+
+#: includes/class-rop-i18n.php:321
+msgid "You can choose to edit any of the post, skip the sharing or block a specific one from sharing in the future."
+msgstr "Puedes elegir modificar cualquiera de las entradas, saltar la compartición o bloquear que se comparta en el futuro una específica."
+
+#: includes/class-rop-i18n.php:320
+msgid "You need to start sharing in order to see any posts in the queue."
+msgstr "Necesitas comenzar a compartir para ver entradas en la cola."
+
+#: includes/class-rop-i18n.php:319
+msgid "Sharing is not started!"
+msgstr "¡No se ha comenzado a compartir!"
+
+#: includes/admin/class-rop-pointers.php:324 includes/class-rop-i18n.php:318
+msgid "Sharing Queue"
+msgstr "Cola de compartidos"
+
+#: includes/class-rop-i18n.php:314
+msgid "A recurring interval to use for sharing. Once every 'X' hours."
+msgstr "Un intervalo recurrente para usarlo para compartir. Una vez cada 'X' horas."
+
+#: includes/class-rop-i18n.php:313
+msgid "Recurring Schedule Interval"
+msgstr "Intervalo de programación recurrente"
+
+#: includes/class-rop-i18n.php:312
+msgid "The time at witch to share for this account."
+msgstr "La hora a la que deseas compartir en esta cuenta."
+
+#: includes/class-rop-i18n.php:311
+msgid "Fixed Schedule Time."
+msgstr "Hora fija programada."
+
+#: includes/class-rop-i18n.php:310
+msgid "The days when to share for this account."
+msgstr "Los días en los que se compartirá para esta cuenta."
+
+#: includes/class-rop-i18n.php:309
+msgid "Fixed Schedule Days"
+msgstr "Días de programación fijos"
+
+#: includes/class-rop-i18n.php:308
+msgid "Recurring"
+msgstr "Recurrente"
+
+#: includes/class-rop-i18n.php:307
+msgid "Fixed"
+msgstr "Fijado"
+
+#: includes/class-rop-i18n.php:306
+msgid "What type of schedule to use."
+msgstr "Qué tipo de programación usar."
+
+#: includes/class-rop-i18n.php:305
+msgid "Schedule Type"
+msgstr "Tipo de programación"
+
+#: includes/class-rop-i18n.php:272
+msgid "The maximum hashtags length to be used when publishing."
+msgstr "La longitud máxima de hashtags a usar al publicar."
+
+#: includes/class-rop-i18n.php:270
+msgid "The name of the meta field that contains the hashtags."
+msgstr "El nombre del campo meta que contiene los hashtags."
+
+#: includes/class-rop-i18n.php:269
+msgid "Custom Hashtags"
+msgstr "Hashtags personalizados"
+
+#: includes/class-rop-i18n.php:268
+msgid "List of hastags to use separated by comma"
+msgstr "Lista de hashtags a usar, separados por comas"
+
+#: includes/class-rop-i18n.php:261
+msgid "Hashtags for published content."
+msgstr "Hashtags para el contenido publicado."
+
+#: includes/class-rop-i18n.php:259
+msgid "required by the"
+msgstr "requerido por el"
+
+#: includes/class-rop-i18n.php:258
+msgid "Add the"
+msgstr "Añadir el"
+
+#: includes/class-rop-i18n.php:257
+msgid "Service API"
+msgstr "API del servicio"
+
+#: includes/class-rop-i18n.php:256
+msgid "Which service to use for URL shortening?"
+msgstr "¿Que servicio se usará para acortar las URL?"
+
+#: includes/class-rop-i18n.php:253
+msgid "Should we use a shortener when adding the links to the content?"
+msgstr "¿Deberíamos usar un acortador al añadir los enlaces al contenido?"
+
+#: includes/class-rop-i18n.php:250
+msgid "Custom Field from which to get the URL."
+msgstr "Campo personalizado del que obtener la URL."
+
+#: includes/class-rop-i18n.php:244
+msgid "Should ROP include the post permalink or not?"
+msgstr "¿Debería incluir ROP el enlace permanente de la entrada o no?"
+
+#: includes/class-rop-i18n.php:234
+msgid "Meta field name from which to get the content."
+msgstr "Nombre del campo meta del que obtener el contenido."
+
+#: includes/class-rop-i18n.php:233
+msgid "Custom Meta Field"
+msgstr "Campo meta personalizado"
+
+#: includes/class-rop-i18n.php:228
+msgid "Post Title & Content"
+msgstr "Título de la entrada y contenido"
+
+#: includes/class-rop-i18n.php:226
+msgid "Post Title"
+msgstr "Título de la entrada"
+
+#: includes/class-rop-i18n.php:182
+msgid "Using a custom share message is available in the Pro version."
+msgstr "El uso de un mensaje personalizado para compartir está disponible en la versión Pro."
+
+#: includes/class-rop-i18n.php:172
+msgid "Enable Google Analytics Tracking"
+msgstr "Activar rastreo de Google Analytics"
+
+#: includes/class-rop-i18n.php:171
+msgid "Posts excluded from sharing, filtered based on previous selections."
+msgstr "Entradas excluidas de compartir, filtradas en base a selecciones previas."
+
+#: includes/class-rop-i18n.php:170
+msgid "Posts"
+msgstr "Entradas"
+
+#: includes/class-rop-i18n.php:162
+msgid "Taxonomies"
+msgstr "Taxonomías"
+
+#: includes/class-rop-i18n.php:157
+msgid ""
+"Selecting custom post types is available in the Pro\n"
+"\t\t\t\t\t\t\tversion."
+msgstr ""
+"Seleccionar tipos de contenido personalizado está disponible en la versión\n"
+"\t\t\t\t\t\t\tPro."
+
+#: includes/class-rop-i18n.php:136
+msgid "Share More Than Once?"
+msgstr "¿Compartir más de una vez?"
+
+#: includes/class-rop-i18n.php:134
+msgid "Number of Posts"
+msgstr "Número de entradas"
+
+#: includes/class-rop-i18n.php:133
+msgid "Maximum age of posts available for sharing, in days."
+msgstr "Edad máxima de las entradas disponibles para compartir, en días."
+
+#: includes/class-rop-i18n.php:131
+msgid "Minimum age of posts available for sharing, in days."
+msgstr "Edad mínima de las entradas disponibles para compartir, en días."
+
+#: includes/class-rop-i18n.php:112
+msgid "The %1$s service can not be used or was not found"
+msgstr "El servicio %1$s no puede usarse o no se ha encontrado"
+
+#: includes/class-rop-i18n.php:109
+msgid "Please add the APP SECRET from your Facebook app."
+msgstr "Por favor, añade la APP SECRET desde tu aplicación de Facebook."
+
+#: includes/class-rop-i18n.php:108
+msgid "Please add the APP ID from your Facebook app."
+msgstr "Por favor, añade la APP ID desde tu aplicación de Facebook."
+
+#: includes/class-rop-i18n.php:104
+msgid "for"
+msgstr "para"
+
+#: includes/class-rop-i18n.php:101
+msgid "Each <b>account</b> can have it's own options for sharing, on the left you can see the current selected account and network, below are the options for the account. Don't forget to save after each change and remember, you can always reset an account to the network defaults."
+msgstr "Cada <b>cuenta</b> puede tener sus propias opciones para compartir, a la izquierda puedes ver la cuenta y la red seleccionadas actualmente, debajo están las opciones para la cuenta. No olvides guardar después de cada cambio y recuerda que siempre puedes restablecer una cuenta a los valores por defecto de la red."
+
+#: includes/class-rop-i18n.php:100
+msgid "Remove all accounts"
+msgstr "Borrar todas las cuentas"
+
+#: includes/class-rop-i18n.php:98
+msgid " Authenticate a new service (eg. Facebook, Twitter etc. ), select the account you want to add from that service and ensure the switch is in the <b>ON</b> position. Only the active accounts will be used for sharing."
+msgstr " Identifícate en un nuevo servicio (p.ej. Facebook, Twitter, etc.), elige las cuentas que quieres añadir del servicio y <b>actívalos</b>. Solo se usarán para compartir las cuentas activas."
+
+#: includes/class-rop-i18n.php:96
+msgid "Go to Accounts"
+msgstr "Ir a cuentas"
+
+#: includes/class-rop-i18n.php:95
+msgid "Add one from the <b>\"Accounts\"</b> section."
+msgstr "Añade una desde la sección <b>\"Cuentas\"</b>."
+
+#: includes/class-rop-i18n.php:94
+msgid "No active accounts!"
+msgstr "¡No hay cuentas activas!"
+
+#: includes/class-rop-i18n.php:91
+msgid "at"
+msgstr "el"
+
+#: includes/class-rop-i18n.php:89
+msgid "Sign In"
+msgstr "Conéctate"
+
+#: includes/class-rop-i18n.php:78 includes/class-rop-i18n.php:88
+msgid "Service Credentials"
+msgstr "Credenciales del servicio"
+
+#. Plugin Name of the plugin
+#: includes/admin/class-rop-admin.php:602
+#: includes/admin/class-rop-admin.php:603 includes/class-rop-i18n.php:350
+msgid "Revive Old Posts"
+msgstr "Revivir entradas antiguas"
+
+#. Author of the plugin
+msgid "revive.social"
+msgstr "revive.social"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://revive.social/"
+msgstr "https://revive.social/"
+
+#: includes/class-rop-i18n.php:169
+msgid "Exclude?"
+msgstr "¿Excluir?"
+
+#: includes/class-rop-i18n.php:388
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/class-rop-i18n.php:332
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/class-rop-i18n.php:336
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. Description of the plugin
+msgid "WordPress plugin that helps you to keeps your old posts alive by sharing them and driving more traffic to them from twitter/facebook or linkedin. It also helps you to promote your content. You can set time and no of posts to share to drive more traffic.For questions, comments, or feature requests, <a href=\"http://revive.social/support/?utm_source=plugindesc&utm_medium=announce&utm_campaign=top\">contact </a> us!"
+msgstr "Plugin para WordPress que te ayuda a mantener vigentes tus publicaciones antiguas compartiéndolas y atrayendo más tráfico desde twitter / facebook o linkedin. También te ayuda a promocionar tu contenido. Puedes establecer el intervalo de tiempo y el número de publicaciones a compartir para atraer más tráfico. Para preguntas, comentarios o petición de funcionalidades, <a href=\"http://revive.social/support/?utm_source=plugindesc&utm_medium=announce&utm_campaign=top\">¡contacta con nosotros!</a>"
+
+#: includes/admin/class-rop-pointers.php:358
+msgid "Start Sharing"
+msgstr "Empezar a compartir"
+
+#: includes/class-rop-i18n.php:102 includes/class-rop-i18n.php:209
+#: includes/class-rop-i18n.php:335
+msgid "Save"
+msgstr "Guardar"
+
+#: includes/class-rop-i18n.php:103
+msgid "Reset"
+msgstr "Restablecer"
+
+#: includes/admin/class-rop-pointers.php:291 includes/class-rop-i18n.php:221
+msgid "Post Format"
+msgstr "Formato de publicaciones"
+
+#: includes/admin/class-rop-pointers.php:139 includes/class-rop-i18n.php:127
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: includes/class-rop-i18n.php:77
+msgid "Accounts"
+msgstr "Cuentas"
+
+#: includes/admin/class-rop-pointers.php:307 includes/class-rop-i18n.php:303
+msgid "Custom Schedule"
+msgstr "Programación personalizada"
+
+#: includes/class-rop-i18n.php:359
+msgid "Leave a review"
+msgstr "Deja una reseña"
+
+#: includes/class-rop-i18n.php:358
+msgid "by"
+msgstr "por"
+
+#: includes/admin/class-rop-admin.php:626
+#: includes/admin/class-rop-admin.php:627
+msgid "Exclude Posts"
+msgstr "Excluir publicaciones"
+
+#: includes/admin/class-rop-pointers.php:220 includes/class-rop-i18n.php:142
+msgid "Post Types"
+msgstr "Tipo de contenido"
+
+#: includes/class-rop-i18n.php:128
+msgid "Minimum Interval Between Shares"
+msgstr "Intervalo mínimo entre comparticiones"
+
+#: includes/class-rop-i18n.php:271
+msgid "Maximum Hashtags length"
+msgstr "Longitud máxima de los hashtags"
+
+#: includes/class-rop-i18n.php:267
+msgid "Common Hashtags"
+msgstr "Hashtags comunes"
+
+#: includes/class-rop-i18n.php:266
+msgid "Create hashtags from a custom field"
+msgstr "Crear hashtags desde un campo personalizado"
+
+#: includes/class-rop-i18n.php:265
+msgid "Create hashtags from tags"
+msgstr "Crear hashtags a partir de etiquetas"
+
+#: includes/class-rop-i18n.php:264
+msgid "Create hashtags from categories"
+msgstr "Crear hashtags a partir de categorías"
+
+#: includes/class-rop-i18n.php:263
+msgid "Common hashtags for all shares"
+msgstr "Hashtags comunes para todos los compartidos"
+
+#: includes/class-rop-i18n.php:262
+msgid "Don't add any hashtags"
+msgstr "No añadir ningún hashtag"
+
+#: includes/class-rop-i18n.php:260
+msgid "Hashtags"
+msgstr "Etiquetas"
+
+#: includes/class-rop-i18n.php:255
+msgid "URL Shortener Service"
+msgstr "Servicio acortador de URLs"
+
+#: includes/class-rop-i18n.php:252
+msgid "Use URL Shortener"
+msgstr "Usar acortador de URL"
+
+#: includes/class-rop-i18n.php:247
+msgid "Fetch URL from custom field?"
+msgstr "¿Tomar URL del campo personalizado?"
+
+#: includes/class-rop-i18n.php:137 includes/class-rop-i18n.php:178
+#: includes/class-rop-i18n.php:181 includes/class-rop-i18n.php:185
+#: includes/class-rop-i18n.php:188 includes/class-rop-i18n.php:191
+#: includes/class-rop-i18n.php:194 includes/class-rop-i18n.php:197
+#: includes/class-rop-i18n.php:200 includes/class-rop-i18n.php:208
+#: includes/class-rop-i18n.php:245 includes/class-rop-i18n.php:248
+#: includes/class-rop-i18n.php:254 includes/class-rop-i18n.php:275
+#: includes/class-rop-i18n.php:278
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/class-rop-i18n.php:243
+msgid "Include Link"
+msgstr "Incluir enlace"
+
+#: includes/class-rop-i18n.php:237
+msgid "Additional Text"
+msgstr "Texto adicional"
+
+#: includes/class-rop-i18n.php:230 includes/class-rop-i18n.php:246
+#: includes/class-rop-i18n.php:249
+msgid "Custom Field"
+msgstr "Campo personalizado"
+
+#: includes/class-rop-i18n.php:227
+msgid "Post Content"
+msgstr "Publicar contenido"
+
+#: includes/admin/class-rop-pointers.php:485
+msgid "Dismiss"
+msgstr "Descartar"

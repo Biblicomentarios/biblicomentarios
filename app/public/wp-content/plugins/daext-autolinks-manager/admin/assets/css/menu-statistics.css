@@ -1,0 +1,26 @@
+table.daext-items .icons-container {
+    width: 24px !important;
+    min-width: 24px !important;
+}
+
+.autolinks-container {
+    width: calc(100% - 300px);
+    float: left;
+}
+
+.sidebar-container {
+    margin-left: 20px;
+    float: right;
+    width: 280px;
+}
+
+#ajax-loader {
+    display: none;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+table.daext-items th:nth-child(1),
+table.daext-items td:nth-child(1) {
+    max-width: 440px;
+}

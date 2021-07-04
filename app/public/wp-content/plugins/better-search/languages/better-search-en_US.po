@@ -1,0 +1,325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Search\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-07 21:56+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ajay D'Souza <me@ajaydsouza.com>\n"
+"Language-Team: WebberZone <plugins@webberzone.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/admin-dashboard.php:57 includes/admin/admin.php:38
+msgid "Popular Searches"
+msgstr ""
+
+#: includes/admin/admin-dashboard.php:58 includes/admin/admin.php:41
+msgid "Daily Popular Searches"
+msgstr ""
+
+#: includes/admin/admin.php:38
+msgid "Better Search Popular Searches"
+msgstr ""
+
+#: includes/admin/admin.php:41
+msgid "Better Search Daily Popular Searches"
+msgstr ""
+
+#: includes/admin/admin.php:66
+#, php-format
+msgid ""
+"Thank you for using <a href=\"%1$s\" target=\"_blank\">Better Search</a>! "
+"Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href=\"%2$s\" "
+"target=\"_blank\">WordPress.org</a>"
+msgstr ""
+
+#: includes/admin/admin.php:94
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/admin.php:116
+msgid "Support"
+msgstr ""
+
+#: includes/admin/admin.php:117
+msgid "Donate"
+msgstr ""
+
+#: includes/admin/admin.php:118
+msgid "Contribute"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics-table.php:40
+msgid "popular_search"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics-table.php:41
+msgid "popular_searches"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics-table.php:242
+msgid "View"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics-table.php:243
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics-table.php:265
+msgid "Search term"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics-table.php:266
+msgid "Total searches"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics-table.php:267
+msgid "Daily searches"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics-table.php:301
+msgid "Delete search term"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics-table.php:390
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics.php:103
+msgid "Search Table"
+msgstr ""
+
+#: includes/admin/class-better-search-statistics.php:128
+msgid "Popular Searches per page"
+msgstr ""
+
+#: includes/admin/help-tab.php:35 includes/admin/help-tab.php:106
+#, php-format
+msgid ""
+"For more information or how to get support visit the <a href=\"%1$s"
+"\">WebberZone support site</a>."
+msgstr ""
+
+#: includes/admin/help-tab.php:37 includes/admin/help-tab.php:108
+#, php-format
+msgid ""
+"Support queries should be posted in the <a href=\"%1$s\">WordPress.org "
+"support forums</a>."
+msgstr ""
+
+#: includes/admin/help-tab.php:40 includes/admin/help-tab.php:111
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Post an issue</a> on <a href=\"%2$s\">GitHub</a> (bug "
+"reports only)."
+msgstr ""
+
+#: includes/admin/help-tab.php:49 includes/admin/help-tab.php:120
+#: includes/admin/settings-page.php:125
+msgid "General"
+msgstr ""
+
+#: includes/admin/help-tab.php:51
+msgid "This screen provides the basic settings for configuring Better Search."
+msgstr ""
+
+#: includes/admin/help-tab.php:52
+msgid ""
+"Enable tracking, seamless mode and the cache, configure basic tracker and "
+"uninstall settings."
+msgstr ""
+
+#: includes/admin/help-tab.php:59 includes/admin/settings-page.php:126
+#: includes/general-template.php:291
+#: includes/modules/class-bsearch-search-box.php:60
+msgid "Search"
+msgstr ""
+
+#: includes/admin/help-tab.php:61
+msgid "This screen provides settings to tweak the search algorithm."
+msgstr ""
+
+#: includes/admin/help-tab.php:62
+msgid ""
+"Configure number of search results, enable FULLTEXT and BOOLEAN mode, tweak "
+"the weight of title and content and block words."
+msgstr ""
+
+#: includes/admin/help-tab.php:69 includes/admin/settings-page.php:127
+msgid "Heatmap"
+msgstr ""
+
+#: includes/admin/help-tab.php:71
+msgid ""
+"This screen provides settings to tweak the output of the search heatmap to "
+"display popular searches."
+msgstr ""
+
+#: includes/admin/help-tab.php:72
+msgid ""
+"Configure title of the searches, period of trending searches, color and font "
+"sizes of the heatmap."
+msgstr ""
+
+#: includes/admin/help-tab.php:79 includes/admin/settings-page.php:128
+msgid "Styles"
+msgstr ""
+
+#: includes/admin/help-tab.php:81
+msgid ""
+"This screen provides options to control the look and feel of the search page."
+msgstr ""
+
+#: includes/admin/help-tab.php:82
+msgid ""
+"Choose for default set of styles or add your own custom CSS to tweak the "
+"display of the search results page."
+msgstr ""
+
+#: includes/admin/help-tab.php:122
+msgid ""
+"This screen provides some tools that help maintain certain features of "
+"Better Search."
+msgstr ""
+
+#: includes/admin/help-tab.php:123
+msgid ""
+"Clear the cache, reset the popular posts tables plus some miscellaneous "
+"fixes for older versions of Better Search."
+msgstr ""
+
+#: includes/admin/save-settings.php:51
+msgid ""
+"Settings have been reset to their default values. Reload this page to view "
+"the updated settings"
+msgstr ""
+
+#: includes/admin/save-settings.php:119
+msgid "Settings updated."
+msgstr ""
+
+#: includes/admin/settings-page.php:70
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/settings-page.php:79
+msgid "Do you really want to reset all these settings to their default values?"
+msgstr ""
+
+#: includes/admin/settings-page.php:81
+msgid "Reset all settings"
+msgstr ""
+
+#: includes/deprecated.php:36
+msgid "<h3>Popular Searches</h3>"
+msgstr ""
+
+#: includes/deprecated.php:37
+msgid "<h3>Weekly Popular Searches</h3>"
+msgstr ""
+
+#: includes/general-template.php:49
+#, php-format
+msgid ""
+"Results <strong>%1$s</strong> - <strong>%2$s</strong> of <strong>%3$s</"
+"strong>"
+msgstr ""
+
+#: includes/general-template.php:55
+#, php-format
+msgid "Page <strong>%1$s</strong> of <strong>%2$s</strong>"
+msgstr ""
+
+#: includes/general-template.php:65
+msgid "Results per-page"
+msgstr ""
+
+#: includes/general-template.php:110
+msgid "Previous"
+msgstr ""
+
+#: includes/general-template.php:138
+msgid "Next"
+msgstr ""
+
+#: includes/general-template.php:173
+msgid "Relevance: "
+msgstr ""
+
+#: includes/general-template.php:255
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: includes/general-template.php:289
+msgid "Search for:"
+msgstr ""
+
+#: includes/main-functions.php:75
+msgid "Posted on: "
+msgstr ""
+
+#: includes/main-functions.php:112
+msgid "No results."
+msgstr ""
+
+#: includes/main-functions.php:122
+msgid ""
+"Please type in your search terms. Use descriptive words since this search is "
+"intelligent."
+msgstr ""
+
+#: includes/modules/cache.php:38
+msgid "Better Search cache has been cleared"
+msgstr ""
+
+#: includes/modules/class-bsearch-search-box.php:29
+msgid "Search Form [Better Search]"
+msgstr ""
+
+#: includes/modules/class-bsearch-search-box.php:30
+msgid "Search Form"
+msgstr ""
+
+#: includes/modules/class-bsearch-widget.php:29
+msgid "Popular Searches [Better Search]"
+msgstr ""
+
+#: includes/modules/class-bsearch-widget.php:30
+msgid "Display the popular searches"
+msgstr ""
+
+#: includes/modules/heatmap.php:148
+msgid "No searches made yet"
+msgstr ""
+
+#: includes/template-redirect.php:122
+#, php-format
+msgid "Search Results for \"%1$s\" | %2$s"
+msgstr ""
+
+#: includes/utilities.php:46
+msgid ""
+"Your search query consists banned words. Please remove these and try again."
+msgstr ""
+
+#: includes/utilities.php:363
+#, php-format
+msgid "Powered by %1$s plugin%2$s"
+msgstr ""
+
+#: templates/better-search-template.php:26
+#, php-format
+msgid "Better Search TEMPLATE Search Results for: %s"
+msgstr ""
+
+#: templates/template.php:36
+msgid "Search Results for: "
+msgstr ""

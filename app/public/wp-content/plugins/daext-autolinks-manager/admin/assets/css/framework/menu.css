@@ -1,0 +1,673 @@
+/*
+
+index:
+
+- utility
+- general
+- daext-items //The table that lists all the items
+- daext-items icons //Icons for the daext-items table
+- daext-header-wrapper //Header with page title and search form
+- daext-tablenav //The pagination of the daext-items table
+- daext-form //The form used to create and edit items
+- daext-widget //The sidebar widget
+
+*/
+
+/* utility */
+
+.daext-clearfix:after {
+    visibility: hidden !important;
+    display: block !important;
+    font-size: 0 !important;
+    content: " " !important;
+    clear: both !important;
+    height: 0 !important;
+}
+
+.daext-clearfix {
+    display: inline-block !important;
+}
+
+* html .daext-clearfix {
+    height: 1% !important;
+}
+
+.daext-clearfix {
+    display: block !important;
+}
+
+.daext-display-none {
+    display: none;
+}
+
+/* general */
+
+#wpcontent {
+    min-height: 1200px;
+}
+
+#daext-menu-wrapper {
+    margin-top: 19px !important;
+}
+
+.display-none {
+    display: none;
+}
+
+/* daext-items */
+
+.daext-items-container {
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+}
+
+table.daext-items {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.daext-items > thead {
+    background: #f7f7f7;
+}
+
+table.daext-items > tbody > tr {
+    background: #fdfdfd !important;
+}
+
+table.daext-items > thead > tr > th {
+    padding: 0;
+    line-height: 28px;
+    height: 28px;
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 3px 10px;
+    text-align: left;
+    border-bottom: 1px solid #dfdfdf;
+    text-shadow: #fff 0px 1px 0px;
+}
+
+table.daext-items > tbody > tr > td {
+    padding: 0;
+    line-height: 28px;
+    height: 28px;
+    font-size: 12px;
+    color: #555;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 3px 10px;
+    text-align: left;
+}
+
+table.daext-items > thead > tr > th:not(:nth-of-type(1)) {
+    border-left: 1px solid #dfdfdf !important;
+}
+
+table.daext-items > tbody > tr > td:not(:nth-of-type(1)) {
+    border-left: 1px solid #e3e3e3 !important;
+}
+
+table.daext-items .shortcode {
+    font-size: 11px !important;
+    font-family: monospace !important;
+    color: #fff;
+    padding: 3px;
+    background: #0073aa;
+}
+
+table.daext-items > tbody > tr:not(:last-child) > td {
+    border-bottom: 1px solid #e3e3e3;
+    background: #fdfdfd;
+}
+
+table.daext-items > tbody > tr > td > a {
+    text-decoration: none;
+}
+
+table.daext-items .menu-icon {
+    width: 20px !important;
+    height: 20px !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    cursor: pointer !important;
+    float: left !important;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+table.daext-items input[type="submit"].menu-icon {
+    outline: none !important;
+}
+
+table.daext-items a.menu-icon {
+    box-shadow: none !important;
+}
+
+table.daext-items .menu-icon.empty-icon {
+    cursor: default !important;
+}
+
+table.daext-items .icons-container {
+    width: 48px !important;
+    min-width: 48px !important;
+}
+
+table.daext-items .icons-container .menu-icon:not(:last-child) {
+    margin-right: 8px !important;
+}
+
+table.daext-items .edit {
+    background: url("../../img/edit.png") 0 0 no-repeat !important;
+}
+
+table.daext-items .edit:hover {
+    background: url("../../img/edit-hover.png") 0 0 no-repeat !important;
+}
+
+table.daext-items .delete {
+    background: url("../../img/trash.png") 0 0 no-repeat !important;
+}
+
+table.daext-items .delete:hover {
+    background: url("../../img/trash-hover.png") 0 0 no-repeat !important;
+}
+
+table.daext-items input[type="checkbox"] {
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+/* daext-header-wrapper */
+
+#daext-header-wrapper h2 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px;
+    line-height: 29px;
+    float: left;
+}
+
+#daext-search-form {
+    float: right;
+}
+
+#daext-search-form p {
+    margin: 14px 8px 6px 0;
+    height: 22px;
+    float: left;
+    text-align: right;
+    font-size: 12px;
+    line-height: 22px;
+    font-style: italic;
+    color: #777;
+}
+
+#daext-search-form input[type="text"] {
+    height: 24px;
+    line-height: 16px;
+    box-shadow: none;
+    padding: 3px 5px;
+    margin: 13px 0 5px;
+    color: #333333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    font-size: 12px !important;
+    border-width: 1px 0 1px 1px;
+    border-color: #dddddd;
+    border-radius: 0;
+    min-height: auto;
+}
+
+#daext-search-form input[type="text"]:focus{
+    border-color: #5b9dd9;
+}
+
+#daext-search-form input[type="submit"] {
+    background: url('../../img/search.png') 0 0 no-repeat !important;
+    background-color: #1c71a6;
+    height: 24px;
+    box-shadow: none;
+    display: block;
+    width: 24px;
+    float: right;
+    padding: 0;
+    border: 0;
+    margin: 13px 0 5px;
+    cursor: pointer;
+}
+
+#daext-search-form input[type="submit"]:hover {
+    background: url('../../img/search-hover.png') 0 0 no-repeat !important;
+}
+
+#daext-sort-form {
+    float: right;
+    position: relative;
+    margin-right: 8px;
+}
+
+#daext-sort-form p {
+    margin: 14px 8px 6px 0;
+    height: 22px;
+    text-align: right;
+    font-size: 12px;
+    position: absolute;
+    width: 180px;
+    line-height: 22px;
+    right: 180px;
+    top: 0;
+    font-style: italic;
+    color: #777;
+}
+
+#daext-sort-form .chosen-container {
+    margin: 13px 0 5px;
+    min-width: 180px;
+    max-width: 180px;
+}
+
+#daext-filter-form {
+    float: right;
+    position: relative;
+    margin-right: 8px;
+}
+
+#daext-filter-form p {
+    margin: 14px 8px 6px 0;
+    height: 22px;
+    text-align: right;
+    font-size: 12px;
+    position: absolute;
+    width: 180px;
+    line-height: 22px;
+    right: 180px;
+    top: 0;
+    font-style: italic;
+    color: #777;
+}
+
+#daext-filter-form .chosen-container {
+    margin: 13px 0 5px;
+    min-width: 180px;
+    max-width: 180px;
+}
+
+/* daext-tablenav */
+
+.daext-tablenav-pages > *:not(:first-child) {
+    margin: 0 0 0 4px;
+}
+
+.daext-tablenav-pages > a {
+    font-size: 12px !important;
+    color: #888 !important;
+    line-height: 25px;
+    display: inline-block;
+    padding: 0 10px !important;
+    background: #f7f7f7;
+    text-decoration: none;
+}
+
+.daext-tablenav-pages > a:not(.disabled):hover {
+    color: #fff !important;
+    background: #0075a5;
+}
+
+.daext-tablenav-pages > .disabled {
+    cursor: default;
+    color: #ccc !important;
+}
+
+.daext-tablenav {
+    margin-top: 11px;
+    margin-bottom: 36px;
+}
+
+.daext-tablenav-pages {
+    float: right;
+    display: block;
+    height: 30px;
+}
+
+.daext-tablenav .daext-displaying-num {
+    margin-right: 2px;
+    color: #777;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* daext-form */
+
+.daext-form-container {
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    width: 800px;
+}
+
+.daext-form-container * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    font-size: 12px !important;
+}
+
+.daext-form-container input[type="text"] {
+    height: 24px;
+    line-height: 16px;
+    box-shadow: none;
+    padding: 3px 5px;
+    margin: 0 !important;
+    width: 217px;
+    border-color: #dddddd;
+    border-radius: 0;
+    min-height: auto;
+}
+
+.daext-form-container input[type="text"]:focus{
+    border-color: #5b9dd9;
+}
+
+.daext-form-container .chosen-search input[type="text"] {
+    width: 207px !important;
+    font-size: 12px !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+    font-weight: normal !important;
+}
+
+.daext-form-container input[type="text"],
+.daext-form-container select,
+.daext-form-container textarea {
+    color: #333 !important;
+}
+
+.daext-form-container #date {
+    background: #fff;
+    color: #333;
+}
+
+.daext-form-container textarea {
+    resize: vertical;
+    display: block;
+}
+
+.daext-form-container textarea, .daext-form-container select {
+    box-shadow: none;
+    margin: 0 !important;
+}
+
+.daext-form-container select {
+    height: 24px;
+    line-height: 24px;
+}
+
+.daext-form-title {
+    line-height: 28px;
+    height: 28px;
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 3px 10px;
+    margin: 0;
+    text-align: left;
+    background: #f7f7f7;
+    border-bottom: 1px solid #dfdfdf;
+    text-shadow: #fff 0px 1px 0px;
+}
+
+.daext-form-action {
+    line-height: 28px;
+    height: 28px;
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 8px 10px;
+    text-align: left;
+    border-top: 1px solid #dedede;
+    background: #f7f7f7;
+    text-shadow: #fff 0px 1px 0px;
+}
+
+.daext-form-action > input.button {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    color: #555 !important;
+    border-color: #cccccc !important;
+    background: #f7f7f7;
+}
+
+.daext-form-action > input.button:hover{
+    background: #fafafa;
+    border-color: #979797 !important;
+}
+
+.daext-form-action > input.button:active {
+    background: #fafafa !important;
+    border-color: #979797 !important;
+    box-shadow: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+table.daext-form {
+    border-collapse: collapse;
+    background: #fdfdfd;
+    width: 100%;
+}
+
+table.daext-form > tbody > tr > td, table.daext-form > tbody > tr > th {
+    padding: 8px;
+}
+
+table.daext-form > tbody > tr:not(:last-child) > td, table.daext-form > tbody > tr:not(:last-child) > th {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+table.daext-form > tbody > tr > th {
+    text-align: right;
+    padding-right: 8px;
+    font-size: 12px;
+    color: #555;
+    width: 240px;
+}
+
+table.daext-form > tbody > tr > th > label {
+    height: 24px;
+    line-height: 24px;
+    display: block;
+    overflow: hidden;
+}
+
+table.daext-form .image-uploader {
+    max-width: 199px;
+    padding: 8px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+table.daext-form .image-uploader .selected-image {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+table.daext-form .image-uploader .button_add_media {
+    display: block;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+table.daext-form .image-uploader p.description {
+    margin: 0 !important;
+    color: #777;
+}
+
+table.daext-form input[disabled], table.daext-form select[disabled] {
+    color: #ccc !important;
+    background: #f7f7f7 !important;
+}
+
+/* daext-widget */
+
+.daext-widget * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.daext-widget h3 {
+    color: #333;
+}
+
+.daext-widget label {
+    color: #555;
+}
+
+.daext-widget {
+    border: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+}
+
+.daext-widget-title {
+    padding: 3px 10px;
+    line-height: 28px;
+    height: 28px;
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    margin: 0;
+    background: #f7f7f7;
+    text-shadow: #fff 0px 1px 0px;
+}
+
+.daext-widget-content {
+    padding: 8px 10px;
+    background: #fff;
+    font-size: 12px;
+    background: #fdfdfd;
+}
+
+.daext-widget-content h3 {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.daext-widget-content h3:not(:nth-of-type(1)) {
+    margin-top: 18px;
+}
+
+.daext-widget-content > ul {
+    margin: 10px 0 0 !important;
+}
+
+.daext-widget-content > ul > li {
+    margin: 0;
+    color: #555;
+}
+
+.daext-widget-content textarea {
+    font-size: 12px;
+    width: 100% !important;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    min-height: 60px;
+    color: #999;
+    margin: 10px 0 0 !important;
+    overflow: auto;
+    padding: 2px 6px;
+    line-height: 1.4;
+    color: #333;
+    display: block;
+}
+
+.daext-widget-content input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    height: 24px;
+    line-height: 16px;
+    box-shadow: none;
+    padding: 3px 5px;
+    color: #333;
+    border: 1px solid #ddd;
+    width: 70px;
+}
+
+.daext-widget-content select {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    height: 24px;
+    line-height: 16px;
+    box-shadow: none;
+    padding: 3px 5px;
+    color: #333;
+    border: 1px solid #ddd;
+    width: 140px;
+}
+
+.daext-widget-content > p {
+    font-size: 12px;
+    margin: 10px 0 9px;
+    line-height: 18px;
+}
+
+.daext-widget-content > p:nth-of-type(6) {
+    margin-bottom: 14px;
+}
+
+.daext-widget-content > .separator {
+    height: 10px;
+    width: 100%;
+}
+
+.daext-widget-content > .separator-line {
+    margin: 20px 0;
+    border-bottom: 1px solid #f1f1f1;
+    width: 100%;
+}
+
+.daext-widget-content input[type="checkbox"] {
+    border-color: #e5e5e5;
+    box-shadow: none;
+    border: 1px solid #ddd;
+}
+
+.daext-widget-submit {
+    background: #fff;
+    padding: 8px 10px;
+    border-top: 1px solid #dedede;
+    background: #f7f7f7;
+    padding: 8px 10px;
+    line-height: 28px;
+    height: 28px;
+}
+
+.daext-widget-submit input[type="submit"],
+.daext-widget-submit input[type="button"] {
+    box-shadow: none;
+    font-size: 12px;
+    color: #555 !important;
+    border-color: #cccccc !important;
+    background: #f7f7f7;
+}
+
+.daext-widget-submit input[type="submit"]:hover,
+.daext-widget-submit input[type="button"]:hover{
+    background: #fafafa;
+    border-color: #979797 !important;
+}
+
+.daext-widget-submit input[type="submit"][disabled]{
+    border-color: #ddd !important;
+}
+
+.daext-widget-content table td {
+    padding: 0;
+}
+
+.daext-widget-content > table > tbody > tr > td:first-child {
+    padding-right: 10px;
+}

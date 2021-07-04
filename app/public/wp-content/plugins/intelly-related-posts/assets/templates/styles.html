@@ -1,0 +1,198 @@
+#Template Minimalist
+#Defaults {ctaTextColor=, postTitleColor=BLACK Dark, boxColor=WHITE Dark, borderColor=BLUE #2 Light, borderColorLabel=border}
+<a href="{postHref}" target="{linkTarget}" {linkRel} class="{utemplate}">
+    {comment}
+    <style>
+        .{utemplate} {
+            padding:0px;
+            margin: 0;
+            padding-top:1em!important;
+            padding-bottom:1em!important;
+            width:100%;
+            display: block;
+            font-weight:bold;
+            background-color:{boxColor};
+            border:0!important;
+            {if borderColor}
+                border-left:4px solid {borderColor}!important;
+            {/if}
+            {if hasShadow}
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+                -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+                -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+                -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+            {/if}
+            text-decoration:none;
+        }
+        .{utemplate}:active, .{utemplate}:hover {
+            opacity: 1;
+            transition: opacity 250ms;
+            webkit-transition: opacity 250ms;
+            text-decoration:none;
+        }
+        .{utemplate} {
+            transition: background-color 250ms;
+            webkit-transition: background-color 250ms;
+            opacity: {boxOpacity};
+            transition: opacity 250ms;
+            webkit-transition: opacity 250ms;
+        }
+        .{utemplate} .ctaText {
+            font-weight:bold;
+            color:{ctaTextColor};
+            text-decoration:none;
+            font-size: 16px;
+        }
+        .{utemplate} .postTitle {
+            color:{postTitleColor};
+            text-decoration: underline!important;
+            font-size: 16px;
+        }
+        .{utemplate}:hover .postTitle {
+            text-decoration: underline!important;
+        }
+    </style>
+    <div style="padding-left:1em; padding-right:1em;">
+        <span class="ctaText">{ctaText}</span>&nbsp;
+        <span class="postTitle">{postTitle}</span>
+    </div>
+</a>
+
+#Template Shock
+#Defaults {ctaTextColor=GREY #1 Light, postTitleColor=BLUE #2 Dark, boxColor=ORANGE Light, borderColor=ORANGE Dark, borderColorLabel=hover}
+<a href="{postHref}" target="{linkTarget}" {linkRel} class="{utemplate}">
+    {comment}
+    <style>
+        .{utemplate}
+        , .{utemplate} .postImageUrl
+        , .{utemplate} .centered-text-area {
+            min-height: 80px;
+            position: relative;
+        }
+        .{utemplate}
+        , .{utemplate}:hover
+        , .{utemplate}:visited
+        , .{utemplate}:active {
+            border:0!important;
+        }
+        .{utemplate} .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .{utemplate} {
+            display: block;
+            transition: background-color 250ms;
+            webkit-transition: background-color 250ms;
+            width: 100%;
+            opacity: {boxOpacity};
+            transition: opacity 250ms;
+            webkit-transition: opacity 250ms;
+            background-color: {boxColor};
+            {if hasShadow}
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+                -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+                -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+                -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+            {/if}
+        }
+        .{utemplate}:active
+        , .{utemplate}:hover {
+            opacity: 1;
+            transition: opacity 250ms;
+            webkit-transition: opacity 250ms;
+            background-color: {borderColor};
+        }
+        .{utemplate} .centered-text-area {
+            width: 100%;
+            position: relative;
+        }
+        .{utemplate} .ctaText {
+            border-bottom: 0 solid #fff;
+            color: {ctaTextColor};
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+            text-decoration: underline;
+        }
+        .{utemplate} .postTitle {
+            color: {postTitleColor};
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        .{utemplate} .ctaButton {
+            background-color: {boxColorHover}!important;
+            color: {ctaTextColor};
+            border: none;
+            border-radius: 3px;
+            box-shadow: none;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 26px;
+            moz-border-radius: 3px;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: none;
+            width: 80px;
+            min-height: 80px;
+            background: url({assetsImages}simple-arrow.png)no-repeat;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .{utemplate}:hover .ctaButton {
+            background-color: {borderColorHover}!important;
+        }
+        .{utemplate} .centered-text {
+            display: table;
+            height: 80px;
+            padding-left: 18px;
+            top: 0;
+        }
+        .{utemplate} .{utemplate}-content {
+            display: table-cell;
+            margin: 0;
+            padding: 0;
+            padding-right: 108px;
+            position: relative;
+            vertical-align: middle;
+            width: 100%;
+        }
+        .{utemplate}:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+    <div class="centered-text-area">
+        <div class="centered-text" style="float: left;">
+            <div class="{utemplate}-content">
+                <span class="ctaText">{ctaText}</span>&nbsp; 
+                <span class="postTitle">{postTitle}</span>
+            </div>
+        </div>
+    </div>
+    <div class="ctaButton"></div>
+</a>
+
+#Template Ruby
+#Defaults {proTheme=true, ctaTextColor=BLUE #1 Light, postTitleColor=GREY #1 Light, boxColor=BLUE #2 Dark, borderColor=, borderColorLabel=arrow}
+<a href="{demoLink}" target="_blank" rel="nofollow" class="{utemplate}">
+    <img src="{assets}templates/preview-ruby.jpg" />
+</a>
+
+#Template Button
+#Defaults {proTheme=true, ctaTextColor=WHITE Light, postTitleColor=GREY #1 Light, boxColor=BLACK Light, borderColor=AQUA Light, borderColorLabel=button}
+<a href="{demoLink}" target="_blank" rel="nofollow" class="{utemplate}">
+    <img src="{assets}templates/preview-button.jpg" />
+</a>
+
+#Template Kangoo
+#Defaults {proTheme=true, ctaTextColor=BLUE #2 Light, postTitleColor=BLACK Dark, boxColor=WHITE Dark, borderColor=WHITE Light, borderColorLabel=hover}
+<a href="{demoLink}" target="_blank" rel="nofollow" class="{utemplate}">
+    <img src="{assets}templates/preview-kangoo.jpg" />
+</a>

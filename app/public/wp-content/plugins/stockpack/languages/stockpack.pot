@@ -1,0 +1,805 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: StockPack – Stock images in WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-11 07:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2.4"
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/stockpack.php:107
+msgid "Settings"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:72
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:157
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:178
+msgid "StockPack"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:101
+msgid ""
+"If you are looking for StockPack you will find it on the Media Tab when you "
+"use the WordPress uploader. Just go to a post or page and try to insert an "
+"image. You will see the StockPack tab at the top.  You can read more here:"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:101
+msgid "What to do if stockpack tab is not showing up"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:113
+msgid "Get your token"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:170
+msgid "Token"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:171
+msgid "This is the token that is used for authentication"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:178
+msgid "Apply safe search"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:179
+msgid ""
+"Some providers support this mode to prevent nude images to show up in the "
+"search"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:181
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:192
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:203
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:214
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:305
+msgid "Yes"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:182
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:193
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:204
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:215
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:306
+msgid "No"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:189
+msgid "Enable file name change"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:190
+msgid ""
+"You can set the desired filename prior to download. This is a good SEO idea "
+"if you want it, but it's a small extra step"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:200
+msgid "Enable premium providers caption"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:201
+msgid "You can enable automatic caption for premium providers if you want to"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:211
+msgid "Search with authorization"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackadmin.php:212
+msgid ""
+"Providers that support oauth can get the license state for all images "
+"directly. You see it in the sidebar. The downside is that the searches are "
+"slower"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:179
+msgid "Insert into post"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:180
+msgid "Retry"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:181
+msgid "No images have been found"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:182
+msgid "Start searching for images"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:184
+msgid "Not sure what to search for?"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:187
+msgid "Try \"balloons\" in the top right search input"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:191
+msgid "Try \"unicorn\" in the top right search input"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:195
+msgid "Try \"ice cream\" in the top right search input"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:199
+msgid "Try \"moon\" in the top right search input"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:203
+msgid "Try \"coffee\" in the top right search input"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:207
+msgid "Try \"tea\" in the top right search input"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:211
+msgid "Try \"lighthouse\" in the top right search input"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:215
+msgid "Try \"mountains\" in the top right search input"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:223
+msgid "There has been an error"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:224
+msgid "The access you granted for this provider has expired"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:225
+msgid "Double check the token on the settings page!"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:226
+msgid "Premium account requests limit reached"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:227
+msgid "Free account requests limit reached"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:228
+msgid "Anonymous requests limit reached"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:230
+msgid "Set token"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:231
+msgid "Search images"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:232
+msgid "Close"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:233
+msgid "Download"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:234
+msgid "License"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:235
+msgid "Licensed"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:236
+msgid "Your token is not valid"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:237
+msgid "Advanced search"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:240
+msgid "Gender"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:241
+msgid "Female"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:242
+msgid "Male"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:245
+msgid "Provider"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:246
+msgid "Default"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:248
+msgid "Adobe Stock"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:249
+msgid "Deposit Photos"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:250
+msgid "Getty Images"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:251
+msgid "iStock"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:252
+msgid "Pixabay"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:253
+msgid "Pexels"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:254
+msgid "Unsplash"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:258
+msgid "Orientation"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:259
+msgid "Horizontal"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:260
+msgid "Vertical"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:263
+msgid "Image type"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:264
+msgid "Photos"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:265
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:299
+msgid "Vectors"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:266
+msgid "Illustrations"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:269
+msgid "Category"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:270
+msgid "Any Category"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:272
+msgid "Abstract"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:273
+msgid "Animals/Wildlife"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:274
+msgid "The Arts"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:275
+msgid "Backgrounds/Textures"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:276
+msgid "Beauty/Fashion"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:277
+msgid "Buildings/Landmarks"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:278
+msgid "Business/Finance"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:279
+msgid "Celebrities"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:280
+msgid "Editorial"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:281
+msgid "Education"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:282
+msgid "Food and Drink"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:283
+msgid "Healthcare/Medical"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:284
+msgid "Holidays"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:285
+msgid "Illustrations/Clip-Art"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:286
+msgid "Industrial"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:287
+msgid "Interiors"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:288
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:289
+msgid "Nature"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:290
+msgid "Objects"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:291
+msgid "Parks/Outdoor"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:292
+msgid "People"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:293
+msgid "Religion"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:294
+msgid "Science"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:295
+msgid "Signs/Symbols"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:296
+msgid "Sports/Recreation"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:297
+msgid "Technology"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:298
+msgid "Transportation"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:300
+msgid "Vintage"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:304
+msgid "Safe"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:309
+msgid "Color"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:314
+msgid "I agree"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:315
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:355
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:476
+msgid "Cancel"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:317
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:322
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:327
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:332
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:337
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:342
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:347
+msgid "Terms agreement"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:318
+msgid ""
+"Before you download the first image you need to agree to the terms of "
+"service of Adobe Stock. This will only be asked once and then we will store "
+"it for all subsequent downloads. You are a direct user of the Adobe Stock "
+"website and their terms apply. "
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:323
+msgid ""
+"Before you download the first image you need to agree to the terms of "
+"service of Getty Images. This will only be asked once and then we will store "
+"it for all subsequent downloads. You are a direct user of the Getty images "
+"website and their terms apply. "
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:328
+msgid ""
+"Before you download the first image you need to agree to the terms of "
+"service of iStock. This will only be asked once and then we will store it "
+"for all subsequent downloads. You are a direct user of the iStock website "
+"and their terms apply. "
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:333
+msgid ""
+"Before you download the first image you need to agree to the terms of "
+"service of Pixabay. This will only be asked once and then we will store it "
+"for all subsequent downloads. You are a direct user of the Pixabay website "
+"and their terms apply. "
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:338
+msgid ""
+"Before you download the first image you need to agree to the terms of "
+"service of Pexels. This will only be asked once and then we will store it "
+"for all subsequent downloads. You are a direct user of the Pexels website "
+"and their terms apply. "
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:343
+msgid ""
+"Before you download the first image you need to agree to the terms of "
+"service of Unsplash. This will only be asked once and then we will store it "
+"for all subsequent downloads. You are a direct user of the Unsplash website "
+"and their terms apply. "
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:348
+msgid ""
+"Before you download the first image you need to agree to the terms of "
+"service of Deposit Photos. This will only be asked once and then we will "
+"store it for all subsequent downloads. You are a direct user of the Deposit "
+"Photos website and their terms apply. "
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:353
+msgid "Proceed"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:354
+msgid "Cost checking is in progress, please wait"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:357
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:364
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:371
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:378
+msgid "License and download"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:358
+msgid ""
+"Licensing an image will provide you a non watermarked image from Adobe Stock."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:359
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:366
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:373
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:380
+msgid "Fetching cost..."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:360
+msgid ""
+"Adobe stock offers multiple types of accounts and multiple types of licenses."
+" Currently only Standard is supported trough the plugin. You can use the url "
+"bellow to license this directly on the Adobe Stock website, in case your "
+"account allows that. In the case of credits missing, you can add more "
+"credits and retry."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:361
+msgid "Adobe License Page"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:365
+msgid ""
+"Licensing an image will provide you a non watermarked image from Getty "
+"Images."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:367
+msgid ""
+"Getty images offers multiple types of accounts and multiple types of "
+"licenses. Currently we couldn't find an appropriate package linked to your "
+"account for this image. You can license the image from the Getty website. If "
+"you make sure that you account has the credits and the package required you "
+"can retry to license."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:368
+msgid "Getty License Page"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:372
+msgid "Licensing an image will provide you a non watermarked image from iStock"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:374
+msgid ""
+"iStock images offers multiple types of accounts and multiple types of "
+"licenses. Currently we couldn't find an appropriate package linked to your "
+"account for this image. You can license the image from the iStock website. "
+"If you make sure that you account has the credits and the package required "
+"you can retry to license."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:375
+msgid "iStock License Page"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:379
+msgid ""
+"Licensing an image will provide you a non watermarked image from Deposit "
+"Photos."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:381
+msgid ""
+"Currently only sizes available trough the subscription package are supported "
+"by the plugin.  You can use the url bellow to license this directly on the "
+"Deposit Photos website, in case your account allows that. If you "
+"subscription expired renew it and retry."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:382
+msgid "Deposit Photos License Page"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:387
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:399
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:406
+msgid "Image info is available in the sidebar"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:388
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:400
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:407
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:414
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:420
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:426
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:432
+msgid "You are searching images from"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:393
+msgid "Stock provider is being fetched..."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:394
+msgid "Loading data..."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:403
+msgid ""
+"Watermarked images from Getty Images are allowed for test only (not publicly "
+"available), for up to 30 days following download"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:410
+msgid ""
+"Watermarked images from iStock are allowed for test only (not publicly "
+"available), for up to 30 days following download"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:413
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:419
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:425
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:431
+msgid "Author info is available in the sidebar"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:435
+msgid "Watermarked images from Deposit Photos are allowed for testing only"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:440
+msgid "Requests limit reached"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:441
+msgid ""
+"You have reached the requests limit. This gets reset, but if you reach this "
+"often and you need a bigger solution you can contact StockPack support to "
+"discuss available options."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:444
+msgid "You need an account to continue"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:445
+msgid "You have used all the requests available without an account."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:451
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:466
+msgid "Fetching remote website ..."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:452
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:468
+msgid "Sign in using the form below to continue"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:453
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:469
+msgid "Create an account in the window below to continue"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:454
+msgid "Token is being stored, you will be able to continue shortly"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:455
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:471
+msgid ""
+"To get back to login you can close this window and open it again, or use the "
+"back buttons inside the window"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:459
+msgid "You need the premium upgrade to continue"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:460
+msgid "You have reached the requests limit for the free account."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:467
+msgid "Refreshing token, you will be able to continue shortly"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:470
+msgid ""
+"Once you upgrade your account you will get upgraded limits which will allow "
+"you to proceed right away"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:474
+msgid "Reset time passed, you can try again"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackmedia.php:475
+msgid "Contact"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:114
+msgid "You already own the asset, you can proceed without additional cost"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:118
+msgid "You will be charged for one image on you provider account"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:204
+msgid "Image not found in cache"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:217
+msgid "You are not allowed to upload files"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:346
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:357
+msgid ""
+"Please reconnect the account on StockPack, the permissions have expired. Go "
+"the providers page on stockpack.co/providers"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:350
+msgid ""
+"There has been a problem fetching the cost. Please try to reconnect the "
+"account on the providers page on stockpack.co/providers"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:361
+msgid ""
+"There has been a problem with the download. Try to reconnect the account for "
+"the provider on StockPack. If the issue persists, contact stockpack support."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:368
+msgid ""
+"Please reconnect the account on stockpack, the permissions have expired. Go "
+"to the providers page on stockpack.co/providers"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:372
+msgid ""
+"There has been a problem with the api, please check the accounts on the "
+"providers page in stockpack.co/providers"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:432
+msgid "Can't connect to StockPack server."
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:451
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:455
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:459
+msgid "Request limit reached, the reset will be in "
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:463
+msgid "Request denied. Please check your token!"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:471
+msgid "Photo by"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:472
+msgctxt "Make sure to keep the space"
+msgid " on "
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:494
+msgid "Image download failed, please try again. Errors:"
+msgstr ""
+
+#: ../../../../Repos/stockpack/stockpack-wordpress-plugin-bit/stockpack/src/class-stockpackquery.php:498
+msgid "Image type couldn't be determined"
+msgstr ""
+
+#. Name of the plugin
+msgid "StockPack – Stock images in WordPress"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Direct image search in WordPress for Unsplash, Adobe Stock, Getty Images, "
+"iStock, Pixabay, Pexels and Deposit Photos"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/stockpack/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Derikon Development"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://derikon.com/"
+msgstr ""
