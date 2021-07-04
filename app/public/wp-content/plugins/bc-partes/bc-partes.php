@@ -309,11 +309,11 @@ function librosAntiguoTestamento()
     asignarCategoriaPadre('Jeremías','Jeremías',1,52);
 
     asignarPapa('Profetas mayores', 'Lamentaciones');
-    asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
-    asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
-    asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
-    asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
-    asignarCategoriaPadre('Lamentaciones','Lamentaciones',1,5);
+    asignarCategoriaPadre('Destrucción de Jerusalén','Lamentaciones',1,1);
+    asignarCategoriaPadre('La ira de Dios y las tristezas de Jerusalén','Lamentaciones',2,2);
+    asignarCategoriaPadre('Oración por misericordia sobre Jerusalén','Lamentaciones',3,3);
+    asignarCategoriaPadre('La siega de Jerusalén','Lamentaciones',4,4);
+    asignarCategoriaPadre('Oración por la restauración de Jerusalén','Lamentaciones',5,5);
 
     asignarPapa('Profetas mayores', 'Ezequiel');
     asignarCategoriaPadre('Ezequiel','Ezequiel',1,48);
