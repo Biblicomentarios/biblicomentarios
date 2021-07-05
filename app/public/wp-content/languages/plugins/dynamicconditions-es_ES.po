@@ -1,0 +1,289 @@
+# Translation of Plugins - Dynamic Conditions - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Dynamic Conditions - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-08 09:41:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Dynamic Conditions - Stable (latest release)\n"
+
+#: Admin/DynamicConditionsAdmin.php:497
+msgid "Expert"
+msgstr "Experto"
+
+#: Admin/DynamicConditionsAdmin.php:516
+msgid "Prevent date parsing"
+msgstr "Evitar el análisis de fechas"
+
+#: Lib/Date.php:176
+msgid "Sunday"
+msgstr "Domingo"
+
+#: Lib/Date.php:175
+msgid "Saturday"
+msgstr "Sábado"
+
+#: Lib/Date.php:174
+msgid "Friday"
+msgstr "Viernes"
+
+#: Lib/Date.php:173
+msgid "Thursday"
+msgstr "Jueves"
+
+#: Lib/Date.php:172
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: Lib/Date.php:171
+msgid "Tuesday"
+msgstr "Martes"
+
+#: Lib/Date.php:170
+msgid "Monday"
+msgstr "Lunes"
+
+#: Lib/Date.php:133
+msgid "December"
+msgstr "Diciembre"
+
+#: Lib/Date.php:132
+msgid "November"
+msgstr "Noviembre"
+
+#: Lib/Date.php:131
+msgid "October"
+msgstr "Octubre"
+
+#: Lib/Date.php:130
+msgid "September"
+msgstr "Septiembre"
+
+#: Lib/Date.php:129
+msgid "August"
+msgstr "Agosto"
+
+#: Lib/Date.php:128
+msgid "July"
+msgstr "Julio"
+
+#: Lib/Date.php:127
+msgid "June"
+msgstr "Junio"
+
+#: Lib/Date.php:126
+msgid "May"
+msgstr "Mayo"
+
+#: Admin/DynamicConditionsAdmin.php:212
+msgid "In array"
+msgstr "En array"
+
+#: Lib/Date.php:125
+msgid "April"
+msgstr "Abril"
+
+#: Lib/Date.php:124
+msgid "March"
+msgstr "Marzo"
+
+#: Lib/Date.php:123
+msgid "February"
+msgstr "Febrero"
+
+#: Lib/Date.php:122
+msgid "January"
+msgstr "Enero"
+
+#: Admin/DynamicConditionsAdmin.php:415
+msgid "Use comma-separated values, to check if dynamic-value is equal with one of each item."
+msgstr "Utiliza valores separados por comas para comprobar si el valor dinámico es igual a uno de cada elemento."
+
+#: Admin/DynamicConditionsAdmin.php:507
+msgid "Parse shortcodes"
+msgstr "Analizar shortcodes"
+
+#: Admin/DynamicConditionsAdmin.php:588
+msgid "Debug-Mode"
+msgstr "Modo de depuración"
+
+#: Admin/DynamicConditionsAdmin.php:482
+msgid "Resize other columns"
+msgstr "Redimensionar otras columnas"
+
+#: Admin/DynamicConditionsAdmin.php:468
+msgid "If checked, only the inner content will be hidden, so you will see an empty section"
+msgstr "Si está marcado, solamente se ocultará el contenido interior, por lo que verás una sección vacía."
+
+#: Admin/DynamicConditionsAdmin.php:467
+msgid "Hide only content"
+msgstr "Ocultar solo el contenido"
+
+#: Admin/DynamicConditionsAdmin.php:448
+msgid "Supported Date and Time Formats"
+msgstr "Formatos de fecha y hora compatibles"
+
+#: Admin/DynamicConditionsAdmin.php:269 Admin/DynamicConditionsAdmin.php:304
+#: Admin/DynamicConditionsAdmin.php:353 Admin/DynamicConditionsAdmin.php:399
+msgid "Add a second condition value, if between is selected"
+msgstr "Añade un segundo valor de condición si «entre» está seleccionado."
+
+#: Admin/DynamicConditionsAdmin.php:233
+msgid "Months"
+msgstr "Meses"
+
+#: Admin/DynamicConditionsAdmin.php:232
+msgid "Weekdays"
+msgstr "Días laborables"
+
+#: Admin/DynamicConditionsAdmin.php:231
+msgid "Date"
+msgstr "Fecha"
+
+#: Admin/DynamicConditionsAdmin.php:230
+msgid "Text"
+msgstr "Texto"
+
+#: Admin/DynamicConditionsAdmin.php:225
+msgid "Compare Type"
+msgstr "Compara el tipo"
+
+#: Admin/DynamicConditionsAdmin.php:209
+msgid "Between"
+msgstr "Entre"
+
+#: Lib/DynamicTags/NumberPostsTag.php:38
+msgid "Category"
+msgstr "Categoría"
+
+#: Lib/DynamicTags/NumberPostsTag.php:22
+msgid "Number posts"
+msgstr "Número de entradas"
+
+#: Lib/DynamicTags/NumberPostsTag.php:49
+msgid "Post-Types"
+msgstr "Tipos de contenido"
+
+#: Admin/DynamicConditionsAdmin.php:250 Admin/DynamicConditionsAdmin.php:289
+#: Admin/DynamicConditionsAdmin.php:323 Admin/DynamicConditionsAdmin.php:338
+#: Admin/DynamicConditionsAdmin.php:368 Admin/DynamicConditionsAdmin.php:384
+msgid "Add your conditional value to compare here."
+msgstr "Añade aquí tu valor condicional para comparar."
+
+#: Admin/DynamicConditionsAdmin.php:238
+msgid "Select what do you want to compare"
+msgstr "Selecciona qué quieres comparar"
+
+#: Admin/DynamicConditionsAdmin.php:234
+msgid "String to time"
+msgstr "Cadena para tiempo"
+
+#. Author URI of the plugin
+msgid "https://www.rto.de"
+msgstr "https://www.rto.de"
+
+#. Author of the plugin
+msgid "RTO GmbH"
+msgstr "RTO GmbH"
+
+#. Description of the plugin
+msgid "Activates conditions for dynamic tags to show/hides a widget."
+msgstr "Activa las condiciones para que las etiquetas dinámicas muestren/oculten un widget."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/RTO-Websites/dynamic-conditions"
+msgstr "https://github.com/RTO-Websites/dynamic-conditions"
+
+#. Plugin Name of the plugin
+msgid "DynamicConditions"
+msgstr "DynamicConditions"
+
+#: Admin/DynamicConditionsAdmin.php:249 Admin/DynamicConditionsAdmin.php:268
+#: Admin/DynamicConditionsAdmin.php:288 Admin/DynamicConditionsAdmin.php:303
+#: Admin/DynamicConditionsAdmin.php:317 Admin/DynamicConditionsAdmin.php:332
+#: Admin/DynamicConditionsAdmin.php:347 Admin/DynamicConditionsAdmin.php:362
+#: Admin/DynamicConditionsAdmin.php:378 Admin/DynamicConditionsAdmin.php:393
+#: Admin/DynamicConditionsAdmin.php:409 Admin/DynamicConditionsAdmin.php:423
+#: Admin/DynamicConditionsAdmin.php:439
+msgid "Conditional value"
+msgstr "Valor condicional"
+
+#: Admin/DynamicConditionsAdmin.php:215
+msgid "Select your condition for this widget visibility."
+msgstr "Selecciona tu condición para la visibilidad de este widget."
+
+#: Admin/DynamicConditionsAdmin.php:211
+msgid "Greater than"
+msgstr "Mayor que"
+
+#: Admin/DynamicConditionsAdmin.php:210
+msgid "Less than"
+msgstr "Menor que"
+
+#: Admin/DynamicConditionsAdmin.php:208
+msgid "Is not empty"
+msgstr "No está vacío"
+
+#: Admin/DynamicConditionsAdmin.php:207
+msgid "Is empty"
+msgstr "Está vacío"
+
+#: Admin/DynamicConditionsAdmin.php:206
+msgid "Does not contain"
+msgstr "No contiene"
+
+#: Admin/DynamicConditionsAdmin.php:205
+msgid "Contains"
+msgstr "Contiene"
+
+#: Admin/DynamicConditionsAdmin.php:204
+msgid "Is not equal to"
+msgstr "No es igual a"
+
+#: Admin/DynamicConditionsAdmin.php:203
+msgid "Is equal to"
+msgstr "Es igual a"
+
+#: Admin/DynamicConditionsAdmin.php:198
+msgid "Condition"
+msgstr "Condición"
+
+#: Admin/DynamicConditionsAdmin.php:188
+msgid "Hide when condition met"
+msgstr "Ocultar cuando la condición se cumpla"
+
+#: Admin/DynamicConditionsAdmin.php:187
+msgid "Show when condition met"
+msgstr "Mostrar cuando la condición se cumpla"
+
+#: Admin/DynamicConditionsAdmin.php:183
+msgid "Show/Hide"
+msgstr "Mostrar/ocultar"
+
+#: Admin/DynamicConditionsAdmin.php:176
+msgid "Select condition field"
+msgstr "Seleccionar el campo de condición"
+
+#: Admin/DynamicConditionsAdmin.php:169
+msgid "Dynamic Tag"
+msgstr "Etiqueta dinámica"
+
+#: Admin/DynamicConditionsAdmin.php:162
+msgid "Dynamic Conditions"
+msgstr "Condiciones dinámicas"
+
+#: Admin/DynamicConditionsAdmin.php:88
+msgid "Elementor not installed."
+msgstr "Elementor no está instalado."
+
+#: Admin/DynamicConditionsAdmin.php:86
+msgid "Elementor Pro not installed."
+msgstr "Elementor Pro no está instalado."
+
+#: Admin/DynamicConditionsAdmin.php:84
+msgid "Elementor and Elementor Pro not installed."
+msgstr "Elementor y Elementor Pro no están instalados."

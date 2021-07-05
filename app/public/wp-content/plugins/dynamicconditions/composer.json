@@ -1,0 +1,12 @@
+{
+  "require": {
+      "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DynamicConditions\\": "./",
+      "DynamicConditions\\Pub\\": "Public/",
+      "Lib\\" :"Legacy/Lib/"
+    }
+  }
+}
