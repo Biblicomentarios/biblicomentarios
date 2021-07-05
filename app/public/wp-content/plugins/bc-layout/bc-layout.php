@@ -297,13 +297,12 @@ class WPSE154979_Widget extends WP_Widget
 
     function bootstrapstarter_enqueue_scripts()
     {
-        $dependencies = array('jquery');
-        wp_enqueue_script('bootstrap', 'https://code.jquery.com/jquery-3.3.1.slim.min.js', $dependencies, '3.3.1', true);
-        wp_enqueue_script('bootstrap', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', $dependencies, '1.14.7', true);
-        wp_enqueue_script('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', $dependencies, '4.3.1', true);
+        // $dependencies = array('jquery');
+        // wp_enqueue_script('bootstrap', 'https://code.jquery.com/jquery-3.3.1.slim.min.js', $dependencies, '3.3.1', true);
+        // wp_enqueue_script('bootstrap', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', $dependencies, '1.14.7', true);
+        // wp_enqueue_script('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', $dependencies, '4.3.1', true);
     }
 
     add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_styles');
     add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_scripts');
-
-            ?>
+?>

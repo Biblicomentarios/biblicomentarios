@@ -1,9 +1,11 @@
 <?php
+
 namespace ILJ\Type;
 
-use ILJ\Database\Postmeta;
-use ILJ\Helper\Encoding;
-
+use  ILJ\Database\Postmeta ;
+use  ILJ\Helper\Encoding ;
+use  ILJ\Helper\IndexAsset ;
+use  ILJ\Backend\Editor ;
 /**
  * Keywordlist Datatype
  *
@@ -15,11 +17,10 @@ use ILJ\Helper\Encoding;
 class KeywordList
 {
     /**
-     * @var   int $keywords
+     * @var   array $keywords
      * @since 1.0.0
      */
-    private $keywords = [];
-
+    private  $keywords = array() ;
     /**
      * Constructor of the keywordlist datatype
      *
@@ -27,17 +28,16 @@ class KeywordList
      * @param  array $keyword_list Initial list of keywords
      * @return void
      */
-    public function __construct($keyword_list = [])
+    public function __construct( $keyword_list = array() )
     {
-        if (!is_array($keyword_list) || !count($keyword_list)) {
+        if ( !is_array( $keyword_list ) || !count( $keyword_list ) ) {
             return;
         }
-
-        foreach ($keyword_list as $keyword) {
-            $this->addKeyword($keyword);
+        foreach ( $keyword_list as $keyword ) {
+            $this->addKeyword( $keyword );
         }
     }
-
+    
     /**
      * Returns the number of keywords in the list
      *
@@ -46,9 +46,9 @@ class KeywordList
      */
     public function getCount()
     {
-        return count($this->keywords);
+        return count( $this->keywords );
     }
-
+    
     /**
      * Merges another KeywordList into current
      *
@@ -57,13 +57,13 @@ class KeywordList
      *
      * @return void
      */
-    public function merge(KeywordList $keyword_list)
+    public function merge( KeywordList $keyword_list )
     {
-        foreach ($keyword_list->getKeywords() as $keyword) {
-            $this->addKeyword($keyword);
+        foreach ( $keyword_list->getKeywords() as $keyword ) {
+            $this->addKeyword( $keyword );
         }
     }
-
+    
     /**
      * Converts an user input of comma seperated values with placeholders to keywordlist datatype
      *
@@ -71,41 +71,49 @@ class KeywordList
      * @param  string $input The input string for object generation
      * @return KeywordList
      */
-    public static function fromInput($input)
+    public static function fromInput( $input )
     {
-        $keyword_list = new self(self::decoded($input));
+        $keyword_list = new self( self::decoded( $input ) );
         $keyword_list->clean();
         return $keyword_list;
     }
-
+    
     /**
      * Generates a KeywordList object from asset meta data
      *
      * @since 1.2.0
      * @param int    $id   The assets ID
      * @param string $type The assets type (post, ...)
+     * @param string $meta_key The assets meta key to fetch
      *
      * @return KeywordList
      */
-    public static function fromMeta($id, $type)
+    public static function fromMeta( $id, $type, $meta_key = '' )
     {
         $meta_keywords = [];
-
-        switch ($type) {
-        case 'post':
-        case 'custom':
-            $meta_keywords = get_post_meta($id, Postmeta::ILJ_META_KEY_LINKDEFINITION, true);
-            break;
-        case 'term':
-            $meta_keywords = get_term_meta($id, Postmeta::ILJ_META_KEY_LINKDEFINITION, true);
-            break;
-        default:
-            break;
+        if ( $meta_key === '' ) {
+            $meta_key = Postmeta::ILJ_META_KEY_LINKDEFINITION;
         }
-
-        return new KeywordList($meta_keywords);
+        switch ( $type ) {
+            case 'post':
+            case 'custom':
+                $meta_keywords = get_post_meta( $id, $meta_key, true );
+                break;
+            case 'term':
+                $meta_keywords = get_term_meta( $id, $meta_key, true );
+                break;
+            default:
+                break;
+        }
+        if ( $meta_key == Editor::ILJ_META_KEY_BLACKLISTDEFINITION && is_array( $meta_keywords ) ) {
+            $meta_keywords = array_slice( $meta_keywords, 0, 2 );
+        }
+        if ( !is_array( $meta_keywords ) ) {
+            $meta_keywords = [];
+        }
+        return new KeywordList( $meta_keywords );
     }
-
+    
     /**
      * Adds a keyword to the internal list
      *
@@ -113,12 +121,12 @@ class KeywordList
      * @param  string $keyword The keyword that should get added
      * @return void
      */
-    public function addKeyword($keyword)
+    public function addKeyword( $keyword )
     {
         $this->keywords[] = $keyword;
         $this->clean();
     }
-
+    
     /**
      * Returns the keyword list
      *
@@ -129,7 +137,7 @@ class KeywordList
     {
         return $this->keywords;
     }
-
+    
     /**
      * Encodes an array of keywords to a string format
      *
@@ -137,17 +145,17 @@ class KeywordList
      * @param  bool $escape Whether the output keyword should be escaped or not
      * @return string
      */
-    public function encoded($escape = true)
+    public function encoded( $escape = true )
     {
         $keywords = [];
-        foreach ($this->keywords as $keyword) {
-            $unmasked_keyword   = Encoding::unmaskSlashes($keyword);
-            $translated_keyword = Encoding::translateRegexToPseudo($unmasked_keyword);
-            $keywords[]         = $escape ? esc_attr($translated_keyword) : $translated_keyword;
+        foreach ( $this->keywords as $keyword ) {
+            $unmasked_keyword = Encoding::unmaskSlashes( $keyword );
+            $translated_keyword = Encoding::translateRegexToPseudo( $unmasked_keyword );
+            $keywords[] = ( $escape ? esc_attr( $translated_keyword ) : $translated_keyword );
         }
-        return implode(",", $keywords);
+        return implode( ",", $keywords );
     }
-
+    
     /**
      * Encodes a comma seperated list of keywords to an array
      *
@@ -155,19 +163,19 @@ class KeywordList
      * @param  string $csv_list A comma seperated list of keywords
      * @return array
      */
-    private static function decoded($csv_list)
+    private static function decoded( $csv_list )
     {
-        $csv_list_clear      = preg_replace("/\s*,\s*/", ",", $csv_list);
-        $keyword_list_pseudo = explode(",", $csv_list_clear);
-        $keyword_list_regex  = [];
-        foreach ($keyword_list_pseudo as $keyword) {
-            $keyword              = Encoding::translatePseudoToRegex($keyword);
-            $keyword              = Encoding::maskSlashes($keyword);
+        $csv_list_clear = preg_replace( "/\\s*,\\s*/", ",", $csv_list );
+        $keyword_list_pseudo = explode( ",", $csv_list_clear );
+        $keyword_list_regex = [];
+        foreach ( $keyword_list_pseudo as $keyword ) {
+            $keyword = Encoding::translatePseudoToRegex( $keyword );
+            $keyword = Encoding::maskSlashes( $keyword );
             $keyword_list_regex[] = $keyword;
         }
         return $keyword_list_regex;
     }
-
+    
     /**
      * Cleans the keyword list from empty strings and makes all keywords unique
      *
@@ -176,16 +184,14 @@ class KeywordList
      */
     public function clean()
     {
-        $unspace_keyword_list   = preg_replace('/\s{2,}/', ' ', $this->keywords);
-        $unique_keyword_list    = array_unique($unspace_keyword_list);
-        $no_empties_keyword_list = array_filter(
-            $unique_keyword_list, function ($keyword) {
-                return (preg_match('/^\s+$/', $keyword) || $keyword == '') ? false : $keyword;
-            }
-        );
-        $this->keywords = array_values($no_empties_keyword_list);
+        $unspace_keyword_list = preg_replace( '/\\s{2,}/', ' ', $this->keywords );
+        $unique_keyword_list = array_unique( $unspace_keyword_list );
+        $no_empties_keyword_list = array_filter( $unique_keyword_list, function ( $keyword ) {
+            return ( preg_match( '/^\\s+$/', $keyword ) || $keyword == '' ? false : $keyword );
+        } );
+        $this->keywords = array_values( $no_empties_keyword_list );
     }
-
+    
     /**
      * Checks if another keywordlist instance has additional keywords, the current instance doesn't
      *
@@ -193,14 +199,13 @@ class KeywordList
      * @param  KeywordList $compare_keyword_list The keywordlis object to compare with
      * @return bool
      */
-    public function hasAdditionalKeys(KeywordList $compare_keyword_list)
+    public function hasAdditionalKeys( KeywordList $compare_keyword_list )
     {
         $compare_keywords = $compare_keyword_list->getKeywords();
-        $diff = array_intersect($this->getKeywords(), $compare_keyword_list->getKeywords());
-
-        sort($compare_keywords);
-        sort($diff);
-
+        $diff = array_intersect( $this->getKeywords(), $compare_keyword_list->getKeywords() );
+        sort( $compare_keywords );
+        sort( $diff );
         return $compare_keywords != $diff;
     }
+
 }

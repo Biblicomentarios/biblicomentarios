@@ -215,8 +215,8 @@ function librosAntiguoTestamento()
     // asignarCategoriaPadre('Problemas en el reino de David','2 Samuel',14,24);
 
     asignarPapa('Libros históricos del Antiguo Testamento', '1 Reyes');
-    asignarCategoriaPadre('1 Reyes','1 Reyes',1,22);
-    
+    asignarCategoriaPadre('1 Reyes','1 Reyes',1,22); 
+
     asignarPapa('Libros históricos del Antiguo Testamento', '2 Reyes');  
     asignarCategoriaPadre('2 Reyes','2 Reyes',1,25);
 
@@ -332,11 +332,31 @@ function librosAntiguoTestamento()
     // asignarCategoriaPadre('La siega de Jerusalén','Lamentaciones',4,4);
     // asignarCategoriaPadre('Oración por la restauración de Jerusalén','Lamentaciones',5,5);
 
-    asignarPapa('Profetas mayores', 'Ezequiel');
-    asignarCategoriaPadre('Ezequiel','Ezequiel',1,48);
+    // asignarPapa('Profetas mayores', 'Ezequiel');
+    // asignarCategoriaPadre('La visión de Ezequiel de la gloria de Dios','Ezequiel',1,1);
+    // asignarCategoriaPadre('La comisión y llamamiento de Ezequiel','Ezequiel',2,3);
+    // asignarCategoriaPadre('Cuatro señales del juicio venidero','Ezequiel',4,5);
+    // asignarCategoriaPadre('Dos mensajes del juicio venidero','Ezequiel',6,7);
+    // asignarCategoriaPadre('La visión del juicio venidero','Ezequiel',8,11);
+    // asignarCategoriaPadre('Señales, mensajes y parábolas del juicio venidero','Ezequiel',12,24);
+    // asignarCategoriaPadre('Juicio sobre Amón, Edom y Filistea','Ezequiel',25,25);
+    // asignarCategoriaPadre('Juicio sobre Tiro, Sidón y Egipto','Ezequiel',26,32);
+    // asignarCategoriaPadre('Atalaya de restauración','Ezequiel',33,35);
+    // asignarCategoriaPadre('Promesas de restauración','Ezequiel',36,37);
+    // asignarCategoriaPadre('Victoria sobre Gog y Magog','Ezequiel',38,39);
+    // asignarCategoriaPadre('La restauración de Israel en el reino','Ezequiel',40,48);
 
-    asignarPapa('Profetas mayores', 'Daniel');
-    asignarCategoriaPadre('Daniel','Daniel',1,12);
+    // asignarPapa('Profetas mayores', 'Daniel');
+    // asignarCategoriaPadre('Contexto histórico de Daniel','Daniel',1,1);
+    // asignarCategoriaPadre('El sueño de Nabucodonosor','Daniel',2,2);
+    // asignarCategoriaPadre('La imagen de oro y el horno ardiente','Daniel',3,3);
+    // asignarCategoriaPadre('Nabucodonosor sueña con un gran árbol','Daniel',4,4);
+    // asignarCategoriaPadre('Belsasar y la escritura sobre el muro','Daniel',5,5);
+    // asignarCategoriaPadre('Decreto de Darío y rescate de los leones','Daniel',6,6);
+    // asignarCategoriaPadre('La visión de las cuatro bestias','Daniel',7,7);
+    // asignarCategoriaPadre('La visión del carnero y el macho cabrío','Daniel',8,8);
+    // asignarCategoriaPadre('Visión de las setenta semanas','Daniel',9,9);
+    // asignarCategoriaPadre('Visión de Daniel sobre el futuro de Israel','Daniel',10,12);
     
     // asignarPapa('Profetas menores', 'Oseas');
     // asignarCategoriaPadre('La esposa adúltera y su marido fiel','Oseas',1,3);

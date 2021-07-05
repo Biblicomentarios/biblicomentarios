@@ -7,7 +7,7 @@ Tags: seo, internal links, automatic linking, linkbuilding, onpage, auto linker,
 Requires at least: 4.6.0
 Tested up to: 5.7
 Requires PHP: 5.5.0
-Stable tag: 1.2.14
+Stable tag: 1.2.15.1
 
 Improve your SEO and your user experience through internal linkbuilding. Automated links between your posts based on a smart keyword configuration.
 
@@ -41,6 +41,7 @@ Our free Basic version is full of features and extremely customizable. However, 
 > * __Professional statistics:__ Get the maximum out of your optimization process. Deep insights with a full and unlimited link detail view.
 > * __Maximum scalability:__ With the additional index modes, no project is too large to be optimized by the Internal Link Juicer. Best possible performance for any size.
 > * __Supports manual optimization:__ With the Pro version, you can take your manually created links into account and exclude them from automatic linking on affected pages.
+> * __Build a silo structure:__ Easily build a link silo by restricting automatic links between posts that share the same category.
 > * __Ready for teams:__ Role-based access to keyword configuration allows you to let your editors work with the Internal Link Juicer.
 > * __Full support:__ You will receive prioritized premium email support from our experienced SEO and development team.
 >
@@ -122,8 +123,16 @@ The Pro version also provides a direct import of __post (and term) titles__ or, 
 
 == Changelog ==
 
+= 1.2.15 =
+Release Date: July 5th, 2021
+
+* Feature: Added settings-tab to the keyword-editor, which enables granular settings based on single content assets
+* Improvement: Added option to exclude child pages of already blacklisted pages from linking as well
+* Improvement: Better support for cyrillic alphabet
+* Fix, Pro: Edit links for terms on the statistic dashboard now working correctly
+
 = 1.2.14 =
-Release Date:
+Release Date: May 11th, 2021
 
 * Feature, Pro: Added possibility to limit links within hierarchical taxonomies (e.g. categories) to allow building better silo structure
 * Fix: Removed protected magic methods from singletons that gave warnings under PHP 8
@@ -132,11 +141,6 @@ Release Date:
 Release Date: March 25th, 2021
 
 * Fix: Matching of keywords with apostrophe letters on substrings within words is also corrected
-
-= 1.2.12 =
-Release Date: March 18th, 2021
-
-* Fix: Matching of keywords with uppercase letters on substrings within words is corrected
 
 = Earlier versions =
 

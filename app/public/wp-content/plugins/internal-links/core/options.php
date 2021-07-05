@@ -2,7 +2,6 @@
 
 namespace ILJ\Core;
 
-use  ILJ\Backend\MenuPage\Settings ;
 use  ILJ\Core\Options\AbstractOption ;
 use  ILJ\Core\Options\LinkOutputCustom ;
 use  ILJ\Core\Options\LinkOutputInternal ;
@@ -66,6 +65,7 @@ class Options
             new Options\Whitelist(),
             new Options\TaxonomyWhitelist(),
             new Options\Blacklist(),
+            new Options\BlacklistChildPages(),
             new Options\TermBlacklist(),
             new Options\KeywordOrder(),
             new Options\LinksPerPage(),

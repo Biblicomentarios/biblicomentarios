@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-05-01 16:57+0200\n"
+"POT-Creation-Date: 2021-07-04 01:37+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: freemius\n"
 
-#: backend/adminmenu.php:55 backend/adminmenu.php:56 backend/editor.php:37
-#: backend/editor.php:49 backend/editor.php:254
+#: backend/adminmenu.php:55 backend/adminmenu.php:56 backend/editor.php:43
+#: backend/editor.php:55 backend/editor.php:347
 msgid "Internal Links"
 msgstr "Interne Links"
 
@@ -24,29 +24,29 @@ msgstr "Interne Links"
 msgid "Configured keywords for internal linking"
 msgstr "Konfigurierte Keywords, interne Verlinkung"
 
-#: backend/editor.php:73
+#: backend/editor.php:82
 msgid "The keywords"
 msgstr "Die Keywords"
 
-#: backend/editor.php:209
+#: backend/editor.php:262
 msgid "Add Keyword"
 msgstr "Keyword hinzufügen"
 
-#: backend/editor.php:210 backend/menupage/dashboard.php:376
+#: backend/editor.php:263 backend/menupage/dashboard.php:376
 msgid "Keyword"
 msgstr "Keyword"
 
-#: backend/editor.php:211
+#: backend/editor.php:264
 msgid "Keywords get used <strong>case insensitive</strong>"
 msgstr ""
 "Keywords werden <strong>unabhängig</strong> von der Groß- und "
 "Kleinschreibung verwendet"
 
-#: backend/editor.php:212
+#: backend/editor.php:265
 msgid "Separate multiple keywords by commas"
 msgstr "Mehrere Keywords per Komma trennen"
 
-#: backend/editor.php:213
+#: backend/editor.php:266
 msgid ""
 "Configure the gap dimension. It represents the number of keywords that "
 "appear between your other keywords dynamically. Learn more in our "
@@ -56,90 +56,124 @@ msgstr ""
 "Keywords dar, die zwischen deinen anderen Schlüsselwörtern dynamisch "
 "erstellt werden. Erfahre mehr in unserer Dokumentation:"
 
-#: backend/editor.php:213
+#: backend/editor.php:266
 msgid "Click here to open"
 msgstr "Hier klicken zum öffnen"
 
-#: backend/editor.php:214
+#: backend/editor.php:267
 msgid "Keyword gaps"
 msgstr "Keyword-Lücken"
 
-#: backend/editor.php:215
+#: backend/editor.php:268
 msgid "Add gap"
 msgstr "Lücke hinzufügen"
 
-#: backend/editor.php:216
+#: backend/editor.php:269
 msgid "Gap type"
 msgstr "Lücken-Typ"
 
-#: backend/editor.php:217
+#: backend/editor.php:270
 msgid "Minimum"
 msgstr "Minimal"
 
-#: backend/editor.php:218
+#: backend/editor.php:271
 msgid "Exact"
 msgstr "Exakt"
 
-#: backend/editor.php:219
+#: backend/editor.php:272
 msgid "Maximum"
 msgstr "Maximal"
 
-#: backend/editor.php:220
+#: backend/editor.php:273
 msgid "Minimum amount of keywords within the gap. No upper limits."
 msgstr "Minimale Anzahl von Keywords innerhalb der Lücke. Keine Obergrenze."
 
-#: backend/editor.php:221
+#: backend/editor.php:274
 msgid "Exact amount of keywords within the gap."
 msgstr "Genaue Anzahl der Keywords innerhalb der Lücke."
 
-#: backend/editor.php:222
+#: backend/editor.php:275
 msgid "Maximum amount of keywords within the gap."
 msgstr "Maximale Anzahl von Keywords innerhalb der Lücke."
 
-#: backend/editor.php:223
+#: backend/editor.php:276
 msgid "Insert gaps between keywords"
 msgstr "Lücken zwischen den Keywords einfügen"
 
-#: backend/editor.php:224 helper/ajax.php:192
+#: backend/editor.php:277 helper/ajax.php:192
 msgid "Configured keywords"
 msgstr "Konfigurierte Keywords"
 
-#: backend/editor.php:225
+#: backend/editor.php:278
 msgid "This keyword already exists."
 msgstr "Dieses Keyword existiert bereits."
 
-#: backend/editor.php:226
+#: backend/editor.php:279
 msgid "No keyword defined."
 msgstr "Kein Keyword definiert."
 
-#: backend/editor.php:227
+#: backend/editor.php:280
 msgid "Length of given keyword not valid."
 msgstr "Die Länge des angegebenen Keywords ist zu kurz."
 
-#: backend/editor.php:228
+#: backend/editor.php:281
 msgid "Multiple consecutive placeholders are not allowed."
 msgstr "Mehrere aufeinanderfolgende Platzhalter sind nicht erlaubt."
 
-#: backend/editor.php:229
+#: backend/editor.php:282
 msgid "No keywords configured."
 msgstr "Keine Keywords konfiguriert."
 
-#: backend/editor.php:230
+#: backend/editor.php:283
 msgid "Exact keyword gap:"
 msgstr "Exakte Keyword-Lücke:"
 
-#: backend/editor.php:231
+#: backend/editor.php:284
 msgid "Maximum keyword gap:"
 msgstr "Maximale Keyword-Lücke:"
 
-#: backend/editor.php:232
+#: backend/editor.php:285
 msgid "Minimum keyword gap:"
 msgstr "Minimale Keyword-Lücke:"
 
-#: backend/editor.php:233 backend/menupage/includes/postbox.php:37
+#: backend/editor.php:286 backend/menupage/includes/postbox.php:37
 #: helper/help.php:58
 msgid "Get help"
 msgstr "Hilfe aufrufen"
+
+#: backend/editor.php:287
+msgid "Limit incoming Links:"
+msgstr "Limitiere eingehende Links:"
+
+#: backend/editor.php:288
+msgid "Maximum incoming links:"
+msgstr "Maximal eingehende Links"
+
+#: backend/editor.php:289
+msgid "Keywords, that don`t get linked in the current content:"
+msgstr "Keywords, die innerhalb des aktuellen Inhalts nicht verlinkt werden:"
+
+#: backend/editor.php:290
+msgid "With our Basic version, you can block 2 keywords from being linked."
+msgstr ""
+"Mit unserer Basic-Version kannst du 2 Keywords festlegen, die nicht verlinkt "
+"werden."
+
+#: backend/editor.php:291
+msgid "Upgrade to Pro and add unlimited keywords"
+msgstr "Upgrade auf die Pro Version und lege beliebig viele fest"
+
+#: backend/editor.php:292
+msgid "Configured keyword blacklist:"
+msgstr "Konfigurierte Keyword-Blacklist"
+
+#: backend/editor.php:293
+msgid "Is on global blacklist:"
+msgstr "Befindet sich auf der globalen Blacklist:"
+
+#: backend/editor.php:313 backend/menupage/tools.php:147 helper/options.php:29
+msgid "This feature is part of the Pro version"
+msgstr "Diese Funktion ist Bestandteil der Pro-Version"
 
 #: backend/indexrebuildnotifier.php:125
 msgid "Rebuild index"
@@ -498,7 +532,7 @@ msgstr ""
 "Tags</strong>."
 
 #: backend/menupage/settings.php:37 backend/menupage/settings.php:123
-#: core/app.php:406
+#: core/app.php:407
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -606,10 +640,6 @@ msgstr "Datei Import"
 #: backend/menupage/tools.php:132
 msgid "File Export"
 msgstr "Datei Export"
-
-#: backend/menupage/tools.php:147 helper/options.php:29
-msgid "This feature is part of the Pro version"
-msgstr "Diese Funktion ist Bestandteil der Pro-Version"
 
 #: backend/menupage/tools.php:156
 msgid "Import Keyword Configurations from WordPress"
@@ -1386,27 +1416,27 @@ msgstr "Yoast Fokus-Keywords"
 msgid "RankMath focus keywords"
 msgstr "RankMath Fokus-Keywords"
 
-#: core/options.php:360
+#: core/options.php:359
 msgid "General Settings Section"
 msgstr "Allgemeine Einstellungen"
 
-#: core/options.php:361
+#: core/options.php:360
 msgid "All settings related to the use of the plugin."
 msgstr "Alle Einstellungen, die das Verhalten des Plugin betreffen."
 
-#: core/options.php:364
+#: core/options.php:363
 msgid "Content Settings Section"
 msgstr "Inhalts Einstellungen"
 
-#: core/options.php:365
+#: core/options.php:364
 msgid "Configure how the plugin should behave regarding the internal linking."
 msgstr "Einstellungen, die das Link-Verhalten des Plugins betreffen."
 
-#: core/options.php:368
+#: core/options.php:367
 msgid "Links Settings Section"
 msgstr "Link Einstellungen"
 
-#: core/options.php:369
+#: core/options.php:368
 msgid "Setting options for the output of the generated links."
 msgstr "Konfiguration der Darstellung von generierten Links."
 
@@ -1419,6 +1449,11 @@ msgstr ""
 msgid "Posts that get configured here do not link to others automatically."
 msgstr ""
 "Hier gesetzte Beiträge verlinken nicht automatisch auf andere Beiträge."
+
+#: core/options/blacklistchildpages.php:43
+msgid "Blacklist also child pages of blacklisted pages"
+msgstr ""
+"Unterseiten von Seiten auf der Blacklist ebenfalls auf die Blacklist setzen"
 
 #: core/options/editorrole.php:44
 msgid "Minimum required user role for editing keywords"

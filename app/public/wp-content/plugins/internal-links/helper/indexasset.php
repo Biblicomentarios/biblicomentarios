@@ -4,6 +4,8 @@ namespace ILJ\Helper;
 
 use  ILJ\Core\Options as CoreOptions ;
 use  ILJ\Posttypes\CustomLinks ;
+use  ILJ\Helper\Blacklist ;
+use  ILJ\Backend\Editor ;
 /**
  * Toolset for linkindex assets
  *
@@ -79,12 +81,16 @@ class IndexAsset
         }
         $args = [
             'posts_per_page'   => -1,
-            'post__not_in'     => CoreOptions::getOption( \ILJ\Core\Options\Blacklist::getKey() ),
+            'post__not_in'     => Blacklist::getBlacklistedList( "post" ),
             'post_type'        => $whitelist,
             'post_status'      => [ 'publish' ],
             'suppress_filters' => true,
         ];
+        if ( CoreOptions::getOption( \ILJ\Core\Options\BlacklistChildPages::getKey() ) ) {
+            $args['post_parent__not_in'] = Blacklist::getBlacklistedList( "post" );
+        }
         $query = new \WP_Query( $args );
+        $post_count = $query->post_count;
         return $query->posts;
     }
     
@@ -103,6 +109,50 @@ class IndexAsset
             $detailed_type = get_post_type( $id );
         }
         return $detailed_type;
+    }
+    
+    /**
+     * Get Incoming Links Count
+     *
+     * @param  int $id          Post/Tax ID
+     * @param  string $type     Type
+     * @return int
+     */
+    public static function getIncomingLinksCount( $id, $type )
+    {
+        global  $wpdb ;
+        $ilj_linkindex_table = $wpdb->prefix . "ilj_linkindex";
+        $incoming_links = $wpdb->get_var( "SELECT count(link_to) AS incoming_links FROM {$ilj_linkindex_table} WHERE (link_to = '" . $id . "' AND type_to = '" . $type . "')" );
+        return $incoming_links;
+    }
+    
+    /**
+     * Checks if the phrase is included in the blacklist of keywords
+     *
+     * @param  int    $link_from     post/term ID
+     * @param  string $phrase      string to check for 
+     * @param  string $type        could be term/post
+     * @return bool
+     */
+    public static function checkIfBlacklistedKeyword( $link_from, $phrase, $type )
+    {
+        if ( $type == 'post' ) {
+            $keyword_blacklist = get_post_meta( $link_from, Editor::ILJ_META_KEY_BLACKLISTDEFINITION, true );
+        }
+        if ( $type == 'term' ) {
+            $keyword_blacklist = get_term_meta( $link_from, Editor::ILJ_META_KEY_BLACKLISTDEFINITION, true );
+        }
+        
+        if ( !empty($keyword_blacklist) || $keyword_blacklist != false ) {
+            $keyword_blacklist = array_slice( $keyword_blacklist, 0, 2 );
+            foreach ( $keyword_blacklist as $keyword ) {
+                if ( strtolower( $phrase ) == strtolower( $keyword ) ) {
+                    return true;
+                }
+            }
+        }
+        
+        return false;
     }
 
 }

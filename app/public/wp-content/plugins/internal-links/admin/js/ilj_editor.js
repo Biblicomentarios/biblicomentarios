@@ -13,10 +13,54 @@
             size: 'small'
         };
 
+        var getToggleField = function(id, checked = false, disabled = false) {
+            var $toggleField = $('<div />').addClass('ilj-toggler-wrap');
+
+            var checkboxAttributes = {
+                type: 'checkbox',
+                id: id,
+                name: id,
+                value: 1,
+            };
+
+            if (checked) {
+                checkboxAttributes.checked = 'checked';
+            }
+
+            if (disabled) {
+                checkboxAttributes.disabled = 'disabled';
+            }
+
+            var $checkbox = $('<input />').addClass('ilj-toggler-input').attr(checkboxAttributes);
+            $toggleField.append($checkbox);
+
+            var $label = $('<label />').addClass('ilj-toggler-label').attr({for: id});
+            var $labelInside = $('<div class="ilj-toggler-switch" aria-hidden="true">' +
+                '<div class="ilj-toggler-option-l" aria-hidden="true">' +
+                '<svg class="ilj-toggler-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="548.9" height="548.9" viewBox="0 0 548.9 548.9" xml:space="preserve"><polygon points="449.3 48 195.5 301.8 99.5 205.9 0 305.4 95.9 401.4 195.5 500.9 295 401.4 548.9 147.5 "/></svg>' +
+                '</div>' +
+                '<div class="ilj-toggler-option-r" aria-hidden="true">' +
+                '<svg class="ilj-toggler-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 28 28" xml:space="preserve"><polygon points="28 22.4 19.6 14 28 5.6 22.4 0 14 8.4 5.6 0 0 5.6 8.4 14 0 22.4 5.6 28 14 19.6 22.4 28 " fill="#030104"/></svg>' +
+                '</div>'+
+                '</div>');
+
+            $label.append($labelInside);
+
+            $toggleField.append($label);
+
+            return $('<div />').append($toggleField).html();
+        };
+
         var Box = {
             keywords: [],
+            blacklistKeywords: [],
 
             inputField: $(elem).find('input[name="ilj_linkdefinition_keys"]'),
+            blacklistField: $(elem).find('input[name="ilj_blacklistdefinition"]'),
+            limitField: $(elem).find('input[name="ilj_limitincominglinks"]'),
+            maxlimitField: $(elem).find('input[name="ilj_maxincominglinks"]'),
+            isBlacklisted: $(elem).find('input[name="ilj_is_blacklisted"]'),
+
 
             errorMessage: $('<div class="error-feedback"></div>'),
 
@@ -41,80 +85,140 @@
                 delay: 100, speed: 500, background: '#32373c', color: '#eeeeee', size: 'small', position: 'left', tooltipHover: true
             }),
 
-            inputGui: $(
-            	'<div class="input-gui">'+
-            	'   <input type="text" name="keyword" placeholder="' + ilj_editor_translation.placeholder_keyword + '"/>'+
-                '   <a class="button add-keyword">' + ilj_editor_translation.add_keyword + '</a>' +
-            	'   <div class="gaps">'+
-                '       <h4>' + ilj_editor_translation.headline_gaps + '</h4> '+
-            	'       <input type="number" name="count" placeholder="0"/>'+
-                '       <a class="button add-gap">' + ilj_editor_translation.add_gap + '</a>'+
-                '       <h5>' + ilj_editor_translation.gap_type + '</h5>'+                
-                '       <div class="gap-types">'+
-                '           <div class="type min"><label for="gap-min" class="tip" title="' + ilj_editor_translation.type_min + '"><input type="radio" name="gap" value="min" id="gap-min"/><span class="dashicons dashicons-upload"></span></label></div>'+
-                '           <div class="type exact active"><label for="gap-exact" class="tip" title="' + ilj_editor_translation.type_exact + '"><input type="radio" name="gap" value="exact" checked="checked" id="gap-exact"/><span class="dashicons dashicons-migrate"></span></label></div>'+
-                '           <div class="type max"><label for="gap-max" class="tip" title="' + ilj_editor_translation.type_max + '"><input type="radio" name="gap" value="max" id="gap-max"/><span class="dashicons dashicons-download"></span></label></div>'+
-                '       </div>'+
-                '       <div class="gap-hints">'+
-                '           <div class="hint min" id="min"><p class="howto">' + ilj_editor_translation.howto_gap_min + '</p></div>'+
-                '           <div class="hint exact active" id="exact"><p class="howto">' + ilj_editor_translation.howto_gap_exact + '</p></div>'+
-                '           <div class="hint max" id="max"><p class="howto">' + ilj_editor_translation.howto_gap_max + '</p></div>'+
-                '       </div>'+
-            	'   </div>'+
-                '   <a class="show-gaps">&raquo; ' + ilj_editor_translation.insert_gaps + '</a>'+
-            	'</div>'
-            ),
-
-            keywordViewGui: $(
-                '<div class="keyword-view-gui">'+
-                    '<h4>' + ilj_editor_translation.headline_configured_keywords + '</h4>'+
-                    '<ul class="keyword-view" role="list"></ul>'+
+            tabs:  $(
+                '<div class="tab">'+
+                '   <button class="tablinks active">Keywords</button>'+
+                '   <button class="tablinks">Settings</button>'+
                 '</div>'
             ),
 
+            inputGui: $(
+                '<div id="Keywords" class="tabcontent active">'+
+            	'   <div class="input-gui">'+
+            	'       <input class="keywordInput" type="text" name="keyword" placeholder="' + ilj_editor_translation.placeholder_keyword + '"/>'+
+                '       <a class="button add-keyword">' + ilj_editor_translation.add_keyword + '</a>' +
+            	'       <div class="gaps">'+
+                '           <h4>' + ilj_editor_translation.headline_gaps + '</h4> '+
+            	'           <input type="number" name="count" placeholder="0"/>'+
+                '           <a class="button add-gap">' + ilj_editor_translation.add_gap + '</a>'+
+                '           <h5>' + ilj_editor_translation.gap_type + '</h5>'+                
+                '           <div class="gap-types">'+
+                '               <div class="type min"><label for="gap-min" class="tip" title="' + ilj_editor_translation.type_min + '"><input type="radio" name="gap" value="min" id="gap-min"/><span class="dashicons dashicons-upload"></span></label></div>'+
+                '               <div class="type exact active"><label for="gap-exact" class="tip" title="' + ilj_editor_translation.type_exact + '"><input type="radio" name="gap" value="exact" checked="checked" id="gap-exact"/><span class="dashicons dashicons-migrate"></span></label></div>'+
+                '               <div class="type max"><label for="gap-max" class="tip" title="' + ilj_editor_translation.type_max + '"><input type="radio" name="gap" value="max" id="gap-max"/><span class="dashicons dashicons-download"></span></label></div>'+
+                '           </div>'+
+                '           <div class="gap-hints">'+
+                '               <div class="hint min" id="min"><p class="howto">' + ilj_editor_translation.howto_gap_min + '</p></div>'+
+                '               <div class="hint exact active" id="exact"><p class="howto">' + ilj_editor_translation.howto_gap_exact + '</p></div>'+
+                '           <div class="hint max" id="max"><p class="howto">' + ilj_editor_translation.howto_gap_max + '</p></div>'+
+                '           </div>'+
+            	'       </div>'+
+                '       <a class="show-gaps">&raquo; ' + ilj_editor_translation.insert_gaps + '</a>'+
+            	'   </div>'+
+                '   <div class="keyword-view-gui">'+
+                '       <h4>' + ilj_editor_translation.headline_configured_keywords + '</h4>'+
+                '       <ul class="keyword-view" role="list"></ul>'+
+                '   </div>'+
+                '</div>'
+            ),
+
+            settingsTab: $(
+                '<div id="Settings" class="settings tabcontent">'+
+                '   <div '+ilj_editor_basic_restriction.disable_setting+'>'+
+                '       <div class="input-gui ilj-row">'+
+                '           <div class="col-9">'+
+                '               <label><span '+ilj_editor_basic_restriction.disable_title+'>'+ilj_editor_basic_restriction.lock_icon+ ilj_editor_translation.limit_incoming_links +'</span></label>'+
+                '           </div>'+
+                '           <div class="col-3">'+
+                                getToggleField('limitincominglinks', false, ilj_editor_basic_restriction.is_active) +
+                '           </div>'+
+                '       </div>'+
+                '   </div>' +
+                '   <br>' +
+                '</div>'
+            ),
+
+            maxIncomingLinks : $(
+                '       <div class="input-gui max-incoming-links ilj-row" style="display:none;" '+ilj_editor_basic_restriction.disable_setting+'>'+
+                '           <div class="col-9">'+
+                '               <label><span '+ilj_editor_basic_restriction.disable_title+'>'+ilj_editor_basic_restriction.lock_icon+ ilj_editor_translation.max_incoming_links +'</span></label>'+
+                '           </div>'+
+                '           <div class="col-3">'+
+                '               <input type="number" class="maxincominglinks" min="1" value="1" name="ilj_maxincominglinks" '+ilj_editor_basic_restriction.disable_setting+' >'+
+                '           </div>'+
+                '       </div>'
+            ),
+
+            blacklistStatus : $(
+                '   <div class="input-gui ilj-row blacklistStatus">'+
+                '       <div class="col-9">'+
+                '           <label>'+ ilj_editor_translation.is_blacklisted+'</label>'+
+                '       </div>'+
+                '       <div class="col-3">'+
+                            getToggleField('is_blacklisted', false) +
+                '       </div>'+
+                '   </div>'
+            ),
+
+            blacklistKeywords : $(
+                '   <div class="input-gui ilj-row blacklistKeyword">'+
+                '       <div class="col-12">'+
+                '           <label>'+ ilj_editor_translation.blacklist_incoming_links+'</label>'+
+                '           <input class="keywordInput" type="text" name="blacklistkeyword"></input>'+
+                '           <a class="button add-keyword">' + ilj_editor_translation.add_keyword + '</a>'+
+                '       </div>'+
+                '       <div class="col-12 keyword-view-gui blacklistView">'+
+                '           <h4>' + ilj_editor_translation.headline_configured_keywords_blacklist + '</h4>'+
+                '           <ul class="keyword-view" role="list"></ul>'+
+                '       </div>'+
+                '   </div>'
+            ),
+
             helpMessage: $(
-                '<p class="meta">' +
-                '   <a href="https://internallinkjuicer.com/docs/editor/?utm_source=editor&utm_medium=help&utm_campaign=plugin" rel="noopener" target="_blank" class="help"><span class="dashicons dashicons-editor-help"></span>' + ilj_editor_translation.get_help + '</a>'+
-                '</p>'
+                '   <div class="ilj-row">'+
+                '       <div class="col-12 ilj-help">'+
+                '           <p class="meta">' +
+                '              <a href="https://internallinkjuicer.com/docs/editor/?utm_source=editor&utm_medium=help&utm_campaign=plugin" rel="noopener" target="_blank" class="help"><span class="dashicons dashicons-editor-help"></span>' + ilj_editor_translation.get_help + '</a>'+
+                '           </p>'+
+                '       </div>'+
+                '   </div>'
             ),
 
             init: function() {
-
             	var that = this;
 
                 this.inputField.css('display', 'none').parent('p').hide();
                 this.clearError();
 
-                elem.find('.inside').append(this.errorMessage, this.inputGui, this.keywordViewGui, this.helpMessage);
+                elem.find('.inside').append(this.tabs, this.errorMessage, this.inputGui, this.settingsTab, this.helpMessage);
                 elem.find('h2').prepend($('<i/>').addClass('icon icon-ilj'));
 
-                this.keywordViewGui.find('ul.keyword-view').sortable({
-                    opacity: 0.5,
-                    helper: "clone",
-                    forceHelperSize: true,
-                    forcePlaceholderSize: true,
-                    cursor: "move",
-                    placeholder: "placeholder",
 
-                    update: function(event, ui) {
-                        that.reorderKeywords();
-                    }
+                if(!ilj_editor_basic_restriction.is_active){
+                    elem.find('.settings.tabcontent').append(this.maxIncomingLinks);
+                }
+                if(ilj_editor_basic_restriction.current_screen != "ilj_customlinks"){
+                    elem.find('.settings.tabcontent').append(this.blacklistStatus , this.blacklistKeywords);
+                }
+
+
+
+                this.keywords = this.inputGui.ilj_keywords({
+                    inputField: this.inputField,
+                    errorMessage: this.errorMessage,
+                    requiresPro: false,
+                    sortable: true,
                 });
-                this.keywordViewGui.find('ul.keyword-view').disableSelection();
 
-                this.initKeywords();
-                this.syncGui();
-                this.inputGui.find('.tip').iljtipso(tipsoConfig);
+                                this.blacklistKeywords = this.settingsTab.ilj_keywords({
+                    inputField: this.blacklistField,
+                    errorMessage: this.errorMessage,
+                    requiresPro: true,
+                    sortable: false,
+                });
 
                 this.inputGui.find('.add-keyword').after(this.keywordInputInfo);
                 this.inputGui.find('.add-gap').after(this.gapInputInfo);
-
-                this.inputGui.on('keypress', 'input[name="keyword"]', function(e) {
-                    if (e.keyCode === 13) {
-                        that.inputGui.find('a.add-keyword').click();
-                    }
-                    return e.keyCode != 13;
-                });
 
                 this.inputGui.on('keypress', 'input[name="count"]', function(e) {
                     if (e.keyCode === 13) {
@@ -128,41 +232,6 @@
                         that.inputGui.find('input[name="count"]').focus();
                     }
                     return e.keyCode != 13;
-                });
-
-                this.inputGui.on('click', 'a.add-keyword', function(e) {
-                	e.preventDefault();
-
-                	                    var keyword_input = $(this).siblings('input[name="keyword"]');
-
-                	if (keyword_input.val().indexOf(',') !== -1) {
-                		var keywords = keyword_input.val().split(',');
-                		keywords.forEach(function(keyword, index) {
-                        	keyword_value = that.sanitizeKeyword(keyword);
-                            valid = that.validateKeyword(keyword_value);
-
-                            if (!valid.is_valid) {
-                                return;
-                            }
-
-                            that.addKeyword(keyword_value);
-                    	});
-                	} else {
-                        keyword_value = that.sanitizeKeyword(keyword_input.val());
-                        valid = that.validateKeyword(keyword_value);
-
-                        if (!valid.is_valid) {
-                            that.setError(valid.message);
-                            return;
-                        }
-
-                        that.addKeyword(keyword_value);
-                	}
-
-                	keyword_input.val('');
-                    that.clearError();
-                	that.syncGui();
-                	that.syncField();
                 });
 
                 this.inputGui.on('click', '.show-gaps', function(e) {
@@ -206,130 +275,75 @@
                     that.inputGui.find('.gap-hints .hint.'+selected).addClass('active');
                  });
 
-                this.keywordViewGui.on('click', '.keyword a.remove', function(e) {
-                	e.preventDefault();
-                	var index = $(this).parent('.keyword').data('id');
-                	that.keywords.splice(index, 1);
-                	that.syncGui();
-                	that.syncField();
+
+                 this.tabs.on('click', '.tablinks', function(evt){
+                    evt.preventDefault();
+                    jQuery(".tabcontent").removeClass("active");
+                    jQuery(".tablinks").removeClass("active");
+                    $(this).addClass("active");
+                    var tabname = $(this).html();
+                    jQuery("#"+tabname).addClass("active");
                 });
 
+
+                                this.settingsTab.on('change', this.limitField, function(){
+                    that.toggleLimitLinksField();
+                });
+
+                this.settingsTab.on('change', this.isBlacklisted, function(){
+                    that.toggleIsBlacklisted();
+                });
+
+                this.initSettingsTab();
+
             },
 
-            initKeywords: function() {
-            	that = this;
-            	var input_data = $('<textarea/>').text(this.inputField.val()).html(); 
-                if (input_data != '' && input_data != null) {
-                    var input_keywords = input_data.split(',');
-                    input_keywords.forEach(function(keyword, index) {
-                        that.addKeyword(keyword);
-                    });
+
+             toggleLimitLinksField: function(){
+                var checked = $("input[name='limitincominglinks']").prop("checked");
+                if(checked){
+                    this.settingsTab.find(".max-incoming-links").css("display","block");
+                    this.limitField.val("1");
+                }else{
+                    this.settingsTab.find(".max-incoming-links").css("display","none");
+                    this.limitField.val("0");
                 }
-            },
 
-            addKeyword: function(keyword) {
-            	this.keywords.push(keyword);
-            },
+                            },
 
-            sanitizeKeyword: function(keyword) {
-                var keyword_sanitized = keyword
-                            .replace(/\s*\{\s*/gu, " {")
-                            .replace(/\s*\}\s*/gu, "} ")
-                            .replace(/\s{2,}/gu, " ")
-                            .replace(/^\s+|\s+$/gu, "")
-                            .replace(/</g, "&lt;")
-                            .replace(/>/g, "&gt;");
-                return keyword_sanitized;
-            },
+            initSettingsTab: function() {
+                if(!ilj_editor_basic_restriction.is_active){
+                    var limit_incoming_links = this.limitField.val();
+                    var max_incoming_links = this.maxlimitField.val();
 
-             validateKeyword: function(keyword) {
+                    if(limit_incoming_links == true){
+                        $("input[name='limitincominglinks']").prop('checked', true);
 
-                var status = {
-                    is_valid: false,
-                    message: "Unknown error",
-                };
-                var min_length = 2;
-                var keyword_valid_check = keyword
-                                            .replace(/\{.*?\}/gu, "")
-                                            .replace(/\s/gu, "");
-
-                for(var i = 0; i < this.keywords.length; i++) {
-                    if (keyword.toLowerCase() == this.keywords[i].toLowerCase()) {
-                        status.message = ilj_editor_translation.message_keyword_exists;
-                        return status;
+                                                this.settingsTab.find(".max-incoming-links").css("display","block");
                     }
+                    if(max_incoming_links != ""){
+                        $("input[name='ilj_maxincominglinks']").val(max_incoming_links);
+                    }
+
+
+                                                        }
+
+                var is_blacklisted = this.isBlacklisted.val();
+                if(is_blacklisted == true){
+                   $("input[name='is_blacklisted']").prop('checked', true);
                 }
 
-                if (keyword_valid_check === "") {
-                    status.message = ilj_editor_translation.message_no_keyword;
-                    return status;
+
+                                            },
+
+
+            toggleIsBlacklisted: function(){
+                var is_blacklisted = $("input[name='is_blacklisted']").prop("checked");
+                if(is_blacklisted == true){
+                    this.isBlacklisted.val("1");
+                }else{
+                    this.isBlacklisted.val("0");
                 }
-
-                if (keyword_valid_check.length < min_length) {
-                    status.message = ilj_editor_translation.message_length_not_valid;
-                    return status;
-                } 
-
-                if (/(\s?\{[+-]*\d+\}\s?){2,}/.test(keyword)) {
-                    status.message = ilj_editor_translation.message_multiple_placeholder;
-                    return status;
-                }
-
-                status.is_valid = true;
-                status.message = "";
-
-                                return status;
-             },
-
-            syncField: function() {
-            	this.inputField.val(this.keywords.join(','));
-            },
-
-            syncGui: function() {
-            	var that = this;
-                that.keywordViewGui.find('ul.keyword-view li').remove();
-                if (this.keywords.length > 0) {
-                    this.keywords.forEach(function (keyword, index) {
-                        that.keywordViewGui.find('ul.keyword-view').append($(that.renderKeyword(keyword, index)));
-                    });
-                    that.keywordViewGui.find('.tip').iljtipso(tipsoConfig);
-                } else {
-                    that.keywordViewGui.find('ul.keyword-view').append($('<li>' + ilj_editor_translation.no_keywords + '</li>'));
-                }
-            },
-
-            reorderKeywords: function() {
-                order = [];
-
-                this.keywordViewGui.find('li').each(function() {
-                   var id = $(this).data('id');
-
-                   if (id === undefined) {
-                       return;
-                   }
-
-                   order.push(id);
-                });
-
-                new_keywords = [];
-
-                $.each(order, function(key, position) {
-                    new_keywords.push(that.keywords[position]);
-                });
-
-                that.keywords = new_keywords;
-                that.syncGui();
-                that.syncField();
-
-                return true;
-            },
-
-            renderKeyword: function(keyword, index) {
-                keyword_print = keyword
-                                    .replace(/\{(\d+)\}/g, '<span class="exact tip" title="' + ilj_editor_translation.gap_hover_exact + ' $1">$1</span>')
-                                    .replace(/\{\-(\d+)\}/g, '<span class="max tip" title="' + ilj_editor_translation.gap_hover_max + ' $1">$1</span>')
-                                    .replace(/\{\+(\d+)\}/g, '<span class="min tip" title="' + ilj_editor_translation.gap_hover_min + ' $1">$1</span>');
-            	return '<li class="keyword" data-id="'+index+'"><a class="dashicons dashicons-dismiss remove"></a>'+keyword_print+'</li>';
             },
 
             setError: function(message) {

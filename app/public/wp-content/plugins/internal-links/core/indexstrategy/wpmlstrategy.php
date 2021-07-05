@@ -2,6 +2,7 @@
 
 namespace ILJ\Core\IndexStrategy;
 
+use  ILJ\Backend\Editor ;
 use  ILJ\Core\Options ;
 use  ILJ\Database\Linkindex ;
 use  ILJ\Database\Postmeta ;
@@ -11,6 +12,7 @@ use  ILJ\Helper\IndexAsset ;
 use  ILJ\Helper\Regex ;
 use  ILJ\Helper\Replacement ;
 use  ILJ\Helper\Url ;
+use  ILJ\Helper\Blacklist ;
 use  ILJ\Type\Ruleset ;
 /**
  * WPML compatible indexbuilder
@@ -33,9 +35,22 @@ class WPMLStrategy extends DefaultStrategy
      * @since 1.2.0
      */
     protected  $languages = array() ;
+    /**
+     * 
+     * @var array
+     * @since 1.2.15
+     */
+    protected  $blacklisted_posts = array() ;
+    /**
+     * 
+     * @var array
+     * @since 1.2.15
+     */
+    protected  $blacklisted_terms = array() ;
     public function __construct()
     {
         $this->languages = self::getLanguages();
+        $this->blacklisted_posts = Blacklist::getBlacklistedList( "post" );
     }
     
     /**
@@ -173,6 +188,9 @@ class WPMLStrategy extends DefaultStrategy
                     if ( !isset( $linked_urls[$link_rule->value] ) ) {
                         $linked_urls[$link_rule->value] = 0;
                     }
+                    if ( !isset( $incoming_link[$link_rule->value] ) ) {
+                        $incoming_link[$link_rule->value] = IndexAsset::getIncomingLinksCount( $link_rule->value, $link_rule->type );
+                    }
                     
                     if ( !$multi_keyword_mode && ($links_per_page > 0 && $post_outlinks_count >= $links_per_page || $links_per_target > 0 && $linked_urls[$link_rule->value] >= $links_per_target) ) {
                         $this->link_rules[$language]->nextRule();
@@ -180,13 +198,31 @@ class WPMLStrategy extends DefaultStrategy
                     }
                     
                     
+                    if ( $link_rule->type == "post" ) {
+                        $is_blacklisted_post = Blacklist::checkIfBlacklisted( $link_rule->type, $link_rule->value, $this->blacklisted_posts );
+                        
+                        if ( $is_blacklisted_post ) {
+                            $this->link_rules[$language]->nextRule();
+                            continue;
+                        }
+                    
+                    }
+                    
+                    
                     if ( $link_rule->value != $item->{$fields['id']} ) {
-                        preg_match( '/' . Encoding::maskPattern( $link_rule->pattern ) . '/ui', $content, $rule_match );
+                        preg_match( '/' . Encoding::maskPattern( $link_rule->pattern ) . '/ui', $item->{$fields['content']}, $rule_match );
                         
                         if ( isset( $rule_match['phrase'] ) ) {
                             $phrase = trim( $rule_match['phrase'] );
                             
                             if ( !$multi_keyword_mode && in_array( $phrase, $linked_anchors ) ) {
+                                $this->link_rules[$language]->nextRule();
+                                continue;
+                            }
+                            
+                            $is_blacklisted_keyword = IndexAsset::checkIfBlacklistedKeyword( $item->{$fields['id']}, $phrase, $data_type );
+                            
+                            if ( $is_blacklisted_keyword ) {
                                 $this->link_rules[$language]->nextRule();
                                 continue;
                             }
@@ -201,6 +237,7 @@ class WPMLStrategy extends DefaultStrategy
                             $counter++;
                             $post_outlinks_count++;
                             $linked_urls[$link_rule->value]++;
+                            $incoming_link[$link_rule->value]++;
                             $linked_anchors[] = $phrase;
                         }
                     

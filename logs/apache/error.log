@@ -82,3 +82,45 @@
 [Fri Jul 02 21:31:46.475167 2021] [core:notice] [pid 8064:tid 920] AH00094: Command line: 'C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/Juan Marichal/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\run\\dmLrYZDGM\\conf\\apache\\apache2.conf'
 [Fri Jul 02 21:31:46.492122 2021] [mpm_winnt:notice] [pid 8064:tid 920] AH00418: Parent: Created child process 31768
 [Fri Jul 02 21:31:50.458391 2021] [mpm_winnt:notice] [pid 31768:tid 460] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 04 20:16:49.644165 2021] [core:warn] [pid 23856:tid 588] AH00098: pid file C:/Users/Juan Marichal/AppData/Roaming/Local/run/dmLrYZDGM/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 04 20:16:49.650149 2021] [mpm_winnt:notice] [pid 23856:tid 588] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Sun Jul 04 20:16:49.650149 2021] [mpm_winnt:notice] [pid 23856:tid 588] AH00456: Server built: Apr 21 2020 13:46:54
+[Sun Jul 04 20:16:49.650149 2021] [core:notice] [pid 23856:tid 588] AH00094: Command line: 'C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/Juan Marichal/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\run\\dmLrYZDGM\\conf\\apache\\apache2.conf'
+[Sun Jul 04 20:16:49.664112 2021] [mpm_winnt:notice] [pid 23856:tid 588] AH00418: Parent: Created child process 25712
+[Sun Jul 04 20:16:53.964847 2021] [mpm_winnt:notice] [pid 25712:tid 816] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 04 20:53:50.056211 2021] [core:warn] [pid 18320:tid 548] AH00098: pid file C:/Users/Juan Marichal/AppData/Roaming/Local/run/dmLrYZDGM/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 04 20:53:50.060202 2021] [mpm_winnt:notice] [pid 18320:tid 548] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Sun Jul 04 20:53:50.060202 2021] [mpm_winnt:notice] [pid 18320:tid 548] AH00456: Server built: Apr 21 2020 13:46:54
+[Sun Jul 04 20:53:50.060202 2021] [core:notice] [pid 18320:tid 548] AH00094: Command line: 'C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/Juan Marichal/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\run\\dmLrYZDGM\\conf\\apache\\apache2.conf'
+[Sun Jul 04 20:53:50.071171 2021] [mpm_winnt:notice] [pid 18320:tid 548] AH00418: Parent: Created child process 25920
+[Sun Jul 04 20:53:53.156499 2021] [mpm_winnt:notice] [pid 25920:tid 852] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 04 21:41:03.621928 2021] [core:warn] [pid 23984:tid 780] AH00098: pid file C:/Users/Juan Marichal/AppData/Roaming/Local/run/dmLrYZDGM/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 04 21:41:03.625916 2021] [mpm_winnt:notice] [pid 23984:tid 780] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Sun Jul 04 21:41:03.625916 2021] [mpm_winnt:notice] [pid 23984:tid 780] AH00456: Server built: Apr 21 2020 13:46:54
+[Sun Jul 04 21:41:03.625916 2021] [core:notice] [pid 23984:tid 780] AH00094: Command line: 'C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/Juan Marichal/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\run\\dmLrYZDGM\\conf\\apache\\apache2.conf'
+[Sun Jul 04 21:41:03.635889 2021] [mpm_winnt:notice] [pid 23984:tid 780] AH00418: Parent: Created child process 34380
+[Sun Jul 04 21:41:06.689648 2021] [mpm_winnt:notice] [pid 34380:tid 812] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 04 22:23:16.623200 2021] [core:warn] [pid 12956:tid 752] AH00098: pid file C:/Users/Juan Marichal/AppData/Roaming/Local/run/dmLrYZDGM/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 04 22:23:16.630181 2021] [mpm_winnt:notice] [pid 12956:tid 752] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Sun Jul 04 22:23:16.630181 2021] [mpm_winnt:notice] [pid 12956:tid 752] AH00456: Server built: Apr 21 2020 13:46:54
+[Sun Jul 04 22:23:16.630181 2021] [core:notice] [pid 12956:tid 752] AH00094: Command line: 'C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/Juan Marichal/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\run\\dmLrYZDGM\\conf\\apache\\apache2.conf'
+[Sun Jul 04 22:23:16.651125 2021] [mpm_winnt:notice] [pid 12956:tid 752] AH00418: Parent: Created child process 28976
+[Sun Jul 04 22:23:20.710398 2021] [mpm_winnt:notice] [pid 28976:tid 844] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 04 22:27:42.452672 2021] [core:warn] [pid 16876:tid 840] AH00098: pid file C:/Users/Juan Marichal/AppData/Roaming/Local/run/dmLrYZDGM/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 04 22:27:42.456661 2021] [mpm_winnt:notice] [pid 16876:tid 840] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Sun Jul 04 22:27:42.456661 2021] [mpm_winnt:notice] [pid 16876:tid 840] AH00456: Server built: Apr 21 2020 13:46:54
+[Sun Jul 04 22:27:42.456661 2021] [core:notice] [pid 16876:tid 840] AH00094: Command line: 'C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/Juan Marichal/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\run\\dmLrYZDGM\\conf\\apache\\apache2.conf'
+[Sun Jul 04 22:27:42.468629 2021] [mpm_winnt:notice] [pid 16876:tid 840] AH00418: Parent: Created child process 27712
+[Sun Jul 04 22:27:46.032410 2021] [mpm_winnt:notice] [pid 27712:tid 816] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 04 23:11:20.628316 2021] [core:warn] [pid 9276:tid 780] AH00098: pid file C:/Users/Juan Marichal/AppData/Roaming/Local/run/dmLrYZDGM/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 04 23:11:20.635298 2021] [mpm_winnt:notice] [pid 9276:tid 780] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Sun Jul 04 23:11:20.635298 2021] [mpm_winnt:notice] [pid 9276:tid 780] AH00456: Server built: Apr 21 2020 13:46:54
+[Sun Jul 04 23:11:20.636295 2021] [core:notice] [pid 9276:tid 780] AH00094: Command line: 'C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/Juan Marichal/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\run\\dmLrYZDGM\\conf\\apache\\apache2.conf'
+[Sun Jul 04 23:11:20.686765 2021] [mpm_winnt:notice] [pid 9276:tid 780] AH00418: Parent: Created child process 9332
+[Sun Jul 04 23:11:25.412081 2021] [mpm_winnt:notice] [pid 9332:tid 468] AH00354: Child: Starting 64 worker threads.
+[Mon Jul 05 06:26:31.354027 2021] [core:warn] [pid 15696:tid 812] AH00098: pid file C:/Users/Juan Marichal/AppData/Roaming/Local/run/dmLrYZDGM/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 05 06:26:31.361008 2021] [mpm_winnt:notice] [pid 15696:tid 812] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Mon Jul 05 06:26:31.362005 2021] [mpm_winnt:notice] [pid 15696:tid 812] AH00456: Server built: Apr 21 2020 13:46:54
+[Mon Jul 05 06:26:31.362005 2021] [core:notice] [pid 15696:tid 812] AH00094: Command line: 'C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/Juan Marichal/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\Juan Marichal\\AppData\\Roaming\\Local\\run\\dmLrYZDGM\\conf\\apache\\apache2.conf'
+[Mon Jul 05 06:26:31.382949 2021] [mpm_winnt:notice] [pid 15696:tid 812] AH00418: Parent: Created child process 11224
+[Mon Jul 05 06:26:36.365557 2021] [mpm_winnt:notice] [pid 11224:tid 804] AH00354: Child: Starting 64 worker threads.

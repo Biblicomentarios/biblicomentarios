@@ -85,8 +85,8 @@ class Encoding
 	    if (strpos($pattern, '.') !== false) $boundary_start = $boundary_end = '';
 
 	    //starting/ending with special char:
-	    if ($boundary_start != '' && !preg_match('/^[a-z0-9àâçéèêëîïôûùüÿñæœ]/', strtolower($pattern))) $boundary_start = '';
-	    if ($boundary_end != '' && !preg_match('/[a-z0-9àâçéèêëîïôûùüÿñæœ]$/', strtolower($pattern))) $boundary_end = '';
+	    if ($boundary_start != '' && !preg_match('/^[a-z0-9àâçéèêëîïôûùüÿñæœА-Яа-яЁё]/', strtolower($pattern))) $boundary_start = '';
+	    if ($boundary_end != '' && !preg_match('/[a-z0-9àâçéèêëîïôûùüÿñæœА-Яа-яЁё]$/', strtolower($pattern))) $boundary_end = '';
 
         $masked_pattern = sprintf($phrase, wptexturize($pattern), $boundary_start, $boundary_end);
 

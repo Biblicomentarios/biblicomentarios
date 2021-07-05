@@ -180,7 +180,7 @@ class App
                 return;
             }
             $current_screen = get_current_screen();
-            if ( $meta_key != \ILJ\Database\Postmeta::ILJ_META_KEY_LINKDEFINITION || !method_exists( $current_screen, 'is_block_editor' ) || !$current_screen->is_block_editor() ) {
+            if ( $meta_key != \ILJ\Database\Postmeta::ILJ_META_KEY_LINKDEFINITION || !$current_screen || !method_exists( $current_screen, 'is_block_editor' ) || !$current_screen->is_block_editor() ) {
                 return;
             }
             if ( !$this->postAffectsIndex( $post_id ) ) {
