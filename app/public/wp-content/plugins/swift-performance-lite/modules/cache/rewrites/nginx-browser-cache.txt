@@ -1,0 +1,10 @@
+# ------------------------------------------------------------------------------
+# | Expires headers (for better cache control)                                 |
+# ------------------------------------------------------------------------------
+
+location ~*  \.(css|js|woff2?|ttf|otf|eot)$ {
+        expires 365d;
+}
+location ~*  \.(jpe?g|png|gif|webp|ico|ogg|mp4|svg)$ {
+        expires 30d;
+}

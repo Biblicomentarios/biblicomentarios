@@ -235,7 +235,7 @@ class WPSE154979_Widget extends WP_Widget
                 'icon'              => 'book-alt',
                 'keywords'          => array('bcpasaje', 'pasaje', 'referencia', 'quote', 'cita'),
                 'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcpasaje/bcpasaje.css',
-            ));            
+            ));
 
             // Registra BCHarmonySingle
             acf_register_block_type(array(
@@ -245,9 +245,9 @@ class WPSE154979_Widget extends WP_Widget
                 'render_template'   => 'template-parts/blocks/bcharmonysingle/bcharmonysingle.php',
                 'category'          => 'formatting',
                 'icon'              => 'book-alt',
-                'keywords'          => array('bcharmonysingle', 'pasaje', 'referencia', 'quote', 'cita','armonía de los evangelios'),
+                'keywords'          => array('bcharmonysingle', 'pasaje', 'referencia', 'quote', 'cita', 'armonía de los evangelios'),
                 'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcharmonysingle/bcharmonysingle.css',
-            ));                      
+            ));
 
             // Registra BCLadoALado
             acf_register_block_type(array(
@@ -257,7 +257,7 @@ class WPSE154979_Widget extends WP_Widget
                 'render_template'   => 'template-parts/blocks/bcladoalado/bcladoalado.php',
                 'category'          => 'formatting',
                 'icon'              => 'book-alt',
-                'keywords'          => array('bcladoalado', 'pasaje', 'referencia', 'quote', 'cita','armonía de los evangelios'),
+                'keywords'          => array('bcladoalado', 'pasaje', 'referencia', 'quote', 'cita', 'armonía de los evangelios'),
                 'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcladoalado/bcladoalado.css',
             ));
 
@@ -269,9 +269,9 @@ class WPSE154979_Widget extends WP_Widget
                 'render_template'   => 'template-parts/blocks/bcdiagrama/bcdiagrama.php',
                 'category'          => 'formatting',
                 'icon'              => 'book-alt',
-                'keywords'          => array('bcdiagrama', 'pasaje', 'referencia', 'quote', 'cita','armonía de los evangelios'),
+                'keywords'          => array('bcdiagrama', 'pasaje', 'referencia', 'quote', 'cita', 'armonía de los evangelios'),
                 'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcdiagrama/bcdiagrama.css',
-            ));            
+            ));
 
             // Registra BCListadoReferencias
             $blockNickName = 'bcreferencias';
@@ -282,7 +282,7 @@ class WPSE154979_Widget extends WP_Widget
                 'render_template'   => "template-parts/blocks/$blockNickName/$blockNickName.php",
                 'category'          => 'formatting',
                 'icon'              => 'book-alt',
-                'keywords'          => array($blockNickName, 'pasaje','referencia'),
+                'keywords'          => array($blockNickName, 'pasaje', 'referencia'),
                 'enqueue_style' => get_template_directory_uri() . "/template-parts/blocks/$blockNickName/$blockNickName.css",
             ));
         }
@@ -305,4 +305,24 @@ class WPSE154979_Widget extends WP_Widget
 
     add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_styles');
     add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_scripts');
-?>
+
+    // Shortcode to output custom PHP in Elementor
+    function bc_shortcode_categoria_antes($atts)
+    {
+        $term = get_queried_object();
+        $url = get_field('urlanterior', $term);
+        if ($url) {
+            echo "<a href='" . $url . "'><i class='fas fa-angle-double-left'></i> Anterior</a>";
+        }
+    }
+    add_shortcode('bc_category_nav_previous', 'bc_shortcode_categoria_antes');
+            
+    function bc_shortcode_categoria_despues($atts)
+    {
+        $term = get_queried_object();
+        $url = get_field('urlsiguiente', $term);
+        if ($url) {
+            echo "<a href='" . $url . "'>Siguiente <i class='fas fa-angle-double-right'></i></a>";
+        }
+    }
+    add_shortcode('bc_category_nav_after', 'bc_shortcode_categoria_despues');

@@ -1,0 +1,193 @@
+# Copyright (C) 2020 David Matthew
+# This file is distributed under the GPL-3.
+msgid ""
+msgstr ""
+"Project-Id-Version: TrimPress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trimpress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-11-23T22:09:09+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0-alpha\n"
+"X-Domain: trimpress\n"
+
+#. Plugin Name of the plugin
+msgid "TrimPress"
+msgstr ""
+
+#. Description of the plugin
+msgid "Trim some of the cruft from WordPress for a lighter, more secure theme!"
+msgstr ""
+
+#. Author of the plugin
+msgid "David Matthew"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://davidmatthew.ie"
+msgstr ""
+
+#: classes/class-admin.php:38
+msgid "TrimPress Settings"
+msgstr ""
+
+#: classes/class-admin.php:93
+msgid "<strong>Green</strong> indicates a setting is completely safe to implement."
+msgstr ""
+
+#: classes/class-admin.php:94
+msgid "<strong>Blue</strong> indicates you should proceed with more caution and know the implications."
+msgstr ""
+
+#: classes/class-admin.php:102
+msgid "Select"
+msgstr ""
+
+#: classes/class-admin.php:104
+msgid "All"
+msgstr ""
+
+#: classes/class-admin.php:105
+msgid "None"
+msgstr ""
+
+#: classes/class-admin.php:115
+msgid "Save Settings"
+msgstr ""
+
+#: classes/class-settings.php:48
+msgid "Adjacent Post Links"
+msgstr ""
+
+#: classes/class-settings.php:57
+msgid "Cart Fragments"
+msgstr ""
+
+#: classes/class-settings.php:66
+msgid "Code Editors"
+msgstr ""
+
+#: classes/class-settings.php:74
+msgid "Comment Autolinks"
+msgstr ""
+
+#: classes/class-settings.php:82
+msgid "Emojis"
+msgstr ""
+
+#: classes/class-settings.php:90
+msgid "Heartbeat"
+msgstr ""
+
+#: classes/class-settings.php:106
+msgid "Post Revisions"
+msgstr ""
+
+#: classes/class-settings.php:114
+msgid "Post Shortlinks"
+msgstr ""
+
+#: classes/class-settings.php:122
+msgid "RSD Link"
+msgstr ""
+
+#: classes/class-settings.php:130
+msgid "RSS Links"
+msgstr ""
+
+#: classes/class-settings.php:138
+msgid "Version Info"
+msgstr ""
+
+#: classes/class-settings.php:146
+msgid "WLW Manifest Link"
+msgstr ""
+
+#: classes/class-settings.php:170
+#: classes/class-settings.php:187
+#: classes/class-settings.php:220
+#: classes/class-settings.php:236
+#: classes/class-settings.php:269
+#: classes/class-settings.php:302
+#: classes/class-settings.php:318
+#: classes/class-settings.php:334
+#: classes/class-settings.php:350
+#: classes/class-settings.php:366
+msgid "Remove"
+msgstr ""
+
+#: classes/class-settings.php:172
+msgid "This will remove links to the next and previous posts in the header, if present."
+msgstr ""
+
+#: classes/class-settings.php:189
+msgid "The <strong>WooCommerce</strong> cart fragments script can be very resource-intensive. If you remove this, don't forget to <a href=\"%s\" target=\"_blank\">adjust the cart behaviour</a> to redirect to the cart page after adding a product."
+msgstr ""
+
+#: classes/class-settings.php:204
+#: classes/class-settings.php:382
+msgid "Disable"
+msgstr ""
+
+#: classes/class-settings.php:206
+msgid "Disable the built-in WordPress code editors that allow users to modify plugin and theme code. If this setting has <strong>no effect</strong>, it means the <a href=\"%s\" target=\"_blank\">file edit constant</a> has already been set elsewhere (e.g. in your <strong>wp-config</strong>)."
+msgstr ""
+
+#: classes/class-settings.php:222
+msgid "Stop WordPress from automatically converting URLs left in comments to clickable hyperlinks. This feature can often be exploited by spammers."
+msgstr ""
+
+#: classes/class-settings.php:238
+msgid "Remove several inline styles and scripts used for the automatic detection and rendering of emojis."
+msgstr ""
+
+#: classes/class-settings.php:253
+msgid "Reduce"
+msgstr ""
+
+#: classes/class-settings.php:255
+msgid "Reduce the frequency of the <a href=\"%s\">Heartbeat API</a> to pulse <strong>once every 60 seconds</strong> (the default interval is 15 seconds). This can significantly reduce admin-ajax usage."
+msgstr ""
+
+#: classes/class-settings.php:271
+msgid "Removes the <code>oEmbed</code> script, which transforms <strong>YouTube</strong>, <strong>Twitter</strong> and other links into embedded media by fetching data from these sites. Remove it if you don't want this default behaviour."
+msgstr ""
+
+#: classes/class-settings.php:286
+msgid "Limit"
+msgstr ""
+
+#: classes/class-settings.php:288
+msgid "Unlimited post revisions (the default) can cause database bloat. This limits post revisions to a <strong>5</strong>. If this setting has <strong>no effect</strong>, it either means the <a href=\"%s\" target=\"_blank\">post revisions constant</a> has already been set (e.g. in your <strong>wp-config</strong>), or you need to create a new revision."
+msgstr ""
+
+#: classes/class-settings.php:304
+msgid "This will remove the post <code>shortlink</code> url, if present."
+msgstr ""
+
+#: classes/class-settings.php:320
+msgid "This will remove <strong>Really Simple Syndication</strong> (RSS) links from the header. The RSS links will still exist; they just won't be automatically loaded."
+msgstr ""
+
+#: classes/class-settings.php:336
+msgid "This will remove the <strong>Really Simple Discovery</strong> (RSD) service endpoint link used for automatic pingbacks."
+msgstr ""
+
+#: classes/class-settings.php:352
+msgid "This will remove the <code>meta</code> generator tag and <code>ver</code> url parameters that let potential attackers know what WordPress version you're using."
+msgstr ""
+
+#: classes/class-settings.php:368
+msgid "This will remove the link to <code>wlwmanifest.xml</code>, used for <strong>Windows Live Writer</strong> support (a discontinued desktop application)."
+msgstr ""
+
+#: classes/class-settings.php:384
+msgid "Disables the <code>XML-RPC</code> interface, an older system for remote WordPress access that can be exploited by hackers. If you don't use <strong>Jetpack</strong> or the <strong>WordPress App</strong> it's generally safe to disable."
+msgstr ""
+
+#: classes/class-trimpress.php:66
+msgid "<a href=\"%s\">Settings</a>"
+msgstr ""

@@ -1,0 +1,4829 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Swift Performance\n"
+"POT-Creation-Date: 2019-09-28 22:46+0200\n"
+"PO-Revision-Date: 2019-09-28 22:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: performance.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: language\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/cache-status/cache-status.php:11
+#: modules/image-optimizer/image-table.php:13
+msgid "Status"
+msgstr "Állapot"
+
+#: includes/cache-status/cache-status.php:12
+#: modules/image-optimizer/image-table.php:15
+#: modules/image-optimizer/image-table.php:16 templates/dashboard.php:187
+#: templates/whitelabel/dashboard.php:179
+msgid "URL"
+msgstr "URL"
+
+#: includes/cache-status/cache-status.php:13
+msgid "Priority"
+msgstr "Prioritás"
+
+#: includes/cache-status/cache-status.php:14 templates/dashboard.php:188
+#: templates/whitelabel/dashboard.php:180
+msgid "Prebuild priority"
+msgstr "Előtöltés prioritás"
+
+#: includes/cache-status/cache-status.php:15
+msgid "Cache date"
+msgstr "Cache dátum"
+
+#: includes/cache-status/cache-status.php:16
+msgid "Timestamp"
+msgstr "Időbélyeg"
+
+#: includes/cache-status/cache-status.php:134
+#: includes/cache-status/table-nav.php:5 includes/classes/class.ajax.php:380
+msgid "Cached"
+msgstr "Gyorsítótárazva"
+
+#: includes/cache-status/cache-status.php:135
+msgid "Missing From Cache"
+msgstr "Hiányzik a gyorsítótárból"
+
+#: includes/cache-status/cache-status.php:136
+#: includes/cache-status/table-nav.php:8 includes/classes/class.ajax.php:382
+msgid "Cached 404"
+msgstr "Gyorsítótárazott 404"
+
+#: includes/cache-status/cache-status.php:137
+msgid "Not cacheable"
+msgstr "Nem gyorsítótárazható"
+
+#: includes/cache-status/cache-status.php:138
+#: includes/cache-status/table-nav.php:9
+msgid "Redirect"
+msgstr "Átirányítás"
+
+#: includes/cache-status/cache-status.php:144
+msgid "Update"
+msgstr "Frissítés"
+
+#: includes/cache-status/cache-status.php:157
+msgid "View cached"
+msgstr "Cache megtekintés"
+
+#: includes/cache-status/cache-status.php:157
+msgid "View"
+msgstr "Megtekintés"
+
+#: includes/cache-status/cache-status.php:158
+#: includes/luv-framework/framework-config.php:299
+msgid "Clear cache"
+msgstr "Gyorsítótár ürítése"
+
+#: includes/cache-status/cache-status.php:158
+msgid "Cache page"
+msgstr "Oldal gyorsítótárazása"
+
+#: includes/cache-status/cache-status.php:159
+msgid "Remove URL"
+msgstr "URL eltávolítása"
+
+#: includes/cache-status/cache-status.php:163
+msgid "Subcache: "
+msgstr "Alcache:"
+
+#: includes/cache-status/cache-status.php:218
+msgid "Scanning URLs..."
+msgstr "URL-ek keresése"
+
+#: includes/cache-status/cache-status.php:220
+#: modules/image-optimizer/image-table.php:279
+msgid "No items found."
+msgstr "Nincs találat."
+
+#: includes/cache-status/table-nav.php:4
+#: modules/image-optimizer/templates/table-nav.php:7
+msgid "All Status"
+msgstr "Összes státusz"
+
+#: includes/cache-status/table-nav.php:6 includes/classes/class.ajax.php:381
+msgid "Not Cached"
+msgstr "Nem gyorsítótárazott"
+
+#: includes/cache-status/table-nav.php:7 includes/classes/class.ajax.php:383
+msgid "Not Cacheable"
+msgstr "Nem gyorsítótárazható"
+
+#: includes/cache-status/table-nav.php:14
+#: modules/image-optimizer/templates/table-nav.php:17
+msgid "Start typing..."
+msgstr "Keresés..."
+
+#: includes/cache-status/table-nav.php:15
+#: modules/image-optimizer/templates/table-nav.php:18
+msgid "Filter"
+msgstr "Szűrés"
+
+#: includes/classes/class.ajax.php:60
+msgid "Cache cleared"
+msgstr "Gyorsítótár ürítve"
+
+#: includes/classes/class.ajax.php:78 performance.php:307
+msgid "Assets cache cleared"
+msgstr "Eszköz gyorsítótár ürítve"
+
+#: includes/classes/class.ajax.php:201
+msgid "The given URL was empty."
+msgstr "A megadott URL üres."
+
+#: includes/classes/class.ajax.php:219
+msgid "The given URL was invalid (internal links only)."
+msgstr "A megadott URL érvénytelen (csak belső hivatkozás)."
+
+#: includes/classes/class.ajax.php:276
+msgid "Prebuilding cache is in progress"
+msgstr "Cache előtöltés folyamatban"
+
+#: includes/classes/class.ajax.php:293
+msgid "Prebuilding cache stopped by user"
+msgstr "A cache előtöltést a felhasználó megszakította"
+
+#: includes/classes/class.ajax.php:310
+msgid ""
+"It seems that your htaccess is writable, you don't need to add rules "
+"manually."
+msgstr "Úgy tűnik, a .htaccess fájl írható, nincs további teendőd."
+
+#: includes/classes/class.ajax.php:313
+msgid ""
+"It seems that your htaccess is NOT writable, you need to add rules manually."
+msgstr ""
+"Úgy tűnik, a .htaccess fájl NEM írható, így a szabályokat kézzel kell "
+"hozzáadni."
+
+#: includes/classes/class.ajax.php:317
+msgid "You need to add rewrite rules manually to your Nginx config file."
+msgstr ""
+"Az átirányítási szabályokat az Nginx konfigurációs fájlhoz kézzel kell "
+"hozzáadni."
+
+#: includes/classes/class.ajax.php:320
+msgid "Caching with rewrites currently available on Apache and Nginx only."
+msgstr ""
+"Gyorsítótárazás rewrite rule-okkal csak Apache és Nginx szerveren elérhető."
+
+#: includes/classes/class.ajax.php:327
+msgid "Rewrite Rules"
+msgstr "Rewrite Rules"
+
+#: includes/classes/class.ajax.php:365
+#, php-format
+msgid "Prebuild cache in progress: %s"
+msgstr "Előtöltés folyamatban: %s"
+
+#: includes/classes/class.ajax.php:368
+msgid "Prebuild cache is idle"
+msgstr "Előtöltés szünetel"
+
+#: includes/classes/class.ajax.php:376
+msgid "Cache status"
+msgstr "Gyorsítótár állapota"
+
+#: includes/classes/class.ajax.php:387 includes/classes/class.ajax.php:389
+#: includes/classes/class.ajax.php:391
+#, php-format
+msgid " %s Mb"
+msgstr "%s Mb"
+
+#: includes/classes/class.ajax.php:410 includes/classes/class.ajax.php:438
+msgid "Log is empty"
+msgstr "Naplófájl üres"
+
+#: includes/classes/class.ajax.php:415
+#, php-format
+msgid "Log - %s"
+msgstr "Naplózás - %s"
+
+#: includes/classes/class.ajax.php:452
+msgid "Developer mode deactivated"
+msgstr "A fejlesztői mód kikapcsolva"
+
+#: includes/classes/class.ajax.php:457
+msgid "Developer mode is active. Caching will bypassed."
+msgstr ""
+"A fejlesztői mód bekapcsolva, a gyorsítótárazás fellfüggesztésre került."
+
+#: includes/classes/class.ajax.php:476
+#: modules/critical-font/critical-font.php:56
+#: modules/critical-font/critical-font.php:181
+#: modules/critical-font/critical-font.php:217
+#: modules/db-optimizer/db-optimizer.php:71
+msgid "Your session has expired. Please refresh the page and try again."
+msgstr ""
+"A munkamenet lejárt, az oldal frissítését követően a műveletet meg kell "
+"ismételni."
+
+#: includes/classes/class.cli.php:14 performance.php:283
+msgid "All cache cleared"
+msgstr "Gyorsítótár ürítve"
+
+#: includes/classes/class.cli.php:20
+msgid "Expired cache cleared"
+msgstr "Lejárt gyorsítótár ürítve"
+
+#: includes/classes/class.cli.php:26
+msgid "Permalink cache cleared"
+msgstr "Permalink gyorsítótár ürítve"
+
+#: includes/classes/class.cli.php:32
+msgid "Post cache cleared"
+msgstr "Post gyorsítótár ürítve"
+
+#: includes/classes/class.cli.php:38
+msgid "User cache cleared"
+msgstr "User gyorsítótár ürítve"
+
+#: includes/luv-framework/classes/class.option-fields.php:33
+msgid "Export/Import"
+msgstr "Exportálás / Importálás"
+
+#: includes/luv-framework/classes/class.option-fields.php:37
+msgid "Export"
+msgstr "Exportálás"
+
+#: includes/luv-framework/classes/class.option-fields.php:47
+#: includes/luv-framework/templates/tpl.import.php:20
+#: includes/setup/templates/wizard-whitelabel.tpl.php:297
+#: includes/setup/templates/wizard.tpl.php:314
+msgid "Import"
+msgstr "Importálás"
+
+#: includes/luv-framework/classes/class.option-fields.php:246
+#: includes/luv-framework/classes/class.option-fields.php:331
+msgid "You don't have permission for this action."
+msgstr "Nincs engedélyed a művelethez."
+
+#: includes/luv-framework/classes/class.option-fields.php:254
+#: includes/luv-framework/classes/class.option-fields.php:339
+msgid "Session expired. Please refresh the page."
+msgstr "A munkamenet ideje lejárt. Kérjük, frissítsd az oldalt."
+
+#: includes/luv-framework/classes/class.option-fields.php:314
+msgid "Settings saved. Some fields has validation issues."
+msgstr "Beállítások elmentve. Egyes mezők hibásak lehetnek."
+
+#: includes/luv-framework/classes/class.option-fields.php:320
+msgid "Settings saved."
+msgstr "Beállítások mentve."
+
+#: includes/luv-framework/classes/class.option-fields.php:349
+msgid "Uploaded file was corrupted."
+msgstr "A feltöltött fájl sérült."
+
+#: includes/luv-framework/classes/class.option-fields.php:369
+msgid "Settings was imported successfully."
+msgstr "Sikeres importálás!"
+
+#: includes/luv-framework/framework-config.php:29
+msgid "Disk Cache with PHP"
+msgstr "Lemez gyorsítótár PHP-vel"
+
+#: includes/luv-framework/framework-config.php:34
+msgid "Disk Cache with Rewrites"
+msgstr "Lemez gyorsítótár rewrite-al"
+
+#: includes/luv-framework/framework-config.php:39
+msgid "Memcached with PHP"
+msgstr "Memcached PHP-vel"
+
+#: includes/luv-framework/framework-config.php:45
+#: includes/luv-framework/framework-config.php:52
+msgid "Don't use WebP"
+msgstr "Ne használjon a WebP-t"
+
+#: includes/luv-framework/framework-config.php:46
+#: includes/luv-framework/framework-config.php:53
+msgid "Use <picture> elements"
+msgstr "<picture> elemek használata"
+
+#: includes/luv-framework/framework-config.php:47
+msgid "Use rewrites"
+msgstr "Rewrite rule használata"
+
+#: includes/luv-framework/framework-config.php:80
+msgid "Purchase Key is empty"
+msgstr "A lincenc kulcs üres"
+
+#: includes/luv-framework/framework-config.php:92
+msgid ""
+"Your server's IP has been banned due abusing our API server (too many "
+"invalid requests)."
+msgstr ""
+"A szerver IP-t letiltotta az API-kiszolgáló (túl sok érvénytelen kérés)."
+
+#: includes/luv-framework/framework-config.php:97
+msgid "Purchase Key is invalid"
+msgstr "A licenc kulcs érvénytelen"
+
+#: includes/luv-framework/framework-config.php:102
+#, php-format
+msgid "Error: %d"
+msgstr "Hiba: %d"
+
+#: includes/luv-framework/framework-config.php:128
+msgid "Log directory doesn't exists"
+msgstr "A naplófájl könyvtára nem létezik"
+
+#: includes/luv-framework/framework-config.php:131
+msgid "Log directory should be a directory"
+msgstr "A naplófájl könyvtára nem érvényes könyvtárra mutat"
+
+#: includes/luv-framework/framework-config.php:133
+msgid ""
+"Log directory isn't writable for WordPress. Please change the permissions."
+msgstr ""
+"A naplófájl könyvtára nem írható a WordPress számára. Változtasd meg az "
+"engedélyeket."
+
+#: includes/luv-framework/framework-config.php:155
+msgid "htaccess doesn't exists"
+msgstr "A htaccess nem létezik"
+
+#: includes/luv-framework/framework-config.php:158
+msgid "htaccess isn't writable for WordPress. Please change the permissions."
+msgstr ""
+"A htaccess nem írható a WordPress számára. Változtasd meg az engedélyeket."
+
+#: includes/luv-framework/framework-config.php:176
+msgid "MU Plugins directory doesn't exists"
+msgstr "A MU Plugins könyvtár nem létezik"
+
+#: includes/luv-framework/framework-config.php:179
+msgid ""
+"MU Plugins directory isn't writable for WordPress. Please change the "
+"permissions."
+msgstr ""
+"A MU Plugins könyvtár nem írható a WordPress számára. Változtasd meg az "
+"engedélyeket."
+
+#: includes/luv-framework/framework-config.php:191
+msgid "Cache directory is empty"
+msgstr "A gyorsítótár könyvtár üres"
+
+#: includes/luv-framework/framework-config.php:196
+msgid "Cache directory doesn't exists"
+msgstr "A gyorsítótár könyvtár nem létezik"
+
+#: includes/luv-framework/framework-config.php:199
+msgid "Cache directory should be a directory"
+msgstr "A gyorsítótár könyvtár nem érvényes könyvtárra mutat"
+
+#: includes/luv-framework/framework-config.php:201
+msgid ""
+"Cache directory isn't writable for WordPress. Please change the permissions."
+msgstr ""
+"A gyorsítótár könyvtár nem írható a WordPress számára. Változtasd meg az "
+"engedélyeket."
+
+#: includes/luv-framework/framework-config.php:235
+#: includes/luv-framework/framework-config.php:241
+#: includes/luv-framework/framework-config.php:523
+#: modules/image-optimizer/templates/dashboard.tpl.php:84
+#: modules/plugin-organizer/plugin-organizer.php:338 performance.php:382
+#: performance.php:1105 performance.php:2280
+msgid "Settings"
+msgstr "Beállítások"
+
+#: includes/luv-framework/framework-config.php:242
+#: includes/luv-framework/framework-config.php:265
+msgid ""
+"By default some options are hidden. You can switch to Advanced View to see "
+"all options"
+msgstr ""
+"Néhány opció alapból rejtett. Az összes beállítás megtekintéséhez válts "
+"Teljes nézetre"
+
+#: includes/luv-framework/framework-config.php:244
+msgid "Simple View"
+msgstr "Egyszerű nézet"
+
+#: includes/luv-framework/framework-config.php:246
+msgid "Advanced View"
+msgstr "Teljes nézet"
+
+#: includes/luv-framework/framework-config.php:257
+#: modules/image-optimizer/image-table.php:14
+msgid "Preview"
+msgstr "Mentekint"
+
+#: includes/luv-framework/framework-config.php:286
+msgid "Lossless"
+msgstr "Veszteségmentes"
+
+#: includes/luv-framework/framework-config.php:287
+msgid "Slightly Lossy"
+msgstr "Enyhén veszteséges"
+
+#: includes/luv-framework/framework-config.php:288
+#: includes/luv-framework/framework-config.php:2046
+msgid "Moderate"
+msgstr "Mérsékelt"
+
+#: includes/luv-framework/framework-config.php:289
+msgid "Agressive"
+msgstr "Agresszív"
+
+#: includes/luv-framework/framework-config.php:297
+#: includes/luv-framework/templates/tpl.header.php:24
+#: includes/luv-framework/templates/tpl.header.php:31
+#: includes/luv-framework/templates/tpl.import.php:18
+#: includes/setup/templates/wizard-whitelabel.tpl.php:295
+#: includes/setup/templates/wizard.tpl.php:312
+msgid "Hey!"
+msgstr "Hahó!"
+
+#: includes/luv-framework/framework-config.php:298
+msgid "Some modifications affected cache. Would you like to clear cache?"
+msgstr "Néhány módosítás érintette a gyorsítótárat. Törlöd a gyorsítótárat?"
+
+#: includes/luv-framework/framework-config.php:300
+#: includes/luv-framework/templates/tpl.header.php:27
+#: includes/luv-framework/templates/tpl.header.php:34 performance.php:490
+#: performance.php:2070 templates/clear-cache-notice.php:4
+#: templates/whitelabel/clear-cache-notice.php:4
+msgid "Dismiss"
+msgstr "Elrejtés"
+
+#: includes/luv-framework/framework-config.php:315
+#: includes/luv-framework/framework-config.php:319
+#: includes/luv-framework/framework-config.php:1072
+#: includes/luv-framework/framework-config.php:1580
+#: includes/luv-framework/framework-config.php:2402
+#: templates/db-optimizer.php:13 templates/whitelabel/db-optimizer.php:15
+msgid "General"
+msgstr "Általános"
+
+#: includes/luv-framework/framework-config.php:329
+msgid "Purchase Key"
+msgstr "Licenc kulcs"
+
+#: includes/luv-framework/framework-config.php:334
+msgid "Disable Cookies"
+msgstr "Sütik kikapcsolása"
+
+#: includes/luv-framework/framework-config.php:336
+#, php-format
+msgid "You can prevent %s to create cookies on frontend."
+msgstr "Megakadályozhatod, hogy a %s cookie-kat hozzon létre a frontenden."
+
+#: includes/luv-framework/framework-config.php:337
+#, php-format
+msgid ""
+"Regarding GDPR you can't use some cookies until the visitor approve them. In "
+"that case you can prevent %s to create these cookies by default, and use "
+"swift_performance_cookies-disabled filter to override this option. Please "
+"note that %s uses cookies for Google Analytics Bypass."
+msgstr ""
+"A GDPR vonatkozásában bizonyos sütiket csak akkor használhat az oldal, ha a "
+"látogató jóváhagyta azokat. Ezzel az opcióval megakadályozhatod, hogy a %s "
+"alapértelmezés szerint sütiket hozzon létre és a swift_performance_cookies-"
+"disabled szűrőt használhatod ennek felülításához. A % sütiket használ a "
+"Google Analytics Bypass funkcióhoz."
+
+#: includes/luv-framework/framework-config.php:344
+msgid "Hide Footprints"
+msgstr "Lábnyomok elrejtése"
+
+#: includes/luv-framework/framework-config.php:345
+#, php-format
+msgid "Prevent to add %s response header and HTML comment"
+msgstr ""
+"Amennyiben elrejted a lábnyomokat %s nem kerül hozzáadásra a válasz "
+"fejlécekben és a forrásban"
+
+#: includes/luv-framework/framework-config.php:353
+msgid "Use Compute API"
+msgstr "Használja a Compute API-t"
+
+#: includes/luv-framework/framework-config.php:354
+msgid "Speed up merging process and decrease CPU usage."
+msgstr "Felgyorsítja az optimalizálást és csökkenti a CPU használatot"
+
+#: includes/luv-framework/framework-config.php:355
+msgid ""
+"Compute API can speed up CPU extensive processes like generating Critical "
+"CSS, or minification."
+msgstr ""
+"A Compute API felgyorsítja a számítás-igényes feladatokat, például a "
+"Critical CSS generálást, vagy a tömörítést "
+
+#: includes/luv-framework/framework-config.php:362
+msgid "Prebuild Booster"
+msgstr "Előtöltés gyorsító"
+
+#: includes/luv-framework/framework-config.php:363
+#, php-format
+msgid "If you enable this option %s will use less resources during prebuild."
+msgstr ""
+"Ha engedélyezed ezt az opciót, a %s kevesebb erőforrást fog használni a "
+"gyorsítótár előtöltés során."
+
+#: includes/luv-framework/framework-config.php:364
+msgid ""
+"If you enable this option it will reduce CPU usage and speed up prebuild "
+"process, however it can increase MySQL binlogs if it is enabled."
+msgstr ""
+"Ha engedélyezed ezt az opciót, az csökkenti a CPU használatot és "
+"felgyorsítja a gyorsítótár előtöltést, de növelheti a MySQL binlogs-ot"
+
+#: includes/luv-framework/framework-config.php:374
+msgid "Disable Admin Notices"
+msgstr "Admin Üzenetek Kikapcsolása"
+
+#: includes/luv-framework/framework-config.php:375
+#, php-format
+msgid "You can disable %s admin notices."
+msgstr "Itt kikapcsolhatod a %s admin üzeneteket."
+
+#: includes/luv-framework/framework-config.php:376
+#, php-format
+msgid ""
+"After update/activate/deactivate plugin, switch/update theme, or update "
+"WordPress core %s will show notices to clear cache. With this option you can "
+"disable these notices (but in some cases you still should clear cache)."
+msgstr ""
+"Miután frissítessz/aktiválsz/deaktiválsz egy plugint, sablont váltassz/"
+"frissítessz vagy frissíted a WordPress core-t %s egy figyelmeztet, hogy "
+"ürítsd a gyorsítótárat. Ezzel az opcióval kikapcsolhatod ezeket a "
+"figyelmeztetéseket (de természetesen ettől még bizonyos esetekben ürítened "
+"kellhet a gyorsítótárat). "
+
+#: includes/luv-framework/framework-config.php:385
+msgid "Beta Tester"
+msgstr "Béta teszter"
+
+#: includes/luv-framework/framework-config.php:386
+msgid "If you enable this option you will get updates in beta stage"
+msgstr ""
+"Ha engedélyezed ezt a lehetőséget, telepítheted a béta frissítéseket is"
+
+#: includes/luv-framework/framework-config.php:393
+msgid "Debug Log"
+msgstr "Hibanapló"
+
+#: includes/luv-framework/framework-config.php:394
+msgid "Enable debug logging"
+msgstr "Naplózás engedélyezése"
+
+#: includes/luv-framework/framework-config.php:395
+msgid ""
+"If you have any issues (eg caching/image optimizer is not working) you can "
+"start debugging here."
+msgstr ""
+"Ha valami nem működik (például a gyorsítótárazás, vagy a képoptimalizáló), "
+"itt kezdheted el a hibakeresést."
+
+#: includes/luv-framework/framework-config.php:402
+msgid "Loglevel"
+msgstr "Naplózás szintje"
+
+#: includes/luv-framework/framework-config.php:405
+#: modules/image-optimizer/templates/dashboard.tpl.php:81
+#: modules/image-optimizer/templates/dashboard.tpl.php:82
+#: modules/image-optimizer/templates/dashboard.tpl.php:83
+msgid "All"
+msgstr "Minden"
+
+#: includes/luv-framework/framework-config.php:406
+msgid "Warning"
+msgstr "Figyelmeztetések"
+
+#: includes/luv-framework/framework-config.php:407
+#: modules/image-optimizer/templates/table-nav.php:12
+msgid "Error"
+msgstr "Hibák"
+
+#: includes/luv-framework/framework-config.php:414
+msgid "Log Path"
+msgstr "Naplófájl elérési útja"
+
+#: includes/luv-framework/framework-config.php:422
+#: includes/luv-framework/framework-config.php:1811
+msgid "Tweaks"
+msgstr "Finomhangolás"
+
+#: includes/luv-framework/framework-config.php:427
+#: includes/setup/templates/wizard-whitelabel.tpl.php:93
+#: includes/setup/templates/wizard-whitelabel.tpl.php:110
+#: includes/setup/templates/wizard-whitelabel.tpl.php:131
+#: includes/setup/templates/wizard-whitelabel.tpl.php:154
+#: includes/setup/templates/wizard-whitelabel.tpl.php:178
+#: includes/setup/templates/wizard.tpl.php:96
+#: includes/setup/templates/wizard.tpl.php:113
+#: includes/setup/templates/wizard.tpl.php:134
+#: includes/setup/templates/wizard.tpl.php:157
+#: includes/setup/templates/wizard.tpl.php:181
+msgid "Normalize Static Resources"
+msgstr "Statikus erőforrások normalizálása"
+
+#: includes/luv-framework/framework-config.php:428
+msgid "Remove unnecessary query string from CSS, JS and image files."
+msgstr ""
+"Eltávolítja a felesleges query string-et a CSS, JS és a képfájlokból URL-"
+"jéből"
+
+#: includes/luv-framework/framework-config.php:435
+msgid "Prefetch DNS"
+msgstr "DNS előtöltés"
+
+#: includes/luv-framework/framework-config.php:436
+msgid "Prefetch DNS automatically."
+msgstr "Automatikus DNS előtöltés."
+
+#: includes/luv-framework/framework-config.php:437
+msgid ""
+"DNS prefetching will resolve domain names before a user tries to follow a "
+"link, or before assets were loaded. It can decrease full load time, and also "
+"speed up outgoing links."
+msgstr ""
+"A DNS előtöltés már azelőtt feloldja a DNS-t, mielőtt a felhasználó "
+"ráklikkelne a linkre, vagy mielőtt a statikus erőforrások betöltődtek. Ez "
+"csökkentheti a teljes betöltési időt, és felgyorsíthatja a kimenő "
+"hivatkozások betöltését is."
+
+#: includes/luv-framework/framework-config.php:445
+msgid "Collect domains from scripts"
+msgstr "DNS előtöltése szkriptekben"
+
+#: includes/luv-framework/framework-config.php:446
+msgid "Collect domains from scripts for DNS Prefetch."
+msgstr "Domain nevek keresése a szkriptekben is a DNS előtöltéshez"
+
+#: includes/luv-framework/framework-config.php:447
+#, php-format
+msgid ""
+"If this option is enabled, %s will collect 3rd party domain names from "
+"javascript files as well. If it isn't enabled, it will collect domains only "
+"from HTML and CSS."
+msgstr ""
+"Ha ez az opció engedélyezve van, akkor a % s a összegyűjti a domain neveket "
+"a javascript fájlokból is. Ha nincs engedélyezve, akkor csak a HTML-ből és a "
+"CSS-ből gyűjti össze a domain neveket ."
+
+#: includes/luv-framework/framework-config.php:455
+msgid "Exclude DNS Prefetch"
+msgstr "DNS előtöltés kivételek"
+
+#: includes/luv-framework/framework-config.php:456
+msgid "Exclude domains from DNS prefetch."
+msgstr "Domain nevek kizárása a DNS előtöltésből."
+
+#: includes/luv-framework/framework-config.php:457
+msgid ""
+"If you would like to prevent DNS prefetch for a domain you can add it here "
+msgstr ""
+"Ha szeretnél kizárni egy domain nevet a DNS előtöltésből itt adhatod hozzá"
+
+#: includes/luv-framework/framework-config.php:464
+msgid "Gravatar Cache"
+msgstr "Gravatar Cache"
+
+#: includes/luv-framework/framework-config.php:465
+msgid "Cache avatars."
+msgstr "Avatarok gyorsítótárazása"
+
+#: includes/luv-framework/framework-config.php:466
+msgid ""
+"WordPress is using Gravatar for avatars by default. Unfortunately sometimes "
+"these requests are slower than your server. In that case you should cache "
+"these pictures to speed up load time."
+msgstr ""
+"A WordPress alapértelmezés szerint a Gravatar alkalmazást használja az "
+"avatarokhoz. Sajnos ezek a kérések lassabbak lehetnek, mintha lokális "
+"képeket töltene. Ha engedélyezed, a plugin gyorsítótárazza ezeket a képeket "
+"a betöltési idő felgyorsítása érdekében."
+
+#: includes/luv-framework/framework-config.php:473
+msgid "Gravatar Cache Expiry"
+msgstr "A Gravatar gyorsítótár érvényessége"
+
+#: includes/luv-framework/framework-config.php:474
+msgid "Avatar cache expiry."
+msgstr "Avatar gyorsítótár érvényessége"
+
+#: includes/luv-framework/framework-config.php:475
+msgid ""
+"If Gravatar cache is enabled, and a user change his/her avatar it should be "
+"changed in cache as well. You can set expiry time for Gavatar images here. "
+"If an image expires it will be loaded from Gravatar again, so changes can be "
+"applied."
+msgstr ""
+"Ha a Gravatar gyorsítótárazás engedélyezve van, és a felhasználó "
+"megváltoztatja az avatarját, azt a gyorsítótárban is meg kell változtatni. "
+"Itt állíthatod be a Gavatar képek lejárati idejét. Ha egy kép lejár, akkor "
+"újból betöltődik a Gravatarból, így az avatar is frissül."
+
+#: includes/luv-framework/framework-config.php:478
+msgid "1 hour"
+msgstr "1 óra"
+
+#: includes/luv-framework/framework-config.php:479
+#: modules/db-optimizer/db-optimizer.php:57
+msgid "12 hours"
+msgstr "12 óra"
+
+#: includes/luv-framework/framework-config.php:480
+msgid "1 day"
+msgstr "1 nap"
+
+#: includes/luv-framework/framework-config.php:481
+msgid "1 week"
+msgstr "1 hét"
+
+#: includes/luv-framework/framework-config.php:482
+msgid "1 month"
+msgstr "1 hónap"
+
+#: includes/luv-framework/framework-config.php:489
+msgid "Custom Htaccess"
+msgstr "Egyedi Htaccess"
+
+#: includes/luv-framework/framework-config.php:490
+#, php-format
+msgid "You can add custom rules before %s rules in the generated htaccess"
+msgstr ""
+"Hozzáadhatsz egyéni szabályokat amelyek a %s szabályok elé kerülnek a "
+"létrehozott htaccess-fájlban"
+
+#: includes/luv-framework/framework-config.php:491
+#, php-format
+msgid ""
+"%s will add rules to the very beginning of htaccess. If you would like to "
+"put some rules before, you have to use this option."
+msgstr ""
+"A %s a szabályokat a htaccess fájl legelején adja hozzá. Ha előbb szeretnél "
+"néhány szabályt megadni, akkor ezt a lehetőséget kell használnod."
+
+#: includes/luv-framework/framework-config.php:499
+msgid "Background Requests"
+msgstr "Háttér kérések"
+
+#: includes/luv-framework/framework-config.php:500
+msgid ""
+"Specify key=value pairs. If one of these rules are match on $_REQUEST the "
+"process will run in background"
+msgstr ""
+"Adj meg a kulcs = értékpárokat. Ha ezek a szabályoknak egyeznek a $ _REQUEST-"
+"ben talált elemekkel, akkor a kérés a háttérben fog futni"
+
+#: includes/luv-framework/framework-config.php:501
+msgid ""
+"For some AJAX requests we doesn't need the response (eg post view stats). "
+"You can add rules to make this requests run in background, so the browser "
+"won't wait the response.<br><br>For example if there is a request: /?"
+"action=post_view_count you can set <i><b>action=post_view_count</b></i>"
+msgstr ""
+"Néhány AJAX kéréshez a böngészőnek nincs szüksége válaszra (pl. megtekintési "
+"statisztikák). Itt adhatsz hozzá szabályokat, hogy a kérések a háttérben "
+"fussanak, így a böngésző nem várja meg a választ. <br><br> Például, ha van "
+"kérés: /?action=post_view_count beállíthatod <i><b>action=post_view_count</"
+"b></i>"
+
+#: includes/luv-framework/framework-config.php:507
+msgid "Heartbeat"
+msgstr "Heartbeat"
+
+#: includes/luv-framework/framework-config.php:512
+msgid "Disable Heartbeat"
+msgstr "Heartbeat kikapcsolása"
+
+#: includes/luv-framework/framework-config.php:514
+#: modules/plugin-organizer/plugin-organizer.php:328 performance.php:2279
+msgid "Dashboard"
+msgstr "Vezérlőpult"
+
+#: includes/luv-framework/framework-config.php:515
+msgid "Posts/Pages"
+msgstr "Bejegyzések/Oldalak"
+
+#: includes/luv-framework/framework-config.php:516
+#: includes/luv-framework/framework-config.php:770
+#: modules/plugin-organizer/plugin-organizer.php:331
+msgid "Media"
+msgstr "Média"
+
+#: includes/luv-framework/framework-config.php:517
+#: modules/plugin-organizer/plugin-organizer.php:332
+#: templates/db-optimizer.php:121 templates/whitelabel/db-optimizer.php:123
+msgid "Comments"
+msgstr "Hozzászólások"
+
+#: includes/luv-framework/framework-config.php:518
+#: modules/plugin-organizer/plugin-organizer.php:333
+msgid "Menus"
+msgstr "Menük"
+
+#: includes/luv-framework/framework-config.php:519
+#: modules/plugin-organizer/plugin-organizer.php:334
+msgid "Widgets"
+msgstr "Widgetek"
+
+#: includes/luv-framework/framework-config.php:520
+#: modules/plugin-organizer/plugin-organizer.php:335
+msgid "Theme/Plugin Editor"
+msgstr "Sablon/Bővítmény szerkesztő"
+
+#: includes/luv-framework/framework-config.php:521
+#: modules/plugin-organizer/plugin-organizer.php:336
+msgid "Users"
+msgstr "Felhasználók"
+
+#: includes/luv-framework/framework-config.php:522
+#: modules/plugin-organizer/plugin-organizer.php:337
+msgid "Tools"
+msgstr "Eszközök"
+
+#: includes/luv-framework/framework-config.php:527
+msgid ""
+"WordPress is using HeartBeat API to show real time notifications, notify "
+"users that a post is being edited by another user, etc. You can limit these "
+"requests where you don't really need them."
+msgstr ""
+"A WordPress a HeartBeat API-t használja valós idejű értesítések "
+"megjelenítéséhez, például, hogy egy post-ot egy másik felhasználó szerkeszt, "
+"stb. Ezeket a kérelmeket korlátozhatod ott, ahol nincs rá szükség."
+
+#: includes/luv-framework/framework-config.php:532
+msgid "Heartbeat Frequency"
+msgstr "Heartbeat gyakoriság"
+
+#: includes/luv-framework/framework-config.php:533
+msgid "Override heartbeat frequency in seconds"
+msgstr "A Heartbeat gyakoriságának felülírása (másodpercben)"
+
+#: includes/luv-framework/framework-config.php:572
+msgid "Cronjobs"
+msgstr "Cronjob"
+
+#: includes/luv-framework/framework-config.php:579
+msgid "Limit WP Cron"
+msgstr "WP Cron korlátozása"
+
+#: includes/luv-framework/framework-config.php:580
+msgid "Prevent WP Cron being called on every page load."
+msgstr "Megakadályozza, hogy a WP Cron minden oldalletöltésnél lefusson."
+
+#: includes/luv-framework/framework-config.php:581
+msgid "100% means unlimited, 0% means WP Cron is fully disabled."
+msgstr ""
+"100% korlátlant futást jelent, a 0% azt jelenti, hogy a WP Cron teljesen le "
+"van tiltva."
+
+#: includes/luv-framework/framework-config.php:590
+msgid "Enable Remote Cron"
+msgstr "Távoli Cron engedélyezése"
+
+#: includes/luv-framework/framework-config.php:591
+msgid "Set up a real cronjob with our API."
+msgstr "Állíts be egy igazi cronjob-ot az API-val."
+
+#: includes/luv-framework/framework-config.php:592
+msgid ""
+"If all of your pages are cached - or if you disabled the default WP Cron - "
+"WordPress cronjobs won't run properly. With Remote Cron service you can run "
+"cronjobs daily, twicedaily or hourly."
+msgstr ""
+"Ha minden oldal gyorsítótárazva van, vagy a WP Cron le van tiltva, az "
+"időzített feladatok nem fognak megfelelően működni. A távoli Cron "
+"szolgáltatással beállíthatsz napi, 12 órás, vagy 1 órás időzített "
+"feladatokat."
+
+#: includes/luv-framework/framework-config.php:602
+msgid "Remote Cron Frequency"
+msgstr "Távoli Cron gyakoriság"
+
+#: includes/luv-framework/framework-config.php:605
+#: modules/db-optimizer/db-optimizer.php:58
+msgid "Daily"
+msgstr "Napi"
+
+#: includes/luv-framework/framework-config.php:606
+msgid "Twice a day"
+msgstr "Naponta kétszer"
+
+#: includes/luv-framework/framework-config.php:607
+msgid "Hourly"
+msgstr "Óránként"
+
+#: includes/luv-framework/framework-config.php:614
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: includes/luv-framework/framework-config.php:619
+msgid "Bypass Google Analytics"
+msgstr "Bypass Google Analytics"
+
+#: includes/luv-framework/framework-config.php:622
+#, php-format
+msgid ""
+"If you enable Bypass Analytics feature %s will block the default Google "
+"Analytics script, and will use AJAX requests and the <a href=\"https://"
+"developers.google.com/analytics/devguides/collection/protocol/v1/parameters"
+"\" target=\"_blank\">Google Analytics Measurement protocol</a> instead."
+msgstr ""
+"Ha engedélyezed a Bypass Analytics szolgáltatást, a %s blokkolja az "
+"alapértelmezett Google Analytics szkriptet, és AJAX kérések segítségével, a "
+"<a href=\"https://developers.google.com/analytics/devguides/collection/"
+"protocol/v1/parameters\" target=\"_blank\">Google Analytics Measurement "
+"protokollt</a> használja helyette."
+
+#: includes/luv-framework/framework-config.php:627
+msgid "Tracking ID"
+msgstr "Követő azonosító"
+
+#: includes/luv-framework/framework-config.php:628
+msgid "Eg: UA-123456789-12"
+msgstr "Pl.: UA-123456789-12"
+
+#: includes/luv-framework/framework-config.php:634
+msgid "IP Source"
+msgstr "IP forrás"
+
+#: includes/luv-framework/framework-config.php:635
+#, php-format
+msgid ""
+"Select IP source if your server is behind proxy (eg: Cloudflare). "
+"Recommended: %s"
+msgstr ""
+"Válaszd ki az IP forrást, ha proxy szervert használsz (pl .: Cloudflare). "
+"Ajánlott: %s"
+
+#: includes/luv-framework/framework-config.php:636
+#, php-format
+msgid ""
+"If you are using reverse proxy (like Cloudflare) you will need to set the IP "
+"source for Google Analytics. Most cases %s will detect the proper IP source "
+"automatically."
+msgstr ""
+"Ha reverse proxy-t használsz (például Cloudflare), akkor be kell állítanod "
+"az IP forrást a Google Analytics számára. A legtöbb esetben a %s "
+"automatikusan felismeri a megfelelő IP forrást."
+
+#: includes/luv-framework/framework-config.php:656
+msgid "Anonymize IP"
+msgstr "IP anonimizálás"
+
+#: includes/luv-framework/framework-config.php:657
+msgid ""
+"In some cases, you might need to anonymize the user's IP address before it "
+"has been sent to Google Analytics. If you enable this option Google "
+"Analytics will anonymize the IP as soon as technically feasible at the "
+"earliest possible stage."
+msgstr ""
+"Egyes esetekben előfordulhat, hogy anonimizálnod kell a felhasználó IP "
+"címét, mielőtt elküldenék a Google Analytics-nek. Ha engedélyezed ezt a "
+"lehetőséget, a Google Analytics anonimizálja az IP-t, amint ez a lehető "
+"leghamarabb technikailag megvalósítható."
+
+#: includes/luv-framework/framework-config.php:664
+msgid "Delay Collect"
+msgstr "Késleltetés"
+
+#: includes/luv-framework/framework-config.php:665
+msgid "Send AJAX request only after the first user interaction"
+msgstr "Az AJAX kérést csak az első felhasználói beavatkozás után küldje el"
+
+#: includes/luv-framework/framework-config.php:666
+msgid ""
+"If you enable this option Google Analytics requests will be send only after "
+"the user made a mouse move, keypress or scroll event. It will speed up "
+"initial loading time, but be careful, bounce rate statistics may will be "
+"distorted"
+msgstr ""
+"Ha engedélyezed ezt a beállítást, a Google Analytics kéréseket csak akkor "
+"küldi el, miután a felhasználó megmozdította az egeret, kattintott, vagy "
+"görgetett az oldalon. Ez felgyorsítja a kezdeti betöltési időt, de vedd "
+"figyelembe, hogy a visszafordulási arány statisztikája torzulhat"
+
+#: includes/luv-framework/framework-config.php:677
+msgid "Exclude Users from Statistics"
+msgstr "Felhasználók kizárása a statisztikákból"
+
+#: includes/luv-framework/framework-config.php:678
+msgid "Exclude selected user roles from statistics"
+msgstr ""
+"Kizárja a kiválasztott felhasználói szerepekörrel rendelkező felhasználókat "
+"a statisztikákból"
+
+#: includes/luv-framework/framework-config.php:679
+msgid ""
+"You can exclude logged in users from Analytics by user role. It can be "
+"extremly useful for smaller sites to see real stats, because editors won't "
+"affect the statistics when they check the site."
+msgstr ""
+"Kizárhatod a bejelentkezett felhasználókat az Analytics-ből felhasználói "
+"szerepkör szerint. Rendkívül hasznos lehet kisebb webhelyek számára a valós "
+"statisztikák megismerése, mivel a szerkesztők nem befolyásolják a "
+"statisztikákat, amikor ellenőrzik/készítik a tartalmakat."
+
+#: includes/luv-framework/framework-config.php:690
+msgid "Whitelabel"
+msgstr "Whitelabel"
+
+#: includes/luv-framework/framework-config.php:695
+msgid "Activate Whitelabel"
+msgstr "Whitelabel Engedélyezése"
+
+#: includes/luv-framework/framework-config.php:696
+msgid ""
+"Enable this option to fully activate whitelabel features. If you enabled "
+"this option, this section will be hidden after you save settings"
+msgstr ""
+"Endgedélyezd a whitelabel funkciók aktiválásához. Ha aktiváltad ezt az "
+"opciót ez a szekció el rejtetté válik a mentést követően."
+
+#: includes/luv-framework/framework-config.php:697
+msgid ""
+"If you would like to reenable this section just add the following line to "
+"your wp-config.php: <pre>define(\"SWIFT_PERFORMANCE_WHITELABEL\", false);</"
+"pre>"
+msgstr ""
+"Ha szeretnéd újra megjeleníteni ezt a szekciót add a következő kódot a wp-"
+"config.php-hez: <pre>define(\"SWIFT_PERFORMANCE_WHITELABEL\", false);</pre>"
+
+#: includes/luv-framework/framework-config.php:704
+msgid "Plugin Name"
+msgstr "Bővítmény neve"
+
+#: includes/luv-framework/framework-config.php:705
+msgid "You can rename the plugin here."
+msgstr "Itt átnevezheted a bővítményt"
+
+#: includes/luv-framework/framework-config.php:712
+msgid "Plugin Slug"
+msgstr "Plugin Slug"
+
+#: includes/luv-framework/framework-config.php:713
+msgid "You can override the plugin slug here."
+msgstr "Itt felülírhatod a plugin slug-ot"
+
+#: includes/luv-framework/framework-config.php:720
+msgid "Cache Basedir"
+msgstr "Gyorsítótár könyvtárnév"
+
+#: includes/luv-framework/framework-config.php:721
+msgid ""
+"Basedir name in cache folder. If you not set it will use the plugin slug"
+msgstr ""
+"Könyvtár neve a gyorsítótár mappában. Ha nem állította be, akkor a plugin "
+"slug lesz a könyvtár neve"
+
+#: includes/luv-framework/framework-config.php:728
+msgid "Table Prefix"
+msgstr "Tábla előtag"
+
+#: includes/luv-framework/framework-config.php:729
+msgid "Prefix for database tables"
+msgstr "Előtag az adatbázis táblákhoz"
+
+#: includes/luv-framework/framework-config.php:736
+msgid "Plugin desc"
+msgstr "Bővítmény leírás"
+
+#: includes/luv-framework/framework-config.php:737
+msgid "You can override the plugin desc here"
+msgstr "Itt írhatod felül a bővítmény leírását"
+
+#: includes/luv-framework/framework-config.php:744
+msgid "Plugin Author"
+msgstr "Bővítmény szerzője"
+
+#: includes/luv-framework/framework-config.php:745
+msgid "You can override the plugin author here"
+msgstr "Itt írhatod felül a bővítmény szerzőjét"
+
+#: includes/luv-framework/framework-config.php:752
+msgid "Plugin Site"
+msgstr "Bővítmény weboldala"
+
+#: includes/luv-framework/framework-config.php:753
+msgid "You can override the plugin site here"
+msgstr "Itt írhatod felül a bővítmény weboldalát"
+
+#: includes/luv-framework/framework-config.php:760
+msgid "Plugin Author URI"
+msgstr "Bővítmény szerző weboldala"
+
+#: includes/luv-framework/framework-config.php:761
+msgid "You can override the plugin author URI here"
+msgstr "Itt írhatod felül a bővítmény szerzőjének weboldalát"
+
+#: includes/luv-framework/framework-config.php:774
+#: modules/image-optimizer/templates/dashboard.tpl.php:76
+msgid "Images"
+msgstr "Képek"
+
+#: includes/luv-framework/framework-config.php:779
+msgid "Optimize Images on Upload"
+msgstr "Feltöltés közben optimalizálja a képeket"
+
+#: includes/luv-framework/framework-config.php:780
+msgid ""
+"Enable if you would like to optimize the images during the upload using the "
+"our Image Optimization API service."
+msgstr ""
+"Engedélyezd ha szeretnéd, hogy a bővítmény optimalizálja a képeket a "
+"feltöltés során, az Optimization API szolgáltatásunk segítségével."
+
+#: includes/luv-framework/framework-config.php:781
+#, php-format
+msgid "Already uploaded images can be optimized %shere%s"
+msgstr "A már feltöltött képek %sitt%s optimalizálhatók"
+
+#: includes/luv-framework/framework-config.php:789 performance.php:1046
+#: performance.php:2281
+msgid "Image Optimizer"
+msgstr "Képoptimalizáló"
+
+#: includes/luv-framework/framework-config.php:790
+msgid "Set image quality for image optimizer"
+msgstr "Állítsa be a képminőséget a képoptimalizálóhoz"
+
+#: includes/luv-framework/framework-config.php:791
+msgid "You can use preset, or fine tuning quality manually"
+msgstr ""
+"Használhatsz előre beállított képminőséget, vagy manuálisan finomhangolhatod"
+
+#: includes/luv-framework/framework-config.php:800
+#: modules/image-optimizer/templates/dashboard.tpl.php:107
+msgid "JPEG quality"
+msgstr "JPG minőség"
+
+#: includes/luv-framework/framework-config.php:813
+#: modules/image-optimizer/templates/dashboard.tpl.php:116
+msgid "PNG quality"
+msgstr "PNG minőség"
+
+#: includes/luv-framework/framework-config.php:824
+#: modules/image-optimizer/templates/dashboard.tpl.php:125
+msgid "Resize Large Images"
+msgstr "Max képméret"
+
+#: includes/luv-framework/framework-config.php:825
+msgid "Resize images which are larger than maximum width"
+msgstr "Azon képek átméretezése, amelyek meghaladják a maximális szélességet"
+
+#: includes/luv-framework/framework-config.php:826
+msgid ""
+"If you don't need really big images, only web images you can resize uploaded "
+"images which are too large."
+msgstr ""
+"Ha nem kellenek igazán nagy képek csak a webes képek, akkor átméretezheted "
+"azokat amelyek túl szélesek."
+
+#: includes/luv-framework/framework-config.php:835
+msgid "Maximum Image Width"
+msgstr "Maximális képszélesség"
+
+#: includes/luv-framework/framework-config.php:836
+msgid "Specify maximum image width (px)"
+msgstr "Add meg a kép maximális szélességét (px)"
+
+#: includes/luv-framework/framework-config.php:846
+#: modules/image-optimizer/templates/dashboard.tpl.php:134
+msgid "Keep Original Images"
+msgstr "Eredetik megtartása"
+
+#: includes/luv-framework/framework-config.php:847
+msgid ""
+"If you enable this option the image optimizer will keep original images."
+msgstr ""
+"Ha engedélyezed ezt a beállítást, a képoptimalizáló megtartja az eredeti "
+"képeket."
+
+#: includes/luv-framework/framework-config.php:848
+msgid ""
+"It is recommended to keep original images on first try. If you realized that "
+"optimized images quality is not good enough, you can restore original images "
+"with one click, and reoptimize them on higher quality.<br><br> I you would "
+"like to save some space, you can also delete easily original images if you "
+"are satisfied with the optimization quality."
+msgstr ""
+"Az első alkalommal érdemes megtartani az eredeti képeket. Ha elsőre nem "
+"sikerült megtalálni az optimális képminőséget , akkor egyetlen kattintással "
+"visszaállíthatod az eredeti képeket, és jobb minőségben "
+"újraoptimalizálhatod. <br><br> Amennyiben szeretnél helyet megtakarítani, "
+"később is törölheted az eredeti képeket."
+
+#: includes/luv-framework/framework-config.php:857
+#: modules/image-optimizer/templates/dashboard.tpl.php:142
+msgid "Generate WebP"
+msgstr "Generáljon WebP-t"
+
+#: includes/luv-framework/framework-config.php:858
+msgid ""
+"If you enable this option the image optimizer will generate WEBP version for "
+"the images."
+msgstr ""
+"Ha engedélyezed ezt az opciót, a képoptimalizáló létrehozza a képek WEBP "
+"verzióját."
+
+#: includes/luv-framework/framework-config.php:867
+msgid "Serve WebP"
+msgstr "WebP használata"
+
+#: includes/luv-framework/framework-config.php:868
+msgid "Serve WebP images if possible."
+msgstr "WebP képek használata (amennyiben lehetséges)"
+
+#: includes/luv-framework/framework-config.php:876
+msgid "Serve WebP Background Images"
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:877
+msgid "Serve background WebP images if WebP version is exists."
+msgstr ""
+
+#: includes/luv-framework/framework-config.php:887
+#: includes/luv-framework/framework-config.php:926
+#: includes/luv-framework/framework-config.php:943
+msgid "Exclude Images"
+msgstr "Képek kizárása"
+
+#: includes/luv-framework/framework-config.php:888
+msgid ""
+"Exclude images from being converted to <picture> if one of these strings is "
+"found in the match."
+msgstr ""
+"Kivétel hozzáadása WebP képekhez. Amennyiben az itt megadott szavak "
+"szerepelnek a fájlnévben, az adott kép nem lesz <picture> elemmé konvertálva."
+
+#: includes/luv-framework/framework-config.php:897
+msgid "Disable Image Proxy Cache"
+msgstr "Proxy Cache tiltása képekhez"
+
+#: includes/luv-framework/framework-config.php:898
+msgid "Prevent proxies to cache images"
+msgstr "Megakadályozza, hogy a proxy szerver gyorsítótárazza a képeket"
+
+#: includes/luv-framework/framework-config.php:907
+msgid "Inline Small Images"
+msgstr "Inline Kis Képek"
+
+#: includes/luv-framework/framework-config.php:908
+msgid "Use base64 encoded inline images for small images"
+msgstr "A kis képek base64 encode segítségével inline kerülnek beillesztésre"
+
+#: includes/luv-framework/framework-config.php:909
+msgid ""
+"If you enable this option small images will be inlined, so you can reduce "
+"the number of HTTP requests."
+msgstr ""
+"Ha engedélyezed ezt az opciót, a kis méretű képeket inline illeszti be a "
+"bővítmény, ezzel is csökkentve a HTTP request-ek számát."
+
+#: includes/luv-framework/framework-config.php:916
+msgid "File Size Limit (bytes)"
+msgstr "Fájlméret korlátozása (byte)"
+
+#: includes/luv-framework/framework-config.php:917
+msgid "File size limit for inline images"
+msgstr "Inline képek fájlméretének korlátozása"
+
+#: includes/luv-framework/framework-config.php:927
+msgid ""
+"Exclude images from being embedded if one of these strings is found in the "
+"match."
+msgstr ""
+"Ha a megadott szövegek egyike megtalálható a fájlnévben, az adott képet a "
+"bővítmény nem alakítja inline képpé."
+
+#: includes/luv-framework/framework-config.php:934
+msgid "Lazyload Images"
+msgstr "Kép Lazyload"
+
+#: includes/luv-framework/framework-config.php:935
+msgid "Enable if you would like lazy load for images."
+msgstr "Engedélyezd, ha szeretnéd használni a Lazy Loader-t a képekhez."
+
+#: includes/luv-framework/framework-config.php:936
+msgid ""
+"If you enable this option, images will be replaced with the selected "
+"placeholder, and only images in the viewport will be loaded fully."
+msgstr ""
+"A bővítmény először betölti a képeknek egy nagyon lebutított (homályos) "
+"verzióját, majd mielőtt a képernyőbe kerülnek kicseréli az eredeti verzióra."
+
+#: includes/luv-framework/framework-config.php:944
+msgid ""
+"Exclude images from being lazy loaded if one of these strings is found in "
+"the match."
+msgstr ""
+"Képek kizárása lazy load-ból. Amennyiben az itt megadott szövegek egyike "
+"megtalálható a fájlnévben, az adott kép nem lazy load-al kerül betöltésre."
+
+#: includes/luv-framework/framework-config.php:945
+msgid ""
+"It is recommended to exclude logo, and other small images which are "
+"important for the design or the user experience."
+msgstr ""
+"Javasolt a logo és más kicsi, de fontos képek kizárása a legjobb "
+"felhasználói élmény érdekében."
+
+#: includes/luv-framework/framework-config.php:952
+msgid "Load Images on User Interaction"
+msgstr "Képek Betöltése Felhasználói Interakciót Követően"
+
+#: includes/luv-framework/framework-config.php:953
+msgid ""
+"Enable if you would like to load full images only on user interaction (mouse "
+"move, sroll, touchstart)"
+msgstr ""
+"Amennyiben engedélyezed ezt az opciót, a bővítmény csak akkor tölti be a "
+"képeket, miután a felhasználó megmozdította az egeret, kattintott, vagy "
+"görgetett az oldalon. "
+
+#: includes/luv-framework/framework-config.php:954
+msgid ""
+"In most cases you won't need that feature, however if you already excluded "
+"manually images \"above the fold\" from lazy loading, you can enable this "
+"option."
+msgstr ""
+"A legtöbb esetben nincs szükség erre az opcióra, azonban ha manuálisan "
+"kizárod a hajtás feletti képeket, akkor hasznos lehet."
+
+#: includes/luv-framework/framework-config.php:965
+msgid "Inline Lazy Load Images"
+msgstr "Inline Lazy Load Képek"
+
+#: includes/luv-framework/framework-config.php:966
+msgid "Use base64 encoded inline images for lazy load"
+msgstr ""
+"A lazy load placeholder képek base64 encode segítségével inline kerülnek "
+"beillesztésre"
+
+#: includes/luv-framework/framework-config.php:967
+msgid ""
+"Regarding that the low quality version of images are pretty small files you "
+"can inline them instead load them separately. With this option you can "
+"reduce number of requests."
+msgstr ""
+"Tekintettel arra, hogy placeholder képek igen kis méretűek érdemes őket "
+"inline betölteni, ezzel is csökkenthető a lekérések száma."
+
+#: includes/luv-framework/framework-config.php:975
+msgid "Lazyload Placeholder"
+msgstr "Lazyload Placeholder"
+
+#: includes/luv-framework/framework-config.php:976
+msgid ""
+"The selected placeholder will be loaded until the image is not fully loaded."
+msgstr ""
+"A kiválasztott placeholder kerül betöltésre a kép helyére amíg a teljes kép "
+"nem töltődik be."
+
+#: includes/luv-framework/framework-config.php:978
+#: includes/luv-framework/framework-config.php:1914
+msgid "Blurred"
+msgstr "Homályos"
+
+#: includes/luv-framework/framework-config.php:979
+msgid "Transparent"
+msgstr "Átlátszó"
+
+#: includes/luv-framework/framework-config.php:991
+msgid "Force Responsive Images"
+msgstr "Kényszerített Reszponzív Képek"
+
+#: includes/luv-framework/framework-config.php:992
+msgid "Force all images to use srcset attribute if it is possible"
+msgstr ""
+"A bővítmény kényszeríti a WordPress-t, hogy minden képhez használjon srcset "
+"attributomot (ha lehetséges)"
+
+#: includes/luv-framework/framework-config.php:993
+msgid ""
+"You will need this option only if your theme (or some of your plugins) is "
+"using images incorrectly, which is very rare. If you enable this option it "
+"will append srcset for all images which has multiple sizes in media library."
+msgstr ""
+"Ez az opció csak akkor szükséges, ha a sablon (vagy egyes bővítmények) nem "
+"megfelelően használják a képeket, ami szerencsére meglehetősen ritka. "
+"Amennyiben engedélyezed az opciót, minden képhez amihez tartozik több "
+"képmret alkalmazásra kerül az srcset attribútum."
+
+#: includes/luv-framework/framework-config.php:1001
+msgid "Lazyload Background Images"
+msgstr "Lazyload Háttérképekhez"
+
+#: includes/luv-framework/framework-config.php:1002
+msgid "Enable if you would like lazy load for background images."
+msgstr "Engedélyezd ha szeretnél lazy load-ot használni a háttérképekhez."
+
+#: includes/luv-framework/framework-config.php:1003
+msgid ""
+"If you enable this option, background images will be blocked by default, and "
+"only elements in the viewport will load the background image."
+msgstr ""
+"Amennyiben engedélyezed ezt a lehetőséget, a háttérképek alapból blokkolva "
+"lesznek, és csak azok a háttérképek kerülnek betöltésre amelyek látszanak a "
+"képernyőben."
+
+#: includes/luv-framework/framework-config.php:1011
+msgid "Embeds"
+msgstr "Beágyazások"
+
+#: includes/luv-framework/framework-config.php:1018
+msgid "Youtube Smart Embed"
+msgstr "Youtube Smart Beágyazás"
+
+#: includes/luv-framework/framework-config.php:1019
+msgid "Load Youtube videos only on user interaction."
+msgstr "Youtube videók betöltése felhasználói közreműködés esetén."
+
+#: includes/luv-framework/framework-config.php:1020
+msgid ""
+"Load only thumbnail image for Youtube videos with a pseudo play button, and "
+"load the video and the player only on click/touch."
+msgstr ""
+"Alapból csak egy előnézeti kép kerül betöltésre egy \"ál\" lejátszás "
+"gombbal. Amennyiben a felhasználó ráklikkel a lejátszásra a teljes videó "
+"betöltésre kerül és elindul."
+
+#: includes/luv-framework/framework-config.php:1028
+msgid "Exclude Youtube Videos"
+msgstr "Youtube Videók Kizárása"
+
+#: includes/luv-framework/framework-config.php:1029
+msgid ""
+"Exclude videos from being smart embedded if one of these strings is found in "
+"the match."
+msgstr ""
+"Videók kizárása a Smart beágyazásból. Amennyiben az itt megadott szövegek "
+"egyike megtalálható a video URL-jében, az adott videó nem Smart beágyazással "
+"kerül betöltésre."
+
+#: includes/luv-framework/framework-config.php:1030
+msgid "If you have an autoplay video, you can exclude it with this option."
+msgstr ""
+"Ha van automatikusan elinduló videó azt ezzel kizárhatod a Smart "
+"beágyazásból."
+
+#: includes/luv-framework/framework-config.php:1037
+msgid "Lazy Load Iframes"
+msgstr "Iframe Lazyload"
+
+#: includes/luv-framework/framework-config.php:1038
+msgid "Enable if you would like lazy load for iframes."
+msgstr "Engedélyezd, ha szeretnéd lazy load-al betölteni az iframe-eket."
+
+#: includes/luv-framework/framework-config.php:1039
+msgid ""
+"Some embedded content (like Youtube videos) loads additional assets which "
+"are not necessary on initial pageload. You can lazyload them, so iframes "
+"will be loaded only before they arrives in the viewport."
+msgstr ""
+"Néhány beágyazott tartalom (például a Youtube videó) további statikus "
+"tartalmakat tölt be, amelyekre a kezdeti oldalbetöltéskor nincs szükség. Ha "
+"lazy load-al töltöd be az iframe-eket, ezek csak akkor töltődnek be, mielőtt "
+"láthatóak lesznek a képernyőn."
+
+#: includes/luv-framework/framework-config.php:1047
+msgid "Exclude Iframes"
+msgstr "Iframe Kizárása"
+
+#: includes/luv-framework/framework-config.php:1048
+msgid ""
+"Exclude iframes from being lazy loaded if one of these strings is found in "
+"the match."
+msgstr ""
+"Iframe-ek kizárása a Lazyload betöltésből. Amennyiben az itt megadott "
+"szövegek egyike megtalálható az iframe URL-jében, az adott iframe nem "
+"Lazyload-al kerül betöltésre."
+
+#: includes/luv-framework/framework-config.php:1049
+msgid ""
+"Unfortunately some iframes can be broken if they are lazyloaded. You can "
+"exclude them with this option."
+msgstr ""
+"Sajnos néhány iframe nem kompatibilis a Lazyload-al. Itt kizárhatod ezeket."
+
+#: includes/luv-framework/framework-config.php:1056
+msgid "Load Iframes on User Interaction"
+msgstr "Iframek Betöltése Felhasználói Interakciót Követően"
+
+#: includes/luv-framework/framework-config.php:1057
+msgid ""
+"Enable if you would like to load iframes only on user interaction (mouse "
+"move, sroll, touchstart)"
+msgstr ""
+"Amennyiben engedélyezed ezt az opciót, a bővítmény csak akkor tölti be az "
+"iframe-ket, miután a felhasználó megmozdította az egeret, kattintott, vagy "
+"görgetett az oldalon. "
+
+#: includes/luv-framework/framework-config.php:1058
+msgid ""
+"If you don't have any iframes in the \"above the fold\" section you can load "
+"them very last, when the page was fully loaded and the user made some "
+"interactions as well. It does't only speed up the page load, but also can "
+"save some bandwidth if it is important (eg for mobile users)."
+msgstr ""
+"Ha a \"hajtás fölött\" tartalomban nincsenek iframe-ek, akkor az iframe-eket "
+"betöltheted a legeslegutolsóként, amikor az oldal teljesen betöltődött, és a "
+"felhasználó is végrehajtott bizonyos interakciókat. Ez nem csak felgyorsítja "
+"az oldal betöltését, hanem csökkentheti az adatforgalmat is ami hasznos "
+"lehet (pl. mobil felhasználók számára)."
+
+#: includes/luv-framework/framework-config.php:1068
+msgid "Optimization"
+msgstr "Optimalizálás"
+
+#: includes/luv-framework/framework-config.php:1078
+msgid "Merge Assets for Logged in Users"
+msgstr "Tartalmak Összevonása Bejelentkezett Felhasználóknak"
+
+#: includes/luv-framework/framework-config.php:1079
+msgid ""
+"Enable if you would like to merge styles and scripts for logged in users as "
+"well."
+msgstr ""
+"Engedélyezd, ha szeretnéd a style-okat és a script-eket összevonni a "
+"bejelentkezett felhasználók részére is."
+
+#: includes/luv-framework/framework-config.php:1080
+msgid ""
+"It is recommended to enable this option only if the site is using action "
+"based cache or the cache is cleared very rarely. Otherwise it will optimize "
+"for logged in users in real time, which can damage the user experience."
+msgstr ""
+"Ez az opció csak akkor ajánlott, ha az oldal Akció alapú gyorsítótárazást "
+"használ és a gyorsítótár nagyon ritkán kerül ürítésre. Ellenkező esetben a "
+"tartalmak röptében történő optimalizálása a bejelentkezett felhasználóknak "
+"ronthatja a betöltődési sebességet és a felhasználói élményt."
+
+#: includes/luv-framework/framework-config.php:1087
+msgid "Enable Server Push"
+msgstr "Server Push Engedélyezése"
+
+#: includes/luv-framework/framework-config.php:1088
+msgid ""
+"Server push allows you to send site assets to the browser before it has even "
+"asked for them"
+msgstr ""
+"A Server Push technológia segítségével a statikus tartalmakat (CSS/JS) a "
+"szerver már azelőtt elküldi a böngészőnek, hogy az egyáltalán elindította "
+"volna a lekérést"
+
+#: includes/luv-framework/framework-config.php:1096
+msgid "Optimize Prebuild Only"
+msgstr "Optimalizálás Csak Előtöltés Esetén"
+
+#: includes/luv-framework/framework-config.php:1097
+msgid ""
+"In some cases optimizing the page takes some time. If you enable this option "
+"the plugin will optimize the page, only when prebuild cache process is "
+"running."
+msgstr ""
+"Egyes esetekben az oldal optimalizálása időbe telik. Ha engedélyezed ezt a "
+"beállítást, a bővítmény csak akkor optimalizálja az oldalt, ha az előtöltés "
+"fut."
+
+#: includes/luv-framework/framework-config.php:1098
+#: includes/luv-framework/framework-config.php:1107
+msgid ""
+"It is recommended to use this option, to prevent very long pageloads for the "
+"first visit (when the page is not cached yet)"
+msgstr ""
+"Ajánlott ezt az opciót engedélyezni, így elkerülhető, hogy az első "
+"látogatáskor (amikor az oldal még nincs tárolva a gyorsítótárban) lassan "
+"töltsön be a látogatónak."
+
+#: includes/luv-framework/framework-config.php:1105
+msgid "Optimize in Background"
+msgstr "Optimalizálás a Háttérben"
+
+#: includes/luv-framework/framework-config.php:1106
+msgid ""
+"In some cases optimizing the page takes some time. If you enable this option "
+"the plugin will optimize page in the background."
+msgstr ""
+"Egyes esetekben az oldal optimalizálása időbe telik. Ha engedélyezed ezt a "
+"beállítást, a bővítmény csak a háttérben futtatja az optimalizálást."
+
+#: includes/luv-framework/framework-config.php:1114
+msgid "Fix Invalid HTML"
+msgstr "Érvénytelen HTML javítása"
+
+#: includes/luv-framework/framework-config.php:1115
+msgid "Try to fix invalid HTML"
+msgstr "A bővítmény megpróbálja kijavítani a HTML hibákat."
+
+#: includes/luv-framework/framework-config.php:1116
+#, php-format
+msgid ""
+"Sometimes themes and plugins contain invalid HTML, which doesn't cause "
+"issues in browser, because the browser can fix it on the fly, but it can "
+"cause issues with the DOM parser. If you enable this option %s will fix "
+"these issues automatically like the modern browsers does."
+msgstr ""
+"Időnként a sablonok és a bővítmények érvénytelen HTML-t tartalmaznak, ami "
+"nem okoz problémát a böngészőben, mivel a böngésző röptében javítja azokat, "
+"azonban problémákat okozhat a bővítmény DOM parser-nek. Ha engedélyezed ezt "
+"a beállítást, a %s automatikusan kijavítja ezeket a hibákat, hasonlóan, mint "
+"ahogy a modern böngészők is teszik."
+
+#: includes/luv-framework/framework-config.php:1124
+#: includes/setup/templates/wizard-whitelabel.tpl.php:95
+#: includes/setup/templates/wizard-whitelabel.tpl.php:112
+#: includes/setup/templates/wizard-whitelabel.tpl.php:133
+#: includes/setup/templates/wizard-whitelabel.tpl.php:156
+#: includes/setup/templates/wizard-whitelabel.tpl.php:180
+#: includes/setup/templates/wizard.tpl.php:98
+#: includes/setup/templates/wizard.tpl.php:115
+#: includes/setup/templates/wizard.tpl.php:136
+#: includes/setup/templates/wizard.tpl.php:159
+#: includes/setup/templates/wizard.tpl.php:183
+msgid "Minify HTML"
+msgstr "HTML Optimalizálása"
+
+#: includes/luv-framework/framework-config.php:1125
+msgid "Remove unnecessary whitespaces from HTML"
+msgstr "Eltávolítja a felesleges szóközöket a HTML-ből"
+
+#: includes/luv-framework/framework-config.php:1132
+msgid "Disable Emojis"
+msgstr "Emojik kikapcsolása"
+
+#: includes/luv-framework/framework-config.php:1133
+msgid "Prevent WordPress to load emojis"
+msgstr "Ez a lehetőség megakadályozza a hangulatjelek betöltését"
+
+#: includes/luv-framework/framework-config.php:1134
+msgid ""
+"Most sites are not using emojis at all, however WordPress is loading it by "
+"default. If you disable it you can decrease the number of requests and page "
+"size as well. "
+msgstr ""
+"A legtöbb weboldal egyáltalán nem használ hangulatjeleket, azonban a "
+"WordPress alapértelmezés szerint betölti azokat. Ha kikapcsolod azzal "
+"csökkentheted a kérések számát és az oldal méretét is."
+
+#: includes/luv-framework/framework-config.php:1141
+msgid "Limit Simultaneous Threads"
+msgstr "Egyidejű Szálak Korlátozása"
+
+#: includes/luv-framework/framework-config.php:1142
+msgid ""
+"Limit maximum simultaneous threads. It can be useful on shared hosting "
+"environment to avoid 508 errors."
+msgstr ""
+"Korlátozza a maximális egyidejű munkameneteket. Hasznos lehet megosztott "
+"tárhely (shared hosting) környezetében az 508 hibák elkerülése érdekében."
+
+#: includes/luv-framework/framework-config.php:1148
+msgid "Maximum Threads"
+msgstr "Maximális Munkamenetek"
+
+#: includes/luv-framework/framework-config.php:1149
+msgid "Number of maximum simultaneous threads."
+msgstr "A maximális egyidejű munkamenetek száma."
+
+#: includes/luv-framework/framework-config.php:1156
+msgid "DOM Parser Max Buffer"
+msgstr "DOM parser Maximum Puffer"
+
+#: includes/luv-framework/framework-config.php:1157
+msgid "Maximum size for DOM parser buffer (bytes)."
+msgstr "A DOM parser puffer maximális mérete (bájt)."
+
+#: includes/luv-framework/framework-config.php:1158
+msgid ""
+"DOM parser will skip pages which are larger than this value. It is "
+"recommended to use the default value, change it only if support suggested it."
+msgstr ""
+"A DOM parser kihagyja az ennél az értéknél nagyobb oldalakat. Javasolt az "
+"alapértelmezett érték használata, csak akkor változtasd meg, ha a support "
+"azt javasolta."
+
+#: includes/luv-framework/framework-config.php:1165
+msgid "Scripts"
+msgstr "Szkriptek"
+
+#: includes/luv-framework/framework-config.php:1170
+msgid "Merge Scripts"
+msgstr "Szkriptek Összevonása"
+
+#: includes/luv-framework/framework-config.php:1171
+msgid "Merge javascript files to reduce number of HTTP requests "
+msgstr ""
+"A javascript fájlok összevonása a HTTP kérések számának csökkentése érdekében"
+
+#: includes/luv-framework/framework-config.php:1172
+msgid ""
+"Merging scripts can reduce number of requests dramatically. Even if your "
+"server is using HTTP2 it can speed up the page loading, and also save some "
+"resources on server side (because the server needs to serve less requests)."
+msgstr ""
+"A szkriptek összevonása drasztikusan csökkentheti a lekérések számát. Még "
+"akkor is felgyorsíthatja az oldal betöltését és csökkentheti a szerver "
+"terhelését, ha a szerver HTTP2-t használ (mivel a szervernek kevesebb kérést "
+"kell kiszolgálnia)."
+
+#: includes/luv-framework/framework-config.php:1179
+msgid "Async Execute"
+msgstr "Aszinkron Futtatás"
+
+#: includes/luv-framework/framework-config.php:1180
+msgid "Execute merged javascript files asynchronously"
+msgstr "Javascriptek aszinkron futtatása"
+
+#: includes/luv-framework/framework-config.php:1181
+#, php-format
+msgid ""
+"If you merged all scripts, even the first one can run, only when the full "
+"merged script was loaded. However if you enable this option, %s will split "
+"the merged script on client side on the fly and run each scripts when that "
+"part was loaded. It can speed up rendering time which is an important factor "
+"for user experience. "
+msgstr ""
+"A kombinált javascriptek bár gyorsabban töltődhetnek be, azonban a végére "
+"egy igen nagy file-t eredményezhetnek. Sajnos a böngésző csak akkor kezdi el "
+"lefuttatni a szkripteket amikor az teljesen betöltődött, így adott esetben a "
+"szkriptek kombinálása még lassíthatja is a betöltődést. Erre kínál megoldást "
+"az Async szkript futtatás, így a %s már letöltődés közben is lefuttatja az "
+"éppen betöltődött szkript részleteket."
+
+#: includes/luv-framework/framework-config.php:1191
+msgid "Exclude 3rd Party Scripts"
+msgstr "Harmadik Féltől Származó Szkriptek"
+
+#: includes/luv-framework/framework-config.php:1192
+msgid "Exclude 3rd party scripts from merged scripts"
+msgstr "Ne vonja össze a harmadik féltől származó szkripteket"
+
+#: includes/luv-framework/framework-config.php:1203
+msgid "Exclude Scripts"
+msgstr "Szkriptek kizárása"
+
+#: includes/luv-framework/framework-config.php:1204
+#: includes/luv-framework/framework-config.php:1221
+msgid ""
+"Exclude scripts from being merged if one of these strings is found in the "
+"match."
+msgstr ""
+"Szkriptek kizárása az összevonásból. Amennyiben az itt megadott szövegek "
+"egyike megtalálható a fájlnévben, az adott szkript kimarad az összevonásból."
+
+#: includes/luv-framework/framework-config.php:1211
+msgid "Footer Scripts"
+msgstr "Szkriptek Mozgatása a Láblécbe"
+
+#: includes/luv-framework/framework-config.php:1212
+#: includes/luv-framework/framework-config.php:1229
+msgid ""
+"Exclude scripts from being merged and move them to footer, if one of these "
+"strings is found in the match."
+msgstr ""
+"Szkriptek kizárása az összevonásból és a láblécbe mozgatásuk. Amennyiben az "
+"itt megadott szövegek egyike megtalálható a fájlnévben, az adott szkript "
+"kimarad az összevonásból és a láblécbe kerül."
+
+#: includes/luv-framework/framework-config.php:1213
+msgid ""
+"It can be useful if you would like to exclude a script which is using a "
+"dependency from the merged scripts. For example, if jQuery is merged, but "
+"you want to exclude a script which is using jQuery."
+msgstr ""
+"Hasznos lehet, ha ki szeretnél zárni egy olyan szkriptet, ami valamilyen "
+"másik összetevőt használ az összevonott szkriptekből. Például, ha a jQuery "
+"összevonásra kerül, de szeretnél kizárni egy olyan szkriptet, ami a jQuery-t "
+"használja."
+
+#: includes/luv-framework/framework-config.php:1220
+msgid "Exclude Inline Scripts"
+msgstr "Inline Szkriptek kizárása"
+
+#: includes/luv-framework/framework-config.php:1228
+msgid "Footer Inline Scripts"
+msgstr "Inline Szkriptek Mozgatása a Láblécbe"
+
+#: includes/luv-framework/framework-config.php:1236
+msgid "Exclude Script Localizations"
+msgstr "Szkript Lokalizációk Kizárása"
+
+#: includes/luv-framework/framework-config.php:1237
+msgid "Exclude javascript localizations from merged scripts."
+msgstr "Kizárja a javascript lokalizációkat az összevont szkriptek közül."
+
+#: includes/luv-framework/framework-config.php:1238
+msgid ""
+"It is recommended to exclude script localizations, because they can increase "
+"the merged script's loading time, but there is no real benefit to including "
+"them. Please note that option will exclude all inline scripts which contains "
+"[[CDATA]]"
+msgstr ""
+"Javasolt, kizárni a szkriptek lokalizációit, mert ezek meghosszabbíthatják "
+"az összevont szkript betöltési idejét, de az összevonásuknak nincs valódi "
+"előnye. Felhívjuk a figyelmedet, hogy ez az opció kizár minden olyan "
+"szkriptet, amiben [[CDATA]] szerepel"
+
+#: includes/luv-framework/framework-config.php:1249
+msgid "Minify Javascripts"
+msgstr "Javascript Tömörítése"
+
+#: includes/luv-framework/framework-config.php:1257
+msgid "Minify with API"
+msgstr "Tömörítés API-val"
+
+#: includes/luv-framework/framework-config.php:1258
+msgid ""
+"Use Compute API for minify. Regarding that this minify method can be slower, "
+"use this option only if default JS minify cause javascript errors. "
+msgstr ""
+"Használja a Compute API-t a tömörítéshez. Tekintettel arra, hogy ez lassabb "
+"lehet mint a lokális optimalizáció, csak akkor használd, ha a lokális "
+"optimalizáció valamilyen hibát okoz."
+
+#: includes/luv-framework/framework-config.php:1259
+msgid ""
+"Some scripts are not fully valid, but still operational (eg: missing "
+"semicolon). These scripts can cause issues when you minify them. If you use "
+"the API for script minify it can fix this parsing errors, but please note it "
+"will a bit slowdown the minifing process."
+msgstr ""
+"Néhány szkript nem teljesen érvényes, de működőképes (pl .: hiányzó "
+"pontosvessző). Ezek a szkriptek problémákat okozhatnak, amikor tömörítjük. "
+"Ha az API-t használod a szkript tömörítéséhez, akkor az API kijavítja ezeket "
+"hibákat, de ne feledd, ez picit lelassítja a tömörítést"
+
+#: includes/luv-framework/framework-config.php:1272
+msgid "Proxy 3rd Party Assets"
+msgstr "Harmadik Féltől Származó Tartalmak Proxyzása"
+
+#: includes/luv-framework/framework-config.php:1273
+msgid ""
+"Proxy 3rd party javascript and CSS files which created by javascript (eg: "
+"Google Analytics)"
+msgstr ""
+"Ezzel az opcióval proxyzhatod a harmadik fél javascript és CSS fájljait, "
+"amelyek javascriptel kerülnek betöltésre (pl .: Google Analytics)"
+
+#: includes/luv-framework/framework-config.php:1284
+msgid "3rd Party Assets"
+msgstr "Harmadik Féltől Származó Tartalmak"
+
+#: includes/luv-framework/framework-config.php:1285
+msgid "List scripts (full URL) which should being proxied."
+msgstr ""
+"Sorold fel azokat a tartalmakat (teljes URL), amelyeket proxyzni szeretnél."
+
+#: includes/luv-framework/framework-config.php:1295
+msgid "Separate Scripts"
+msgstr "Elkülönített Szkriptek"
+
+#: includes/luv-framework/framework-config.php:1296
+msgid ""
+"If you enable this option the plugin will save merged JS files for pages "
+"separately"
+msgstr ""
+"Ha engedélyezed ezt a beállítást, a plugin nem használ globális összevont "
+"szkript fájlokat, hanem minden oldalhoz külön generálja azt."
+
+#: includes/luv-framework/framework-config.php:1304
+msgid "Print merged scripts inline"
+msgstr "Inline Összevont Szkriptek "
+
+#: includes/luv-framework/framework-config.php:1305
+msgid ""
+"Enable if you would like to print merged scripts into the footer, instead of "
+"a seperated file."
+msgstr ""
+"Engedélyezd, ha az összevont szkripteket szeretnéd különálló fájl helyett az "
+"láblécbe kiírni."
+
+#: includes/luv-framework/framework-config.php:1315
+msgid "Lazy Load Scripts"
+msgstr "Szkript Lazyload"
+
+#: includes/luv-framework/framework-config.php:1316
+msgid ""
+"Load scripts only after first user interaction, if one of these strings is "
+"found in the match."
+msgstr ""
+"Az itt felsorolt szkriptek csak az első felhasználói interakció után "
+"töltődnek be."
+
+#: includes/luv-framework/framework-config.php:1317
+msgid ""
+"With this feature you can be sure that included scripts will be loaded very "
+"last, and won't delay rendering process."
+msgstr ""
+"A felsorolt szkriptek csak a betöltődés legvégén kerülnek betöltésre, így "
+"nem késleltetik a megjelenítési folyamatot."
+
+#: includes/luv-framework/framework-config.php:1327
+#: modules/asset-manager/templates/meta-box.tpl.php:3
+msgid "Include Scripts"
+msgstr "Manuális Szkriptek"
+
+#: includes/luv-framework/framework-config.php:1328
+msgid ""
+"Include scripts manually. With this option you can preload script files what "
+"are loaded with javascript"
+msgstr ""
+"Bizonyos szkripteket manuálisan is hozzáadhatsz az összevont szkriptekhez, "
+"így előtölthetsz olyan szcripteket, amiket egy másik javascript töltene be."
+
+#: includes/luv-framework/framework-config.php:1338
+msgid "Disable jQuery Migrate"
+msgstr "jQuery Migrate Kikapcsolása"
+
+#: includes/luv-framework/framework-config.php:1347
+msgid "Styles"
+msgstr "Stílusok"
+
+#: includes/luv-framework/framework-config.php:1352
+#: includes/setup/templates/wizard-whitelabel.tpl.php:113
+#: includes/setup/templates/wizard-whitelabel.tpl.php:134
+#: includes/setup/templates/wizard-whitelabel.tpl.php:157
+#: includes/setup/templates/wizard-whitelabel.tpl.php:181
+#: includes/setup/templates/wizard.tpl.php:116
+#: includes/setup/templates/wizard.tpl.php:137
+#: includes/setup/templates/wizard.tpl.php:160
+#: includes/setup/templates/wizard.tpl.php:184
+msgid "Merge Styles"
+msgstr "Stílusok Összevonása"
+
+#: includes/luv-framework/framework-config.php:1353
+msgid "Merge CSS files to reduce number of HTTP requests"
+msgstr "A CSS fájlok egyesítésével csökkentheted a HTTP lekérések számát"
+
+#: includes/luv-framework/framework-config.php:1354
+msgid ""
+"Merging styles can reduce number of requests dramatically. Even if your "
+"server is using HTTP2 it can speed up the page loading, and also save some "
+"resources on server side (because the server needs to serve less requests)."
+msgstr ""
+"A stílusok összevonása drasztikusan csökkentheti a lekérések számát. Még "
+"akkor is felgyorsíthatja az oldal betöltését és csökkentheti a szerver "
+"terhelését, ha a szerver HTTP2-t használ (mivel a szervernek kevesebb kérést "
+"kell kiszolgálnia)."
+
+#: includes/luv-framework/framework-config.php:1361
+msgid "Generate Critical CSS"
+msgstr "Critical CSS Generálás"
+
+#: includes/luv-framework/framework-config.php:1362
+msgid ""
+"Critical CSS is an extract of the full CSS, which contains only that rules "
+"which are necessary to render the site on the initial load."
+msgstr ""
+"A Critical CSS a teljes CSS kivonata, amely csak azokat a szabályokat "
+"tartalmazza, amelyek feltétlenül szükségesek az oldal megjelenítéséhez."
+
+#: includes/luv-framework/framework-config.php:1370
+msgid "Critical CSS method"
+msgstr "Critical CSS mód"
+
+#: includes/luv-framework/framework-config.php:1371
+msgid "Choose which method would you like to use to generate Critical CSS."
+msgstr ""
+"Válaszd ki melyik módot használja a bővítmény a Critical CSS generáláshoz"
+
+#: includes/luv-framework/framework-config.php:1372
+msgid ""
+"Unused CSS mode will find unused CSS and remove it from Critical CSS. "
+"Viewport based mode will load only those rules, which are necessary to "
+"render \"Above the fold\" content. Please note, if you select Viewport based "
+"mode the full HTML will be sent to the API which may contains personal data. "
+"If it does you may have to include this in your privacy policy."
+msgstr ""
+"A Nem Használt CSS mód megtalálja és és eltávolítja a felesleges CSS "
+"szabályokat a Critical CSS-ből. A Viewport alapú mód csak azokat a "
+"szabályokat tölti be, amelyek szükségesek a \"Hajtás feletti\" tartalom "
+"megjelenítéséhez. Felhívjuk figyelmedet, hogy ha a Viewport alapú módot "
+"választod, akkor a bővítmény a teljes HTML-kódot elküldi az API-nak, amely "
+"bizonyos esetekben személyes adatokat tartalmazhat. Ha a weboldalad esetében "
+"ez előfordul, akkor ne felejtsd el megemlíteni ezt a tényt az Adatvédelmi "
+"szabályzatban"
+
+#: includes/luv-framework/framework-config.php:1379
+msgid "Unused CSS"
+msgstr "Nem Használt CSS"
+
+#: includes/luv-framework/framework-config.php:1380
+msgid "Viewport based"
+msgstr "Viewport Alapú"
+
+#: includes/luv-framework/framework-config.php:1387
+msgid "Extra Critical CSS"
+msgstr "Extra Critical CSS"
+
+#: includes/luv-framework/framework-config.php:1388
+msgid "You can add extra CSS to Critical CSS here"
+msgstr "Itt hozzáadhatsz extra szabályokat a Critical CSS-hez"
+
+#: includes/luv-framework/framework-config.php:1389
+msgid ""
+"If you would like to add some custom CSS rules to Critical CSS you can add "
+"them here."
+msgstr ""
+"Ha szeretnéd kiegészíteni a Critical CSS-t, itt hozzáadhatod az egyéni "
+"szabályokat."
+
+#: includes/luv-framework/framework-config.php:1401
+msgid "Load Full CSS On Scroll"
+msgstr "Teljes CSS Betöltése Scrollozáskor"
+
+#: includes/luv-framework/framework-config.php:1402
+msgid "Load Full CSS only when user start scrolling."
+msgstr "A bővítmény csak scrollozáskor tölti be a teljes CSS-t"
+
+#: includes/luv-framework/framework-config.php:1403
+msgid ""
+"Regarding that Critical CSS is enough to render the above the fold section, "
+"it is enough to load Full CSS only when the user start scrolling."
+msgstr ""
+"Mivel a kritikust CSS elegendő a hajtás feletti tartalom megjelenítéséhez, "
+"ezért elég csak akkor betölteni a teljes CSS-t, ha a felhasználó görget az "
+"oldalon."
+
+#: includes/luv-framework/framework-config.php:1415
+msgid "Disable Full CSS"
+msgstr "Teljes CSS Letiltása"
+
+#: includes/luv-framework/framework-config.php:1416
+msgid "Load Critical CSS only. Be careful, it may can cause styling issues."
+msgstr ""
+"Csak a Critical CSS használata. Óvatosan használd, okozhat megjelenítési "
+"hibákat."
+
+#: includes/luv-framework/framework-config.php:1417
+msgid ""
+"On simple sites, which are using only a few modifications on the loaded site "
+"you can totally disable the full CSS. If you would like to use this, please "
+"be careful, and test all pages. If something is missing you can add them "
+"with Extra Critical CSS."
+msgstr ""
+"Olyan weboldalak esetében, amelyek csak néhány módosítást használnak a "
+"betöltött oldalon, teljesen letilthatod a teljes CSS-t. Ne feledd azonban "
+"tesztelni az összes oldalt. Ha apróbb hibákat tapasztalsz, azokat javíthatod "
+"az Extra Critical CSS-el."
+
+#: includes/luv-framework/framework-config.php:1430
+msgid "Compress Critical CSS"
+msgstr "Critical CSS Tömörítése"
+
+#: includes/luv-framework/framework-config.php:1431
+msgid "Extra compress for critical CSS"
+msgstr "Extra tömörítés a Critical CSS-hez"
+
+#: includes/luv-framework/framework-config.php:1432
+#, php-format
+msgid ""
+"If you enable this feature, %s will change all class names and ids in the "
+"critical CSS to a shorter one, so you can save some extra bytes."
+msgstr ""
+"Ha engedélyezed ezt a funkciót, a %s a kritikus CSS összes class nevét és id-"
+"ét rövidebbre változtatja, így további bájtokat spórolhatsz."
+
+#: includes/luv-framework/framework-config.php:1446
+msgid "Remove Keyframes"
+msgstr "Keyframek Eltávolítása"
+
+#: includes/luv-framework/framework-config.php:1447
+msgid "Remove CSS animations from critical CSS"
+msgstr "CSS animációk eltávolítása a Critical CSS-ből"
+
+#: includes/luv-framework/framework-config.php:1460
+msgid "Print critical CSS inline"
+msgstr "Inline Critical CSS"
+
+#: includes/luv-framework/framework-config.php:1461
+msgid ""
+"Enable if you would like to print the critical CSS into the header, instead "
+"of a seperated CSS file."
+msgstr ""
+"Engedélyezd, ha a Critical CSS-t a fejlécbe szeretnéd kiírni külön CSS-fájl "
+"helyett."
+
+#: includes/luv-framework/framework-config.php:1472
+msgid "Print full CSS inline"
+msgstr "Inline Teljes CSS"
+
+#: includes/luv-framework/framework-config.php:1473
+msgid ""
+"Enable if you would like to print the merged CSS into the footer, instead of "
+"a seperated CSS file."
+msgstr ""
+"Engedélyezd, ha az összevont teljes CSS-t a láblécbe szeretnéd kiírni külön "
+"CSS-fájl helyett."
+
+#: includes/luv-framework/framework-config.php:1474
+msgid ""
+"Please note that this is a special feature only for special cases. If "
+"WordPress can write files on the server you shouldn't use this option, even "
+"if page speed scores are better, because with this you will prevent the "
+"browser to cache the CSS. and it will be downloaded each time when the "
+"visitor is navigating on your site."
+msgstr ""
+"Ez a lehetőség csak speciális esetekben indokolt. Ha a WordPress tud "
+"fájlokat írni a szerveren erre a funkcióra nem lesz szükséged (még akkor sem "
+"ha jobb sebesség teszt pontszámokat eredményez), mivel ebben az esetben a "
+"böngésző nem tudja gyorsítótárazni a statikus tartalmakat, így azokat minden "
+"egyes alkalommal le kell töltenie, ami lassítja a betöltődést és felesleges "
+"adatforgalmat generál."
+
+#: includes/luv-framework/framework-config.php:1482
+msgid "Separate Styles"
+msgstr "Elkülönített Stílusok"
+
+#: includes/luv-framework/framework-config.php:1483
+msgid ""
+"If you enable this option the plugin will save merged CSS files for pages "
+"separately"
+msgstr ""
+"Ha engedélyezed ezt a beállítást, a plugin nem használ globális összevont "
+"stílus fájlokat, hanem minden oldalhoz külön generálja azt."
+
+#: includes/luv-framework/framework-config.php:1491
+msgid "Minify CSS"
+msgstr "CSS Tömörítése"
+
+#: includes/luv-framework/framework-config.php:1492
+msgid "Remove unnecessary whitespaces, shorten color codes and font weights"
+msgstr ""
+"A felesleges szóközök eltávolítása, színkódok és betűtípus stílusok "
+"rövidítése"
+
+#: includes/luv-framework/framework-config.php:1495
+msgid "Don't minify"
+msgstr "Nincs tömörítés"
+
+#: includes/luv-framework/framework-config.php:1496
+msgid "Basic"
+msgstr "Alap"
+
+#: includes/luv-framework/framework-config.php:1497
+msgid "Full"
+msgstr "Teljes"
+
+#: includes/luv-framework/framework-config.php:1505
+#: includes/setup/templates/wizard-whitelabel.tpl.php:115
+#: includes/setup/templates/wizard-whitelabel.tpl.php:136
+#: includes/setup/templates/wizard-whitelabel.tpl.php:159
+#: includes/setup/templates/wizard-whitelabel.tpl.php:183
+#: includes/setup/templates/wizard.tpl.php:118
+#: includes/setup/templates/wizard.tpl.php:139
+#: includes/setup/templates/wizard.tpl.php:162
+#: includes/setup/templates/wizard.tpl.php:186
+msgid "Bypass CSS Import"
+msgstr "Bypass CSS Import"
+
+#: includes/luv-framework/framework-config.php:1506
+msgid "Include imported CSS files in merged styles."
+msgstr "Az CSS importok egyesítése az összevont stílusfájlokban."
+
+#: includes/luv-framework/framework-config.php:1514
+msgid "Exclude 3rd Party CSS"
+msgstr "Harmadik Féltől Származó Stílusok Kizárása"
+
+#: includes/luv-framework/framework-config.php:1515
+msgid "Exclude 3rd party CSS files (eg: Google Fonts CSS) from merged styles"
+msgstr ""
+"Kihagyja a harmadik fél CSS-fájljait (pl .: Google Fonts CSS) az összevont "
+"stílusokból"
+
+#: includes/luv-framework/framework-config.php:1526
+msgid "Exclude Styles"
+msgstr "Stílusok kizárása"
+
+#: includes/luv-framework/framework-config.php:1527
+msgid ""
+"Exclude style from being merged if one of these strings is found in the file "
+"name. "
+msgstr ""
+"Amennyiben az itt felsorolt szövegek valamelyike megtalálható a fájlnévben "
+"az adott stílusfájl nem kerül összevonásra"
+
+#: includes/luv-framework/framework-config.php:1534
+msgid "Exclude Inline Styles"
+msgstr "Inline Stílusok Kihagyása"
+
+#: includes/luv-framework/framework-config.php:1535
+msgid ""
+"Exclude style from being merged if one of these strings is found in CSS. "
+msgstr ""
+"Amennyiben az itt felsorolt szövegek valamelyike megtalálható a szabályokban "
+"az adott <style> tag nem kerül összevonásra"
+
+#: includes/luv-framework/framework-config.php:1542
+#: modules/asset-manager/templates/meta-box.tpl.php:21
+msgid "Include Styles"
+msgstr "Manuális Stílusok"
+
+#: includes/luv-framework/framework-config.php:1543
+msgid ""
+"Include styles manually. With this option you can preload css files what are "
+"loaded with javascript"
+msgstr ""
+"Bizonyos stílusokat manuálisan is hozzáadhatsz az összevont stílusokhoz, így "
+"előtölthetsz olyan CSS-eket, amiket egy javascript töltene be."
+
+#: includes/luv-framework/framework-config.php:1553
+msgid "Force Swap Font Display"
+msgstr "Swap Font Display Kényszerítése"
+
+#: includes/luv-framework/framework-config.php:1554
+msgid "Set font-display property to swap"
+msgstr ""
+"Beállítja a minden betűtípushoz a font-display tulajdonságot “swap” értékre"
+
+#: includes/luv-framework/framework-config.php:1555
+msgid ""
+"The font-display property defines how font files are loaded and displayed by "
+"the browser. Swap instructs the browser to use the fallback font to display "
+"the text until the custom font has fully downloaded to avoid \"flash of "
+"invisible text\" (FOIT)."
+msgstr ""
+"A font-display tulajdonság meghatározza, hogy a betűtípusokat hogyan "
+"renderelje a böngésző. A swap utasítja a böngészőt, hogy elsőként egy "
+"fallback betűkészlet használatával jelenítse meg a szöveget, amíg a egyedi "
+"betűtípus betöltődik, hogy elkerülhető legyen a \"láthatatlan szöveg"
+"\" (FOIT) effektus."
+
+#: includes/luv-framework/framework-config.php:1563
+msgid "Exclude Force Swap Font Display"
+msgstr "Swap Font Display Kényszerítés Kivételek"
+
+#: includes/luv-framework/framework-config.php:1564
+msgid "Exclude font family from being forced to use swap font-display. "
+msgstr ""
+"Itt kizárhatsz bizonyos betűtípusokat a Swap Font Display Kényszerítéséből"
+
+#: includes/luv-framework/framework-config.php:1576
+#: includes/setup/templates/wizard-whitelabel.tpl.php:92
+#: includes/setup/templates/wizard-whitelabel.tpl.php:109
+#: includes/setup/templates/wizard-whitelabel.tpl.php:129
+#: includes/setup/templates/wizard-whitelabel.tpl.php:152
+#: includes/setup/templates/wizard.tpl.php:95
+#: includes/setup/templates/wizard.tpl.php:112
+#: includes/setup/templates/wizard.tpl.php:132
+#: includes/setup/templates/wizard.tpl.php:155
+msgid "Caching"
+msgstr "Gyorsítótár"
+
+#: includes/luv-framework/framework-config.php:1585
+msgid "Enable Caching"
+msgstr "Gyorsítótárazás Engedélyezése"
+
+#: includes/luv-framework/framework-config.php:1592
+msgid "Caching Mode"
+msgstr "Gyorsítótár Kiszolgálás"
+
+#: includes/luv-framework/framework-config.php:1597
+msgid ""
+"If rewrites are working on your server you always should use Disk cache with "
+"Rewrites, this is the fastest method for serving cache."
+msgstr ""
+"Ha a rewrite-ok működnek a szerveren, akkor mindig a Lemez Gyorsítótár "
+"Rewrites segítségével opciót ajánlott választani. Ez a leggyorsabb "
+"gyorsítótár-kiszolgálási módszer."
+
+#: includes/luv-framework/framework-config.php:1602
+msgid "Memcached Host"
+msgstr "Memcached Host"
+
+#: includes/luv-framework/framework-config.php:1612
+msgid "Memcached Port"
+msgstr "Memcached Port"
+
+#: includes/luv-framework/framework-config.php:1622
+msgid "Early Loader"
+msgstr "Korai Betöltés"
+
+#: includes/luv-framework/framework-config.php:1623
+#, php-format
+msgid "Use %s Loader mu-plugin "
+msgstr "Használja a %s Loader MU-Plugint"
+
+#: includes/luv-framework/framework-config.php:1624
+#, php-format
+msgid ""
+"If %s have to serve the cache with PHP it will speed up the process. Please "
+"note that some requests will be served with PHP even if you choose the Disk "
+"with Rewrites caching mode."
+msgstr ""
+"A korai betöltés segítségével a %s lesz a legeslegelső bővítmény ami "
+"betöltődik, ezzel is gyorsítva az oldal betöltődését."
+
+#: includes/luv-framework/framework-config.php:1634
+msgid "Cache Path"
+msgstr "Gyorsítótár Elérési Útja"
+
+#: includes/luv-framework/framework-config.php:1645
+msgid "Cache Expiry Mode"
+msgstr "Gyorsítótár Lejárat"
+
+#: includes/luv-framework/framework-config.php:1648
+msgid "Time based mode"
+msgstr "Idő alapú"
+
+#: includes/luv-framework/framework-config.php:1649
+msgid "Action based mode"
+msgstr "Művelet alapú"
+
+#: includes/luv-framework/framework-config.php:1652
+#, php-format
+msgid ""
+"It is recommended to use Action based mode. %s will clear the cache if the "
+"content was modified (post update, new post, new comment, comment approved, "
+"stock changed, etc). However if the site is using nonce or any other thing "
+"what can expire, you should choose the Time based expiry mode."
+msgstr ""
+"Ajánlott a Művelet alapú mód használata. A %s törli a gyorsítótárat, ha "
+"valamilyen tartalom módosításra került (bejegyzés frissítése, új bejegyzés, "
+"új komment, komment jóváhagyása, készlet változás stb.) Ha azonban az oldal "
+"nonce-t vagy bármilyen más olyan elemet használ, ami lejárhat, akkor az Idő "
+"alapú lejárati módot kell választania."
+
+#: includes/luv-framework/framework-config.php:1657
+msgid "Cache Expiry Time"
+msgstr "Gyorsítótár Lejárati Ideje"
+
+#: includes/luv-framework/framework-config.php:1658
+msgid "Clear cached pages after specified time"
+msgstr "Tárolt oldalak törlése a megadott idő elteltével"
+
+#: includes/luv-framework/framework-config.php:1676
+msgid "Garbage Collection Interval"
+msgstr "Ellenőrzési Intervallum"
+
+#: includes/luv-framework/framework-config.php:1677
+msgid "How often should check the expired cached pages"
+msgstr "Milyen gyakran kell ellenőrizni a lejáró tárolt oldalakat"
+
+#: includes/luv-framework/framework-config.php:1694
+msgid "Clear Cache on Update Post by Page"
+msgstr "Oldal-Gyorsítótár Törlése Bejegyzés Frissítésekor"
+
+#: includes/luv-framework/framework-config.php:1695
+msgid "Select pages where cache should be cleared after publish/update post."
+msgstr ""
+"Válaszd ki azokat az oldalakat, amiket törölni kell a gyorsítótárbül új "
+"bejegyzés közzététel / frissítés után."
+
+#: includes/luv-framework/framework-config.php:1696
+msgid ""
+"It is useful if your site is using for example a WooCommerce shortcode to "
+"show products on homepage. Because it is a shortcode homepage cache won't be "
+"cleared automatically if a post/stock/comment was updated, however you can "
+"specify pages manually here."
+msgstr ""
+"Hasznos, ha az oldal például egy WooCommerce shortcode-ot használ a "
+"főoldalon a termékek megjelenítéséhez. Ebben az esetben, a főoldal nem "
+"törlődik automatikusan a gyorsítótárból, ha egy bejegyzés/készlet/megjegyzés "
+"frissítésre kerül, azonban itt manuálisan megadhatod beállíthatod."
+
+#: includes/luv-framework/framework-config.php:1706
+msgid "Clear Cache on Update Post by URL"
+msgstr "URL-Gyorsítótár Törlése Bejegyzés Frissítésekor"
+
+#: includes/luv-framework/framework-config.php:1707
+msgid "Set URLs where cache should be cleared after publish/update post."
+msgstr ""
+"Add meg azokat az URL-eket, amiket törölni kell a gyorsítótárbül új "
+"bejegyzés közzététel / frissítés után."
+
+#: includes/luv-framework/framework-config.php:1708
+msgid ""
+"It is useful if your site is using for example a WooCommerce shortcode to "
+"show products on homepage. Because it is a shortcode homepage cache won't be "
+"cleared automatically if a post/stock/comment was updated, however you can "
+"specify URLs manually here."
+msgstr ""
+"Hasznos, ha az oldal például egy WooCommerce shortcode-ot használ a "
+"főoldalon a termékek megjelenítéséhez. Ebben az esetben, a főoldal nem "
+"törlődik automatikusan a gyorsítótárból, ha egy bejegyzés/készlet/megjegyzés "
+"frissítésre kerül, azonban itt manuálisan megadhatod beállíthatod."
+
+#: includes/luv-framework/framework-config.php:1717
+msgid "Enable Caching for logged in users"
+msgstr "Gyorsítótár Engedélyezése a Bejelentkezett Felhasználóknak"
+
+#: includes/luv-framework/framework-config.php:1718
+msgid ""
+"This option can increase the total cache size, depending on the count of "
+"your users."
+msgstr ""
+"Ez a beállítás növelheti a gyorsítótár teljes méretét, a felhasználók "
+"számától függően."
+
+#: includes/luv-framework/framework-config.php:1725
+msgid "Shared Logged in Cache"
+msgstr "Megosztott Gyorsítótár"
+
+#: includes/luv-framework/framework-config.php:1726
+msgid ""
+"If you enable this option logged in users won't have separate private cache, "
+"but they will get content from public cache"
+msgstr ""
+"Ha engedélyezed ezt a lehetőséget, a bejelentkezett felhasználóknak nem lesz "
+"külön privát gyorsítótára, hanem a nyilvános gyorsítótárból kerülnek "
+"kiszolgálásra"
+
+#: includes/luv-framework/framework-config.php:1737
+msgid "Separate Mobile Device Cache"
+msgstr "Külön Mobil Eszköz Gyorsítótár"
+
+#: includes/luv-framework/framework-config.php:1738
+msgid ""
+"You can create separate cache for mobile devices, it can be useful if your "
+"site not just responsive, but it has a separate mobile theme/layout (eg: "
+"AMP). "
+msgstr ""
+"Készíthetsz külön gyorsítótárat a mobil eszközökhöz, amely hasznos lehet, ha "
+"az oldal nem reszponzív, hanem külön mobil sablonnal/elrendezéssel "
+"rendelkezik (pl .: AMP)."
+
+#: includes/luv-framework/framework-config.php:1746
+msgid "Enable Browser Cache"
+msgstr "Böngésző Gyorsítótár Engedélyezése"
+
+#: includes/luv-framework/framework-config.php:1747
+msgid ""
+"If you enable this option it will generate htacess/nginx rules for browser "
+"cache. (Expire headers should be configured on your server as well)"
+msgstr ""
+"Ha engedélyezed ezt az opciót, akkor a bővítmény htacess/nginx szabályokat "
+"generál a böngésző gyorsítótárához."
+
+#: includes/luv-framework/framework-config.php:1754
+msgid "Enable Gzip"
+msgstr "Gzip Engedélyezése"
+
+#: includes/luv-framework/framework-config.php:1755
+msgid ""
+"If you enable this option it will generate htacess/nginx rules for gzip "
+"compression. (Compression should be configured on your server as well)"
+msgstr ""
+"Ha engedélyezed ezt az opciót, akkor a bővítmény htacess/nginx szabályokat "
+"generál a GZIP tömörítéshez."
+
+#: includes/luv-framework/framework-config.php:1762
+msgid "Send 304 Header"
+msgstr "Küldjön 304 fejlécet"
+
+#: includes/luv-framework/framework-config.php:1772
+msgid "Cache 404 pages"
+msgstr "404 oldalak Gyorsítótárazása"
+
+#: includes/luv-framework/framework-config.php:1779
+msgid "Enable Dynamic Caching"
+msgstr "Dinamikus Gyorsítótár Engedélyezése"
+
+#: includes/luv-framework/framework-config.php:1780
+msgid ""
+"If you enable this option you can specify cacheable $_GET and $_POST requests"
+msgstr ""
+"Ha engedélyezed ezt az opciót, specifikálhatsz olyan $ _GET és $ _POST "
+"kéréseket amelyeket gyorsítótárazhat a bővítmény."
+
+#: includes/luv-framework/framework-config.php:1788
+msgid "Cacheable Dynamic Requests"
+msgstr "Gyorsítótárazható Dinamikus Kérések"
+
+#: includes/luv-framework/framework-config.php:1789
+msgid ""
+"Specify $_GET and/or $_POST keys what should be cached. Eg: \"s\" to cache "
+"search requests"
+msgstr ""
+"Add meg azokat a $ _GET és/vagy $ _POST kulcsokat, amelyeket gyorsítótárazni "
+"lehet. Pl .: \"s\" a keresések gyorsítótárazásához"
+
+#: includes/luv-framework/framework-config.php:1796
+msgid "Cacheable AJAX Actions"
+msgstr "Gyorsítótárazható AJAX Műveletek"
+
+#: includes/luv-framework/framework-config.php:1797
+msgid "With this option you can cache resource-intensive AJAX requests"
+msgstr ""
+"Ezzel az opcióval gyorsítótárazhatja az erőforrás-igényes AJAX kéréseket"
+
+#: includes/luv-framework/framework-config.php:1803
+msgid "AJAX Cache Expiry Time"
+msgstr "AJAX Gyorsítótár Lejárat"
+
+#: includes/luv-framework/framework-config.php:1804
+msgid "Cache expiry time for AJAX requests in seconds"
+msgstr "Az AJAX kérések gyorsítótárának lejárati ideje másodpercben"
+
+#: includes/luv-framework/framework-config.php:1816
+msgid "Enable Proxy Cache"
+msgstr "Proxy Cache Engedélyezése"
+
+#: includes/luv-framework/framework-config.php:1817
+msgid "Enable proxy cache for pages."
+msgstr "Proxy Cache engedélyezése az oldalakhoz."
+
+#: includes/luv-framework/framework-config.php:1818
+msgid ""
+"With this option you can add s-maxage header to force proxies (eg "
+"Cloudflare) to cache pages. <br><br><b>PLEASE NOTE:</b> On Cloudflare only "
+"Enterprise plan allows to bypass cache by cookies, so by default if you "
+"enable this option, logged in users will get cached pages as well (like when "
+"you enable <i>Shared Logged in Cache</i>)."
+msgstr ""
+"Ezzel az opcióval hozzá lehet adni az s-maxage fejlécet a válaszhoz, így a "
+"proxy szerverek (például Cloudflare) szintén gyorsítótárazza az adott "
+"tartalmat. <br><br> <b>MEGJEGYZÉS:</b>Cloudflare esetén csak az Enterprise "
+"csomag teszi lehetővé a gyorsítótár bypass-olását sütik alapján, tehát "
+"alapértelmezés szerint, ha engedélyezed ezt az opciót, a bejelentkezett "
+"felhasználók is gyorsítótárazott oldalakat is kapnak (úgy, mint amikor a "
+"<i>Megosztott Gyorsítótár</i> engedélyezve van)."
+
+#: includes/luv-framework/framework-config.php:1827
+msgid "Proxy Cache Maxage"
+msgstr "Proxy Cache Maxage"
+
+#: includes/luv-framework/framework-config.php:1828
+msgid "Set max-age for proxies (in seconds)"
+msgstr "Állítsa be a max-age értéket (másodpercben)"
+
+#: includes/luv-framework/framework-config.php:1838
+msgid "Ignore Query String"
+msgstr "Query String Ignorálása"
+
+#: includes/luv-framework/framework-config.php:1839
+msgid "Ignore GET parameters for caching"
+msgstr "Ignorálja a kérésekben szereplő query string-eket"
+
+#: includes/luv-framework/framework-config.php:1840
+#, php-format
+msgid ""
+"If you enable this option %s will ignore query string. It will cache the "
+"page even if there is something in query string, and also will serve the "
+"cached page if it is already cached."
+msgstr ""
+"Ha engedélyezed ezt a beállítást, a %s figyelmen kívül hagyja a query string-"
+"eket. Gyorsítótárazza az oldalt akkor is, ha van valami a query string-ben, "
+"és a gyorsítótárazott oldalt is szolgálja ki, ha már szerepel a "
+"gyorsítótárban."
+
+#: includes/luv-framework/framework-config.php:1851
+msgid "Avoid Mixed Content"
+msgstr "Mixed Content Javítása"
+
+#: includes/luv-framework/framework-config.php:1852
+msgid "Remove protocol from resource URLs to avoid mixed content errors"
+msgstr ""
+"A Mixed Content hibák elkerülése érdekében a bővítmény eltávolítja a "
+"protokollt minden URL címből"
+
+#: includes/luv-framework/framework-config.php:1853
+msgid ""
+"If your site can be loaded via HTTP and HTTPS as well it can cause mixed "
+"content errors. If you enable this option it will remove the protocol from "
+"all resources to avoid it. Use it only on HTTPS sites."
+msgstr ""
+"Ha az oldalt HTTP-n és HTTPS-en keresztül is be lehet tölteni, az mixed "
+"content hibákat okozhat. Ha engedélyezed ezt a beállítást, az a bővítmény "
+"eltávolítja a protokollt az összes URL-ből. Csak HTTPS webhelyeken használd."
+
+#: includes/luv-framework/framework-config.php:1861
+msgid "Keep Original Headers"
+msgstr "Eredeti Fejlécek Megtartása"
+
+#: includes/luv-framework/framework-config.php:1862
+msgid "Serve original headers for cached pages"
+msgstr ""
+"A bővítmény elküldi az eredeti header-eket a gyorsítótárazott oldalak "
+"kiszolgálása esetén is."
+
+#: includes/luv-framework/framework-config.php:1863
+msgid ""
+"If you are using a plugin which send custom headers you can keep them for "
+"the cached version as well."
+msgstr ""
+"Ha olyan bővítményt használsz, ami egyedi fejléceket küld, akkor a "
+"gyorsítótárban tárolt változathoz is megőrizheted azokat."
+
+#: includes/luv-framework/framework-config.php:1873
+msgid "Exclude Headers"
+msgstr "Fejlécek kizárása"
+
+#: includes/luv-framework/framework-config.php:1874
+msgid "Don't keep these headers"
+msgstr "Ne tartsa meg ezeket a fejléceket"
+
+#: includes/luv-framework/framework-config.php:1875
+msgid "You can specify headers which shouldn't be kept for the cached version"
+msgstr ""
+"Az itt megadott fejlécek nem kerülnek elküldésre amikor a gyorsítótárazott "
+"verzió kerül kiszolgálásra"
+
+#: includes/luv-framework/framework-config.php:1885
+msgid "Case Insensitive URLs"
+msgstr "Kis/nagybetűre Ignorálása"
+
+#: includes/luv-framework/framework-config.php:1886
+msgid "Convert URLs to lower case for caching"
+msgstr "Az összes betűt kisbetűvé alakítja a gyorsítótárban."
+
+#: includes/luv-framework/framework-config.php:1896
+msgid "Lazyload elements"
+msgstr "Ajaxify"
+
+#: includes/luv-framework/framework-config.php:1897
+msgid "Specify CSS selectors"
+msgstr "Add meg a CSS selector-okat"
+
+#: includes/luv-framework/framework-config.php:1898
+msgid ""
+"You can specify CSS selectors (eg: #related-products or .last-comments) to "
+"lazyload elements on the page. These elements will be loaded via AJAX after "
+"the page loaded. It can be useful for elements which can't be cached and "
+"should be loaded dynamically, like related products, recently view products, "
+"most popular posts, recent comments etc."
+msgstr ""
+"CSS selector-ok segítségével (pl .: #related-products vagy .last-comments) "
+"specifikálhatsz elemeket, amelyek az oldal betöltése után az AJAX "
+"segítségével töltődnek be. Hasznos lehet olyan elemeknél, amelyeket nem "
+"lehet gyorsítótárazni, és dinamikusan kell betölteni, például a kapcsolódó "
+"termékek, a közelmúltban megtekintett termékek, a legnépszerűbb "
+"hozzászólások, a legújabb megjegyzések stb."
+
+#: includes/luv-framework/framework-config.php:1908
+msgid "Ajaxify Placeholder"
+msgstr "Ajaxify Placeholder"
+
+#: includes/luv-framework/framework-config.php:1909
+msgid "Choose placeholder effect for lazyloaded elements."
+msgstr "Válasszon egy placeholder megoldást az Ajaxify-hoz."
+
+#: includes/luv-framework/framework-config.php:1910
+msgid ""
+"You can choose how should look like lazyloaded elements before they will be "
+"loaded. You can hide them, blur them, or show the cached version until they "
+"load."
+msgstr ""
+"Kiválaszthatod, hogyan nézzenek ki az Ajaxify-al töltött elemek, mielőtt "
+"betöltődnének. Elrejtheted, elhomályosíthatod, vagy megjelenítheted a "
+"gyorsítótárazott változatot, amíg betöltődik."
+
+#: includes/luv-framework/framework-config.php:1913
+msgid "Show cached"
+msgstr "Gyorsítótárazott Verzió"
+
+#: includes/luv-framework/framework-config.php:1915
+msgid "Hidden"
+msgstr "Rejtett"
+
+#: includes/luv-framework/framework-config.php:1925
+msgid "Exceptions"
+msgstr "Kivételek"
+
+#: includes/luv-framework/framework-config.php:1931
+msgid "Exclude Post Types"
+msgstr "Bejegyzés Típus Kivételek"
+
+#: includes/luv-framework/framework-config.php:1932
+msgid "Select post types which shouldn't be cached."
+msgstr ""
+"Válaszd ki azokat a bejegyzés típusokat, amelyeket nem szeretnél "
+"gyorsítótárazni."
+
+#: includes/luv-framework/framework-config.php:1941
+#: includes/luv-framework/framework-config.php:2185
+#: includes/luv-framework/framework-config.php:2262
+msgid "Exclude Pages"
+msgstr "Oldal Kivételek"
+
+#: includes/luv-framework/framework-config.php:1942
+msgid "Select pages which shouldn't be cached."
+msgstr ""
+"Válaszd ki azokat az oldalakat, amelyeket nem szeretnél gyorsítótárazni."
+
+#: includes/luv-framework/framework-config.php:1950
+msgid "Exclude URLs"
+msgstr "URL Kivételek"
+
+#: includes/luv-framework/framework-config.php:1951
+msgid ""
+"URLs which contains that string won't be cached. Use leading/trailing # for "
+"regex"
+msgstr ""
+"Azok a URL-ek, amelyek tartalmazzák valamelyik itt felsorolt szöveget, nem "
+"kerülnek gyorsítótárba. Reguláris kifejezéshez használj kettőskeresztet (#) "
+"az elején és a végén"
+
+#: includes/luv-framework/framework-config.php:1958
+msgid "Exclude Cookies"
+msgstr "Süti Kivételek"
+
+#: includes/luv-framework/framework-config.php:1959
+msgid "Cache will be bypassed if the user has one of these cookies."
+msgstr ""
+"Amennyiben a felhasználó sütijei között szerepel valamelyik itt felsorolt "
+"szó, a megtekintett oldal nem kerül gyorsítótárba."
+
+#: includes/luv-framework/framework-config.php:1965
+msgid "Exclude Content Parts"
+msgstr "Tartalom-részlet Kivételek"
+
+#: includes/luv-framework/framework-config.php:1966
+msgid ""
+"Pages which contains that string won't be cached. Use leading/trailing # for "
+"regex"
+msgstr ""
+"Azok az oldalak, amelyek tartalmazzák valamelyik itt felsorolt szöveget, nem "
+"kerülnek gyorsítótárba. Reguláris kifejezéshez használj kettőskeresztet (#) "
+"az elején és a végén"
+
+#: includes/luv-framework/framework-config.php:1973
+msgid "Exclude User Agents"
+msgstr "User Agent Kivételek"
+
+#: includes/luv-framework/framework-config.php:1974
+msgid ""
+"User agents which contains that string won't be cached. Use leading/trailing "
+"# for regex"
+msgstr ""
+"Amennyiben a böngésző User Agent-je tartalmazza valamelyik itt felsorolt "
+"szöveget, a megtekintett oldal nem kerül gyorsítótárba. Reguláris "
+"kifejezéshez használj kettőskeresztet (#) az elején és a végén"
+
+#: includes/luv-framework/framework-config.php:1980
+msgid "Exclude Crawlers"
+msgstr "Robot Kivételek"
+
+#: includes/luv-framework/framework-config.php:1981
+msgid "Exclude known crawlers from cache"
+msgstr "Kizárhatsz ismert robotokat a gyorsítótár generálásból"
+
+#: includes/luv-framework/framework-config.php:1988
+msgid "Exclude Author Pages"
+msgstr "Szerző Kivételek"
+
+#: includes/luv-framework/framework-config.php:1996
+msgid "Exclude Archive"
+msgstr "Arhív Oldalak Kizárása"
+
+#: includes/luv-framework/framework-config.php:2004
+msgid "Exclude REST URLs"
+msgstr "REST URL-ek Kizárása"
+
+#: includes/luv-framework/framework-config.php:2012
+msgid "Exclude Feed"
+msgstr "Feed Kizárása"
+
+#: includes/luv-framework/framework-config.php:2020
+msgid "Warmup"
+msgstr "Warmup"
+
+#: includes/luv-framework/framework-config.php:2025
+msgid "Enable Remote Prebuild Cache"
+msgstr "Távoli Előtöltés Engedélyezése"
+
+#: includes/luv-framework/framework-config.php:2026
+msgid "Use API to prebuild cache."
+msgstr "Használja az API-t a gyorsítótár előtöltéséhez."
+
+#: includes/luv-framework/framework-config.php:2027
+msgid ""
+"It is a fallback option if loopbacks are disabled on the server. If you can "
+"use local prebuild it is recommended to leave this option unchecked."
+msgstr ""
+"Ez egy alternatív lehetőség, ha a loopback le van tiltva a szerveren. Ha "
+"lokális előtöltés működik, akkor ajánlott azt használni a távoli helyett."
+
+#: includes/luv-framework/framework-config.php:2034
+msgid "Prebuild Cache Automatically"
+msgstr "Automatikus Előtöltés"
+
+#: includes/luv-framework/framework-config.php:2035
+msgid "This option will prebuild the cache after it was cleared"
+msgstr ""
+"Engedélyezze ezt a lehetőséget a gyorsítótár automatikus előtöltéséhez."
+
+#: includes/luv-framework/framework-config.php:2041
+msgid "Prebuild Speed"
+msgstr "Előtöltés Sebesség"
+
+#: includes/luv-framework/framework-config.php:2042
+msgid ""
+"You can limit prebuild speed. It is recommended to use on limited shared "
+"hosting."
+msgstr ""
+"Korlátozhatja az előtöltés sebességét. Ajánlott amennyiben limitált "
+"megosztott tárhelyet (shared hosting) használsz."
+
+#: includes/luv-framework/framework-config.php:2045
+msgid "Unlimited"
+msgstr "Korlátlan"
+
+#: includes/luv-framework/framework-config.php:2047
+msgid "Reduced"
+msgstr "Visszafogott"
+
+#: includes/luv-framework/framework-config.php:2048
+msgid "Slow"
+msgstr "Lassú"
+
+#: includes/luv-framework/framework-config.php:2055
+msgid "Discover New Pages"
+msgstr "Új Oldalak Felfedezése"
+
+#: includes/luv-framework/framework-config.php:2056
+msgid ""
+"Let the plugin to discover new pages for warmup (eg: pagination, plugin-"
+"created pages, etc)"
+msgstr ""
+"A bővítmény automatikusan új oldalakat fedez fel az előtöltéshez (pl .: "
+"lapozás, bővítmények által létrehozott oldalak, stb.)"
+
+#: includes/luv-framework/framework-config.php:2063
+msgid "Prebuild Author Pages"
+msgstr "Szerző Oldalak Előtöltése"
+
+#: includes/luv-framework/framework-config.php:2071
+msgid "Prebuild Archive"
+msgstr "Arhív Oldalak Előtöltése"
+
+#: includes/luv-framework/framework-config.php:2079
+msgid "Prebuild Terms"
+msgstr "Kifejezések Előtöltése"
+
+#: includes/luv-framework/framework-config.php:2087
+msgid "Prebuild REST URLs"
+msgstr "REST URL-ek Előtöltése"
+
+#: includes/luv-framework/framework-config.php:2095
+msgid "Prebuild Feed"
+msgstr "Feed Előtöltése"
+
+#: includes/luv-framework/framework-config.php:2103
+msgid "Varnish"
+msgstr "Varnish"
+
+#: includes/luv-framework/framework-config.php:2108
+#: includes/luv-framework/framework-config.php:2483
+#: includes/setup/templates/wizard-whitelabel.tpl.php:252
+#: includes/setup/templates/wizard.tpl.php:255
+msgid "Enable Auto Purge"
+msgstr "Automatikus Purge"
+
+#: includes/luv-framework/framework-config.php:2114
+msgid "Custom Host"
+msgstr "Egyéni host"
+
+#: includes/luv-framework/framework-config.php:2115
+msgid "If you are using proxy (eg: Cloudflare) you may need this option"
+msgstr ""
+"Ha proxyt használsz (pl .: Cloudflare), akkor szükséged lehet erre a "
+"lehetőségre"
+
+#: includes/luv-framework/framework-config.php:2163
+#: includes/luv-framework/framework-config.php:2240
+msgid "Include Pages"
+msgstr "Hozzáadott Oldalak"
+
+#: includes/luv-framework/framework-config.php:2174
+#: includes/luv-framework/framework-config.php:2251
+msgid "Include Strings"
+msgstr "Kiválasztott Szövegrészek"
+
+#: includes/luv-framework/framework-config.php:2196
+#: includes/luv-framework/framework-config.php:2273
+msgid "Exclude Strings"
+msgstr "Kizáró Szövegrészek"
+
+#: includes/luv-framework/framework-config.php:2285
+msgid "Plugins"
+msgstr "Bővítmények"
+
+#: includes/luv-framework/framework-config.php:2289
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: includes/luv-framework/framework-config.php:2294
+msgid "Smart Enqueue Assets"
+msgstr "Intelligens betöltés"
+
+#: includes/luv-framework/framework-config.php:2295
+msgid ""
+"Load Contact Form 7 CSS and JS only, if current page contains a contact form."
+msgstr ""
+"Csak akkor tölti be a Contact Form 7-hez tartozó CSS és JS fájlokat, ha az "
+"aktuális oldal tartalmazz a kapcsolatfelvételi űrlapot."
+
+#: includes/luv-framework/framework-config.php:2305
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/luv-framework/framework-config.php:2310
+msgid "Cache Empty Minicart"
+msgstr "Üres Kosár Gyorsítótárazása"
+
+#: includes/luv-framework/framework-config.php:2311
+msgid ""
+"Cart Fragments (wc-ajax=get_refreshed_fragments) requests will be cached if "
+"the cart is empty"
+msgstr ""
+"A Cart Fragments (wc-ajax=get_refreshed_fragments) kérések gyorsítótárból "
+"kerülnek kiszolgálásra amennyiben a kosár üres."
+
+#: includes/luv-framework/framework-config.php:2321
+msgid "Disable Cart Fragments"
+msgstr "Cart Fragments Letiltása"
+
+#: includes/luv-framework/framework-config.php:2323
+msgid "Don't disable"
+msgstr "Sehol"
+
+#: includes/luv-framework/framework-config.php:2324
+msgid "Everywhere"
+msgstr "Mindenhol"
+
+#: includes/luv-framework/framework-config.php:2325
+msgid "Non-Shop Pages"
+msgstr "A nem WooCommerce Oldalakon"
+
+#: includes/luv-framework/framework-config.php:2326
+msgid "Specified Pages"
+msgstr "Meghatározott Oldalakon"
+
+#: includes/luv-framework/framework-config.php:2327
+msgid "Specified URLs"
+msgstr "Meghatározott URL-eken"
+
+#: includes/luv-framework/framework-config.php:2336
+msgid "Disable Cart Fragments on Specific Pages"
+msgstr "Cart Fragments Letiltása specifikus Oldalakon"
+
+#: includes/luv-framework/framework-config.php:2344
+msgid "Disable Cart Fragments on Specific URLs"
+msgstr "Cart Fragments Letiltása specifikus URL-eken"
+
+#: includes/luv-framework/framework-config.php:2345
+msgid "Disable cart fragments if one of these strings is found in the match."
+msgstr ""
+"Cart Fragments Letiltása amennyiben az oldal címében szerepel valamelyik "
+"szövegrész."
+
+#: includes/luv-framework/framework-config.php:2352
+msgid "WooCommerce Session Cache"
+msgstr "WooCommerce munkamenet-gyorsítótár"
+
+#: includes/luv-framework/framework-config.php:2362
+msgid "GEO IP Support"
+msgstr "GEO IP támogatás"
+
+#: includes/luv-framework/framework-config.php:2373
+msgid "Allowed Countries"
+msgstr "Engedélyzett Országok"
+
+#: includes/luv-framework/framework-config.php:2374
+msgid ""
+"Select countries which should be cached separately. Leave it empty to allow "
+"separate cache for all countries."
+msgstr ""
+"Válaszd ki azokat az országokat, amelyeket külön szeretnél gyorsítótárazni. "
+"Hagyd üresen, ha minden országot külön szeretnél kezelni."
+
+#: includes/luv-framework/framework-config.php:2383
+msgid "Ajaxify Prices"
+msgstr "Ajax Árak"
+
+#: includes/luv-framework/framework-config.php:2384
+msgid "Load prices via AJAX"
+msgstr "Az árak betöltése AJAX-on keresztül"
+
+#: includes/luv-framework/framework-config.php:2385
+msgid ""
+"This option is using Lazyload Elements feature to load prices. It can be "
+"useful if you sell items with different TAX rates, based on user's location."
+msgstr ""
+"Ez az opció az Ajaxify használatával tölti be az árakat. Hasznos lehet, ha "
+"az árak vagy az ÁFa változik a látogató országa alapján."
+
+#: includes/luv-framework/framework-config.php:2398
+msgid "CDN"
+msgstr "CDN"
+
+#: includes/luv-framework/framework-config.php:2407
+msgid "Enable CDN"
+msgstr "CDN Engedélyezése"
+
+#: includes/luv-framework/framework-config.php:2414
+msgid "CDN Hostname"
+msgstr "CDN Hostname"
+
+#: includes/luv-framework/framework-config.php:2421
+#: includes/luv-framework/framework-config.php:2453
+msgid "CDN Hostname for Javascript "
+msgstr "CDN Hostname Szkriptekhez"
+
+#: includes/luv-framework/framework-config.php:2423
+#: includes/luv-framework/framework-config.php:2455
+msgid "Use different hostname for javascript files"
+msgstr "Külön hostname javascript fájlokhoz"
+
+#: includes/luv-framework/framework-config.php:2429
+#: includes/luv-framework/framework-config.php:2461
+msgid "CDN Hostname for Media files"
+msgstr "CDN Hostname Mediához"
+
+#: includes/luv-framework/framework-config.php:2431
+#: includes/luv-framework/framework-config.php:2463
+msgid "Use different hostname for media files"
+msgstr "Külön hostname média fájlokhoz"
+
+#: includes/luv-framework/framework-config.php:2437
+msgid "Enable CDN on SSL"
+msgstr "CDN Engedélyezése SSL-en"
+
+#: includes/luv-framework/framework-config.php:2439
+msgid ""
+"You can specify different hostname(s) for SSL, or leave them blank for use "
+"the same host on HTTP and SSL"
+msgstr ""
+"Megadhatsz külön hosztneveket SSL esetén. Amennyiben a hosztnév nem "
+"különbözik SSL-en, hagyd üresen"
+
+#: includes/luv-framework/framework-config.php:2446
+msgid "SSL CDN Hostname"
+msgstr "SSL CDN Hostname"
+
+#: includes/luv-framework/framework-config.php:2469
+msgid "CDN Custom File Types"
+msgstr "CDN Egyedi Fájltípusok"
+
+#: includes/luv-framework/framework-config.php:2470
+msgid "Use CDN for custom file types. Specify file extensions, eg: pdf"
+msgstr ""
+"CDN-t használata egyedi fájltípusokhoz. Add meg a kiterjesztéseket, pl .: pdf"
+
+#: includes/luv-framework/framework-config.php:2478
+#: includes/setup/templates/wizard-whitelabel.tpl.php:247
+#: includes/setup/templates/wizard.tpl.php:250
+msgid "Cloudflare"
+msgstr "CloudFlare"
+
+#: includes/luv-framework/framework-config.php:2489
+#: includes/setup/templates/wizard-whitelabel.tpl.php:258
+#: includes/setup/templates/wizard.tpl.php:261
+msgid "Cloudflare Account E-mail"
+msgstr "Cloudflare Fiók E-mail"
+
+#: includes/luv-framework/framework-config.php:2498
+#: includes/setup/templates/wizard-whitelabel.tpl.php:265
+#: includes/setup/templates/wizard.tpl.php:268
+msgid "Cloudflare API Key"
+msgstr "Cloudflare API kulcs"
+
+#: includes/luv-framework/framework-config.php:2507
+msgid "Cloudflare Host"
+msgstr "Cloudflare Host"
+
+#: includes/luv-framework/framework-config.php:2516
+msgid "MaxCDN (StackPath)"
+msgstr "MaxCDN (StackPath)"
+
+#: includes/luv-framework/framework-config.php:2521
+msgid "MAXCDN Alias"
+msgstr "MAXCDN Alias"
+
+#: includes/luv-framework/framework-config.php:2530
+msgid "MAXCDN Consumer Key"
+msgstr "MAXCDN Consumer Key"
+
+#: includes/luv-framework/framework-config.php:2539
+msgid "MAXCDN Consumer Secret"
+msgstr "MAXCDN Consumer Secret"
+
+#: includes/luv-framework/templates/tpl.checkbox.php:18
+msgid "Toggle All"
+msgstr "Összes váltása"
+
+#: includes/luv-framework/templates/tpl.export.php:3
+msgid "Export Settings"
+msgstr "Beállítások Exportálása"
+
+#: includes/luv-framework/templates/tpl.export.php:5
+msgid "You can export and download current settings here."
+msgstr "Itt exportálhatod és letöltheted az aktuális beállításokat."
+
+#: includes/luv-framework/templates/tpl.export.php:9
+msgid "Download"
+msgstr "Letöltés"
+
+#: includes/luv-framework/templates/tpl.header.php:3
+#: templates/critical-font.php:15 templates/whitelabel/critical-font.php:15
+msgid "Search"
+msgstr "Keresés"
+
+#: includes/luv-framework/templates/tpl.header.php:8
+#: modules/plugin-organizer/plugin-organizer.php:266
+msgid "Save changes"
+msgstr "Mentés"
+
+#: includes/luv-framework/templates/tpl.header.php:12
+#: includes/luv-framework/templates/tpl.header.php:26
+msgid "Reset Section"
+msgstr "Szekció visszaállítása"
+
+#: includes/luv-framework/templates/tpl.header.php:15
+#: includes/luv-framework/templates/tpl.header.php:33
+msgid "Reset All"
+msgstr "Minden visszaállítása"
+
+#: includes/luv-framework/templates/tpl.header.php:25
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+"Biztos vagy benne, hogy visszaállítod ezt a szekciót alaphelyzetbe? Ezzel "
+"minden beállításod elvész."
+
+#: includes/luv-framework/templates/tpl.header.php:32
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+"Biztos vagy benne, hogy mindent visszaállítassz alaphelyzetbe? Ezzel minden "
+"beállításod elvész."
+
+#: includes/luv-framework/templates/tpl.import.php:3
+#: includes/setup/templates/wizard-whitelabel.tpl.php:49
+#: includes/setup/templates/wizard-whitelabel.tpl.php:68
+#: includes/setup/templates/wizard.tpl.php:51
+#: includes/setup/templates/wizard.tpl.php:71
+msgid "Import Settings"
+msgstr "Importálás"
+
+#: includes/luv-framework/templates/tpl.import.php:5
+#: includes/setup/templates/wizard-whitelabel.tpl.php:70
+#: includes/setup/templates/wizard.tpl.php:73
+msgid "Upload previously exported configuration file."
+msgstr "Töltsd fel a korábban exportált konfigurációs fájlt."
+
+#: includes/luv-framework/templates/tpl.import.php:10
+#: includes/setup/templates/wizard-whitelabel.tpl.php:72
+#: includes/setup/templates/wizard.tpl.php:75
+msgid "Choose file"
+msgstr "Fájl kiválasztása"
+
+#: includes/luv-framework/templates/tpl.import.php:19
+#: includes/setup/templates/wizard-whitelabel.tpl.php:296
+#: includes/setup/templates/wizard.tpl.php:313
+msgid ""
+"Import configuration file will override current settings. Do you proceed?"
+msgstr ""
+"A konfigurációs fájl importálása felülírja az aktuális beállításokat. "
+"Folytatod?"
+
+#: includes/luv-framework/templates/tpl.import.php:21
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:80
+#: includes/setup/templates/deactivate.tpl.php:80
+#: includes/setup/templates/wizard-whitelabel.tpl.php:223
+#: includes/setup/templates/wizard-whitelabel.tpl.php:298
+#: includes/setup/templates/wizard.tpl.php:226
+#: includes/setup/templates/wizard.tpl.php:315
+#: modules/plugin-organizer/plugin-organizer.php:266
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: includes/luv-framework/templates/tpl.key-value.php:3
+#: includes/luv-framework/templates/tpl.key-value.php:31
+msgid "Key"
+msgstr "Kulcs"
+
+#: includes/luv-framework/templates/tpl.key-value.php:4
+#: includes/luv-framework/templates/tpl.key-value.php:32
+msgid "Value"
+msgstr "Érték"
+
+#: includes/luv-framework/templates/tpl.key-value.php:36
+#: includes/luv-framework/templates/tpl.multi-text.php:33
+msgid "Add more"
+msgstr "Hozzáadás"
+
+#: includes/luv-framework/templates/tpl.license.php:24
+msgid "Remove purchase key"
+msgstr "A licenc kulcs eltávolítása"
+
+#: includes/puc/Puc/v4/Plugin/UpdateChecker.php:358
+msgid "Check for updates"
+msgstr "Frissítések keresése"
+
+#: includes/puc/Puc/v4/Plugin/UpdateChecker.php:404
+msgid "This plugin is up to date."
+msgstr "Ez a bővítmény naprakész."
+
+#: includes/puc/Puc/v4/Plugin/UpdateChecker.php:406
+msgid "A new version of this plugin is available."
+msgstr "Ehhez a bővítményhez új verzió érhető el."
+
+#: includes/puc/Puc/v4/Plugin/UpdateChecker.php:408
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Ismeretlen frissítési ellenőrző állapot \"%s\""
+
+#: includes/puc/Puc/v4/Vcs/PluginUpdateChecker.php:83
+msgid "There is no changelog available."
+msgstr "Nem érhető el a changelog."
+
+#: includes/setup/setup.php:33
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: includes/setup/setup.php:34
+msgid "Modify"
+msgstr "Módosít"
+
+#: includes/setup/setup.php:35
+msgid "Please wait..."
+msgstr "Kérem várjon..."
+
+#: includes/setup/setup.php:36
+msgid "Test timed out"
+msgstr "Időtúllépés"
+
+#: includes/setup/setup.php:97
+msgid "Your session has been expired. Please refresh the page and try again."
+msgstr ""
+"A munkamenet lejárt, az oldal frissítését követően a műveletet meg kell "
+"ismételni."
+
+#: includes/setup/setup.php:112
+msgid "Purchase key has been saved."
+msgstr "Licenc kulcs elmentve"
+
+#: includes/setup/setup.php:127
+msgid "Cloudflare API has been set."
+msgstr "Cloudflare API sikeresen beállításra került."
+
+#: includes/setup/setup.php:184
+msgid "Purchase key is empty"
+msgstr "A lincenc kulcs üres"
+
+#: includes/setup/setup.php:224
+#, php-format
+msgid "%s detected. "
+msgstr "%s észlelve."
+
+#: includes/setup/setup.php:227
+msgid "Rewrites are working. "
+msgstr "Az rewrite-ok működnek"
+
+#: includes/setup/setup.php:227
+msgid "Rewrites are not working. "
+msgstr "Az rewrite-ok nem működnek"
+
+#: includes/setup/setup.php:233
+#, php-format
+msgid "Please enable %s Apache module for better optimization."
+msgid_plural ""
+"Please enable the following Apache modules for better optimization: %s."
+msgstr[0] "Kérjük, engedélyezze a(z) %s Apache modult a jobb optimalizáláshoz."
+msgstr[1] ""
+"Kérjük, engedélyezze következő Apache modulokat a jobb optimalizáláshoz: %s "
+
+#: includes/setup/setup.php:241
+msgid "Server software was not detected."
+msgstr "Ismeretlen szerver szoftver"
+
+#: includes/setup/setup.php:266
+msgid "Loopback is working"
+msgstr "Loopback működik"
+
+#: includes/setup/setup.php:271
+msgid "Loopback is disabled."
+msgstr "Loopback letiltva"
+
+#: includes/setup/setup.php:292
+msgid ""
+"Cloudflare cache was detected. Please set your API credentials on next "
+"screen."
+msgstr ""
+"Úgy tűnik Cloudflare cache-t használsz. Kérlek állítsd be az API "
+"hozzáféréseket a következő képernyőn."
+
+#: includes/setup/setup.php:301
+msgid "Varnish was detected"
+msgstr "Varnish észlelve"
+
+#: includes/setup/setup.php:305
+msgid "No Varnish or Cloudflare cache was detected."
+msgstr "Nem érzékeltünk Varnish vagy Cloudflare gyorsítótárat."
+
+#: includes/setup/setup.php:310
+msgid ""
+"Loopback is disabled, Swift can't check Varnish and reverse proxy. If you "
+"are using Cloudflare cache please set your API credentials on next screen."
+msgstr ""
+"A loopback le van tiltva, így a bővítmény nem tudja tesztelni, hogy "
+"használsz-e Varnish és Cloudflare-t. Amennyiben használsz Cloudflare-t add "
+"meg az API hozzáférést a következő képernyőn."
+
+#: includes/setup/setup.php:325
+msgid ""
+"Server level cache was detected. Please disable it to avoid cache conflicts."
+msgstr ""
+"Szerver szintű gyorsítótárat érzékeltünk. Kapcsold ki a gyorsítótár "
+"ütközések elkerülésének érdekében."
+
+#: includes/setup/setup.php:328
+msgid "WPEngine Cache was detected."
+msgstr "A WPEngine gyorsítótárat észleltünk."
+
+#: includes/setup/setup.php:332
+msgid "No Server level cache was detected."
+msgstr "Nem található a szerver szintű gyorsítótár."
+
+#: includes/setup/setup.php:337
+msgid "Loopback is disabled, Swift can't check Server level caching."
+msgstr ""
+"A loopback le van tiltva, a bővítmény nem tudja ellenőrizni a szerver szintű "
+"gyorsítótárazást."
+
+#: includes/setup/setup.php:371
+msgid "Safe mode is enabled. "
+msgstr "PHP Safe Mode Engedélyezve."
+
+#: includes/setup/setup.php:376
+msgid "set_time_limit is disabled. "
+msgstr "A set_time_limit le van tiltva."
+
+#: includes/setup/setup.php:381
+#, php-format
+msgid "Memory: %s. "
+msgstr "Memória:%s."
+
+#: includes/setup/setup.php:385
+msgid "Low memory environment detected. "
+msgstr "Alacsony memória környezetet észleltünk."
+
+#: includes/setup/setup.php:396
+#, php-format
+msgid "%s was deactivated. "
+msgid_plural "The following plugins were deactivated: %s. "
+msgstr[0] "A bővítmény %s sikereresen deaktiválásra került."
+msgstr[1] "Az következő bővítmények kerültek deaktiválásra: %s."
+
+#: includes/setup/setup.php:403
+msgid "No hard plugin conflict found. "
+msgstr "Nem található kritikus bővitmény-ütközés."
+
+#: includes/setup/setup.php:414
+msgid "WP Touch detected, caching for mobile is disabled. "
+msgstr "A WP Touch észlelve, a gyorsítótárazás a mobilhoz nem engedélyezett"
+
+#: includes/setup/setup.php:423
+msgid ""
+"Autoptimize detected, merge styles/scripts and minify HTML were disabled. "
+msgstr ""
+"Autoptimize észlelve, a stílusok/szkriptek egyesítése és a HTML tömörítése "
+"kikapcsolásra került."
+
+#: includes/setup/setup.php:441
+msgid "Running in background"
+msgstr "Futás a háttérben"
+
+#: includes/setup/setup.php:449
+msgid "Done."
+msgstr "Rendben."
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:14
+#: includes/setup/templates/deactivate.tpl.php:14
+#: includes/setup/templates/wizard-whitelabel.tpl.php:10
+#: includes/setup/templates/wizard.tpl.php:10
+#, php-format
+msgid "%s setup"
+msgstr "%s beállítások"
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:36
+#: includes/setup/templates/deactivate.tpl.php:36
+#, php-format
+msgid "Deactivate %s"
+msgstr "%s deaktiválása"
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:40
+#: includes/setup/templates/deactivate.tpl.php:40
+msgid "Keep Settings"
+msgstr "A beállítások megőrzése"
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:42
+#: includes/setup/templates/deactivate.tpl.php:42
+msgid ""
+"If you enable this option, the plugin will keep current settings in DB after "
+"deactivate the plugin."
+msgstr ""
+"Ha engedélyezed ezt az opciót, a bővítmény az inaktiválás után megőrzi az "
+"aktuális beállításokat az adatbázisban."
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:49
+#: includes/setup/templates/deactivate.tpl.php:49
+msgid "Keep Custom htaccess"
+msgstr "Egyedi Htaccess megtartása"
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:51
+#: includes/setup/templates/deactivate.tpl.php:51
+msgid ""
+"If you enable this option, the plugin will keep custom htaccess rules after "
+"deactivate the plugin."
+msgstr ""
+"Ha engedélyezed ezt az opciót, a bővítmény az egyedi htaccess szabályokat "
+"megtartja a deaktiválás után."
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:58
+#: includes/setup/templates/deactivate.tpl.php:58
+msgid "Keep Warmup Table"
+msgstr "Warmup Tábla megtartása"
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:60
+#: includes/setup/templates/deactivate.tpl.php:60
+msgid ""
+"If you enable this option, the plugin will keep Warmup Table in DB after "
+"deactivate the plugin."
+msgstr ""
+"Ha engedélyezed ezt az opciót, a bővítmény a Warmup Table-t megőrzi az "
+"adatbázisban a deaktiválás után."
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:66
+#: includes/setup/templates/deactivate.tpl.php:66
+msgid "Keep Image Optimizer Table"
+msgstr "Képoptimalizáló tábla megtartása"
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:68
+#: includes/setup/templates/deactivate.tpl.php:68
+msgid ""
+"If you enable this option, the plugin will keep Image Optimizer Table in DB "
+"after deactivate the plugin."
+msgstr ""
+"Ha engedélyezed ezt az opciót, a bővítmény megtartja az Képoptimlizáló "
+"táblát az adatbázisban a deaktiválás után."
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:74
+#: includes/setup/templates/deactivate.tpl.php:74
+msgid "Keep Logs"
+msgstr "Logok megtartása"
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:76
+#: includes/setup/templates/deactivate.tpl.php:76
+msgid ""
+"If you enable this option, the plugin will keep logs after deactivate the "
+"plugin."
+msgstr ""
+"Ha engedélyezi ezt az opciót, a bővítmény megőrzi a hibanaplókat a "
+"deaktiválást után."
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:79
+#: includes/setup/templates/deactivate.tpl.php:79 performance.php:381
+msgid "Deactivate"
+msgstr "Kikapcsolás"
+
+#: includes/setup/templates/deactivate-whitelabel.tpl.php:85
+#: includes/setup/templates/deactivate.tpl.php:85
+#: includes/setup/templates/wizard-whitelabel.tpl.php:290
+#: includes/setup/templates/wizard.tpl.php:307
+msgid "Back to Dashboard"
+msgstr "Vezérlőpult"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:29
+#: includes/setup/templates/wizard-whitelabel.tpl.php:40
+#, php-format
+msgid "%s Setup Wizard"
+msgstr "%s Telepítővarázsló"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:31
+msgid "Enter Purchase Key"
+msgstr "Licenc kulcs"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:34
+#: includes/setup/templates/wizard-whitelabel.tpl.php:271
+#: includes/setup/templates/wizard.tpl.php:36
+#: includes/setup/templates/wizard.tpl.php:274
+#: modules/db-optimizer/db-optimizer.php:62
+msgid "Save"
+msgstr "Mentés"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:35
+#: includes/setup/templates/wizard-whitelabel.tpl.php:272
+#: includes/setup/templates/wizard.tpl.php:37
+#: includes/setup/templates/wizard.tpl.php:275
+msgid "Skip"
+msgstr "Kihagyás"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:44
+#: includes/setup/templates/wizard.tpl.php:46
+msgid "Manual Configuration"
+msgstr "Manuális Konfiguráció"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:54
+#: includes/setup/templates/wizard-whitelabel.tpl.php:83
+#: includes/setup/templates/wizard-whitelabel.tpl.php:98
+#: includes/setup/templates/wizard-whitelabel.tpl.php:118
+#: includes/setup/templates/wizard-whitelabel.tpl.php:141
+#: includes/setup/templates/wizard-whitelabel.tpl.php:165
+#: includes/setup/templates/wizard-whitelabel.tpl.php:194
+#: includes/setup/templates/wizard.tpl.php:56
+#: includes/setup/templates/wizard.tpl.php:86
+#: includes/setup/templates/wizard.tpl.php:101
+#: includes/setup/templates/wizard.tpl.php:121
+#: includes/setup/templates/wizard.tpl.php:144
+#: includes/setup/templates/wizard.tpl.php:168
+#: includes/setup/templates/wizard.tpl.php:197
+msgid "Use Preset"
+msgstr "Preset használata"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:59
+#: includes/setup/templates/wizard.tpl.php:61
+#: includes/setup/templates/wizard.tpl.php:207
+msgid "Autoconfig"
+msgstr "Autoconfig"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:67
+#: includes/setup/templates/wizard-whitelabel.tpl.php:82
+#: includes/setup/templates/wizard.tpl.php:69
+#: includes/setup/templates/wizard.tpl.php:85
+msgid "Back"
+msgstr "Vissza"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:88
+#: includes/setup/templates/wizard.tpl.php:91
+msgid "Simple Caching"
+msgstr "Egyszerű Gyorsítótárazás"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:90
+#: includes/setup/templates/wizard.tpl.php:93
+msgid ""
+"Disk caching + PHP (timebased) with basic improvements. High compatibility, "
+"limited optimization."
+msgstr ""
+"Lemez-gyorsítótár + PHP (idő alapú) alap beállításokkal. Magas "
+"kompatibilitás, visszafogott optimalizálás."
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:94
+#: includes/setup/templates/wizard-whitelabel.tpl.php:111
+#: includes/setup/templates/wizard-whitelabel.tpl.php:132
+#: includes/setup/templates/wizard-whitelabel.tpl.php:155
+#: includes/setup/templates/wizard-whitelabel.tpl.php:179
+#: includes/setup/templates/wizard.tpl.php:97
+#: includes/setup/templates/wizard.tpl.php:114
+#: includes/setup/templates/wizard.tpl.php:135
+#: includes/setup/templates/wizard.tpl.php:158
+#: includes/setup/templates/wizard.tpl.php:182
+msgid "DNS Prefetch"
+msgstr "DNS előtöltés"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:105
+#: includes/setup/templates/wizard.tpl.php:108
+msgid "Limited Hosting"
+msgstr "Osztott Tárhely"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:107
+#: includes/setup/templates/wizard.tpl.php:110
+msgid ""
+"Disk caching + PHP (timebased) with basic improvements and basic "
+"optimization. It is ideal for limited shared hosting or very small VPS."
+msgstr ""
+"Lemez-gyorsítótár + PHP (idő alapú) alapvető beállításokkal és alapvető "
+"optimalizálással. Ideális megosztott tárhelyhez (shared hosting) vagy nagyon "
+"kicsi VPS-hez."
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:114
+#: includes/setup/templates/wizard-whitelabel.tpl.php:135
+#: includes/setup/templates/wizard-whitelabel.tpl.php:158
+#: includes/setup/templates/wizard.tpl.php:117
+#: includes/setup/templates/wizard.tpl.php:138
+#: includes/setup/templates/wizard.tpl.php:161
+msgid "Basic CSS Minification"
+msgstr "Alap CSS Tömörítés"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:125
+#: includes/setup/templates/wizard.tpl.php:128
+msgid "Moderate Optimization"
+msgstr "Mérsékelt Optimalizálás"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:127
+#: includes/setup/templates/wizard.tpl.php:130
+msgid ""
+"Disk caching + rewrites (timebased), basic CSS/JS optimization + Critical "
+"CSS. Good compatibility, improved optimization."
+msgstr ""
+"A lemez-gyorsítótárazás + rewrites (idő alapú), alap CSS/JS optimalizálás + "
+"Critical CSS. Jó kompatibilitás, komolyabb optimalizálás."
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:130
+#: includes/setup/templates/wizard-whitelabel.tpl.php:153
+#: includes/setup/templates/wizard-whitelabel.tpl.php:177
+#: includes/setup/templates/wizard.tpl.php:133
+#: includes/setup/templates/wizard.tpl.php:156
+#: includes/setup/templates/wizard.tpl.php:180
+msgid "Prebuild Cache"
+msgstr "Cache Előtöltés"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:137
+#: includes/setup/templates/wizard-whitelabel.tpl.php:160
+#: includes/setup/templates/wizard-whitelabel.tpl.php:184
+#: includes/setup/templates/wizard.tpl.php:140
+#: includes/setup/templates/wizard.tpl.php:163
+#: includes/setup/templates/wizard.tpl.php:187
+msgid "Critical CSS"
+msgstr "Critical CSS"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:138
+#: includes/setup/templates/wizard-whitelabel.tpl.php:161
+#: includes/setup/templates/wizard-whitelabel.tpl.php:185
+#: includes/setup/templates/wizard.tpl.php:141
+#: includes/setup/templates/wizard.tpl.php:164
+#: includes/setup/templates/wizard.tpl.php:188
+msgid "Merge JS"
+msgstr "Szkriptek Összevonása"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:148
+#: includes/setup/templates/wizard.tpl.php:151
+msgid "Improved Optimization"
+msgstr "Jól Optimalizált"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:150
+#: includes/setup/templates/wizard.tpl.php:153
+msgid ""
+"Disk caching + rewrites (timebased), CSS/JS optimization + Critical CSS and "
+"lazyload for images. Good compatibility, well optimized."
+msgstr ""
+"A lemez-gyorsítótárazás + rewrites (idő alapú), CSS/JS optimalizálás + "
+"Critical CSS és lazyload a kékephez. Jó kompatibilitás, jól optimalizált."
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:162
+#: includes/setup/templates/wizard-whitelabel.tpl.php:186
+#: includes/setup/templates/wizard.tpl.php:165
+#: includes/setup/templates/wizard.tpl.php:189
+msgid "Lazyload for Images"
+msgstr "Kép Lazyload"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:172
+#: includes/setup/templates/wizard.tpl.php:175
+msgid "Maximum Optimization"
+msgstr "Maximális Optimalizálás"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:174
+#: includes/setup/templates/wizard.tpl.php:177
+msgid ""
+"Disk caching + rewrites (timebased), CSS/JS optimization + Critical CSS and "
+"lazyload for images. Good compatibility, improved optimization."
+msgstr ""
+"A lemez-gyorsítótárazás + rewrites (idő alapú), CSS/JS optimalizálás + "
+"Critical CSS és lazyload a kékephez. Jó kompatibilitás, magasabb szintű "
+"optimalizáció."
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:176
+#: includes/setup/templates/wizard.tpl.php:179
+msgid "Disk Caching"
+msgstr "Lemez-gyorsítótárazás"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:182
+#: includes/setup/templates/wizard.tpl.php:185
+msgid "Full CSS Minification"
+msgstr "Teljes CSS Tömörítés"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:187
+#: includes/setup/templates/wizard.tpl.php:190
+msgid "Async Execute for JS"
+msgstr "Aszinkron JS Futtatás"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:188
+#: includes/setup/templates/wizard.tpl.php:191
+msgid "Server Push"
+msgstr "Server Push"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:190
+#: includes/setup/templates/wizard.tpl.php:193
+msgid "Cache Empty Minicart for WooCommerce"
+msgstr "Minicart Gyorsítótárazás WooCommerce-hez"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:204
+msgid "Auto-configuration"
+msgstr "Automatikus konfiguráció"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:206
+#: includes/setup/templates/wizard.tpl.php:209
+msgid ""
+"Please note, that if you run the wizard it will reset current settings to "
+"the default!"
+msgstr "A varázsló a jelenlegi beállításokat alaphelyzetbe állítja!"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:212
+#: includes/setup/templates/wizard.tpl.php:215
+#, php-format
+msgid "<strong>%s</strong> will be deactivated during the setup."
+msgid_plural ""
+"The following plugins will be deactivated during the setup: <strong>%s</"
+"strong>"
+msgstr[0] "<strong>%s</strong> kikapcsolásra kerül a telepítés során"
+msgstr[1] ""
+"A következő bővítmények kikapcsolásra kerülnek a telepítés során: <strong>"
+"%s</strong>"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:222
+#: includes/setup/templates/wizard.tpl.php:225
+msgid "Start"
+msgstr "Indítás"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:228
+#: includes/setup/templates/wizard.tpl.php:231
+msgid "Reset settings"
+msgstr "Alapértelmezett beállítások visszaállítása"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:229
+#: includes/setup/templates/wizard.tpl.php:232
+msgid "Timeout test"
+msgstr "Timeout teszt"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:230
+#: includes/setup/templates/wizard.tpl.php:233
+msgid "Check Max Connections"
+msgstr "Kapcsolatok maximális száma"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:231
+#: includes/setup/templates/wizard.tpl.php:234
+msgid "API connection"
+msgstr "API Kapcsolat"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:232
+#: includes/setup/templates/wizard.tpl.php:235
+msgid "Webserver & Rewrites"
+msgstr "Webserver & Rewrite"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:233
+#: includes/setup/templates/wizard.tpl.php:236
+msgid "Loopback"
+msgstr "Loopback"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:234
+#: includes/setup/templates/wizard.tpl.php:237
+msgid "Detect Varnish & Cloudflare cache"
+msgstr "Varnish & Cloudflare ellenőrzése"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:235
+#: includes/setup/templates/wizard.tpl.php:238
+msgid "Detect Server Level Caching"
+msgstr "Szerver-szintű gyorsítótárazás ellenőrzése"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:236
+#: includes/setup/templates/wizard.tpl.php:239
+msgid "PHP settings"
+msgstr "PHP-beállítások"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:237
+#: includes/setup/templates/wizard.tpl.php:240
+msgid "Detect 3rd party plugins"
+msgstr "Bővítmények ellenőrzése"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:238
+#: includes/setup/templates/wizard.tpl.php:241
+msgid "Configure cache"
+msgstr "Gyorsítótár konfigurálása"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:241
+#: includes/setup/templates/wizard.tpl.php:244
+msgid "Next"
+msgstr "Tovább"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:254
+#: includes/setup/templates/wizard.tpl.php:257
+msgid ""
+"If you enable this option the plugin will purge the cache on Cloudflare as "
+"well when it clears plugin cache. It is recommended to enable this option if "
+"you are using Cloudflare with caching."
+msgstr ""
+"Ha engedélyezed ezt a lehetőséget a bővítmény törli a Cloudflare "
+"gyorsítótárat amikor a bővítmény gyorsítótár törlésre kerül. Ajánlott "
+"aktiválni, ha használod a Cloudflare gyorsítótárat."
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:261
+#: includes/setup/templates/wizard.tpl.php:264
+msgid ""
+"Your e-mail address which related to the Cloudflare account what you are "
+"using for the site."
+msgstr "A Cloudflare-hez használt e-mail címed."
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:268
+#: includes/setup/templates/wizard.tpl.php:271
+#, php-format
+msgid "  The generated API key for your Cloudflare account. %sGlobal API key%s"
+msgstr "A Cloudflare-hez generált API kulcs. %sGlobális API kulcs%s"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:277
+#: includes/setup/templates/wizard.tpl.php:282
+msgid "Your website is ready!"
+msgstr "A beállítás kész!"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:281
+#: includes/setup/templates/wizard.tpl.php:288
+msgid "Optimize images"
+msgstr "Képoptimalizálás"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:283
+#: includes/setup/templates/wizard.tpl.php:290
+#, php-format
+msgid "%s Settings"
+msgstr "%s Beállítások"
+
+#: includes/setup/templates/wizard-whitelabel.tpl.php:284
+#: includes/setup/templates/wizard.tpl.php:291
+#, php-format
+msgid "%s Dashboard"
+msgstr "%s Vezérlőpult"
+
+#: includes/setup/templates/wizard.tpl.php:32
+msgid "Set purchase key"
+msgstr "Licenc kulcs"
+
+#: includes/setup/templates/wizard.tpl.php:42
+msgid "Setup"
+msgstr "Telepítés"
+
+#: includes/setup/templates/wizard.tpl.php:280
+msgid "YAY!"
+msgstr "Éljen!"
+
+#: includes/setup/templates/wizard.tpl.php:284
+msgid ""
+"You can check advanced settings also to improve your results.<br> If you "
+"need any help, check the <a href=\"https://swiftperformance.io/faq/\" target="
+"\"_blank\">FAQ</a>, <a href=\"https://swiftperformance.io/documentation/\" "
+"target=\"_blank\">Knowledge Base</a>, <a href=\"https://swiftperformance.io/"
+"my-account/support/\" target=\"_blank\">Open a support ticket</a>, or join "
+"to the <a href=\"https://www.facebook.com/groups/SwiftPerformanceUsers/\" "
+"target=\"_blank\">Facebook Community!</a>"
+msgstr ""
+"Tovább finomhangolhatod a beállításokat a maximális eredmény elérésének "
+"érdekében. <br> Ha segítségre van szükséged, nézd meg a <a href=\"https://"
+"swiftperformance.io/faq/\" target=\"_blank\">Gyakran Ismételt Kérdéseket</"
+"a>, a <a href=\"https://swiftperformance.io/documentation/\" target=\"_blank"
+"\">Tudásbázist</a>, <a href=\"https://swiftperformance.io/my-account/support/"
+"\" target=\"_blank\">nyiss egy hibajegyet</a>, vagy csatlakozz a <a href="
+"\"https://www.facebook.com/swiftperformancehungary/\" target=\"_blank"
+"\">Facebook közösséghez!</a>"
+
+#: includes/setup/templates/wizard.tpl.php:293
+msgid "What's next?"
+msgstr "Mi a következő lépések"
+
+#: includes/setup/templates/wizard.tpl.php:297
+msgid "Join to the Facebook Community"
+msgstr "Csatlakozz a Facebook közösséghez"
+
+#: includes/setup/templates/wizard.tpl.php:298
+msgid "Follow us on Facebook"
+msgstr "Kövess minket Facebookon"
+
+#: includes/setup/templates/wizard.tpl.php:299
+msgid "Follow us on Twitter"
+msgstr "Kövess minket Twitteren"
+
+#: modules/asset-manager/templates/meta-box.tpl.php:7
+#: modules/asset-manager/templates/meta-box.tpl.php:13
+#: modules/asset-manager/templates/meta-box.tpl.php:25
+#: modules/asset-manager/templates/meta-box.tpl.php:32
+msgid "Remove"
+msgstr "Törlés"
+
+#: modules/asset-manager/templates/meta-box.tpl.php:16
+#: modules/asset-manager/templates/meta-box.tpl.php:35
+msgid "Add More"
+msgstr "Hozzáadás"
+
+#: modules/asset-manager/templates/meta-box.tpl.php:39
+msgid "There is no available option for this page"
+msgstr "Nincs elérhető opció ehhez az oldalhoz"
+
+#: modules/cache/cache.php:124 modules/cache/cache.php:133
+msgid "A plugin has been activated. Page cache should be cleared."
+msgstr ""
+"Egy bővítmény aktiválásra került. Az oldal gyorsítótárát érdemes lehet "
+"kiüríteni."
+
+#: modules/cache/cache.php:141
+msgid ""
+"Updater process has been finished. Page cache probably should be cleared."
+msgstr ""
+"Egy frissítés sikeresen befejezésre került. Az oldal gyorsítótárát érdemes "
+"lehet kiüríteni."
+
+#: modules/cdn/cdn-manager.php:120
+msgid "No zones were found"
+msgstr "Nem találhatóak zónák"
+
+#: modules/cdn/cdn-manager.php:126
+#, php-format
+msgid "Purge Cache: Zone Purged [id: %s]"
+msgstr "Gyorsítótár Ürítése: Zóna Ürítésre került [id: %s]"
+
+#: modules/cdn/cdn-manager.php:132
+#, php-format
+msgid "Purge Cache: Unknown error[id: %s]"
+msgstr "Gyorsítótár Ürítése: Ismeretlen hiba [id: %s]"
+
+#: modules/critical-font/critical-font.php:65
+msgid "Please select at least one icon."
+msgstr "Kérjük, válassz legalább egy ikont."
+
+#: modules/critical-font/critical-font.php:97
+#, php-format
+msgid "%s is not writable. Please change permissions."
+msgstr "%s nem írható. Kérjük, módosítsd az engedélyeket."
+
+#: modules/critical-font/critical-font.php:129
+msgid "API error"
+msgstr "API hiba"
+
+#: modules/critical-font/critical-font.php:154
+msgid "Critical font enqueued"
+msgstr "Critical Font bekapcsolva"
+
+#: modules/critical-font/critical-font.php:155 templates/critical-font.php:8
+#: templates/whitelabel/critical-font.php:8
+msgid "Enqueued"
+msgstr "Bekapcsolva"
+
+#: modules/critical-font/critical-font.php:164
+#, php-format
+msgid "Critical Font API call failed: %s"
+msgstr "Critical Font API-hívása sikertelen: %s"
+
+#: modules/critical-font/critical-font.php:202
+msgid "Critical font dequeued"
+msgstr "Critical Font kikapcsolva"
+
+#: modules/critical-font/critical-font.php:203
+msgid "Dequeued"
+msgstr "Kikapcsolva"
+
+#: modules/db-optimizer/db-optimizer.php:59
+msgid "Weekly"
+msgstr "Hetente"
+
+#: modules/db-optimizer/db-optimizer.php:60
+msgid "Biweekly"
+msgstr "Kéthetente"
+
+#: modules/db-optimizer/db-optimizer.php:61
+msgid "Monthly"
+msgstr "Havonta"
+
+#: modules/db-optimizer/db-optimizer.php:62 templates/db-optimizer.php:31
+#: templates/whitelabel/db-optimizer.php:33
+msgid "Clear"
+msgstr "Törlés"
+
+#: modules/db-optimizer/db-optimizer.php:82
+#, php-format
+msgid "%d tables optimized"
+msgstr "%d tábla optimalizálva"
+
+#: modules/db-optimizer/db-optimizer.php:86
+#, php-format
+msgid "%d tables reindexed"
+msgstr "%d tábla újraindexelve"
+
+#: modules/image-optimizer/image-optimizer.php:90
+msgid "Preparing..."
+msgstr "Előkészítés..."
+
+#: modules/image-optimizer/image-optimizer.php:91
+msgid "Done"
+msgstr "Kész"
+
+#: modules/image-optimizer/image-optimizer.php:92
+msgid "Restart"
+msgstr "Újraindítás"
+
+#: modules/image-optimizer/image-optimizer.php:93
+msgid "Running"
+msgstr "Folyamatban"
+
+#: modules/image-optimizer/image-optimizer.php:94
+msgid "Progress:"
+msgstr "Folyamat:"
+
+#: modules/image-optimizer/image-optimizer.php:95
+msgid "Compression ratio:"
+msgstr "Tömörítési arány:"
+
+#: modules/image-optimizer/image-optimizer.php:96
+msgid "All of your images are already optimized"
+msgstr "Összes kép optimalizálásra került"
+
+#: modules/image-optimizer/image-table.php:17
+#: modules/image-optimizer/image-table.php:18
+msgid "Size"
+msgstr "Méret"
+
+#: modules/image-optimizer/image-table.php:94
+msgid "Not Writable"
+msgstr "Nem írható"
+
+#: modules/image-optimizer/image-table.php:100
+msgid "Too Large"
+msgstr "Túl Nagy"
+
+#: modules/image-optimizer/image-table.php:104
+#: modules/image-optimizer/templates/table-nav.php:8
+msgid "Optimized"
+msgstr "Optimalizált"
+
+#: modules/image-optimizer/image-table.php:105
+#: modules/image-optimizer/templates/table-nav.php:9
+msgid "Not Optimized"
+msgstr "Nincs Optimalizálva"
+
+#: modules/image-optimizer/image-table.php:106
+#: modules/image-optimizer/templates/table-nav.php:11
+msgid "Excluded"
+msgstr "Kizárva"
+
+#: modules/image-optimizer/image-table.php:107
+#: modules/image-optimizer/templates/table-nav.php:10
+msgid "Queued"
+msgstr "Sorban áll"
+
+#: modules/image-optimizer/image-table.php:154
+#, php-format
+msgid "(Original: %s)"
+msgstr "(Eredeti: %s)"
+
+#: modules/image-optimizer/image-table.php:160
+msgid "WebP available"
+msgstr "WebP elérhető"
+
+#: modules/image-optimizer/image-table.php:200
+msgid "Exclude"
+msgstr "Kihagyás"
+
+#: modules/image-optimizer/image-table.php:201
+msgid "Include"
+msgstr "Hozzáadás"
+
+#: modules/image-optimizer/image-table.php:202
+msgid "Optimize"
+msgstr "Optimalizálás"
+
+#: modules/image-optimizer/image-table.php:203
+msgid "Remove Original"
+msgstr "Eredeti Törlése"
+
+#: modules/image-optimizer/image-table.php:204
+msgid "Restore Original"
+msgstr "Eredeti Visszaállítása"
+
+#: modules/image-optimizer/image-table.php:251
+msgid "Show more details"
+msgstr "Részletek megjelenítése"
+
+#: modules/image-optimizer/image-table.php:276
+msgid "Scanning images..."
+msgstr "Képek keresése..."
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:13
+msgid "Statistics"
+msgstr "Statisztika"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:27
+msgid "Original size"
+msgstr "Eredeti méret"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:40
+msgid "Current size"
+msgstr "Aktuális méret"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:57
+msgid "Queued Images"
+msgstr "Sorban álló képek"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:62
+msgid "Optimized Images"
+msgstr "Optimalizált képek"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:67
+msgid "Saved"
+msgstr "Megtakarítás"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:70
+msgid "Clear queue"
+msgstr "Sor ürítése"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:80
+msgid "Scan Images"
+msgstr "Szkennelés"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:81
+msgid "Optimize Images"
+msgstr "Optimalizálás"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:82
+msgid "Restore Original Images"
+msgstr "Eredetik visszaállítása"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:83
+msgid "Delete Original Images"
+msgstr "Eredetik törlése"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:88
+msgid "Coverflow can show maximum 1000 images"
+msgstr "A Coverflow legfeljebb 1000 képet képes megjeleníteni"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:89
+msgid "images selected"
+msgstr "képek kiválasztva"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:89
+msgid "Clear All"
+msgstr "Összes Törlése"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:104
+msgid "Optimizer Settings"
+msgstr "Beállítások"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:149
+msgid "Close"
+msgstr "Bezárás"
+
+#: modules/image-optimizer/templates/dashboard.tpl.php:149
+msgid "Use Global Settings"
+msgstr "Globális Beállítások Használata"
+
+#: modules/image-optimizer/templates/modal.tpl.php:8
+msgid "Image details"
+msgstr "Kép részletei"
+
+#: modules/image-optimizer/templates/modal.tpl.php:20
+msgid "Show optimized"
+msgstr "Optimalizált"
+
+#: modules/image-optimizer/templates/modal.tpl.php:20
+msgid "Show original"
+msgstr "Eredeti"
+
+#: modules/image-optimizer/templates/modal.tpl.php:27
+msgid "File name:"
+msgstr "Fájl név:"
+
+#: modules/image-optimizer/templates/modal.tpl.php:28
+msgid "Original size:"
+msgstr "Eredeti méret:"
+
+#: modules/image-optimizer/templates/modal.tpl.php:30
+msgid "Optimized size:"
+msgstr "Optimalizált méret:"
+
+#: modules/image-optimizer/templates/modal.tpl.php:31
+msgid "Quality:"
+msgstr "Minőség:"
+
+#: modules/image-optimizer/templates/modal.tpl.php:33
+msgid "WebP:"
+msgstr "WebP:"
+
+#: modules/image-optimizer/templates/modal.tpl.php:33
+msgid "generated"
+msgstr "elérhető"
+
+#: modules/image-optimizer/templates/modal.tpl.php:33
+msgid "no"
+msgstr "nem"
+
+#: modules/image-optimizer/templates/modal.tpl.php:34
+msgid "Dimensions:"
+msgstr "Méretek:"
+
+#: modules/image-optimizer/templates/table-nav.php:16
+msgid "Search:"
+msgstr "Keresés:"
+
+#: modules/image-optimizer/templates/table-nav.php:20
+msgid "Select All"
+msgstr "Összes kiválasztása"
+
+#: modules/plugin-organizer/plugin-organizer.php:284
+msgid "Frontpage"
+msgstr "Főoldal"
+
+#: modules/plugin-organizer/plugin-organizer.php:287
+msgid "Frontend"
+msgstr "Frontend"
+
+#: modules/plugin-organizer/plugin-organizer.php:290
+msgid "URL Match"
+msgstr "URL-egyezés"
+
+#: modules/plugin-organizer/plugin-organizer.php:293
+msgid "Admin pages"
+msgstr "Admin oldalak"
+
+#: modules/plugin-organizer/plugin-organizer.php:296
+msgid "All AJAX request"
+msgstr "Minden AJAX kérés"
+
+#: modules/plugin-organizer/plugin-organizer.php:299
+msgid "AJAX Action"
+msgstr "AJAX művelet"
+
+#: modules/plugin-organizer/plugin-organizer.php:302
+msgid "User Role"
+msgstr "Felhasználói szerepkör"
+
+#: modules/plugin-organizer/plugin-organizer.php:305
+msgid "Query String"
+msgstr "Query String"
+
+#: modules/plugin-organizer/plugin-organizer.php:308
+msgid "Cookie"
+msgstr "Süti"
+
+#: modules/plugin-organizer/plugin-organizer.php:311
+msgid "Desktop"
+msgstr "Asztali eszköz"
+
+#: modules/plugin-organizer/plugin-organizer.php:314
+msgid "Mobile"
+msgstr "Mobil eszköz"
+
+#: modules/plugin-organizer/plugin-organizer.php:329
+msgid "Posts/Pages List Table"
+msgstr "Bejegyzések/Oldalak"
+
+#: modules/plugin-organizer/plugin-organizer.php:330
+msgid "Posts/Pages Editor"
+msgstr "Bejegyzések/Oldalak Szerkesztő"
+
+#: modules/plugin-organizer/plugin-organizer.php:383
+msgid "Not logged in"
+msgstr "Nem bejelentkezett felhasználók"
+
+#: modules/plugin-organizer/plugin-organizer.php:384
+msgid "Logged in"
+msgstr "Bejelentkezett felhasználók"
+
+#. Plugin Name of the plugin/theme
+#: performance.php:100
+msgid "Swift Performance"
+msgstr "Swift Performance"
+
+#: performance.php:259
+#, php-format
+msgid "%s Cache Expiry"
+msgstr "%s Gyorsítótár Lejárata"
+
+#: performance.php:265
+#, php-format
+msgid "%s Assets Cache Expiry"
+msgstr "%s Gyorsítótár Lejárata"
+
+#: performance.php:486
+msgid "Do you want to clear all logs?"
+msgstr "Valóban törölni szeretnéd a hibanaplót?"
+
+#: performance.php:487
+msgid "Do you want to reset prebuild links?"
+msgstr "Valóban szeretnéd visszaállítani az előtöltési linkeket?"
+
+#: performance.php:488
+msgid "Not set"
+msgstr "Nincs beállítva"
+
+#: performance.php:489
+msgid "Settings were changed. Would you like to clear all cache?"
+msgstr "Bizonyos beállítások megváltoztak. Törlöd a gyorsítótárat?"
+
+#: performance.php:989
+#, php-format
+msgid " and ( %d more)"
+msgstr "és (%d további)"
+
+#: performance.php:1053
+msgid "DB Optimizer"
+msgstr "DB optimalizáló"
+
+#: performance.php:1059 performance.php:2284
+msgid "Plugin Organizer"
+msgstr "Bővítmény Rendszerező"
+
+#: performance.php:1066 templates/dashboard.php:44
+#: templates/whitelabel/dashboard.php:44
+msgid "Clear All Cache"
+msgstr "Gyorsítótár törlése"
+
+#: performance.php:1074 performance.php:1126
+msgid "Clear Page Cache"
+msgstr "Oldal Gyorsítótár Törlése"
+
+#: performance.php:1080 performance.php:1131
+msgid "View Cached"
+msgstr "Gyorsítótárazott Nézet"
+
+#: performance.php:1089
+msgid "Clear Assets Cache"
+msgstr "Eszköz Gyorsítótár Törlése"
+
+#: performance.php:1097
+msgid "Purge CDN (All zones)"
+msgstr "CDN Törlése (minden zóna)"
+
+#: performance.php:1113 templates/dashboard.php:31
+#: templates/whitelabel/dashboard.php:31
+msgid "Setup Wizard"
+msgstr "Telepítővarázsló"
+
+#: performance.php:1379 performance.php:1392 performance.php:1416
+msgid "Advanced Cache Control doesn't supported on your server"
+msgstr "Az Advanced Cache Control nem támogatott a szerveren"
+
+#: performance.php:1404
+msgid "Rewrite mode isn't supported on your server"
+msgstr "Rewrite mód nem támogatott a szerveren"
+
+#: performance.php:2282
+msgid "Database Optimizer"
+msgstr "Adatbázis Optimalizáló"
+
+#: performance.php:2283
+msgid "Critical Font"
+msgstr "Critical Font"
+
+#: templates/clear-cache-notice.php:3
+#: templates/whitelabel/clear-cache-notice.php:3
+msgid "Clear all cache"
+msgstr "Gyorsítótár ürítése"
+
+#: templates/critical-font.php:3 templates/whitelabel/critical-font.php:3
+msgid "Critical Font option needs a valid API key."
+msgstr "A Critical Font-hoz érvényes API kulcs szükséges."
+
+#: templates/critical-font.php:7 templates/whitelabel/critical-font.php:7
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: templates/critical-font.php:8 templates/whitelabel/critical-font.php:8
+msgid "Not enqueued"
+msgstr "Kikapcsolva"
+
+#: templates/critical-font.php:10 templates/whitelabel/critical-font.php:10
+msgid "Update Critical Font"
+msgstr "Critical Font Frissítése"
+
+#: templates/critical-font.php:10 templates/whitelabel/critical-font.php:10
+msgid "Enqueue Critical Font"
+msgstr "Critical Font bekapcsolása"
+
+#: templates/critical-font.php:11 templates/whitelabel/critical-font.php:11
+msgid "Dequeue Critical Font"
+msgstr "Critical Font kikapcsolása"
+
+#: templates/critical-font.php:12 templates/whitelabel/critical-font.php:12
+msgid "Scan used icons"
+msgstr "Használt ikonok keresése"
+
+#: templates/critical-font.php:16 templates/db-optimizer.php:68
+#: templates/db-optimizer.php:79 templates/db-optimizer.php:90
+#: templates/db-optimizer.php:101 templates/db-optimizer.php:112
+#: templates/db-optimizer.php:130 templates/db-optimizer.php:141
+#: templates/db-optimizer.php:152 templates/db-optimizer.php:163
+#: templates/db-optimizer.php:184 templates/db-optimizer.php:195
+#: templates/db-optimizer.php:206 templates/whitelabel/critical-font.php:16
+#: templates/whitelabel/db-optimizer.php:70
+#: templates/whitelabel/db-optimizer.php:81
+#: templates/whitelabel/db-optimizer.php:92
+#: templates/whitelabel/db-optimizer.php:103
+#: templates/whitelabel/db-optimizer.php:114
+#: templates/whitelabel/db-optimizer.php:132
+#: templates/whitelabel/db-optimizer.php:143
+#: templates/whitelabel/db-optimizer.php:154
+#: templates/whitelabel/db-optimizer.php:165
+#: templates/whitelabel/db-optimizer.php:186
+#: templates/whitelabel/db-optimizer.php:197
+#: templates/whitelabel/db-optimizer.php:208
+msgid "Clear all"
+msgstr "Összes törlése"
+
+#: templates/dashboard.php:26 templates/dashboard.php:189
+#: templates/whitelabel/dashboard.php:26 templates/whitelabel/dashboard.php:181
+msgid "Actions"
+msgstr "Lehetőségek"
+
+#: templates/dashboard.php:29 templates/whitelabel/dashboard.php:29
+msgid "Show Rewrite Rules"
+msgstr "Rewrite Rule-ok megtekintése"
+
+#: templates/dashboard.php:32 templates/whitelabel/dashboard.php:32
+msgid "Show Log"
+msgstr "Napló megjelenítése"
+
+#: templates/dashboard.php:32 templates/whitelabel/dashboard.php:32
+msgid "Clear Log"
+msgstr "Napló törlése"
+
+#: templates/dashboard.php:36 templates/whitelabel/dashboard.php:36
+msgid "Enable Developer Mode"
+msgstr "Fejlesztői Mód Engedélyezése"
+
+#: templates/dashboard.php:37 templates/whitelabel/dashboard.php:37
+msgid "Disable Developer Mode"
+msgstr "Fejlesztői Mód Kikapcsolása"
+
+#: templates/dashboard.php:47 templates/whitelabel/dashboard.php:47
+msgid "Clear Ajax Cache"
+msgstr "AJAX Gyorsítótár Törlése"
+
+#: templates/dashboard.php:50 templates/whitelabel/dashboard.php:50
+msgid "Clear Dynamic Cache"
+msgstr "Dinamikus Cache Törlése"
+
+#: templates/dashboard.php:54 templates/whitelabel/dashboard.php:54
+msgid "3rd party caching was detected, these options may won't work properly."
+msgstr ""
+"Szerver szintű gyorsítótárazást észleltünk, az alábbi funkciók esetleg nem "
+"fognak megfelelően működni"
+
+#: templates/dashboard.php:61 templates/whitelabel/dashboard.php:61
+msgid "Informations"
+msgstr "Információk"
+
+#: templates/dashboard.php:65 templates/whitelabel/dashboard.php:65
+msgid "API Connection"
+msgstr "API Kapcsolat"
+
+#: templates/dashboard.php:67 templates/db-optimizer.php:51
+#: templates/whitelabel/dashboard.php:67
+#: templates/whitelabel/db-optimizer.php:53
+msgid "OK"
+msgstr "OK"
+
+#: templates/dashboard.php:69 templates/whitelabel/dashboard.php:69
+msgid "FAIL"
+msgstr "HIBA"
+
+#: templates/dashboard.php:73 templates/whitelabel/dashboard.php:73
+msgid "Current Version"
+msgstr "Jelenlegi Verzió"
+
+#: templates/dashboard.php:78 templates/whitelabel/dashboard.php:78
+msgid "Latest Version"
+msgstr "Legújabb Verzió"
+
+#: templates/dashboard.php:83 templates/whitelabel/dashboard.php:83
+msgid "Timeout"
+msgstr "Timeout"
+
+#: templates/dashboard.php:85 templates/dashboard.php:87
+#: templates/whitelabel/dashboard.php:85 templates/whitelabel/dashboard.php:87
+#, php-format
+msgid "%ss"
+msgstr "%smp"
+
+#: templates/dashboard.php:93 templates/whitelabel/dashboard.php:93
+msgid "Update Now"
+msgstr "Frissítés Most"
+
+#: templates/dashboard.php:108 templates/whitelabel/dashboard.php:108
+msgid "Cache Status"
+msgstr "Gyorsítótár Állapota"
+
+#: templates/dashboard.php:113 templates/whitelabel/dashboard.php:112
+msgid "Known Pages"
+msgstr "Ismert Oldalak"
+
+#: templates/dashboard.php:118 templates/whitelabel/dashboard.php:116
+msgid "Cached Pages"
+msgstr "Gyorsítótárazott"
+
+#: templates/dashboard.php:123 templates/whitelabel/dashboard.php:120
+msgid "Cache size"
+msgstr "Cache méret"
+
+#: templates/dashboard.php:128 templates/whitelabel/dashboard.php:124
+msgid "Threads"
+msgstr "Szálak"
+
+#: templates/dashboard.php:145 templates/whitelabel/dashboard.php:140
+msgid "AJAX Objects"
+msgstr "AJAX Objektumok"
+
+#: templates/dashboard.php:150 templates/whitelabel/dashboard.php:144
+msgid "AJAX Cache Size"
+msgstr "AJAX Cache Méret"
+
+#: templates/dashboard.php:157 templates/whitelabel/dashboard.php:150
+msgid "Dynamic Pages"
+msgstr "Dinamikus Oldalak"
+
+#: templates/dashboard.php:162 templates/whitelabel/dashboard.php:154
+msgid "Dynamic Cache Size"
+msgstr "Dinamikus Cache Méret"
+
+#: templates/dashboard.php:174 templates/whitelabel/dashboard.php:166
+msgid "Warmup Table"
+msgstr "Warmup Tábla"
+
+#: templates/dashboard.php:179 templates/whitelabel/dashboard.php:171
+msgid "Start Prebuild Cache"
+msgstr "Előtöltés Indítása"
+
+#: templates/dashboard.php:180 templates/whitelabel/dashboard.php:172
+msgid "Stop Prebuild Cache"
+msgstr "Előtöltés Leállítása"
+
+#: templates/dashboard.php:181 templates/whitelabel/dashboard.php:173
+msgid "Reset Warmup Table"
+msgstr "Warmup Tábla Visszaállításas"
+
+#: templates/db-optimizer.php:8 templates/whitelabel/db-optimizer.php:9
+msgid ""
+"Please first backup your database, because any optimization is irreversible."
+msgstr ""
+"Először készíts biztonsági mentést az adatbázisáról, mert az optimalizálás "
+"nem visszafordítható."
+
+#: templates/db-optimizer.php:9 templates/whitelabel/db-optimizer.php:11
+msgid "I have backup!"
+msgstr "Van mentésem!"
+
+#: templates/db-optimizer.php:18 templates/whitelabel/db-optimizer.php:20
+msgid "Database:"
+msgstr "Adatbázis:"
+
+#: templates/db-optimizer.php:19 templates/whitelabel/db-optimizer.php:21
+msgid "tables"
+msgstr "táblák"
+
+#: templates/db-optimizer.php:22 templates/whitelabel/db-optimizer.php:24
+msgid "Reindex tables"
+msgstr "Táblák újraindexelése"
+
+#: templates/db-optimizer.php:22 templates/whitelabel/db-optimizer.php:24
+msgid "Optimize tables"
+msgstr "Táblák optimalizálása"
+
+#: templates/db-optimizer.php:27 templates/whitelabel/db-optimizer.php:29
+msgid "Expired transients:"
+msgstr "Lejárt transient-ek:"
+
+#: templates/db-optimizer.php:38 templates/whitelabel/db-optimizer.php:40
+msgid "Autoload size:"
+msgstr "Autoload méret:"
+
+#: templates/db-optimizer.php:43 templates/db-optimizer.php:47
+#: templates/whitelabel/db-optimizer.php:45
+#: templates/whitelabel/db-optimizer.php:49
+msgid "SHOULD FIX"
+msgstr "JAVÍTANDÓ"
+
+#: templates/db-optimizer.php:59 templates/whitelabel/db-optimizer.php:61
+msgid "Posts"
+msgstr "Bejegyzések"
+
+#: templates/db-optimizer.php:64 templates/whitelabel/db-optimizer.php:66
+msgid "Revisions:"
+msgstr "Revíziók:"
+
+#: templates/db-optimizer.php:75 templates/whitelabel/db-optimizer.php:77
+msgid "Trashed posts:"
+msgstr "Törölt bejegyzések:"
+
+#: templates/db-optimizer.php:86 templates/whitelabel/db-optimizer.php:88
+msgid "Orphan postmeta:"
+msgstr "Felesleges bejegyzés meta:"
+
+#: templates/db-optimizer.php:97 templates/whitelabel/db-optimizer.php:99
+msgid "Orphan attachments:"
+msgstr "Felesleges csatolmányok:"
+
+#: templates/db-optimizer.php:108 templates/whitelabel/db-optimizer.php:110
+msgid "Duplicated postmeta:"
+msgstr "Duplikált bejegyzés meta:"
+
+#: templates/db-optimizer.php:126 templates/whitelabel/db-optimizer.php:128
+msgid "Spam comments:"
+msgstr "Spam kommentek:"
+
+#: templates/db-optimizer.php:137 templates/whitelabel/db-optimizer.php:139
+msgid "Trashed comments:"
+msgstr "Törölt kommentek:"
+
+#: templates/db-optimizer.php:148 templates/whitelabel/db-optimizer.php:150
+msgid "Orphan commentmeta:"
+msgstr "Felesleges komment meta:"
+
+#: templates/db-optimizer.php:159 templates/whitelabel/db-optimizer.php:161
+msgid "Duplicated commentmeta:"
+msgstr "Duplikált komment meta:"
+
+#: templates/db-optimizer.php:175 templates/whitelabel/db-optimizer.php:177
+msgid "Terms & Users"
+msgstr "Kifejezések & Felhasználók"
+
+#: templates/db-optimizer.php:180 templates/whitelabel/db-optimizer.php:182
+msgid "Orphan termmeta:"
+msgstr "Felesleges kifejezés meta:"
+
+#: templates/db-optimizer.php:191 templates/whitelabel/db-optimizer.php:193
+msgid "Orphan usermeta:"
+msgstr "Felesleges felhasználó meta:"
+
+#: templates/db-optimizer.php:202 templates/whitelabel/db-optimizer.php:204
+msgid "Duplicated usermeta:"
+msgstr "Duplikált usermeta:"
+
+#: templates/header.php:4 templates/whitelabel/header.php:4
+#, php-format
+msgid "%s Developer Mode is active until <strong>%s</strong>"
+msgstr "%s fejlesztői mód aktív <strong>%s-ig</strong>"
+
+#: templates/header.php:12
+msgid "Speed up WordPress"
+msgstr "Villámgyors WordPress"
+
+#: templates/header.php:13
+msgid "is not rocket science anymore"
+msgstr "egyszerűbb mint gondolnád"
+
+#: templates/plugin-organizer.php:23
+#: templates/whitelabel/plugin-organizer.php:23
+msgid "No rules"
+msgstr "Nincsenek szabályok"
+
+#: templates/plugin-organizer.php:25
+#: templates/whitelabel/plugin-organizer.php:25
+msgid "Please Select"
+msgstr "Kérlek válassz"
+
+#: templates/plugin-organizer.php:26
+#: templates/whitelabel/plugin-organizer.php:26
+msgid "Disable"
+msgstr "Letiltás"
+
+#: templates/plugin-organizer.php:31
+#: templates/whitelabel/plugin-organizer.php:31
+msgid "Enable"
+msgstr "Engedélyezés"
+
+#: templates/plugin-organizer.php:37
+#: templates/whitelabel/plugin-organizer.php:37
+msgid "Add Rule"
+msgstr "Új szabály"
+
+#: templates/plugin-organizer.php:38
+#: templates/whitelabel/plugin-organizer.php:38
+msgid ""
+"This rule will be true on every frontend requests (except AJAX requests)"
+msgstr ""
+"Ez a szabály igaz lesz minden frontend kérésre (kivéve az AJAX kérésekre)"
+
+#: templates/plugin-organizer.php:39
+msgid "This rule will be true on frontpage"
+msgstr ""
+
+#: templates/plugin-organizer.php:40
+#: templates/whitelabel/plugin-organizer.php:39
+msgid ""
+"If the URL contains the given string, the rule will be true. Use leading/"
+"trailing # for regex. Eg: #product/(.*)#"
+msgstr ""
+"Ha az URL tartalmazza az adott szövegrészt, akkor a szabály érvényes lesz. "
+"Reguláris kifejezéshez használj kettőskeresztet (#) az elején és a végén. "
+"Pl.: #product/(.*)#"
+
+#: templates/plugin-organizer.php:41
+#: templates/whitelabel/plugin-organizer.php:40
+msgid "This rule will be true on selected admin pages"
+msgstr "Ez a szabály igaz lesz a kiválasztott admin oldalakra"
+
+#: templates/plugin-organizer.php:42
+#: templates/whitelabel/plugin-organizer.php:41
+msgid "This rule will be true on all AJAX requests"
+msgstr "Ez a szabály igaz lesz minden AJAX kérésre"
+
+#: templates/plugin-organizer.php:43
+#: templates/whitelabel/plugin-organizer.php:42
+msgid "This rule will be true on specific AJAX request. Eg: heartbeat"
+msgstr "Ez a szabály igaz lesz a kiválasztott AJAX kérésre. Pl.: heartbeat"
+
+#: templates/plugin-organizer.php:44
+#: templates/whitelabel/plugin-organizer.php:43
+msgid "This rule will be true if the user has the selected user role(s)"
+msgstr ""
+"Ez a szabály akkor lesz igaz, ha a felhasználó rendelkezik a kiválasztott "
+"felhasználói szerepkörökkel"
+
+#: templates/plugin-organizer.php:45
+#: templates/whitelabel/plugin-organizer.php:44
+msgid ""
+"This rule will be true if the query string contains the given value. Eg: "
+"test=123"
+msgstr ""
+"Ez a szabály akkor lesz igaz, ha a query string tartalmazza az adott "
+"értéket. Pl.: teszt=123"
+
+#: templates/plugin-organizer.php:46
+#: templates/whitelabel/plugin-organizer.php:45
+msgid ""
+"This rule will be true if the cookies contain the given value. Eg: test=123"
+msgstr ""
+"Ez a szabály akkor lesz igaz, ha a sütik tartalmazzák az adott értéket. Pl.: "
+"teszt=123"
+
+#: templates/plugin-organizer.php:47
+#: templates/whitelabel/plugin-organizer.php:46
+msgid "This rule will be true for desktop user agent"
+msgstr "Ez a szabály igaz lesz az asztali eszközökre"
+
+#: templates/plugin-organizer.php:48
+#: templates/whitelabel/plugin-organizer.php:47
+msgid "This rule will be true for mobile user agent"
+msgstr "Ez a szabály igaz lesz a mobil eszközökre"
+
+#: templates/set-purchase-key.php:6 templates/whitelabel/set-purchase-key.php:6
+msgid "This feature requires a valid purchase key"
+msgstr "Ez a funkció csak érvényes licenc kulccsal elérhető"
+
+#: templates/set-purchase-key.php:9 templates/whitelabel/set-purchase-key.php:9
+msgid "Go to Settings"
+msgstr "Beállítások"
+
+#: templates/set-purchase-key.php:10
+#: templates/whitelabel/set-purchase-key.php:10
+msgid "Purchase a license"
+msgstr "Licenc vásárlása"
+
+#. Plugin URI of the plugin/theme
+msgid "https://swiftperformance.io"
+msgstr "https://hu.swiftperformance.io"
+
+#. Description of the plugin/theme
+msgid "Boost your WordPress site"
+msgstr "Gyorsítsd fel WordPress oldalad"
+
+#. Author of the plugin/theme
+msgid "SWTE"
+msgstr "SWTE"
+
+#. Author URI of the plugin/theme
+msgid "https://swteplugins.com"
+msgstr "https://swteplugins.com"
+
+#~ msgid "WooCommerce Session Cache (BETA)"
+#~ msgstr "WooCommerce munkamenet-gyorsítótár (BETA)"
+
+#~ msgid "is not rocket sience anymore"
+#~ msgstr "egyszerűbb mint gondolnád"
+
+#~ msgid ""
+#~ "If you enable this option small images will be inlined, so you can reduce "
+#~ "the number of HTML requests."
+#~ msgstr ""
+#~ "Ha engedélyezed ezt az opciót, a kis méretű képeket inline illeszti be a "
+#~ "bővítmény, ezzel is csökkentve a HTTP request-ek számát."
+
+#~ msgid ""
+#~ "DOM parser will skip pages which are larger than this value. It is "
+#~ "recommended to use the deafult value, change it only if support suggested "
+#~ "it."
+#~ msgstr ""
+#~ "A DOM parser kihagyja az ennél nagyobb oldalakat. Ajánlott az "
+#~ "alapértelmezett érték használata, csak akkor változtasd meg, ha a support "
+#~ "azt javasolta."
+
+#~ msgid "Merge javascript files to reduce number of HTML requests "
+#~ msgstr ""
+#~ "A javascript fájlok összevonása a HTML lekérések számának csökkentése "
+#~ "érdekében"
+
+#~ msgid "Merge CSS files to reduce number of HTML requests"
+#~ msgstr "A CSS fájlok egyesítésével csökkentheted a HTTP lekérések számát"
+
+#~ msgid ""
+#~ "You can check advanced settings also to improve your results.<br> If you "
+#~ "need any help, check the <a href=\"https://swiftperformance.io/faq/\" "
+#~ "target=\"_blank\">FAQ</a>, <a href=\"https://kb.swteplugins.com/swift-"
+#~ "performance/\" target=\"_blank\">Knowledge Base</a>, <a href=\"https://"
+#~ "swteplugins.com/support/\" target=\"_blank\">Open a support ticket</a>, "
+#~ "or join to the <a href=\"https://www.facebook.com/groups/"
+#~ "SwiftPerformanceUsers/\" target=\"_blank\">Facebook Community!</a>"
+#~ msgstr ""
+#~ "Tovább finomíthatod a beállításokat és akár javíthatod az eredményeket."
+#~ "<br>Ha segítségre van szükséged nézd meg az alábbi linkeket: <a href="
+#~ "\"https://swiftperformance.io/faq/\" target=\"_blank\">FAQ</a>, <a href="
+#~ "\"https://hu.swiftperformance.io/dokumentacio/\" target=\"_blank"
+#~ "\">Tudásbázis</a>, <a href=\"https://swiftperformance.io/my-account/"
+#~ "support/\" target=\"_blank\">Support</a>, vagy csatlakozz a <a href="
+#~ "\"https://www.facebook.com/swiftperformancehungary/\" target=\"_blank"
+#~ "\">Facebook közösséghez</a>"
