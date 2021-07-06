@@ -1,0 +1,15 @@
+[06-Jul-2021 12:44:12 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Juan Marichal\Local Sites\biblicomentarios\app\public\wp-includes\wp-db.php on line 1653
+[06-Jul-2021 12:44:12 UTC] PHP Stack trace:
+[06-Jul-2021 12:44:12 UTC] PHP   1. {main}() C:\Users\Juan Marichal\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[06-Jul-2021 12:44:12 UTC] PHP   2. include() C:\Users\Juan Marichal\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[06-Jul-2021 12:44:12 UTC] PHP   3. include() phar://C:/Users/Juan Marichal/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[06-Jul-2021 12:44:12 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/Juan Marichal/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[06-Jul-2021 12:44:12 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/Juan Marichal/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[06-Jul-2021 12:44:12 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/Juan Marichal/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[06-Jul-2021 12:44:12 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/Juan Marichal/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[06-Jul-2021 12:44:12 UTC] PHP   8. require() phar://C:/Users/Juan Marichal/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[06-Jul-2021 12:44:12 UTC] PHP   9. require_wp_db() C:\Users\Juan Marichal\Local Sites\biblicomentarios\app\public\wp-settings.php:124
+[06-Jul-2021 12:44:12 UTC] PHP  10. wpdb->__construct() C:\Users\Juan Marichal\Local Sites\biblicomentarios\app\public\wp-includes\load.php:545
+[06-Jul-2021 12:44:12 UTC] PHP  11. wpdb->db_connect() C:\Users\Juan Marichal\Local Sites\biblicomentarios\app\public\wp-includes\wp-db.php:632
+[06-Jul-2021 12:44:12 UTC] PHP  12. mysqli_real_connect() C:\Users\Juan Marichal\Local Sites\biblicomentarios\app\public\wp-includes\wp-db.php:1653
