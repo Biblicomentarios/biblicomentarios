@@ -77,3 +77,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 // define('WP_ALLOW_REPAIR', true);
+
+define( 'WP_DEBUG', true ); 
+define( 'WP_DEBUG_LOG', true ); 
+define( 'WP_DEBUG_DISPLAY', false );
