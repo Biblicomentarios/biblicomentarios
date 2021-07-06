@@ -66,7 +66,10 @@ $table_prefix = 'wp_';
 
 /* That's all, stop editing! Happy publishing. */
 
-define('WP_MEMORY_LIMIT', '150M');
+define('WP_MEMORY_LIMIT', '256M');
+define('WP_POST_REVISIONS', 1);
+define('AUTOSAVE_INTERVAL', 300); // seconds
+
 
 define('WPLANG','es');
 
@@ -82,3 +85,4 @@ require_once ABSPATH . 'wp-settings.php';
 define( 'WP_DEBUG', true ); 
 define( 'WP_DEBUG_LOG', true ); 
 define( 'WP_DEBUG_DISPLAY', false );
+
