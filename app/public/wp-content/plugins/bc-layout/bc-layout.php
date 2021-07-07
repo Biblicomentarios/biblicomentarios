@@ -142,7 +142,12 @@ class WPSE154979_Widget extends WP_Widget
                     echo '<b>' . $parent_name . '</b> es parte de <a href="' . $grandparent_link . '">' . $grandparent_name . '</a>';
                 }
             } else {
-                echo 'El abuelo y el padre tienen el mismo nombre';
+                if ($childCategories != '') {
+                    echo '<b>' . $parent_name . '</b> se compone de: <hr>';
+                    wp_list_categories('title_li=&show_option_none=&hide_empty=0&parent=' . $parent_id);
+                } else {
+                    echo '<b>' . $parent_name . '</b> es parte de <a href="' . $grandparent_link . '">' . $grandparent_name . '</a>';
+                }
             }
         }
 
