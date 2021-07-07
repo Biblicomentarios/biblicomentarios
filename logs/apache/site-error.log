@@ -3298,3 +3298,5 @@
 [Wed Jul 07 06:01:54.967729 2021] [proxy_fcgi:error] [pid 12304:tid 1096] (70007)The timeout specified has expired: [client 127.0.0.1:1363] AH01075: Error dispatching request to :10004: (polling)
 [Wed Jul 07 06:02:00.551526 2021] [proxy_fcgi:error] [pid 12304:tid 960] (70007)The timeout specified has expired: [client 127.0.0.1:1393] AH01075: Error dispatching request to :10004: (polling)
 [Wed Jul 07 06:02:05.912375 2021] [proxy_fcgi:error] [pid 12304:tid 1248] (70007)The timeout specified has expired: [client 127.0.0.1:1411] AH01075: Error dispatching request to :10004: (polling)
+[Wed Jul 07 06:36:13.516952 2021] [proxy_fcgi:error] [pid 12304:tid 988] [client 127.0.0.1:1244] AH01067: Failed to read FastCGI header, referer: http://biblicomentarios.local/wp-admin/post.php?post=120061&action=edit
+[Wed Jul 07 06:36:13.517949 2021] [proxy_fcgi:error] [pid 12304:tid 988] (OS 10054)An existing connection was forcibly closed by the remote host.  : [client 127.0.0.1:1244] AH01075: Error dispatching request to :10004: , referer: http://biblicomentarios.local/wp-admin/post.php?post=120061&action=edit
