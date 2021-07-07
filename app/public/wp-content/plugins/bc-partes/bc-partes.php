@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
 Plugin Name: AB Carga Partes
 Description: Agrega nuevas partes a las categorías existentes.

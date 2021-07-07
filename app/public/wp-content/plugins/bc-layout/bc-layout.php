@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
 Plugin Name: BC Layout
 Description: Modificaciones de layout para Biblicomentarios.
@@ -10,9 +10,9 @@ License: Private
 Text Domain: biblicomentarios
 */
 /* ============================================================= */
-// Breadcrumbs en categoría
+// Breadcrumbs en categor?a
 if (is_category() && is_object_in_taxonomy(get_post_type(), 'category')) {
-    echo 'Es categoría';
+    echo 'Es categor?a';
     $cats = wp_get_object_terms(
         get_the_ID(),
         'category',
@@ -44,7 +44,7 @@ if (is_category() && is_object_in_taxonomy(get_post_type(), 'category')) {
 
 // on category page
 elseif (is_category()) {
-    echo 'Es categoría';
+    echo 'Es categor?a';
 }
 
 
@@ -131,7 +131,7 @@ class WPSE154979_Widget extends WP_Widget
             $grandparent = get_category($grandparent_id);
             $grandparent_link = get_category_link($grandparent_id);
 
-            // ¿Cuántas categorías hija se obtienen?
+            // ?Cu?ntas categor?as hija se obtienen?
             $childCategories = wp_list_categories('echo=0&title_li=&show_option_none=&hide_empty=0&parent=' . $parent_id);
 
             if ($grandparent_name != $parent_name) {
@@ -189,14 +189,14 @@ class WPSE154979_Widget extends WP_Widget
         return $orderby;
     }, 10, 3);
 
-    //Registramos el tamaño
+    //Registramos el tama?o
     function bc_half_thumbnail()
     {
         add_image_size('half-thumbnail', 100, 100, true);
     }
     add_action('after_setup_theme', 'bc_half_thumbnail');
 
-    //Agregamos el tamaño a las opciones de las imágenes
+    //Agregamos el tama?o a las opciones de las im?genes
     function bp_body_size_choose($sizes)
     {
         return array_merge($sizes, array(
@@ -240,12 +240,12 @@ class WPSE154979_Widget extends WP_Widget
             // Registra BCHarmonySingle
             acf_register_block_type(array(
                 'name'              => 'bcharmonysingle',
-                'title'             => __('BC Armonía simple'),
-                'description'       => __('Armonía de los evangelios simple.'),
+                'title'             => __('BC Armon?a simple'),
+                'description'       => __('Armon?a de los evangelios simple.'),
                 'render_template'   => 'template-parts/blocks/bcharmonysingle/bcharmonysingle.php',
                 'category'          => 'formatting',
                 'icon'              => 'book-alt',
-                'keywords'          => array('bcharmonysingle', 'pasaje', 'referencia', 'quote', 'cita', 'armonía de los evangelios'),
+                'keywords'          => array('bcharmonysingle', 'pasaje', 'referencia', 'quote', 'cita', 'armon?a de los evangelios'),
                 'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcharmonysingle/bcharmonysingle.css',
             ));
 
@@ -253,11 +253,11 @@ class WPSE154979_Widget extends WP_Widget
             acf_register_block_type(array(
                 'name'              => 'bcladoalado',
                 'title'             => __('BC Lado a lado'),
-                'description'       => __('Comparación de textos lado a lado.'),
+                'description'       => __('Comparaci?n de textos lado a lado.'),
                 'render_template'   => 'template-parts/blocks/bcladoalado/bcladoalado.php',
                 'category'          => 'formatting',
                 'icon'              => 'book-alt',
-                'keywords'          => array('bcladoalado', 'pasaje', 'referencia', 'quote', 'cita', 'armonía de los evangelios'),
+                'keywords'          => array('bcladoalado', 'pasaje', 'referencia', 'quote', 'cita', 'armon?a de los evangelios'),
                 'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcladoalado/bcladoalado.css',
             ));
 
@@ -265,11 +265,11 @@ class WPSE154979_Widget extends WP_Widget
             acf_register_block_type(array(
                 'name'              => 'bcdiagrama',
                 'title'             => __('BC Diagrama'),
-                'description'       => __('Diagrama o ilustración.'),
+                'description'       => __('Diagrama o ilustraci?n.'),
                 'render_template'   => 'template-parts/blocks/bcdiagrama/bcdiagrama.php',
                 'category'          => 'formatting',
                 'icon'              => 'book-alt',
-                'keywords'          => array('bcdiagrama', 'pasaje', 'referencia', 'quote', 'cita', 'armonía de los evangelios'),
+                'keywords'          => array('bcdiagrama', 'pasaje', 'referencia', 'quote', 'cita', 'armon?a de los evangelios'),
                 'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcdiagrama/bcdiagrama.css',
             ));
 
@@ -316,7 +316,7 @@ class WPSE154979_Widget extends WP_Widget
         }
     }
     add_shortcode('bc_category_nav_previous', 'bc_shortcode_categoria_antes');
-            
+
     function bc_shortcode_categoria_despues($atts)
     {
         $term = get_queried_object();
@@ -326,3 +326,20 @@ class WPSE154979_Widget extends WP_Widget
         }
     }
     add_shortcode('bc_category_nav_after', 'bc_shortcode_categoria_despues');
+
+    /* Desactivar Heartbeat para el backend */
+    // Desactiva el heartbeat para todo el dashboard
+    add_action('init', 'stop_heartbeat', 1);
+    function stop_heartbeat()
+    {
+        global $pagenow;
+        if ($pagenow != 'post.php' && $pagenow != 'post-new.php')
+            wp_deregister_script('heartbeat');
+    }
+
+    // Limita el heartbeat a 60 segundos
+    function limit_heart( $settings ) {
+        $settings['interval'] = 60; //Entre 15 y 60 segundos
+        return $settings;
+    }
+    add_filter( 'heartbeat_settings', 'limit_heart' );
