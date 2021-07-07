@@ -121,9 +121,9 @@ class WPSE154979_Widget extends WP_Widget
             $parent_id = (int) get_query_var('cat');
             $parent = get_category($parent_id);
             $parent_name = $parent->name;
-            echo '<h3 class="widget-title title-customstyle has-custom-style"><span class="accent-typo">Navega '
+            echo '<h3 class="widget-title title-customstyle has-custom-style px-2"><span class="accent-typo">Navega '
                 . $parent_name
-                . '</span></h3>';
+                . '</span></h3><div class="px-2 py-1">';
             $grandparents = get_category_parents($parent_id, false);
             $grandparentArray = explode("/", $grandparents);
             $grandparent_name = strip_tags(array_slice($grandparentArray, -3)[0]);
@@ -149,6 +149,7 @@ class WPSE154979_Widget extends WP_Widget
                     echo '<b>' . $parent_name . '</b> es parte de <a href="' . $grandparent_link . '">' . $grandparent_name . '</a>';
                 }
             }
+            echo '</div>';
         }
 
         // on others page
@@ -159,6 +160,7 @@ class WPSE154979_Widget extends WP_Widget
 
         echo $after_widget;
     }
+
     function update($new_instance, $old_instance)
     {
         $instance                   = $old_instance;
