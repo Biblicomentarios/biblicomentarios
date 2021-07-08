@@ -17,27 +17,10 @@ namespace Google\Site_Kit_Dependencies;
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-class Google_Service_AdSense_SavedReport extends \Google\Site_Kit_Dependencies\Google_Model
+class Google_Service_Adsense_SavedReport extends \Google\Site_Kit_Dependencies\Google_Model
 {
-    public $id;
-    public $kind;
     public $name;
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
-    public function getId()
-    {
-        return $this->id;
-    }
-    public function setKind($kind)
-    {
-        $this->kind = $kind;
-    }
-    public function getKind()
-    {
-        return $this->kind;
-    }
+    public $title;
     public function setName($name)
     {
         $this->name = $name;
@@ -45,5 +28,13 @@ class Google_Service_AdSense_SavedReport extends \Google\Site_Kit_Dependencies\G
     public function getName()
     {
         return $this->name;
+    }
+    public function setTitle($title)
+    {
+        $this->title = $title;
+    }
+    public function getTitle()
+    {
+        return $this->title;
     }
 }

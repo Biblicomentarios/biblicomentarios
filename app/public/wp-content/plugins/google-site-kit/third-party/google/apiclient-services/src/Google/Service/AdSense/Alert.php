@@ -17,38 +17,12 @@ namespace Google\Site_Kit_Dependencies;
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-class Google_Service_AdSense_Alert extends \Google\Site_Kit_Dependencies\Google_Model
+class Google_Service_Adsense_Alert extends \Google\Site_Kit_Dependencies\Google_Model
 {
-    public $id;
-    public $isDismissible;
-    public $kind;
     public $message;
+    public $name;
     public $severity;
     public $type;
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
-    public function getId()
-    {
-        return $this->id;
-    }
-    public function setIsDismissible($isDismissible)
-    {
-        $this->isDismissible = $isDismissible;
-    }
-    public function getIsDismissible()
-    {
-        return $this->isDismissible;
-    }
-    public function setKind($kind)
-    {
-        $this->kind = $kind;
-    }
-    public function getKind()
-    {
-        return $this->kind;
-    }
     public function setMessage($message)
     {
         $this->message = $message;
@@ -56,6 +30,14 @@ class Google_Service_AdSense_Alert extends \Google\Site_Kit_Dependencies\Google_
     public function getMessage()
     {
         return $this->message;
+    }
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+    public function getName()
+    {
+        return $this->name;
     }
     public function setSeverity($severity)
     {

@@ -28,26 +28,6 @@ namespace Google\Site_Kit_Dependencies;
 class Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesAndroidAppDataStreams extends \Google\Site_Kit_Dependencies\Google_Service_Resource
 {
     /**
-     * Creates an Android app stream with the specified location and attributes.
-     * Note that an Android app stream must be linked to a Firebase app to receive
-     * traffic. To create a working app stream, make sure your property is linked to
-     * a Firebase project. Then, use the Firebase API to create a Firebase app,
-     * which will also create an appropriate data stream in Analytics (may take up
-     * to 24 hours). (androidAppDataStreams.create)
-     *
-     * @param string $parent Required. The parent resource where this android app
-     * data stream will be created. Format: properties/123
-     * @param Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaAndroidAppDataStream $postBody
-     * @param array $optParams Optional parameters.
-     * @return Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaAndroidAppDataStream
-     */
-    public function create($parent, \Google\Site_Kit_Dependencies\Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaAndroidAppDataStream $postBody, $optParams = array())
-    {
-        $params = array('parent' => $parent, 'postBody' => $postBody);
-        $params = \array_merge($params, $optParams);
-        return $this->call('create', array($params), "Google\Site_Kit_Dependencies\Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaAndroidAppDataStream");
-    }
-    /**
      * Deletes an android app stream on a property. (androidAppDataStreams.delete)
      *
      * @param string $name Required. The name of the android app data stream to
@@ -113,8 +93,9 @@ class Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesAndroidAppDataStrea
      * @param array $optParams Optional parameters.
      *
      * @opt_param string updateMask Required. The list of fields to be updated.
-     * Omitted fields will not be updated. To replace the entire entity, use one
-     * path with the string "*" to match all fields.
+     * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
+     * will not be updated. To replace the entire entity, use one path with the
+     * string "*" to match all fields.
      * @return Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaAndroidAppDataStream
      */
     public function patch($name, \Google\Site_Kit_Dependencies\Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaAndroidAppDataStream $postBody, $optParams = array())

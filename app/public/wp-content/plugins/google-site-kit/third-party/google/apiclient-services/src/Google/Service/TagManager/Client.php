@@ -25,6 +25,7 @@ class Google_Service_TagManager_Client extends \Google\Site_Kit_Dependencies\Goo
     public $containerId;
     public $fingerprint;
     public $name;
+    public $notes;
     protected $parameterType = 'Google\Site_Kit_Dependencies\Google_Service_TagManager_Parameter';
     protected $parameterDataType = 'array';
     public $parentFolderId;
@@ -72,6 +73,14 @@ class Google_Service_TagManager_Client extends \Google\Site_Kit_Dependencies\Goo
     public function getName()
     {
         return $this->name;
+    }
+    public function setNotes($notes)
+    {
+        $this->notes = $notes;
+    }
+    public function getNotes()
+    {
+        return $this->notes;
     }
     /**
      * @param Google_Service_TagManager_Parameter[]

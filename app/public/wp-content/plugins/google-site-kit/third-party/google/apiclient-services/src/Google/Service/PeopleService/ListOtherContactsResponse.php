@@ -24,6 +24,7 @@ class Google_Service_PeopleService_ListOtherContactsResponse extends \Google\Sit
     public $nextSyncToken;
     protected $otherContactsType = 'Google\Site_Kit_Dependencies\Google_Service_PeopleService_Person';
     protected $otherContactsDataType = 'array';
+    public $totalSize;
     public function setNextPageToken($nextPageToken)
     {
         $this->nextPageToken = $nextPageToken;
@@ -53,5 +54,13 @@ class Google_Service_PeopleService_ListOtherContactsResponse extends \Google\Sit
     public function getOtherContacts()
     {
         return $this->otherContacts;
+    }
+    public function setTotalSize($totalSize)
+    {
+        $this->totalSize = $totalSize;
+    }
+    public function getTotalSize()
+    {
+        return $this->totalSize;
     }
 }
