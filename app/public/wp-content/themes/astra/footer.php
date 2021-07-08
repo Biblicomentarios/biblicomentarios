@@ -29,9 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 	</div><!-- #page -->
 <?php 
-	echo 'Antes';
 astra_body_bottom();    
-	echo 'Después';
 	wp_footer(); 
 ?>
 	</body>
