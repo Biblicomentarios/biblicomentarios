@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".ilj-menu-settings #post_status").ilj_select2({minimumResultsForSearch:10,width:"30%"}),jQuery("#save-post").on("click",function(){var i=jQuery(this).siblings(".spinner");0!==jQuery('input[name="ilj_custom_link_url"]').val().length&&i.css("visibility","visible")})});
