@@ -2,3 +2,4 @@ logs/apache/error.log
 logs/apache/access.log
 logs/apache/site-error.log
 logs/apache/access.log
+app/public/wp-config.php
