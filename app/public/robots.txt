@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://biblicomentarios.com/sitemap_index.xml
