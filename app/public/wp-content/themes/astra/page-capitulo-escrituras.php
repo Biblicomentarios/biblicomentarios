@@ -22,7 +22,7 @@ if(isset($_GET["capitulo"])){
     
     $results = $wpdb->get_results( "select * 
             from capitulos c 
-            where c.Capitulo = '".$referencia."';", );
+            where c.Capitulo = '".$referencia."';");
 }
 
 if(isset($_GET["idcapitulo"])){
@@ -30,7 +30,7 @@ if(isset($_GET["idcapitulo"])){
     
     $results = $wpdb->get_results( "select * 
             from capitulos c 
-            where c.IdCapitulo = ".$referencia.";", );
+            where c.IdCapitulo = ".$referencia.";" );
 }
         
         $vsCapitulo = $results[0]->Capitulo; 
@@ -80,7 +80,7 @@ $pericopas = $wpdb->get_results( "select *
             from pericopas p
             where p.IdCapitulo = '".$vsIdCapitulo."'
             order by VersiculoInicial
-            ;", );
+            ;" );
 $contador = 0;
 foreach($pericopas as $pericopa){
     $contador = $contador + 1;
@@ -116,7 +116,7 @@ foreach($pericopas as $pericopa){
                 from versiculos v
                 where v.IdPericopa = '".$IdPericopa."'
                 order by numVersiculo
-                ;", );
+                ;" );
     $isOdd = true;
     foreach($versiculos as $versiculo){
         (($c = !$c)? $bgcolor = "white" : $bgcolor = "mintcream");
@@ -194,4 +194,6 @@ foreach($pericopas as $pericopa){
 
 </div><!-- .hgrid -->
 
-<?php get_footer(); // Loads the footer.php template. ?>
+<?php 
+
+get_footer(); // Loads the footer.php template. 
