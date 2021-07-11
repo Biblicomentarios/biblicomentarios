@@ -1,11 +1,11 @@
 <?php
 
 /* -------------------------------------------------------------------- 
-* Cap√≠tulo de las escrituras                                            
+* CapÌtulo de las escrituras                                            
 -------------------------------------------------------------------- */
 function vs_capitulo($atts)
 {
-    /* Recibe por querystring el cap√≠tulo a estudiar */
+    /* Recibe por querystring el capÌtulo a estudiar */
     global $wpdb;
 
     // Valor textual
@@ -15,7 +15,7 @@ function vs_capitulo($atts)
         global $wpdb;
     }
 
-    // Valor num√©rico
+    // Valor numÈrico
     if (isset($_GET["idcapitulo"])) {
         $referencia = $_GET["idcapitulo"];
 
@@ -25,15 +25,15 @@ function vs_capitulo($atts)
 
         if (!$results) {
 
-            echo '<div class="text-center">El cap√≠tulo que est√°s buscando no existe en las escrituras.<br>Habr√° que esperar por nueva revelaci√≥n :).
-            <br/><br/>Mientras tanto, aprovecha para hacer una b√∫squeda y sigue navegando este sitio. </div>';
+            echo '<div class="text-center">El capÌtulo que est·s buscando no existe en las escrituras.<br>Habr· que esperar por nueva revelaciÛn :).
+            <br/><br/>Mientras tanto, aprovecha para hacer una b˙squeda y sigue navegando este sitio. </div>';
             return;
         }
     }
 
-    // Valor por omisi√≥n
+    // Valor por omisiÛn
     if (!isset($_GET["idcapitulo"]) && !isset($_GET["capitulo"])) {
-        $referencia = 'G√©nesis 1';
+        $referencia = 'GÈnesis 1';
 
         $results = $wpdb->get_results("select * 
         from capitulos c 
@@ -42,7 +42,7 @@ function vs_capitulo($atts)
 
     if (!$results) {
 
-        echo 'No hay valores para ese cap√≠tulo';
+        echo 'No hay valores para ese capÌtulo';
         return;
     }
 
@@ -51,7 +51,7 @@ function vs_capitulo($atts)
     $vsUrlAudio = $results[0]->UrlAudio;
     $vsIdCapitulo = $results[0]->IdCapitulo;
 
-    // Enlaces a navegaci√≥n (anterior-siguiente)
+    // Enlaces a navegaciÛn (anterior-siguiente)
     $vsIdCapituloAnterior = $results[0]->IdCapitulo - 1;
     if ($vsIdCapituloAnterior == 0) {
         $vsIdCapituloAnterior = 1584;
@@ -66,7 +66,7 @@ function vs_capitulo($atts)
 
     <div class="mb-10 border-top border-bottom row">
         <div class="col-6 border-right">
-            <a href="/capitulo-escrituras/?idcapitulo=<?= $vsIdCapituloAnterior ?>"><i class="fas fa-arrow-left"></i> Cap√≠tulo anterior</a>
+            <a href="/capitulo-escrituras/?idcapitulo=<?= $vsIdCapituloAnterior ?>"><i class="fas fa-arrow-left"></i> CapÌtulo anterior</a>
         </div>
         <div class="col-6 text-right">
             <a href="/capitulo-escrituras/?idcapitulo=<?= $vsIdCapituloSiguiente ?>">Capitulo siguiente <i class="fas fa-arrow-right"></i></a>
@@ -97,7 +97,7 @@ function vs_capitulo($atts)
                     ?>
                         <li> <a href="#anchor<?= $contador ?>"> <?= $pericopa->Titulo ?></a>
                         <?php
-                    }   // per√≠copas - estructura del cap√≠tulo                 
+                    }   // perÌcopas - estructura del capÌtulo                 
                         ?>
                 </ol>
             </div>
@@ -125,7 +125,7 @@ function vs_capitulo($atts)
                 from versiculos v
                 where v.IdPericopa = '" . $IdPericopa . "'
                 order by numVersiculo
-                ;",);
+                ;");
                 $isOdd = true;
                 foreach ($versiculos as $versiculo) {
                     (($c = !$c) ? $bgcolor = "white" : $bgcolor = "mintcream");
@@ -148,24 +148,24 @@ function vs_capitulo($atts)
                         ?>
                     </div>
                 <?
-                } // vers√≠culos
+                } // versÌculos
                 ?>
             <?php
-            } // per√≠copas - contenido del cap√≠tulo
+            } // perÌcopas - contenido del capÌtulo
             ?>
         </div>
     </div>
 
     <div class="mb-10 border-top border-bottom row">
         <div class="col-6 border-right">
-            <a href="/capitulo-escrituras/?idcapitulo=<?= $vsIdCapituloAnterior ?>"><i class="fas fa-arrow-left"></i> Cap√≠tulo anterior</a>
+            <a href="/capitulo-escrituras/?idcapitulo=<?= $vsIdCapituloAnterior ?>"><i class="fas fa-arrow-left"></i> CapÌtulo anterior</a>
         </div>
         <div class="col-6 text-right">
             <a href="/capitulo-escrituras/?idcapitulo=<?= $vsIdCapituloSiguiente ?>">Capitulo siguiente <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 
-    <!-- Art√≠culos relacionados -->
+    <!-- ArtÌculos relacionados -->
     <div class="col-12 mt-3 border-bottom">
         <?php
         $args = array(
@@ -176,7 +176,7 @@ function vs_capitulo($atts)
         if (count($myposts) > 0) {
         ?>
             <h2 class="mb-0 text-center border-bottom mb-3">
-                <span style="color:purple">Para saber m√°s:</span><br />Material relacionado con <?= $vsCapitulo ?>
+                <span style="color:purple">Para saber m·s:</span><br />Material relacionado con <?= $vsCapitulo ?>
             </h2>
             <ul>
                 <?php
@@ -189,8 +189,8 @@ function vs_capitulo($atts)
                             <a href="<?= $post->guid ?>" title="<?= $post->post_excerpt ?>" target="_blank"><?= $post->post_title ?></a>
                         </div>
                 <?php
-                } // Art√≠culos relacionados
-            } // Si hay Art√≠culos relacionados
+                } // ArtÌculos relacionados
+            } // Si hay ArtÌculos relacionados
             wp_reset_postdata();
                 ?>
             </ul>

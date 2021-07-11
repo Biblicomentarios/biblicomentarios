@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: BC Estudio VS
-Description: Shortcodes relacionados con el estudio de Ven SÃ­gueme.
+Description: Shortcodes relacionados con el estudio de Ven Sígueme.
 Author: JPMarichal
 Version: 1.0.0
 Author URI: https://biblicomentarios.com/
