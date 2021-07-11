@@ -44,13 +44,12 @@ function vs_asignacion_diaria($atts)
 
     $vsIdSemana = $results[0]->IdSemanas;
 ?>
-    <div style="border:1px solid orange" class="mt-3 mb-3">
         <div style="background-color:orange;color:white;text-align:center;font-weight:bold;">
             División de asignaciones por fecha
         </div>
         <div class="p-2">
             <ul>
-                <?
+                <?php
                 $asignaciones = $wpdb->get_results("
 select FAsignacion,c.Capitulo, c.TituloCapitulo,c.URLBC 
 from vsasignaciones v 

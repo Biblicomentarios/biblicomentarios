@@ -51,7 +51,7 @@ elseif (is_category()) {
 // Widget Class ==============================
 class WPSE154979_Widget extends WP_Widget
 {
-    function WPSE154979_Widget()
+    function __construct()
     {
         $widget_ops = array(
             'classname'     => 'WPSE154979_custom_widget',
