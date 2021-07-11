@@ -13,3 +13,4 @@ Text Domain: biblicomentarios
 
 include_once('asignaciones.php');
 include_once('capitulo.php');
+include_once('estructuras.php');

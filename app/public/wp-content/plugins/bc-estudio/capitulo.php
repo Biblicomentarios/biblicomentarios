@@ -12,20 +12,7 @@ function vs_capitulo($atts)
     if (isset($_GET["capitulo"])) {
         $referencia = $_GET["capitulo"];
 
-        $results = $wpdb->get_results("select * 
-            from capitulos c 
-            where c.Capitulo = '" . $referencia . "';");
-
-            if (!$results) {
-                ?>
-                <div class="text-center">
-                    <h2>Resultados para <b><?=$referencia?></b></h2>
-                Buscaste por <b><?=$referencia?></b>, pero ese capítulo no existe en las escrituras. <br/>
-                ¿Estás seguro de haber introducido el capítulo correcto?
-            </div>
-                 <?php
-                return;
-            }
+        global $wpdb;
     }
 
     // Valor numérico
