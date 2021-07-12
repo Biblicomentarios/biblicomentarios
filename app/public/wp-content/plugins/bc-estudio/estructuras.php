@@ -13,11 +13,14 @@ order by term_order;";
 
     $volumenes =  $wpdb->get_results($query);
 
+    ob_start();
 
     echo '<ol>';
     foreach ($volumenes as $volumen) {
         echo '<li> <a target="_blank" href="/categoria/escrituras/' . $volumen->slug . '">' . $volumen->name . '</a>';
     }
     echo '</ol>';
+    
+    return ob_get_clean();
 }
 add_shortcode('bc_estructura_volumen', 'bc_estructura_volumen');
