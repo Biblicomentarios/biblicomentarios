@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Se excluye .idea">
-      <change afterPath="$PROJECT_DIR$/.idea/Biblicomentarios.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Se agrega shortcode bc_estructura_volumen_division">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64866907-27b1-4b32-be0f-22660c9310ea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/64866907-27b1-4b32-be0f-22660c9310ea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/estructuras.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/estructuras.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1vC82mMG256KrduPQa4DRG7NRMz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +36,6 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -43,8 +48,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626054512338</updated>
-      <workItem from="1626054519428" duration="2234000" />
+      <workItem from="1626054519428" duration="7987000" />
     </task>
+    <task id="LOCAL-00001" summary="Se excluye .idea">
+      <created>1626056818957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626056818957</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se excluye .idea">
+      <created>1626056876796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626056876796</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se agrega shortcode bc_estructura_volumen_division">
+      <created>1626059576969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626059576969</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Se agrega shortcode bc_estructura_volumen_division">
+      <created>1626059610305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626059610305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se excluye .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se excluye .idea" />
+    <MESSAGE value="Se agrega shortcode bc_estructura_volumen_division" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega shortcode bc_estructura_volumen_division" />
   </component>
 </project>
