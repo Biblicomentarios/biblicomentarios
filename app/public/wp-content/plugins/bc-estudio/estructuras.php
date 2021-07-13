@@ -59,7 +59,7 @@ order by term_order;";
                     <?= $volumen->name ?>
                 </a> <span style="color:lightgreen"> (<?= count($divisiones) ?> libros)</span>
             </div>
-            <div class="p-1 m-2" style="font-size:.8em;background-color:#eee8d5">
+            <div class="p-1 mb-2" style="font-size:.8em;background-color:#eee8d5">
                 <?= $volumen->description ?><hr/>
             </div>
             <?php

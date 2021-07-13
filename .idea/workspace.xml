@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Comentarios y cambios menores.">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/bc-estudio.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/bc-estudio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/estructuras.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/estructuras.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-layout/bc-layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-layout/bc-layout.php" afterDir="false" />
-    </list>
+    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Mejoras cosméticas a estructura de volumen" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626054512338</updated>
-      <workItem from="1626054519428" duration="13229000" />
+      <workItem from="1626054519428" duration="13313000" />
     </task>
     <task id="LOCAL-00001" summary="Se excluye .idea">
       <created>1626056818957</created>
@@ -98,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626062834115</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mejoras cosméticas a estructura de volumen">
+      <created>1626147348324</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626147348325</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +126,7 @@
     <MESSAGE value="Se agrega shortcode bc_estructura_volumen_division" />
     <MESSAGE value="Shortcode bc_estructura_volumen_division" />
     <MESSAGE value="Comentarios y cambios menores." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comentarios y cambios menores." />
+    <MESSAGE value="Mejoras cosméticas a estructura de volumen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mejoras cosméticas a estructura de volumen" />
   </component>
 </project>
