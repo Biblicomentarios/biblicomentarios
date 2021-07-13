@@ -2,7 +2,12 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://biblicomentarios.com/</loc>
-		<lastmod>2021-07-09T16:18:00-05:00</lastmod>
+		<lastmod>2021-07-13T05:28:38-05:00</lastmod>
+		<image:image>
+			<image:loc>https://biblicomentarios.com/wp-content/uploads/2021/06/525-book-of-mormon-new-testament-intertextuality1.jpg</image:loc>
+			<image:title><![CDATA[Nuevo Testamento]]></image:title>
+			<image:caption><![CDATA[Nuevo Testamento]]></image:caption>
+		</image:image>
 		<image:image>
 			<image:loc>https://biblicomentarios.com/wp-content/uploads/elementor/thumbs/en10jan40a_anderson1-p9u3jsfn6kmnd1icjwbjjwnsxz7490y1t7t5pyoxjm.jpg</image:loc>
 			<image:title><![CDATA[Antiguo Testamento]]></image:title>
@@ -30,21 +35,21 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://biblicomentarios.com/ven-sigueme/</loc>
+		<lastmod>2021-07-11T16:48:01-05:00</lastmod>
+		<image:image>
+			<image:loc>https://biblicomentarios.com/wp-content/uploads/2021/06/come-follow-me1.jpg</image:loc>
+			<image:title><![CDATA[Ven Sígueme]]></image:title>
+			<image:caption><![CDATA[Ven Sígueme]]></image:caption>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://biblicomentarios.com/capitulo-escrituras/</loc>
 		<lastmod>2021-07-08T21:28:29-05:00</lastmod>
 		<image:image>
 			<image:loc>https://biblicomentarios.com/wp-content/uploads/2021/06/Madre-estudiando-Doctrina-y-Convenios-con-su-hija-Nueva-Zelanda.jpeg</image:loc>
 			<image:title><![CDATA[Madre estudiando Doctrina y Convenios con su hija - Nueva Zelanda]]></image:title>
 			<image:caption><![CDATA[Estudiando Doctrina y Convenios Declaraciones oficiales]]></image:caption>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://biblicomentarios.com/ven-sigueme/</loc>
-		<lastmod>2021-07-08T11:48:53-05:00</lastmod>
-		<image:image>
-			<image:loc>https://biblicomentarios.com/wp-content/uploads/2021/06/come-follow-me1.jpg</image:loc>
-			<image:title><![CDATA[Ven Sígueme]]></image:title>
-			<image:caption><![CDATA[Ven Sígueme]]></image:caption>
 		</image:image>
 	</url>
 	<url>

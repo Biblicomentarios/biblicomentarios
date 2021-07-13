@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//biblicomentarios.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://biblicomentarios.com/categoria/escrituras/antiguo-testamento/libros-historicos-del-antiguo-testamento/2-cronicas/2-cronicas-31/</loc>
+		<lastmod>2021-07-08T09:36:13-05:00</lastmod>
+	</url>
+	<url>
+		<loc>https://biblicomentarios.com/categoria/escrituras/antiguo-testamento/libros-poeticos/job/los-debates-de-job/la-defensa-final-de-job/job-31/</loc>
+		<lastmod>2021-06-16T04:56:04-05:00</lastmod>
+	</url>
+	<url>
 		<loc>https://biblicomentarios.com/categoria/escrituras/antiguo-testamento/libros-historicos-del-antiguo-testamento/2-cronicas/2-cronicas-32/</loc>
 		<lastmod>2021-07-08T09:36:13-05:00</lastmod>
 	</url>

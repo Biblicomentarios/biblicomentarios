@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Mejoras cosméticas a estructura de volumen" />
+    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Actualizaciones a estilos de elementor">
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_092eb55e936037536f732eb5660e01f3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_092eb55e936037536f732eb5660e01f3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_10d8d4f52bb1e5d58cf575c5a8e6fea9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_10d8d4f52bb1e5d58cf575c5a8e6fea9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_6af4bd68e100f2f5889cd903d17a9bf5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_6af4bd68e100f2f5889cd903d17a9bf5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_6e5673c47be69a3b7e45bee3a7825c0a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_6e5673c47be69a3b7e45bee3a7825c0a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_851e92a615038889d2efc8e67490e1ff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_851e92a615038889d2efc8e67490e1ff.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_aef8f78780311a21f614abbf24061898.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_aef8f78780311a21f614abbf24061898.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_f598011ae0347a5853a3a3108dd0765d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/uploads/rank-math/rank_math_f598011ae0347a5853a3a3108dd0765d.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626054512338</updated>
-      <workItem from="1626054519428" duration="13313000" />
+      <workItem from="1626054519428" duration="13825000" />
     </task>
     <task id="LOCAL-00001" summary="Se excluye .idea">
       <created>1626056818957</created>
@@ -98,7 +106,28 @@
       <option name="project" value="LOCAL" />
       <updated>1626147348325</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Mejoras cosméticas a estructura de volumen">
+      <created>1626203467566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626203467566</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Mejoras cosméticas a estructura de volumen">
+      <created>1626203480984</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626203480984</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Actualizaciones a estilos de elementor">
+      <created>1626203601421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626203601421</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +156,7 @@
     <MESSAGE value="Shortcode bc_estructura_volumen_division" />
     <MESSAGE value="Comentarios y cambios menores." />
     <MESSAGE value="Mejoras cosméticas a estructura de volumen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mejoras cosméticas a estructura de volumen" />
+    <MESSAGE value="Actualizaciones a estilos de elementor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizaciones a estilos de elementor" />
   </component>
 </project>

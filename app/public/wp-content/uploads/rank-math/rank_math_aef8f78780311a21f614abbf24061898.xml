@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//biblicomentarios.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://biblicomentarios.com/las-montanas-de-la-biblia-como-templos-y-lugares-sagrados/</loc>
+		<lastmod>2021-06-10T22:51:10-05:00</lastmod>
+		<image:image>
+			<image:loc>https://biblicomentarios.com/wp-content/uploads/2021/05/mountains-landscape-sunset-stockpack-pixabay.png</image:loc>
+			<image:title><![CDATA[mountains-landscape-sunset-stockpack-pixabay.png]]></image:title>
+			<image:caption><![CDATA[mountains, landscape, sunset]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://biblicomentarios.com/caracteristicas-del-libro-de-deuteronomio/</loc>
+		<lastmod>2021-06-10T22:25:56-05:00</lastmod>
+		<image:image>
+			<image:loc>https://biblicomentarios.com/wp-content/uploads/2021/06/502012484_univ_lsr_lg1.jpg</image:loc>
+			<image:title><![CDATA[502012484_univ_lsr_lg[1]]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://biblicomentarios.com/el-valor-que-tiene-el-libro-de-rut-para-comprender-el-libro-de-los-jueces/</loc>
+		<lastmod>2021-06-10T20:22:59-05:00</lastmod>
+		<image:image>
+			<image:loc>https://biblicomentarios.com/wp-content/uploads/2021/06/Deborah-et-Lappidoth1.jpg</image:loc>
+			<image:title><![CDATA[Déborah-et-Lappidoth[1]]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://biblicomentarios.com/ab/</loc>
+		<lastmod>2021-06-10T18:20:11-05:00</lastmod>
+		<image:image>
+			<image:loc>https://biblicomentarios.com/wp-content/uploads/2021/06/people-man-adult-stockpack-pixabay.jpg</image:loc>
+			<image:title><![CDATA[people-man-adult-stockpack-pixabay.jpg]]></image:title>
+			<image:caption><![CDATA[people, man, adult]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://biblicomentarios.com/wp-content/uploads/2021/06/image-4.png</image:loc>
+			<image:caption><![CDATA[significado de la palabra ab en hebreo padre]]></image:caption>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://biblicomentarios.com/los-nueve-unicornios-en-la-biblia-y-los-errores-biblicos-de-traduccion/</loc>
 		<lastmod>2021-06-10T17:44:14-05:00</lastmod>
 		<image:image>
