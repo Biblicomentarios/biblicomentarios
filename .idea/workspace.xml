@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Se agrega shortcode bc_estructura_volumen_division">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64866907-27b1-4b32-be0f-22660c9310ea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/64866907-27b1-4b32-be0f-22660c9310ea.xml" afterDir="false" />
+    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Comentarios y cambios menores.">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/bc-estudio.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/bc-estudio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/estructuras.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/estructuras.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-layout/bc-layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-layout/bc-layout.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="PHPCodeSnifferBlackList">
+    <option name="filePaths">
+      <option value="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/estructuras.php" />
+    </option>
+  </component>
   <component name="ProjectId" id="1vC82mMG256KrduPQa4DRG7NRMz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,8 +43,14 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626054512338</updated>
-      <workItem from="1626054519428" duration="7987000" />
+      <workItem from="1626054519428" duration="13229000" />
     </task>
     <task id="LOCAL-00001" summary="Se excluye .idea">
       <created>1626056818957</created>
@@ -78,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626059610305</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Shortcode bc_estructura_volumen_division">
+      <created>1626062834115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626062834115</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,7 +109,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -98,6 +124,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se excluye .idea" />
     <MESSAGE value="Se agrega shortcode bc_estructura_volumen_division" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega shortcode bc_estructura_volumen_division" />
+    <MESSAGE value="Shortcode bc_estructura_volumen_division" />
+    <MESSAGE value="Comentarios y cambios menores." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comentarios y cambios menores." />
   </component>
 </project>

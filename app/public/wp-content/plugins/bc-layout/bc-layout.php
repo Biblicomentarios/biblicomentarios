@@ -68,9 +68,10 @@ class WPSE154979_Widget extends WP_Widget
         extract($args);
         $title = apply_filters('widget_title', $instance['title'], $instance, $this->id_base);
 
-        echo $before_widget;
+        // echo $before_widget;
         if ($title)
-            echo $before_title . $title . $after_title;
+           // echo "{$before_title}{$title}{$after_title}";
+            echo  $title ;
 
         // on single post page
         if (is_single() && is_object_in_taxonomy(get_post_type(), 'category')) {
@@ -87,7 +88,6 @@ class WPSE154979_Widget extends WP_Widget
                 array('fields' => 'ids', 'orderby' => 'meta_value_num', 'order' => 'DESC',)
             );
             $parent_id = array_shift($cats);
-            $parent = get_category($parent_id);
 
             $grandparents = get_category_parents($parent_id, false);
             $grandparentArray = explode("/", $grandparents);
@@ -128,7 +128,6 @@ class WPSE154979_Widget extends WP_Widget
             $grandparentArray = explode("/", $grandparents);
             $grandparent_name = strip_tags(array_slice($grandparentArray, -3)[0]);
             $grandparent_id = get_cat_ID($grandparent_name);
-            $grandparent = get_category($grandparent_id);
             $grandparent_link = get_category_link($grandparent_id);
 
             // ?Cu?ntas categor?as hija se obtienen?
@@ -158,7 +157,7 @@ class WPSE154979_Widget extends WP_Widget
             wp_list_categories('title_li=&show_option_none=&hide_empty=0&parent=' . $parent_id);
         }
 
-        echo $after_widget;
+       // echo  $after_widget;
     }
 
     function update($new_instance, $old_instance)
@@ -335,7 +334,7 @@ class WPSE154979_Widget extends WP_Widget
     add_shortcode('bc_category_nav_after', 'bc_shortcode_categoria_despues');
 
     /* Desactivar Heartbeat para el backend */
-    // Desactiva el heartbeat para todo el dashboard
+    // Desactiva el heartbeat para el dashboard
     add_action('init', 'stop_heartbeat', 1);
     function stop_heartbeat()
     {

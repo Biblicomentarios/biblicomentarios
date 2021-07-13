@@ -28,8 +28,9 @@ function vs_asignacion_semanal($atts)
     $vsUrlOficial = $results[0]->URLOficial;
     $vsResenia = $results[0]->Resenia;
     $vsIdSemana = $results[0]->IdSemanas;
+
     ob_start();
-?>
+    ?>
     <div style="border:1px solid gray;margin-bottom:10px;">
         <div style="background-color:green;color:white;font-weight:bold;text-align:center;padding:3px;">
             Tema de estudio de esta semana
@@ -42,15 +43,17 @@ function vs_asignacion_semanal($atts)
                     </div>
                     <div>
                         <b><?= $vsResenia ?>:</b>
-                        <?= $vsTitulo ?> (<a href="<?= $vsUrlOficial ?>" target="_blank"> enlace oficial <i class="fas fa-link"></i></a>)
+                        <?= $vsTitulo ?> (<a href="<?= $vsUrlOficial ?>" target="_blank"> enlace oficial <i
+                                    class="fas fa-link"></i></a>)
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<?php
+    <?php
     return ob_get_clean();
 }
+
 add_shortcode('vs_asignacion_semanal', 'vs_asignacion_semanal');
 
 function vs_asignacion_diaria($atts)
@@ -64,8 +67,8 @@ function vs_asignacion_diaria($atts)
     }
 
     ob_start();
-?>
-    <div style="border:1pxsolid orange" class="mb-2">
+    ?>
+    <div style="border:1px solid orange" class="mb-2">
         <div style="background-color:orange;color:white;text-align:center;font-weight:bold;">
             División de asignaciones por fecha
         </div>
@@ -86,21 +89,22 @@ where v.IdSemana =" . $vsIdSemana . ";";
                     $Fecha = $FArray[2] . "-" . $FArray[1] . "-" . $FArray[0];
                     $Asignacion = $asignacion->TituloCapitulo;
                     $Capitulo = $asignacion->Capitulo;
-                ?>
-                    <li> <b><?= $Fecha ?>:</b>
+                    ?>
+                    <li><b><?= $Fecha ?>:</b>
                         <a href="/capitulo-escrituras/?capitulo=<?= $Capitulo ?>">
                             <?= $Capitulo ?> (<?= $Asignacion ?>)
                         </a>
                     </li>
-                <?php
+                    <?php
                 }
                 ?>
             </ul>
         </div>
     </div>
-<?php
+    <?php
     return ob_get_clean();
 }
+
 add_shortcode('vs_asignacion_diaria', 'vs_asignacion_diaria');
 
 include_once('capitulo.php');
