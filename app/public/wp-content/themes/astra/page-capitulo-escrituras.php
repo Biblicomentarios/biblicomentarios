@@ -18,7 +18,7 @@ the_content();
 global $wpdb;
 
 if(isset($_GET["capitulo"])){
-    $referencia = $_GET["capitulo"];
+    $referencia = str_replace( '-',' ',$_GET["capitulo"]);
     
     $results = $wpdb->get_results( "select * 
             from capitulos c 
