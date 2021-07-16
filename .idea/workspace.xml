@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Actualizaciones de elementos de Rank Math">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Se agrega reemplazo de guión a página de capítulo.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/astra/page-capitulo-escrituras.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/astra/page-capitulo-escrituras.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/capitulo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/capitulo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626054512338</updated>
       <workItem from="1626054519428" duration="14269000" />
-      <workItem from="1626256402387" duration="2311000" />
+      <workItem from="1626256402387" duration="4073000" />
     </task>
     <task id="LOCAL-00001" summary="Se excluye .idea">
       <created>1626056818957</created>
@@ -135,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626203862535</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Se agrega reemplazo de guión a página de capítulo.">
+      <created>1626344295971</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626344295971</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +174,7 @@
     <MESSAGE value="Mejoras cosméticas a estructura de volumen" />
     <MESSAGE value="Actualizaciones a estilos de elementor" />
     <MESSAGE value="Actualizaciones de elementos de Rank Math" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizaciones de elementos de Rank Math" />
+    <MESSAGE value="Se agrega reemplazo de guión a página de capítulo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega reemplazo de guión a página de capítulo." />
   </component>
 </project>

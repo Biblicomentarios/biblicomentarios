@@ -10,8 +10,8 @@ function vs_capitulo($atts)
 
     // Valor textual
     if (isset($_GET["capitulo"])) {
-        $referencia = $_GET["capitulo"];
-
+        $referencia = str_replace( '-',' ',$_GET["capitulo"]);
+echo $referencia;
         global $wpdb;
     }
 
