@@ -107,5 +107,61 @@ where v.IdSemana =" . $vsIdSemana . ";";
 
 add_shortcode('vs_asignacion_diaria', 'vs_asignacion_diaria');
 
+function bc_sub_menu_categoria($attr)
+{
+    global $wpdb;
+    $category = get_queried_object();
+    $parent = $category->term_id;
+
+    //  $parent = get_category();
+
+    $query = "select wt.term_id,name,slug
+from wp_terms wt join wp_term_taxonomy wtt on wt.term_id = wtt.term_id 
+where parent=$parent
+and taxonomy='category'
+order by term_order;";
+
+    $volumenes = $wpdb->get_results($query);
+
+    ob_start();
+
+    $i = 0;
+    $len = count($volumenes);
+    $separador = 'border-right:1px solid #ccc';
+    ?>
+    <div
+            class="list-group list-group-horizontal"
+            style="
+                border:0;
+                width:100%;
+                overflow-x:scroll;
+                overflow-y:hidden;
+                white-space: nowrap;
+                "
+    >
+        <?php
+        foreach ($volumenes as $volumen) {
+            // Se proporciona un separador en todos los enlaces menos el último
+            if ($i == $len - 1) {
+                $separador = '';
+            }
+            ?>
+            <a class="list-group-item list-group-item-action p-0 px-1 m-0"
+               style="font-weight:bold; display:inline-block; <?= $separador ?>"
+               href="<?= $volumen->slug ?>">
+                <?= $volumen->name ?>
+            </a>
+            <?php
+        }
+        ?>
+    </div>
+    <?php
+
+    return ob_get_clean();
+}
+
+add_shortcode('bc_sub_menu_categoria', 'bc_sub_menu_categoria');
+
+
 include_once('capitulo.php');
 include_once('estructuras.php');

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Se agrega reemplazo de guión a página de capítulo.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/capitulo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/capitulo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/bc-estudio.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/bc-estudio.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1626054512338</updated>
       <workItem from="1626054519428" duration="14269000" />
-      <workItem from="1626256402387" duration="4073000" />
+      <workItem from="1626256402387" duration="9954000" />
+      <workItem from="1626438255893" duration="1763000" />
     </task>
     <task id="LOCAL-00001" summary="Se excluye .idea">
       <created>1626056818957</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626344295971</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Se agrega reemplazo de guión a página de capítulo.">
+      <created>1626396570200</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626396570200</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
