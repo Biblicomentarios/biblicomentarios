@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Se agrega reemplazo de guión a página de capítulo.">
+    <list default="true" id="9d40e316-a192-4409-a14e-7a8d0035132e" name="Default Changelist" comment="Navegación de categorías hijas bajo la descripción">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/bc-estudio.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-estudio/bc-estudio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-layout/bc-layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/plugins/bc-layout/bc-layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/astra/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/astra/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/astra/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/astra/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <updated>1626054512338</updated>
       <workItem from="1626054519428" duration="14269000" />
       <workItem from="1626256402387" duration="9954000" />
-      <workItem from="1626438255893" duration="1763000" />
+      <workItem from="1626438255893" duration="6627000" />
     </task>
     <task id="LOCAL-00001" summary="Se excluye .idea">
       <created>1626056818957</created>
@@ -149,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626396570200</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Navegación de categorías hijas bajo la descripción">
+      <created>1626443445227</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1626443445228</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +192,7 @@
     <MESSAGE value="Actualizaciones a estilos de elementor" />
     <MESSAGE value="Actualizaciones de elementos de Rank Math" />
     <MESSAGE value="Se agrega reemplazo de guión a página de capítulo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega reemplazo de guión a página de capítulo." />
+    <MESSAGE value="Navegación de categorías hijas bajo la descripción" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navegación de categorías hijas bajo la descripción" />
   </component>
 </project>

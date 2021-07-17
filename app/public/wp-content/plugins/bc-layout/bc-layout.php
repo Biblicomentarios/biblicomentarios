@@ -33,16 +33,14 @@ if (is_category() && is_object_in_taxonomy(get_post_type(), 'category')) {
     echo '<h3 class="widget-title title-customstyle has-custom-style"><span class="accent-typo">Navega ' . $grandparent_name . '</span></h3>';
     wp_list_categories(array(
         'title_li' => '',
-        'taxonomy'   => 'category',
+        'taxonomy' => 'category',
         'show_count' => 0,
-        'child_of'   => $grandparent_id,
-        'style'      => 'list',
+        'child_of' => $grandparent_id,
+        'style' => 'list',
         'hide_empty' => 0, // include empty categories
-        'depth'      => 1, // and up to 3 levels depth
+        'depth' => 1, // and up to 3 levels depth
     ));
-}
-
-// on category page
+} // on category page
 elseif (is_category()) {
     echo 'Es categor?a';
 }
@@ -54,8 +52,8 @@ class WPSE154979_Widget extends WP_Widget
     function __construct()
     {
         $widget_ops = array(
-            'classname'     => 'WPSE154979_custom_widget',
-            'description'   => __('Post Category Children\'s or Parent Categories')
+            'classname' => 'WPSE154979_custom_widget',
+            'description' => __('Post Category Children\'s or Parent Categories')
         );
         $control_ops = array('width' => 200, 'height' => 400);
         $this->WP_Widget('WPSE154979_custom', 'Custom Categories', $widget_ops, $control_ops);
@@ -70,8 +68,8 @@ class WPSE154979_Widget extends WP_Widget
 
         // echo $before_widget;
         if ($title)
-           // echo "{$before_title}{$title}{$after_title}";
-            echo  $title ;
+            // echo "{$before_title}{$title}{$after_title}";
+            echo $title;
 
         // on single post page
         if (is_single() && is_object_in_taxonomy(get_post_type(), 'category')) {
@@ -97,12 +95,12 @@ class WPSE154979_Widget extends WP_Widget
             echo '<h3 class="widget-title title-customstyle has-custom-style"><span class="accent-typo">Navega ' . $grandparent_name . '</span></h3>';
             wp_list_categories(array(
                 'title_li' => '',
-                'taxonomy'   => 'category',
+                'taxonomy' => 'category',
                 'show_count' => 0,
-                'child_of'   => $grandparent_id,
-                'style'      => 'list',
+                'child_of' => $grandparent_id,
+                'style' => 'list',
                 'hide_empty' => 0, // include empty categories
-                'depth'      => 1, // and up to 3 levels depth
+                'depth' => 1, // and up to 3 levels depth
             ));
 
             $temas = get_the_tags(get_the_ID());
@@ -114,11 +112,9 @@ class WPSE154979_Widget extends WP_Widget
                 }
                 echo '</ul>';
             }
-        }
-
-        // on category page
+        } // on category page
         elseif (is_category()) {
-            $parent_id = (int) get_query_var('cat');
+            $parent_id = (int)get_query_var('cat');
             $parent = get_category($parent_id);
             $parent_name = $parent->name;
             echo '<h3 class="widget-title title-customstyle has-custom-style px-2"><span class="accent-typo">Navega '
@@ -149,205 +145,241 @@ class WPSE154979_Widget extends WP_Widget
                 }
             }
             echo '</div>';
-        }
-
-        // on others page
+        } // on others page
         else {
             $parent_id = 0;
             wp_list_categories('title_li=&show_option_none=&hide_empty=0&parent=' . $parent_id);
         }
 
-       // echo  $after_widget;
+        // echo  $after_widget;
     }
 
     function update($new_instance, $old_instance)
     {
-        $instance                   = $old_instance;
-        $instance['title']          = strip_tags($new_instance['title']);
+        $instance = $old_instance;
+        $instance['title'] = strip_tags($new_instance['title']);
         return $instance;
     }
+
     function form($instance)
     {
         $title = isset($instance['title']) ? esc_attr($instance['title']) : ''; ?><p>
-            <strong><?php _e('Title:'); ?></strong>
-            <br /><input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
+        <strong><?php _e('Title:'); ?></strong>
+        <br/><input class="widefat" id="<?php echo $this->get_field_id('title'); ?>"
+                    name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>"/>
         </p><?php
-        }
     }
+}
 
 
-    // Register Widget ==============================
-    add_action('widgets_init', 'WPSE154979_Widget_Init');
-    function WPSE154979_Widget_Init()
-    {
-        register_widget('WPSE154979_Widget');
-    }
+// Register Widget ==============================
+add_action('widgets_init', 'WPSE154979_Widget_Init');
+function WPSE154979_Widget_Init()
+{
+    register_widget('WPSE154979_Widget');
+}
 
-    add_filter('get_terms_orderby', function ($orderby, $qv, $taxonomy) {
-        // Only target the category taxonomy
-        if ('category' !== $taxonomy)
-            return $orderby;
-
-        // Support orderby term_order
-        if (isset($qv['orderby']) && 'term_order' === $qv['orderby'])
-            $orderby = 't.term_order';
-
+add_filter('get_terms_orderby', function ($orderby, $qv, $taxonomy) {
+    // Only target the category taxonomy
+    if ('category' !== $taxonomy)
         return $orderby;
-    }, 10, 3);
 
-    //Registramos el tama?o
-    function bc_half_thumbnail()
-    {
-        add_image_size('half-thumbnail', 100, 100, true);
-    }
-    add_action('after_setup_theme', 'bc_half_thumbnail');
+    // Support orderby term_order
+    if (isset($qv['orderby']) && 'term_order' === $qv['orderby'])
+        $orderby = 't.term_order';
 
-    //Agregamos el tama?o a las opciones de las im?genes
-    function bp_body_size_choose($sizes)
-    {
-        return array_merge($sizes, array(
-            'half-thumbnail' => 'Thumbnail medio'
+    return $orderby;
+}, 10, 3);
+
+//Registramos el tama?o
+function bc_half_thumbnail()
+{
+    add_image_size('half-thumbnail', 100, 100, true);
+}
+
+add_action('after_setup_theme', 'bc_half_thumbnail');
+
+//Agregamos el tama?o a las opciones de las im?genes
+function bp_body_size_choose($sizes)
+{
+    return array_merge($sizes, array(
+        'half-thumbnail' => 'Thumbnail medio'
+    ));
+}
+
+add_filter('image_size_names_choose', 'bp_body_size_choose');
+
+// Registra los blocks personalizados
+add_action('acf/init', 'my_acf_init_block_types');
+function my_acf_init_block_types()
+{
+
+    // Check function exists.
+    if (function_exists('acf_register_block_type')) {
+
+        // Registra BCQuote
+        acf_register_block_type(array(
+            'name' => 'bcquote',
+            'title' => __('BC Cita'),
+            'description' => __('Cita personalizada.'),
+            'render_template' => 'template-parts/blocks/bcquote/bcquote.php',
+            'category' => 'formatting',
+            'icon' => 'admin-comments',
+            'keywords' => array('bcquote', 'quote', 'cita'),
+            'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcquote/bcquote.css',
+        ));
+
+        // Registra BCPasaje
+        acf_register_block_type(array(
+            'name' => 'bcpasaje',
+            'title' => __('BC Pasaje'),
+            'description' => __('Pasaje de las escrituras.'),
+            'render_template' => 'template-parts/blocks/bcpasaje/bcpasaje.php',
+            'category' => 'formatting',
+            'icon' => 'book-alt',
+            'keywords' => array('bcpasaje', 'pasaje', 'referencia', 'quote', 'cita'),
+            'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcpasaje/bcpasaje.css',
+        ));
+
+        // Registra BCHarmonySingle
+        acf_register_block_type(array(
+            'name' => 'bcharmonysingle',
+            'title' => __('BC Armon?a simple'),
+            'description' => __('Armon?a de los evangelios simple.'),
+            'render_template' => 'template-parts/blocks/bcharmonysingle/bcharmonysingle.php',
+            'category' => 'formatting',
+            'icon' => 'book-alt',
+            'keywords' => array('bcharmonysingle', 'pasaje', 'referencia', 'quote', 'cita', 'armon?a de los evangelios'),
+            'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcharmonysingle/bcharmonysingle.css',
+        ));
+
+        // Registra BCLadoALado
+        acf_register_block_type(array(
+            'name' => 'bcladoalado',
+            'title' => __('BC Lado a lado'),
+            'description' => __('Comparaci?n de textos lado a lado.'),
+            'render_template' => 'template-parts/blocks/bcladoalado/bcladoalado.php',
+            'category' => 'formatting',
+            'icon' => 'book-alt',
+            'keywords' => array('bcladoalado', 'pasaje', 'referencia', 'quote', 'cita', 'armon?a de los evangelios'),
+            'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcladoalado/bcladoalado.css',
+        ));
+
+        // Registra BCDiagrama
+        acf_register_block_type(array(
+            'name' => 'bcdiagrama',
+            'title' => __('BC Diagrama'),
+            'description' => __('Diagrama o ilustraci?n.'),
+            'render_template' => 'template-parts/blocks/bcdiagrama/bcdiagrama.php',
+            'category' => 'formatting',
+            'icon' => 'book-alt',
+            'keywords' => array('bcdiagrama', 'pasaje', 'referencia', 'quote', 'cita', 'armon?a de los evangelios'),
+            'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcdiagrama/bcdiagrama.css',
+        ));
+
+        // Registra BCListadoReferencias
+        $blockNickName = 'bcreferencias';
+        acf_register_block_type(array(
+            'name' => $blockNickName,
+            'title' => __('BC Referencias'),
+            'description' => __('Listado de referencias.'),
+            'render_template' => "template-parts/blocks/$blockNickName/$blockNickName.php",
+            'category' => 'formatting',
+            'icon' => 'book-alt',
+            'keywords' => array($blockNickName, 'pasaje', 'referencia'),
+            'enqueue_style' => get_template_directory_uri() . "/template-parts/blocks/$blockNickName/$blockNickName.css",
         ));
     }
-    add_filter('image_size_names_choose', 'bp_body_size_choose');
+}
 
-    // Registra los blocks personalizados
-    add_action('acf/init', 'my_acf_init_block_types');
-    function my_acf_init_block_types()
-    {
+function bootstrapstarter_enqueue_styles()
+{
+    wp_register_style('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+    $dependencies = array('bootstrap');
+    wp_enqueue_style('bootstrapstarter-style', get_stylesheet_uri(), $dependencies);
+}
 
-        // Check function exists.
-        if (function_exists('acf_register_block_type')) {
+function bootstrapstarter_enqueue_scripts()
+{
+    // $dependencies = array('jquery');
+    // wp_enqueue_script('bootstrap', 'https://code.jquery.com/jquery-3.3.1.slim.min.js', $dependencies, '3.3.1', true);
+    // wp_enqueue_script('bootstrap', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', $dependencies, '1.14.7', true);
+    wp_enqueue_script('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', $dependencies, '4.3.1', true);
+}
 
-            // Registra BCQuote
-            acf_register_block_type(array(
-                'name'              => 'bcquote',
-                'title'             => __('BC Cita'),
-                'description'       => __('Cita personalizada.'),
-                'render_template'   => 'template-parts/blocks/bcquote/bcquote.php',
-                'category'          => 'formatting',
-                'icon'              => 'admin-comments',
-                'keywords'          => array('bcquote', 'quote', 'cita'),
-                'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcquote/bcquote.css',
-            ));
+add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_styles');
+add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_scripts');
 
-            // Registra BCPasaje
-            acf_register_block_type(array(
-                'name'              => 'bcpasaje',
-                'title'             => __('BC Pasaje'),
-                'description'       => __('Pasaje de las escrituras.'),
-                'render_template'   => 'template-parts/blocks/bcpasaje/bcpasaje.php',
-                'category'          => 'formatting',
-                'icon'              => 'book-alt',
-                'keywords'          => array('bcpasaje', 'pasaje', 'referencia', 'quote', 'cita'),
-                'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcpasaje/bcpasaje.css',
-            ));
-
-            // Registra BCHarmonySingle
-            acf_register_block_type(array(
-                'name'              => 'bcharmonysingle',
-                'title'             => __('BC Armon?a simple'),
-                'description'       => __('Armon?a de los evangelios simple.'),
-                'render_template'   => 'template-parts/blocks/bcharmonysingle/bcharmonysingle.php',
-                'category'          => 'formatting',
-                'icon'              => 'book-alt',
-                'keywords'          => array('bcharmonysingle', 'pasaje', 'referencia', 'quote', 'cita', 'armon?a de los evangelios'),
-                'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcharmonysingle/bcharmonysingle.css',
-            ));
-
-            // Registra BCLadoALado
-            acf_register_block_type(array(
-                'name'              => 'bcladoalado',
-                'title'             => __('BC Lado a lado'),
-                'description'       => __('Comparaci?n de textos lado a lado.'),
-                'render_template'   => 'template-parts/blocks/bcladoalado/bcladoalado.php',
-                'category'          => 'formatting',
-                'icon'              => 'book-alt',
-                'keywords'          => array('bcladoalado', 'pasaje', 'referencia', 'quote', 'cita', 'armon?a de los evangelios'),
-                'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcladoalado/bcladoalado.css',
-            ));
-
-            // Registra BCDiagrama
-            acf_register_block_type(array(
-                'name'              => 'bcdiagrama',
-                'title'             => __('BC Diagrama'),
-                'description'       => __('Diagrama o ilustraci?n.'),
-                'render_template'   => 'template-parts/blocks/bcdiagrama/bcdiagrama.php',
-                'category'          => 'formatting',
-                'icon'              => 'book-alt',
-                'keywords'          => array('bcdiagrama', 'pasaje', 'referencia', 'quote', 'cita', 'armon?a de los evangelios'),
-                'enqueue_style' => get_template_directory_uri() . '/template-parts/blocks/bcdiagrama/bcdiagrama.css',
-            ));
-
-            // Registra BCListadoReferencias
-            $blockNickName = 'bcreferencias';
-            acf_register_block_type(array(
-                'name'              => $blockNickName,
-                'title'             => __('BC Referencias'),
-                'description'       => __('Listado de referencias.'),
-                'render_template'   => "template-parts/blocks/$blockNickName/$blockNickName.php",
-                'category'          => 'formatting',
-                'icon'              => 'book-alt',
-                'keywords'          => array($blockNickName, 'pasaje', 'referencia'),
-                'enqueue_style' => get_template_directory_uri() . "/template-parts/blocks/$blockNickName/$blockNickName.css",
-            ));
-        }
+// Shortcode to output custom PHP in Elementor
+function bc_shortcode_categoria_antes($atts)
+{
+    $term = get_queried_object();
+    $url = get_field('urlanterior', $term);
+    if ($url) {
+        echo "<a href='" . $url . "'><i class='fas fa-angle-double-left'></i> Anterior</a>";
     }
+}
 
-    function bootstrapstarter_enqueue_styles()
-    {
-        wp_register_style('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
-        $dependencies = array('bootstrap');
-        wp_enqueue_style('bootstrapstarter-style', get_stylesheet_uri(), $dependencies);
+add_shortcode('bc_category_nav_previous', 'bc_shortcode_categoria_antes');
+
+function bc_shortcode_categoria_despues($atts)
+{
+    $term = get_queried_object();
+    $url = get_field('urlsiguiente', $term);
+    if ($url) {
+        echo "<a href='" . $url . "'>Siguiente <i class='fas fa-angle-double-right'></i></a>";
     }
+}
 
-    function bootstrapstarter_enqueue_scripts()
-    {
-        // $dependencies = array('jquery');
-        // wp_enqueue_script('bootstrap', 'https://code.jquery.com/jquery-3.3.1.slim.min.js', $dependencies, '3.3.1', true);
-        // wp_enqueue_script('bootstrap', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', $dependencies, '1.14.7', true);
-        // wp_enqueue_script('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', $dependencies, '4.3.1', true);
+add_shortcode('bc_category_nav_after', 'bc_shortcode_categoria_despues');
+
+/* Desactivar Heartbeat para el backend */
+// Desactiva el heartbeat para el dashboard
+add_action('init', 'stop_heartbeat', 1);
+function stop_heartbeat()
+{
+    global $pagenow;
+    if ($pagenow != 'post.php' && $pagenow != 'post-new.php')
+        wp_deregister_script('heartbeat');
+}
+
+// Limita el heartbeat a 60 segundos
+function limit_heart($settings)
+{
+    $settings['interval'] = 60; //Entre 15 y 60 segundos
+    return $settings;
+}
+
+add_filter('heartbeat_settings', 'limit_heart');
+
+/**
+ * Disable the emoji's
+ */
+function disable_emojis()
+{
+    remove_action('wp_head', 'print_emoji_detection_script', 7);
+    remove_action('admin_print_scripts', 'print_emoji_detection_script');
+    remove_action('wp_print_styles', 'print_emoji_styles');
+    remove_action('admin_print_styles', 'print_emoji_styles');
+    remove_filter('the_content_feed', 'wp_staticize_emoji');
+    remove_filter('comment_text_rss', 'wp_staticize_emoji');
+    remove_filter('wp_mail', 'wp_staticize_emoji_for_email');
+
+    // Remove from TinyMCE
+    add_filter('tiny_mce_plugins', 'disable_emojis_tinymce');
+}
+
+add_action('init', 'disable_emojis');
+
+/**
+ * Filter out the tinymce emoji plugin.
+ */
+function disable_emojis_tinymce($plugins)
+{
+    if (is_array($plugins)) {
+        return array_diff($plugins, array('wpemoji'));
+    } else {
+        return array();
     }
-
-    add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_styles');
-    add_action('wp_enqueue_scripts', 'bootstrapstarter_enqueue_scripts');
-
-    // Shortcode to output custom PHP in Elementor
-    function bc_shortcode_categoria_antes($atts)
-    {
-        $term = get_queried_object();
-        $url = get_field('urlanterior', $term);
-        if ($url) {
-            echo "<a href='" . $url . "'><i class='fas fa-angle-double-left'></i> Anterior</a>";
-        }
-    }
-    add_shortcode('bc_category_nav_previous', 'bc_shortcode_categoria_antes');
-
-    function bc_shortcode_categoria_despues($atts)
-    {
-        $term = get_queried_object();
-        $url = get_field('urlsiguiente', $term);
-        if ($url) {
-            echo "<a href='" . $url . "'>Siguiente <i class='fas fa-angle-double-right'></i></a>";
-        }
-    }
-    add_shortcode('bc_category_nav_after', 'bc_shortcode_categoria_despues');
-
-    /* Desactivar Heartbeat para el backend */
-    // Desactiva el heartbeat para el dashboard
-    add_action('init', 'stop_heartbeat', 1);
-    function stop_heartbeat()
-    {
-        global $pagenow;
-        if ($pagenow != 'post.php' && $pagenow != 'post-new.php')
-            wp_deregister_script('heartbeat');
-    }
-
-    // Limita el heartbeat a 60 segundos
-    function limit_heart($settings)
-    {
-        $settings['interval'] = 60; //Entre 15 y 60 segundos
-        return $settings;
-    }
-    add_filter('heartbeat_settings', 'limit_heart');
+}
 
